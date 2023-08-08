@@ -1,0 +1,20 @@
+project:
+  type: website
+
+website:
+  title: "AIMS eReefs"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - text: More
+        menu:
+          - index.qmd
+          - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false

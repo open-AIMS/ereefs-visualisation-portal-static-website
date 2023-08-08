@@ -1,0 +1,13 @@
+---
+title: "AIMS eReefs"
+---
+
+# eReefs AIMS Visualisation Portal
+
+In this portal you will find a range of visualisations of the eReefs Hydrodynamic and BioGeoChemical models of the Great Barrier Reef. These models are like weather models, but for the marine environment, providing a picture of the current and historical environmental conditions on the Great Barrier Reef. Here you can see past extreme weather events such as:
+
+- Cyclones: [Yasi (Feb 2011)](), [Ita (April 2014)](), [Nathan (March 2015)](), [Debbi (March 2017)](),
+- Coral bleaching from high temperature ([March 2016](), [March 2017]()),
+- Flood plumes with low salinity ([North Queensland Flooding 2019](), [Burdekin Jan 2011]())
+- TODO: insert links above
+
