@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>git@github-aims:jjohnston-aims/ereefs-static-site.git/index.html</loc>
-    <lastmod>2023-08-09T06:22:56.384Z</lastmod>
+    <loc>https://github.com/jjohnston-aims/ereefs-static-site/about.html</loc>
+    <lastmod>2023-08-09T06:32:12.195Z</lastmod>
   </url>
   <url>
-    <loc>git@github-aims:jjohnston-aims/ereefs-static-site.git/about.html</loc>
-    <lastmod>2023-08-09T06:22:56.152Z</lastmod>
+    <loc>https://github.com/jjohnston-aims/ereefs-static-site/index.html</loc>
+    <lastmod>2023-08-09T06:32:11.587Z</lastmod>
   </url>
 </urlset>

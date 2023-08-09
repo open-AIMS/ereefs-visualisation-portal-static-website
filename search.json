@@ -1,16 +1,16 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "AIMS eReefs",
-    "section": "",
-    "text": "eReefs AIMS Visualisation Portal\nIn this portal you will find a range of visualisations of the eReefs Hydrodynamic and BioGeoChemical models of the Great Barrier Reef. These models are like weather models, but for the marine environment, providing a picture of the current and historical environmental conditions on the Great Barrier Reef. Here you can see past extreme weather events such as:\n\nCyclones: Yasi (Feb 2011), Ita (April 2014), Nathan (March 2015), Debbi (March 2017),\nCoral bleaching from high temperature (March 2016, March 2017),\nFlood plumes with low salinity (North Queensland Flooding 2019, Burdekin Jan 2011)\nTODO: insert links above\n\nSome change"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AIMS eReefs",
+    "section": "",
+    "text": "eReefs AIMS Visualisation Portal\nIn this portal you will find a range of visualisations of the eReefs Hydrodynamic and BioGeoChemical models of the Great Barrier Reef. These models are like weather models, but for the marine environment, providing a picture of the current and historical environmental conditions on the Great Barrier Reef. Here you can see past extreme weather events such as:\n\nCyclones: Yasi (Feb 2011), Ita (April 2014), Nathan (March 2015), Debbi (March 2017),\nCoral bleaching from high temperature (March 2016, March 2017),\nFlood plumes with low salinity (North Queensland Flooding 2019, Burdekin Jan 2011)\nTODO: insert links above\n\nSome other change"
   }
 ]
