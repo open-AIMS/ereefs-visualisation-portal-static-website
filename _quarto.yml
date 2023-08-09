@@ -18,3 +18,6 @@ format:
     theme: cosmo
     css: styles.css
     toc: false
+
+execute:
+  freeze: auto # ensures code blocks are only executed locally as opposed to being executes as part of GitHub actions
