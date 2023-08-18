@@ -1,0 +1,3 @@
+## Recent data
+
+The results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the [NCI THREDDS server](https://dapds00.nci.org.au/thredds/catalog/fx3/gbr4_v2/catalog.html). If the model data is more up to date than this portal [let us know](mailto:e-atlas@aims.gov.au?subject=[eReefs] GBR4 Hydro problem)

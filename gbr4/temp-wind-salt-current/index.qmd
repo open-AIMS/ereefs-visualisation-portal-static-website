@@ -1,0 +1,58 @@
+---
+title: "gbr4-hydro_temp-wind-salt-current"
+format:
+  html: 
+    css: 
+      - ../../css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css
+      - ../../css/css_aspJexyZbSy-mMQCoq4YYgcmk8Ps3vDh_U10OuJIIhk.css
+      - ../../css/css_eRVvH_jN5SStb8oQSJsiVAHkQ19dLpDrjRpGVNpiAig.css
+      - ../../css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css
+    template: ../../custom_template.html
+params:
+  product-name: Temperature, wind, salinity and current (GBR4)
+  block-name: gbr4-hydro_temp-wind-salt-current
+---
+
+{{< include ../../_visualisation.qmd >}}
+
+This page shows the temperature, wind, salinity and ocean currents on the Great Barrier Reef based on the [4km eReefs Hydrodynamic model](https://research.csiro.au/ereefs/models/). This visualisation product is also available for the [1km eReefs Hydrodynamic model](/gbr1/temp-wind-salt-current). 
+
+The combination of temperature, wind, salinity and current shows key hydrodynamic parameters of the Great Barrier Reef.
+
+## Temperature
+
+
+The temperature is primarily driven by the seasons and mixing of the water by wind and ocean currents. If the temperature rises too high during summer months then it can cause corals to bleach. This can be see during the summer months of 2016 and 2017.
+
+## Wind
+
+Wind is a key driver of surface water currents, mixing and waves. In winter months the wind typically blows north west. These winds are known as the trade winds as they are a predictable seasonal pattern. In summer months the winds typically drop (except for cyclones) reducing the cooling and mixing of the water, resulting in significant surface temperatures rises during the day, creating a "heart-beat" pattern in the temperature in the video (see the Temperature panel in the [March 2017](/gbr4/temp-wind-salt-current#year=2017;month=3) video as an example). The wind also drives the direction of the flood plumes. The north west blowing trade winds typically push any flood plumes back onto the coast and northwards. When the wind occasionally blows offshore then the plumes are pushed further out.
+
+The path of cyclones can be seen in the wind variable. This shows the asymmetrical shape of the cyclone as it approaches the coast, due to the friction of the land slowing the winds on the southern side of the cyclone.
+
+Note: The winds in this model come from the BOM ACCESS meteorological product. This wind model does not accurately capture peak intensity of the cyclone or its exact path. It tends to underestimate the peak wind speeds. This is partly due to the model showing hourly average wind speed.
+
+## Salinity
+
+Salinity is a measure of the salitiness of the water. Fresh water outflow from the rivers caused by flooding and rain events lowers the salinity (appearing as red in the maps). The low salinity is a good approximation for where flood plume waters might be. During flood plumes if the wind is blowing offshore then it will push the plume off the coast more toward the reefs. 2011 was a particularly wet year during the summer months causing extensive plumes to drift over reefal areas. (See [Feb 2011 Burdekin region](/gbr4/temp-wind-salt-current#year=2011;month=2;region=townsville-3) salinity panel for runoff from major flooding).
+
+Note: In flood plumes nutrient and sediment runoff lead to the formation of green plume water which has small suspended particles coated in algae that travel much further then is predicted by looking at just the lowering of the salinity.
+Current
+
+The ocean currents are driven by the wind, tides, and temperature and salinity gradients. In the visualisations the strength of the current is represented by colour and the arrows represent the direction. In the hourly data (as shown in the videos) it is possible to see the tidal currents causing the direction of the current to flip back and forth. This tidal current increases the mixing of the water causing sediment in inshore areas to be stirred up. In the daily and monthly visualisations most of the fluctuations of the tidal currents are averaged out, allowing some of the large scale current flow patterns to be seen.
+
+Many marine organisms (such as Crown-of-Thorns Starfish and corals) are dispersed by ocean currents planktonic larvae that float from reef to reef.
+
+## Interesting events
+
+- Cyclones: [**Yasi** (Feb 2011)](/gbr4/temp-wind-salt-current#year=2011;month=2), [**Ita** (April 2014)](/gbr4/temp-wind-salt-current#year=2014;month=4), [**Nathan** (March 2015)](/gbr4/temp-wind-salt-current#year=2015;month=3), [**Debbi** (March 2017)](/gbr4/temp-wind-salt-current#year=2017;month=3),
+- Coral bleaching from high temperature ([March 2016](/gbr4/temp-wind-salt-current#year=2016;month=3), [March 2017](/gbr4/temp-wind-salt-current#year=2017;month=3)),
+- Flood plumes with low salinity ([Burdekin Jan 2011](/gbr4/temp-wind-salt-current#year=2011;month=1;region=townsville-3), [Feb 2019](/gbr4/temp-wind-salt-current#year=2017;month=3)). [Salinity at 3 depths](/gbr4/temp-wind-salt-current#region=townsville-3) showing detail in the low salinity areas < 32 PSU.
+- Strong East Australian Current ([Nov 2015, monthly average current](/gbr4/temp-wind-salt-current#frame=Monthly;year=2015;month=11))
+- Clear bifurcation of the currents around Lizard island, north of Cairns ([Oct 2014](/gbr4/temp-wind-salt-current#frame=Monthly;year=2014;month=10))
+
+
+{{< include ../../_source_data.qmd >}}
+
+
+{{< include ../../_recent_data.qmd >}}

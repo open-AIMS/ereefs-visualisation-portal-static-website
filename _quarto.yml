@@ -3,21 +3,43 @@ project:
 
 website:
   title: "AIMS eReefs"
+  favicon: images/ereefs_aims_favicon.png
   navbar:
+    title: "AIMS eReefs"
+    logo: images/AIMS-logo.png
+    background: "#335b84"
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-      - text: More
+      - text: Visualisation portal
         menu:
-          - index.qmd
-          - about.qmd
+          - href: index.qmd
+            text: AIMS eReefs Visualisation Portal
+          - href: index.qmd#ereefs-csiro-hydrodynamic-model
+            text: Hydrodynamic model
+          - href: index.qmd#ereefs-csiro-biogeochemical-model-4-km
+            text: BioGeoChemical model
+      - href: https://extraction.ereefs.aims.gov.au/?_gl=1*1ag9zj1*_ga*OTM5OTM3MTMzLjE2NjczNTcwNzg.*_ga_6SSTNBNHXG*MTY5MTk2OTEyOC4yNy4wLjE2OTE5NjkxMjguMC4wLjA.
+        text: Data Extraction
+      - text: Help
+        menu:
+          - href: help/index.qmd
+            text: Visualisation Portal Help
+          - href: https://open-aims.github.io/ereefs-tutorials/
+            text: Tutorials
+          - href: https://extraction.ereefs.aims.gov.au/faqs
+            text: Data Extraction FAQs
+      - text: About
+        menu:
+          - href: about.qmd
+            text: eReefs AIMS Visualisation Portal
+          - href: https://www.ereefs.org.au/
+            text: eReefs Program Website
 
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: css/styles.css
     toc: false
+    # header: can I make this work? or do I have to create a custom html template?
 
 execute:
   freeze: auto # ensures code blocks are only executed locally as opposed to being executes as part of GitHub actions

@@ -1,0 +1,26 @@
+---
+title: "How to download a visualisation video or frame"
+---
+
+In the case you would like to download a visualisation video or a frame (an image in the video) follow these steps:
+
+1.  Navigate to the data of interest by selecting the
+    1.  model ([Hydrodynamic](/index.qmd#ereefs-csiro-hydrodynamic-model) or [BioGeoChemical](/index.qmd#ereefs-csiro-biogeochemical-model-4-km))
+    2.  resolution (1 km or 4km, if applicable)
+    3.  variables
+2.  Select the settings (see yellow rectangles in screenshot below)
+    1.  time step
+    2.  elevation
+    3.  scale and region
+    4.  date
+3.  Download the video (see red rectangle in screenshot below)
+    1.  click on the button "MP4" to open the video in a new page
+    2.  righ-click on the video and select "Save video as"
+4.  Download the video frame (see red rectangle in screenshot below)
+    1.  click on the button "VIDEO FRAME" to open the image in a new page
+    2.  righ-click on the image and select "Save image as" (Firefox and Chrome) or "Save picture as" (MS Edge)
+
+![How to download a video or frame screenshot](./how-to-download-video-or-frame.png){.column-page}
+
+Example page ([Temperature, wind, salinity and current (GBR4)](../products/gbr4-hydro_temp-wind-salt-current.qmd)) indicating in yellow the settings to adjust and in red the buttons available for downloading the video and image (video frame).
+

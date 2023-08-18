@@ -1,0 +1,144 @@
+---
+title: "How to access the AIMS eReefs data using OPeNDAP and ArcMap"
+---
+
+How to access the AIMS eReefs data using OPeNDAP and ArcMap
+===========================================================
+
+OPeNDAP stands for \"Open-source Project for a Network Data Access
+Protocol\" (see <https://www.opendap.org/about>) and can be used to
+access remote NetCDF files. The [AIMS eReefs THREDDS
+server](https://thredds.ereefs.aims.gov.au/) provides access via OPeNDAP
+for all NetCDF files produced by the AIMS eReefs system. In this
+tutorial we will use [ArcMap](https://desktop.arcgis.com/en/arcmap/) to
+render the data, but you can also have a look at our tutorials [How to
+plot AIMS eReefs data with
+R](../how-to-plot-aims-ereefs-data-with-r/index.qmd) and [How to
+plot AIMS eReefs data with
+Python](../how-to-plot-aims-ereefs-data-with-python/index.qmd) for
+a more programatically approach. More clients can be found on the
+[OPeNDAP clients](https://www.opendap.org/support/OPeNDAP-clients)
+website.
+
+**Should I download the NetCDF files or use OPeNDAP to access the
+data?**
+
+The answer to this question depends mainly on the use-case. In general,
+the use of OPeNDAP is slower and more un-responsive but it is a good way
+to explore the data before downloading it (NetCDF files can be very
+large, sometimes multiple GB). When you exactly know which file(s) you
+need, it is recommended to download the file(s) (see [How to open a
+NetCDF file with ArcMap and
+QGIS](../how-to-open-a-NetCDF-file-with-ArcMap-and-QGIS/index.qmd))
+as this will make working with the file(s) faster.
+
+Finding the OPeNDAP URL
+-----------------------
+
+1.  Open the [AIMS eReefs THREDDS server
+    website](https://thredds.ereefs.aims.gov.au/) and select the link
+    [Data derived from the eReefs
+    model](https://thredds.ereefs.aims.gov.au/thredds/s3catalogue/aims-ereefs-public-prod/derived/ncaggregate/ereefs/catalog.html).
+2.  On the next page select the link to the required model
+    1.  [GBR4\_H2p0\_B3p1\_Cq3P\_Dhnd](https://thredds.ereefs.aims.gov.au/thredds/s3catalogue/aims-ereefs-public-prod/derived/ncaggregate/ereefs/GBR4_H2p0_B3p1_Cq3P_Dhnd/catalog.html)
+        := eReefs BioGeoChemical model version 3.1 (4 km resolution) -
+        source catchments using **Pre-Industrial** catchment conditions
+    2.  [GBR4\_H2p0\_B3p1\_Cq3R\_Dhnd](https://thredds.ereefs.aims.gov.au/thredds/s3catalogue/aims-ereefs-public-prod/derived/ncaggregate/ereefs/GBR4_H2p0_B3p1_Cq3R_Dhnd/catalog.html)
+        := eReefs BioGeoChemical model version 3.1 (4 km resolution) -
+        source catchments using **Hindcast** catchment conditions
+        (anthropogenic loads reduced according to the percentage
+        reductions of DIN, PN, PP and TSS specified in the [Reef 2050
+        Water Quality Improvement Plan
+        2017-2022](https://www.reefplan.qld.gov.au/__data/assets/pdf_file/0017/46115/reef-2050-water-quality-improvement-plan-2017-22.pdf))
+    3.  [GBR4\_H2p0\_B3p1\_Cq3b\_Dhnd](https://thredds.ereefs.aims.gov.au/thredds/s3catalogue/aims-ereefs-public-prod/derived/ncaggregate/ereefs/GBR4_H2p0_B3p1_Cq3b_Dhnd/catalog.html)
+        := eReefs BioGeoChemical model version 3.1 (4 km resolution) -
+        source catchments using **Baseline** catchment conditions.
+    4.  [gbr1\_2.0](https://thredds.ereefs.aims.gov.au/thredds/s3catalogue/aims-ereefs-public-prod/derived/ncaggregate/ereefs/gbr1_2.0/catalog.html)
+        := eReefs Hydrodynamic model version 2.0 (1 km resolution)
+    5.  [gbr4\_v2](https://thredds.ereefs.aims.gov.au/thredds/s3catalogue/aims-ereefs-public-prod/derived/ncaggregate/ereefs/gbr4_v2/catalog.html)
+        := eReefs Hydrodynamic model version 2.0 (4 km resolution)
+3.  Each model has its derived output grouped into folders with the
+    names indicating the time steps and aggregation in a file. For
+    example a folder with the name\"daily-monthly\" contains \"monthly\"
+    files with \"daily\" data while a folder with the name
+    \"annual-annual\" contains \"annual\" files with \"annual\" data.
+    Select the link to the folder of interest.
+4.  In the list of NetCDF files, select the one of interest. The file
+    names describe the data they contain with the structure
+    \"EREEFS\_organisations\_model\_timestep-aggregation-date.nc\". For
+    example the file
+    \"EREEFS\_AIMS-CSIRO\_gbr4\_v2\_hydro\_daily-monthly-2010-09.nc\"
+    can be broken down into:\
+    \"AIMS-CSIRO\" := Reference to the organisations AIMS and CSIRO\
+    \"gbr4\_v2\_hydro\" := eReefs Hydrodynamic model version 2.0 (4 km
+    resolution)\
+    \"daily\" := \"daily\" data\
+    \"monthly\" := one month of data\
+    \"2010-09\" := data for September 2010
+5.  On the single file page in the section \"Access\" click the link
+    \"OPENDAP\"
+6.  On the next page copy the value of the input field \"Data URL\".
+    This is the URL for opening the file in a GIS tool.
+
+Access the data with ArcMap
+---------------------------
+
+For this step-by-step tutorial ArcMap version 10.6.1 was used.
+
+1.  Start ArcMap.
+2.  Select the tool \"Make OPeNDAP Raster Layer\" by either using the
+    \"Search\" or expanding the branch \"Multidimension Tools\" in the
+    \"ArcToolbox\".
+3.  In the popup window
+    1.  For the input field \"Input OPeNDAP URL\" paste the URL copied
+        in the previous section (\"Finding the OPeNDAP URL\").
+    2.  Click the Variable drop-down arrow and choose a variable from
+        the list.
+    3.  Leave the default values for \"X Dimension\" and \"Y
+        Dimension\".
+    4.  Enter a layer name in the input field \"Output Raster Layer\".
+    5.  Optionally, adjust the \"Extent\" values
+    6.  Optionally, to create a multiband raster, click the Band
+        Dimension drop-down arrow and choose a dimension from the list.
+    7.  Enter \"time\" in the \"Dimension Values (optional)\" field and
+        click the \"+\" (plus) button on the right side.
+    8.  The dimension \"time\" should have been added to the list below
+        the field. Now select a \"Start Value\" and a \"End Value\" by
+        clicking on the field in the list.
+    9.  Enter \"k\" in the \"Dimension Values (optional)\" field and
+        click the \"+\" (plus) button on the right side. The dimension
+        \"k\" represents the depths dimension.
+    10. The dimension \"k\" should have been added to the list below the
+        field. Now select a \"Start Value\" and a \"End Value\" by
+        clicking on the field in the list.\
+        Here is an overview of the values for this dimension depending
+        on the selected model:
+          
+          | **Index (k)**   | **Hydrodynamic 1km model** | **Hydrodynamic and BioGeoChemical 4km model** |
+          | --------------- | -----------------          | ------------------------------------          |
+          | 1               | -140.00 m                  | -145.00 m                                     |
+          | 2               | -120.00 m                  | -120.00 m                                     |
+          | 3               | -103.00 m                  | -103.00 m                                     |
+          | 4               | -88.00 m                   | -88.00 m                                      |
+          | 5               | -73.00 m                   | -73.00 m                                      |
+          | 6               | -60.00 m                   | -60.00 m                                      |
+          | 7               | -49.00 m                   | -49.00 m                                      |
+          | 8               | -39.50 m                   | -39.50 m                                      |
+          | 9               | -31.00 m                   | -31.00 m                                      |
+          | 10              | -24.00 m                   | -23.75 m                                      |
+          | 11              | -18.00 m                   | -17.75 m                                      |
+          | 12              | -13.00 m                   | -12.75 m                                      |
+          | 13              | -9.00 m                    | -8.80 m                                       |
+          | 14              | -5.25 m                    | -5.55 m                                       |
+          | 15              | -2.35 m                    | -3.00 m                                       |
+          | 16              | -0.50 m                    | -1.50 m                                       |
+          | 17              | n/a                        | -0.50 m                                       |
+          | --------------- | -----------------          | ------------------------------------          |
+
+          : *Mapping of dimension k to depth value in meters*
+
+    11. Click \"OK\" to close the window.\
+        ![Access data with OPeNDAP in ArcMap - screenshot
+        1](./access-data-with-opendap-in-arcmap-screenshot1.png)
+
+4.  After processing the input the layer is shown.

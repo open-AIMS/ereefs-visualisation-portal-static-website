@@ -1,0 +1,31 @@
+---
+title: "Help"
+---
+
+*   [How to download a visualisation video or frame](./how-to-download-video-or-image/index.qmd)
+
+    A short tutorial on how to download a visualisation video or frame for an AIMS eReefs product.
+
+*   [How to manually download AIMS eReefs data](./how-to-manually-download-aims-ereefs-data/index.qmd)
+
+    This tutorial describes the steps to download the NetCDF files produced by the AIMS eReefs system.
+    
+*   [How to extract time series environmental variables from eReefs models using the Extraction Tool](./how-to-extract-data-using-the-extraction-tool/index.qmd)
+
+    If you are interested in environment conditions at a specific research site on the Great Barrier Reef you can use the [eReefs Extraction Tool](https://extraction.ereefs.aims.gov.au/?_gl=1*g1xjkd*_ga*OTM5OTM3MTMzLjE2NjczNTcwNzg.*_ga_6SSTNBNHXG*MTY5MjE1MDkyOS4zNy4xLjE2OTIxNTM2ODEuMC4wLjA.) to extract time series data for environmental variables and locations of interest from the eReefs models.
+    
+*   [How to open a NetCDF file with ArcMap and QGIS](./how-to-open-a-NetCDF-file-with-ArcMap-and-QGIS/index.qmd)
+
+    This tutorials describes how to use the two GIS tools ArcMap and QGIS to open a NetCDF file.
+    
+*   [How to access the AIMS eReefs data using OPeNDAP and ArcMap](how-to-access-the-aims-ereefs-data-using-opendap-and-arcmap/index.qmd)
+
+    OPeNDAP can be used to access a file from a server without needing to download the file to the local computer. The necessary steps to open a file with OPeNDAP in ArcMap are explained in this tutorial.
+
+*   [How to plot AIMS eReefs data with R](how-to-plot-aims-ereefs-data-with-r/index.qmd)
+
+    Here you can find an example of how to programmatically access and plot the AIMS eReefs data using R.
+
+*   [How to plot AIMS eReefs data with Python](how-to-plot-aims-ereefs-data-with-python/index.qmd)
+    
+    Here you can find an example of how to programmatically access and plot the AIMS eReefs data using Python.

@@ -1,5 +1,9 @@
 ---
 title: "AIMS eReefs"
+format:
+  html:
+    include-in-header:
+      - header.html
 ---
 
 # eReefs AIMS Visualisation Portal
@@ -11,3 +15,45 @@ In this portal you will find a range of visualisations of the eReefs Hydrodynami
 - Flood plumes with low salinity ([North Queensland Flooding 2019](), [Burdekin Jan 2011]())
 - TODO: insert links above
 
+::: {.grid .column-page}
+
+::: {.ncanimate-product-tile .border .g-col-12 .g-col-md-6}
+## 4 km model (Sept 2010 - present)
+### Water movement and physical characteristics
+![](/images/AIMS-JL009front007-500x250.jpg){fig-alt="Waves break on the front reef creating a tough environment for corals to grow. Note the large encrusting soft coral below the breaking wave." fig-align="center"}
+
+- [Temperature, wind, salinity and current](./gbr4/temp-wind-salt-current/index.qmd)
+- [Temperature at 1.5m, 18m and 49m depth](./gbr4/temp-multi-depth/index.qmd)
+- [Current at 1.5m, 18m and 103m depth](./gbr4/current-multi-depth/index.qmd)
+- Temperature range at 1.5m
+- Comparing eReefs (GBR4 temperature, current) to IMOS satellite temperature and ocean current
+:::
+
+::: {.ncanimate-product-tile .border .g-col-12 .g-col-md-6}
+## 1 km model (Dec 2014 - present)
+### Water movement and physical characteristics
+![](/images/AIMS-JL009front007-500x250.jpg){fig-alt="Waves break on the front reef creating a tough environment for corals to grow. Note the large encrusting soft coral below the breaking wave." fig-align="center"}
+
+- Temperature, wind, salinity and current
+- Temperature at 2.35m, 18m and 49m depth
+- Current at 2.35m, 18m and 103m depth
+- Salinity at 2.35m, 5.35m and 18m depth
+- Fresh water exposure at 2.35m
+- Current magnitude average at 2.35m
+- Temperature range at 2.35m
+- Flood plume extents for major rivers on GBR based on modelled river tracers
+:::
+
+:::
+
+# eReefs CSIRO Hydrodynamic Model
+
+The [eReefs hydrodynamic model](https://research.csiro.au/ereefs/models/models-about/models-hydrodynamics/) predicts the movement of water and key environmental conditions (temperature, salinity, currents, tides). This model allows us to better understand how cyclones mix the water, the location of potentially damaging heat waves, the ocean currents that disperse larvae of corals and Crown-of-Thorns starfish, and fresh water plumes from flooded rivers that can damage inshore reefs.
+
+This model is run with a 4 km and 1 km grid size. The 4 km grid has a longer hindcast going back to September 2010, while the 1 km model starts in December 2014. The 1 km model also only extends out to the edge of the Great Barrier Reef, whereas the 4 km model covers much of the Coral Sea. The hydrodynamic model and visualisations are normally updated in near-real time, within 1 week of the current date.
+
+Note: The eReefs models are currently not being run in near-real time by CSIRO as a result this site only shows the back catalogue up to mid 2020. Near realtime results are expected to be back in operation by the end of 2020.
+
+# eReefs CSIRO BioGeoChemical model (4 km)
+
+The [GBR4 BioGeoChemical (GBR) model](https://research.csiro.au/ereefs/models/models-about/models-biogeochemistry/) builds on the GBR4 hydrodynamic model by...
