@@ -4,6 +4,7 @@
 
 - Install Quarto
 - run `quarto preview` and confirm the website displays as expected.
+  - until CORS errors of json files are sorted out, copy the json files into \_site directory first
 
 ## Previewing
 
