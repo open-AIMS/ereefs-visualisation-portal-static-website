@@ -1,0 +1,16 @@
+/* css styles */
+
+.navbar {
+  height: auto; /* Makes the navbar adjust to its content size */
+}
+
+/* Adjust logo size */
+.navbar-brand img {
+  height: 100%; /* Makes the logo take the full height of the navbar */
+  max-height: 100px; /* Removes any height limitation on the logo */
+}
+
+/* trying to make a gap between the logo and the title in the header */
+.navbar .navbar-brand-logo {
+  margin-right: 1em;
+}
