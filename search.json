@@ -112,11 +112,32 @@
     "text": "The results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the NCI THREDDS server. If the model data is more up to date than this portal let us know"
   },
   {
+    "objectID": "gbr1/salt-multi-depth/index.html",
+    "href": "gbr1/salt-multi-depth/index.html",
+    "title": "Salinity at 2.35m, 5.35m and 18m depth (GBR1)",
+    "section": "",
+    "text": "Time step:Loading...Your browser does not support the video tag.WARNING: This video may contain flashing patterns which may not be suitable for people with photosensitive epilepsy.Skip frames&lt;&gt;Elevation: Downloadmp4wmvzippngsvgpdf\n\n\n\n&lt;\n----\n&gt;\n\n\nJan\nFeb\nMar\n\n\nApr\nMay\nJun\n\n\nJul\nAug\nSep\n\n\nOct\nNov\nDec\n\n\n\n\n\n\nThis page shows salinity at different depths on the Great Barrier Reef based on the 1km eReefs Hydrodynamic model.\n\n\nThe salinity of normal ocean water is approximately 35 PSU. As freshwater is mixed with the ocean water the salinity drops, with pure water having a PSU of zero. This product highlights that, absent forced mixing from current upwelling (such as by cyclones), lower salinity water floats to the surface (represented on this page by the 2.35m depth).\n\n\n\n\nNorth Queensland Flooding February 2019\nCyclone Nathan (March 2015)\nCyclone Debbie (March 2017)"
+  },
+  {
+    "objectID": "gbr1/salt-multi-depth/index.html#source-data",
+    "href": "gbr1/salt-multi-depth/index.html#source-data",
+    "title": "Salinity at 2.35m, 5.35m and 18m depth (GBR1)",
+    "section": "Source data",
+    "text": "Source data\nThe videos/images on this page are based on the 4km eReefs Hydrodynamic model (v2.0) of the Great Barrier Reef. The raw data is available from the NCI THREDDS server (hourly) and the aggregate data from the AIMS eAtlas THREDDS server (daily, monthly, yearly, all). These map layers are also available for inspection as an interactive map."
+  },
+  {
+    "objectID": "gbr1/salt-multi-depth/index.html#recent-data",
+    "href": "gbr1/salt-multi-depth/index.html#recent-data",
+    "title": "Salinity at 2.35m, 5.35m and 18m depth (GBR1)",
+    "section": "Recent data",
+    "text": "Recent data\nThe results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the NCI THREDDS server. If the model data is more up to date than this portal let us know"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "AIMS eReefs",
     "section": "",
-    "text": "In this portal you will find a range of visualisations of the eReefs Hydrodynamic and BioGeoChemical models of the Great Barrier Reef. These models are like weather models, but for the marine environment, providing a picture of the current and historical environmental conditions on the Great Barrier Reef. Here you can see past extreme weather events such as:\n\nCyclones: Yasi (Feb 2011), Ita (April 2014), Nathan (March 2015), Debbi (March 2017),\nCoral bleaching from high temperature (March 2016, March 2017),\nFlood plumes with low salinity (North Queensland Flooding 2019, Burdekin Jan 2011)\nTODO: insert links above\n\n\n\n\n\n\n\n\n\n\n\n\nTemperature, wind, salinity and current\nTemperature at 1.5m, 18m and 49m depth\nCurrent at 1.5m, 18m and 103m depth\nTemperature range at 1.5m\nComparing eReefs (GBR4 temperature, current) to IMOS satellite temperature and ocean current\n\n\n\n\n\n\n\n\n\n\n\n\n\nTemperature, wind, salinity and current\nTemperature at 2.35m, 18m and 49m depth\nCurrent at 2.35m, 18m and 103m depth\nSalinity at 2.35m, 5.35m and 18m depth\nFresh water exposure at 2.35m\nCurrent magnitude average at 2.35m\nTemperature range at 2.35m\nFlood plume extents for major rivers on GBR based on modelled river tracers"
+    "text": "In this portal you will find a range of visualisations of the eReefs Hydrodynamic and BioGeoChemical models of the Great Barrier Reef. These models are like weather models, but for the marine environment, providing a picture of the current and historical environmental conditions on the Great Barrier Reef. Here you can see past extreme weather events such as:\n\nCyclones: Yasi (Feb 2011), Ita (April 2014), Nathan (March 2015), Debbi (March 2017),\nCoral bleaching from high temperature (March 2016, March 2017),\nFlood plumes with low salinity (North Queensland Flooding 2019, Burdekin Jan 2011)\n\n\n\n\n\n\n\n\n\n\n\n\nTemperature, wind, salinity and current\nTemperature at 1.5m, 18m and 49m depth\nCurrent at 1.5m, 18m and 103m depth\nTemperature range at 1.5m\nComparing eReefs (GBR4 temperature, current) to IMOS satellite temperature and ocean current\n\n\n\n\n\n\n\n\n\n\n\n\n\nTemperature, wind, salinity and current\nTemperature at 2.35m, 18m and 49m depth\nCurrent at 2.35m, 18m and 103m depth\nSalinity at 2.35m, 5.35m and 18m depth\nFresh water exposure at 2.35m\nCurrent magnitude average at 2.35m\nTemperature range at 2.35m\nFlood plume extents for major rivers on GBR based on modelled river tracers"
   },
   {
     "objectID": "index.html#km-model-sept-2010---present",
