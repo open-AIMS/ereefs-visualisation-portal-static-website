@@ -1,0 +1,56 @@
+---
+title: "gbr1-salt-multi-depth"
+format:
+  html:
+    css:
+      - ../../css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css
+      - ../../css/css_aspJexyZbSy-mMQCoq4YYgcmk8Ps3vDh_U10OuJIIhk.css
+      - ../../css/css_eRVvH_jN5SStb8oQSJsiVAHkQ19dLpDrjRpGVNpiAig.css
+      - ../../css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css
+    template: ../../custom_template.html
+params:
+  product-name: Salinity at 2.35m, 5.35m and 18m depth (GBR1)
+  block-name: gbr1-hydro_salt-multi-dept
+  product-id: products__ncanimate__ereefs__gbr1_2-0__salt-multi-depth
+---
+
+{{< include ../../_visualisation.qmd >}}
+
+This page shows salinity at different depths on the Great Barrier Reef
+based on the [1km eReefs Hydrodynamic model](https://research.csiro.au/ereefs/models/).
+
+### Salinity at different depths
+
+The salinity of normal ocean water is approximately 35 PSU. As
+freshwater is mixed with the ocean water the salinity drops, with pure
+water having a PSU of zero. This product highlights that, absent forced
+mixing from current upwelling (such as by cyclones), lower salinity
+water floats to the surface (represented on this page by the 2.35m
+depth).
+
+### Interesting events
+
+- [North Queensland Flooding February 2019](#region=townsville-3;year=2019;month=2)
+- [Cyclone Nathan (March 2015)](#year=2015;month=3)
+- [Cyclone Debbie (March 2017)](#year=2017;month=3)
+
+# Erratum
+
+From 28 Dec 2014 - 29 Dec 2014 and from 1 Dec 2021 - 10 Dec 2021, the forcing
+data for the GBR1 eReefs model was incorrect due to a process failure
+while extracting the relevant ACCESS data. This resulted in static tides
+and winds during this period, leading to incorrect model outputs during
+Dec 2014 and 2021, with some carry over error into Jan 2022. This
+forcing error led to a decrease in water mixing resulting in the
+temperature building up several degrees hotter than it should and to the
+flood plumes from the Fitzroy and Burnett moving in the wrong direction.
+
+CSIRO are correcting this problem by re-running the model from Dec 2021
+for several months to replace this section of the data. This warning
+will be updated when this change has been made.
+
+
+{{< include ../../_source_data.qmd >}}
+
+
+{{< include ../../_recent_data.qmd >}}
