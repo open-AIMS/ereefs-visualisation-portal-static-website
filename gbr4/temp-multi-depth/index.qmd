@@ -11,6 +11,7 @@ format:
 params:
   product-name: Temperature at 1.5m, 18m and 49m depth (GBR4)
   block-name: gbr4-hydro_temp-multi-depth
+  product-id: products__ncanimate__ereefs__gbr4_v2__temp-multi-depth
 ---
 
 {{< include ../../_visualisation.qmd >}}

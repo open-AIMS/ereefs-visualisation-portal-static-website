@@ -11,6 +11,7 @@ format:
 params:
   product-name: Temperature, wind, salinity and current (GBR4)
   block-name: gbr4-hydro_temp-wind-salt-current
+  product-id: products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current
 ---
 
 {{< include ../../_visualisation.qmd >}}

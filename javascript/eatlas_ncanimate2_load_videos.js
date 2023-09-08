@@ -4075,7 +4075,11 @@ EAtlasNcAnimate2Widget.prototype.load = function () {
   var blockName = this.block.attr("blockname");
   console.log("blockName = ", blockName);
 
-  var meta_url = "/" + blockName + ".json";
+  // var meta_url = "/" + blockName + ".json";
+  var meta_url =
+    "https://api.test.ereefs.aims.gov.au/metadata/NCANIMATE_PRODUCT/" +
+    productId;
+
   console.log("meta_url = ", meta_url);
 
   // JQuery can request JSON data over different domain (CORS)
@@ -4086,6 +4090,7 @@ EAtlasNcAnimate2Widget.prototype.load = function () {
   jQuery.ajax({
     // url: "/products__ncanimate__ereefs__gbr4_v2__temp-range.json",
     url: meta_url,
+    // url: "https://api.test.ereefs.aims.gov.au/metadata/NCANIMATE_PRODUCT/products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current", // this url is to test changes to the aws lambda. It is an example of what is called by the proxy service Gael created.
     // url: "https://ereefs.aims.gov.au/module/eatlas/eatlas_ncanimate2/proxy?name=" + blockName,
     // url: "/module/eatlas/eatlas_ncanimate2/proxy?name=" + blockName,
     // JQuery cache the query response but not the response code (replaced with 200),
