@@ -133,13 +133,6 @@
     "text": "Temperature, wind, salinity and current\nTemperature at 2.35m, 18m and 49m depth\nCurrent at 2.35m, 18m and 103m depth\nSalinity at 2.35m, 5.35m and 18m depth\nFresh water exposure at 2.35m\nCurrent magnitude average at 2.35m\nTemperature range at 2.35m\nFlood plume extents for major rivers on GBR based on modelled river tracers"
   },
   {
-    "objectID": "product_template.html",
-    "href": "product_template.html",
-    "title": "Current at 1.5m, 18m and 103m depth (GBR4)",
-    "section": "",
-    "text": "Current at 1.5m, 18m and 103m depth (GBR4)\n\n\n\nTime step:Loading...Your browser does not support the video tag.WARNING: This video may contain flashing patterns which may not be suitable for people with photosensitive epilepsy.Skip frames&lt;&gt;Elevation: Downloadmp4wmvzippngsvgpdf\n\n\n\n&lt;\n----\n&gt;\n\n\nJan\nFeb\nMar\n\n\nApr\nMay\nJun\n\n\nJul\nAug\nSep\n\n\nOct\nNov\nDec\n\n\n\n\n\n\n{{ content }}"
-  },
-  {
     "objectID": "gbr4/temp-wind-salt-current/index_backup.html",
     "href": "gbr4/temp-wind-salt-current/index_backup.html",
     "title": "Temperature, wind, salinity and current (GBR4)",
