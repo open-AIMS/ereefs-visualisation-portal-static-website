@@ -3801,6 +3801,10 @@ EAtlasNcAnimate2Widget.prototype.loadMedia = function (
     }
   }
 
+  // When media is updated, scolling back to the top should make it obvious to the user.
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  //TODO: make it scroll to the annimations, but only if the window is scrolled lower than the animations.
+
   this.setTabsHref();
   this.loadDownloads(media_metadata);
 };
@@ -4106,7 +4110,7 @@ EAtlasNcAnimate2Widget.prototype.load = function () {
     success: (function (that) {
       return function (data, status, xhr) {
         console.log("got data:");
-        console.log(data);
+        // console.log(data);
         that.media_map = {};
 
         var framePeriods = [];
@@ -4312,6 +4316,8 @@ EAtlasNcAnimate2Widget.prototype.load = function () {
             );
           }
         }
+        // console.log(`that.media_map = ${that.media_map}`)
+        // console.log(`that.media_map = ${JSON.stringify(that.media_map)}`)
       };
     })(this),
 
