@@ -1,0 +1,47 @@
+---
+title: "gbr1-hydro_temp-multi-depth"
+format:
+  html:
+    css:
+      - ../../css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css
+      - ../../css/css_aspJexyZbSy-mMQCoq4YYgcmk8Ps3vDh_U10OuJIIhk.css
+      - ../../css/css_eRVvH_jN5SStb8oQSJsiVAHkQ19dLpDrjRpGVNpiAig.css
+      - ../../css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css
+    template: ../../custom_template.html
+params:
+  product-name: Temperature at 2.35m, 18m and 49m depth (GBR1)
+  block-name: gbr1-hydro_temp-multi-depth
+  product-id: products__ncanimate__ereefs__gbr1_2-0__temp-multi-depth
+---
+
+{{< include ../../includes/_visualisation.qmd >}}
+
+This page shows temperature at different depths on the Great Barrier Reef based 
+on the [1km eReefs Hydrodynamic model](https://research.csiro.au/ereefs/models/).
+
+# Temperature at different depths
+
+This product highlights how the temperature varies with depth. The eReefs
+Hydrodynamic model contains over 40 depth slices allowing us to see how the
+water cools with depth and how cool water is mixed by extreme events such as
+cyclones. Note that most of the Great Barrier Reef has a depth of less than 100
+m, so as the depth is increased, less of the reef area is visible on the map.
+
+The shallowest depth (2.35m) represents the surface temperature in the model.
+
+The middle depth (18m) is useful for investigating whether corals not at the
+surface were also subjected to high temperature conditions during bleaching
+events. We can see in the [March 2016 video](#year=2016;month=3;region=torres-strait-3) that the high temperature
+conditions leading to bleaching were also persistent at this depth.
+
+The deeper water depth (49m) is useful for looking at the mixing effects of
+cyclones. Slow moving cyclones build up circular ocean currents that can mix
+the water down to 300 m. This can be seen with [Cyclone Nathan in March 2015](#year=2015;month=3).
+
+
+{{< include ../../includes/_source_data.qmd >}}
+
+{{< include ../../includes/_recent_data.qmd >}}
+
+{{< include ../../includes/_erratum.qmd >}}
+

@@ -14,7 +14,7 @@ params:
   product-id: products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current
 ---
 
-{{< include ../../_visualisation.qmd >}}
+{{< include ../../includes/_visualisation.qmd >}}
 
 This page shows the temperature, wind, salinity and ocean currents on the Great Barrier Reef based on the [4km eReefs Hydrodynamic model](https://research.csiro.au/ereefs/models/). This visualisation product is also available for the [1km eReefs Hydrodynamic model](/gbr1/temp-wind-salt-current). 
 
@@ -52,8 +52,6 @@ Many marine organisms (such as Crown-of-Thorns Starfish and corals) are disperse
 - Strong East Australian Current ([Nov 2015, monthly average current](/gbr4/temp-wind-salt-current#frame=Monthly;year=2015;month=11))
 - Clear bifurcation of the currents around Lizard island, north of Cairns ([Oct 2014](/gbr4/temp-wind-salt-current#frame=Monthly;year=2014;month=10))
 
+{{< include ../../includes/_source_data.qmd >}}
 
-{{< include ../../_source_data.qmd >}}
-
-
-{{< include ../../_recent_data.qmd >}}
+{{< include ../../includes/_recent_data.qmd >}}

@@ -1,0 +1,14 @@
+## Erratum
+
+From 28 Dec 2014 - 29 Dec 2014 and from 1 Dec - 10 Dec 2021, the forcing data
+for the GBR1 eReefs model was incorrect due to a process failure while
+extracting the relevant ACCESS data. This resulted in static tides and winds
+during this period, leading to incorrect model outputs during Dec 2014 and
+2021, with some carry over error into Jan 2022. This forcing error led to a
+decrease in water mixing resulting in the temperature building up several
+degrees hotter than it should and to the flood plumes from the Fitzroy and
+Burnett moving in the wrong direction.
+
+CSIRO are correcting this problem by re-running the model from Dec 2021 for
+several months to replace this section of the data. This warning will be
+updated when this change has been made.
