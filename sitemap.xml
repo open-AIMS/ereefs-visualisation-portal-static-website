@@ -2,78 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/about.html</loc>
-    <lastmod>2023-09-11T06:26:07.986Z</lastmod>
+    <lastmod>2023-09-11T07:13:12.172Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/help/how-to-extract-data-using-the-extraction-tool/index.html</loc>
-    <lastmod>2023-09-11T06:26:07.110Z</lastmod>
+    <lastmod>2023-09-11T07:13:11.084Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/help/how-to-plot-aims-ereefs-data-with-r/index.html</loc>
-    <lastmod>2023-09-11T06:26:06.426Z</lastmod>
+    <lastmod>2023-09-11T07:13:10.212Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/help/how-to-manually-download-aims-ereefs-data/index.html</loc>
-    <lastmod>2023-09-11T06:26:05.486Z</lastmod>
+    <lastmod>2023-09-11T07:13:08.996Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/help/how-to-plot-aims-ereefs-data-with-python/index.html</loc>
-    <lastmod>2023-09-11T06:26:04.642Z</lastmod>
+    <lastmod>2023-09-11T07:13:07.948Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/temp-multi-depth/index.html</loc>
-    <lastmod>2023-09-11T06:26:03.906Z</lastmod>
+    <lastmod>2023-09-11T07:13:07.060Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/current-multi-depth/index.html</loc>
-    <lastmod>2023-09-11T06:26:03.166Z</lastmod>
+    <lastmod>2023-09-11T07:13:06.152Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/temp-wind-salt-current/index.html</loc>
-    <lastmod>2023-09-11T06:26:02.474Z</lastmod>
+    <lastmod>2023-09-11T07:13:05.296Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr1/salt-multi-depth/index.html</loc>
-    <lastmod>2023-09-11T06:26:01.518Z</lastmod>
+    <lastmod>2023-09-11T07:13:04.120Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr1/temp-wind-salt-current/index.html</loc>
-    <lastmod>2023-09-11T06:26:00.342Z</lastmod>
+    <lastmod>2023-09-11T07:13:02.644Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr1/temp-multi-depth/index.html</loc>
-    <lastmod>2023-09-11T06:26:01.118Z</lastmod>
+    <lastmod>2023-09-11T07:13:03.628Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/index.html</loc>
-    <lastmod>2023-09-11T06:26:01.986Z</lastmod>
+    <lastmod>2023-09-11T07:13:04.680Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/temp-wind-salt-current/index_backup.html</loc>
-    <lastmod>2023-09-11T06:26:02.798Z</lastmod>
+    <lastmod>2023-09-11T07:13:05.700Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/temp-range/index.html</loc>
-    <lastmod>2023-09-11T06:26:03.526Z</lastmod>
+    <lastmod>2023-09-11T07:13:06.584Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/imos-vs-ereefs/index.html</loc>
-    <lastmod>2023-09-11T06:26:04.326Z</lastmod>
+    <lastmod>2023-09-11T07:13:07.552Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/help/index.html</loc>
-    <lastmod>2023-09-11T06:26:05.030Z</lastmod>
+    <lastmod>2023-09-11T07:13:08.428Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/help/how-to-open-a-NetCDF-file-with-ArcMap-and-QGIS/index.html</loc>
-    <lastmod>2023-09-11T06:26:06.122Z</lastmod>
+    <lastmod>2023-09-11T07:13:09.776Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/help/how-to-download-video-or-image/index.html</loc>
-    <lastmod>2023-09-11T06:26:06.778Z</lastmod>
+    <lastmod>2023-09-11T07:13:10.684Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/help/how-to-access-the-aims-ereefs-data-using-opendap-and-arcmap/index.html</loc>
-    <lastmod>2023-09-11T06:26:07.690Z</lastmod>
+    <lastmod>2023-09-11T07:13:11.808Z</lastmod>
   </url>
 </urlset>
