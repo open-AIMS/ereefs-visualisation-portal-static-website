@@ -35,12 +35,12 @@ In this portal you will find a range of visualisations of the eReefs Hydrodynami
 
 - [Temperature, wind, salinity and current](./gbr1/temp-wind-salt-current)
 - [Temperature at 2.35m, 18m and 49m depth](./gbr1/temp-multi-depth)
-- [Current at 2.35m, 18m and 103m depth]()
+- [Current at 2.35m, 18m and 103m depth](./gbr1/current-multi-depth)
 - [Salinity at 2.35m, 5.35m and 18m depth](./gbr1/salt-multi-depth)
-- [Fresh water exposure at 2.35m]()
-- [Current magnitude average at 2.35m]()
-- [Temperature range at 2.35m]()
-- [Flood plume extents for major rivers on GBR based on modelled river tracers]()
+- [Fresh water exposure at 2.35m](./gbr1/fresh-water-exposure)
+- [Current magnitude average at 2.35m](./gbr1/current-magnitude-average)
+- [Temperature range at 2.35m](./gbr1/temp-range)
+- [Flood plume extents for major rivers on GBR based on modelled river tracers](./gbr1/river-tracers)
 :::
 
 :::

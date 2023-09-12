@@ -1,0 +1,28 @@
+---
+title: "gbr1-hydro_temp-range"
+format:
+  html:
+    css:
+      - ../../css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css
+      - ../../css/css_aspJexyZbSy-mMQCoq4YYgcmk8Ps3vDh_U10OuJIIhk.css
+      - ../../css/css_eRVvH_jN5SStb8oQSJsiVAHkQ19dLpDrjRpGVNpiAig.css
+      - ../../css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css
+    template: ../../custom_template.html
+params:
+  product-name: Temperature range at -2.35m (GBR1)
+  block-name: gbr1-hydro_temp-range
+  product-id: products__ncanimate__ereefs__gbr1_2-0__temp-range
+---
+
+{{< include ../../includes/_visualisation.qmd >}}
+
+This page shows the daily minimum, maximum and temperature range on the Great
+Barrier Reef based on the [1km eReefs Hydrodynamic model](https://research.csiro.au/ereefs/models/). This is an
+experimental product that is intended to help investigate whether daily
+temperature range is a useful indicator of resistence to coral bleaching.
+
+{{< include ../../includes/_source_data.qmd >}}
+
+{{< include ../../includes/_recent_data.qmd >}}
+
+{{< include ../../includes/_erratum.qmd >}}

@@ -1,0 +1,37 @@
+---
+title: "gbr1-hydro_current-magnitude-average"
+format:
+  html:
+    css:
+      - ../../css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css
+      - ../../css/css_aspJexyZbSy-mMQCoq4YYgcmk8Ps3vDh_U10OuJIIhk.css
+      - ../../css/css_eRVvH_jN5SStb8oQSJsiVAHkQ19dLpDrjRpGVNpiAig.css
+      - ../../css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css
+    template: ../../custom_template.html
+params:
+  product-name: Current magnitude average at 2.35m (GBR1)
+  block-name: gbr1-hydro_current-magnitude-average
+  product-id: products__ncanimate__ereefs__gbr1_2-0__current-magnitude-average
+---
+
+{{< include ../../includes/_visualisation.qmd >}}
+
+This page shows the magnitude of the surface sea water current on the Great
+Barrier Reef based on the [1km eReefs Hydrodynamic model](https://research.csiro.au/ereefs/models/).
+
+The magnitude shown in these videos and images tells you the speed of the
+water, but with no indication of the direction. In shallow areas this
+information can be useful in understanding the amount of sediment mixing caused
+by tides and the amount of shear stress (side ways rubbing) that these areas
+might experience. Shallow areas that have a high current magnitude are likely
+to be different habitats.
+
+For details of this dataset and access to the data see the [eReefs CSIRO
+Hydrodynamic model (Temperature, Salinity, Wind, Current) Summaries
+(AIMS)](https://eatlas.org.au/data/uuid/375c9dc9-70f8-4d97-a3e9-c013896a81e5) metadata page.
+
+{{< include ../../includes/_source_data.qmd >}}
+
+{{< include ../../includes/_recent_data.qmd >}}
+
+{{< include ../../includes/_erratum.qmd >}}

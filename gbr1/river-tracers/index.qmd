@@ -1,0 +1,112 @@
+---
+title: "gbr1_river-tracers"
+format:
+  html:
+    css:
+      - ../../css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css
+      - ../../css/css_aspJexyZbSy-mMQCoq4YYgcmk8Ps3vDh_U10OuJIIhk.css
+      - ../../css/css_eRVvH_jN5SStb8oQSJsiVAHkQ19dLpDrjRpGVNpiAig.css
+      - ../../css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css
+    template: ../../custom_template.html
+params:
+  product-name: Flood plume extents for major rivers on GBR based on modelled river tracers
+  block-name: gbr1_river-tracers
+  product-id: products__ncanimate__ereefs__gbr1_2-0__rivers
+---
+
+{{< include ../../includes/_visualisation.qmd >}}
+
+<br>
+This product shows flood plumes associated with the major rivers along the
+Queensland coastline flowing into the Great Barrier Reef Marine Park. These
+visualisations are produced from using currents calculated by the eReefs
+hydrodynamic model to drive a tracer transport model.
+
+Flood plumes deliver sediments and nutrients into the ocean, both of which can
+result in detrimental effects on seagrass and reef habitats.
+
+The left most panel shows the near-surface salinity and the wind vectors. The
+salinity indicates how salty the water is and it is lowered by river run off
+and rainfall. Thus reduced salinity is a measure of the combined impact of all
+rivers combined. The wind is shown as arrows overlaid on the salinity. The wind
+pushes the flood plumes around and has a strong influence on where the plumes
+go. The other major influence is the impact of the rotation of the Earth on
+buoyant plumes. The other three panels each show the river tracers for five
+rivers each. We split up the rivers into multiple panels to limit the amount of
+overlap in their extent during large flooding events.
+
+In the model, tracers are released at the mouth into the surface flow of each
+river. These tracers move with the ocean currents, becoming more dilute as they
+spread out and mix with the ocean water, allowing the concentration of river
+water to be tracked over time. These tracers show the fraction of the water, at
+any given location, associated with each river.
+
+The lowest threshold of river water concentration (1%) shown in the
+visualisation was chosen to align with the visible extent of flood plumes as
+seen in satellite imagery. At this concentration we can expect organisms on the
+sea floor to see raised nutrient levels, some fine sediment and a significant
+reduction in light. Limitations and spatial accuracy
+
+It should be noted that the river tracer product tracks the concentration of
+river water. It does not track sediment or nutrient in the water. As a result,
+it should be used as a guide for the potential area that might be affected by
+flood water. The primary value of this product is that it attributes flood
+plume water to its source river allowing the extent of individual rivers to be
+understood.
+
+To understand more about the actual nutrient and sediment levels refer to the
+[eReefs BioGeoChemical (BGC) model](https://ereefs.aims.gov.au/ereefs-aims/gbr4/bgc/baseline/chl-a-sum_din_efi) as it directly represents sediment and
+nutrients from all processes including wind resuspension and biological
+processes. In the BGC model however, it is not possible to directly attribute
+components of the sediment and nutrients concentrations to their source rivers.
+
+This visualisation only shows the 15 largest rivers (based on largest
+historical flow) and so does not fully represent all the flood plumes. The
+salinity product can be used to see other rivers modelled by eReefs that are
+not explicitly separated out using the river tracer visualisation product.
+
+The rivers shown in the visualisation were adjusted in their concentration
+threshold to represent the full flow of water associated with their river
+basin. In some catchments there are multiple rivers flowing into the ocean and
+eReefs represents this whole basin with a single river. As a result, the shape
+of the flood plume close to the coast may not be representative.
+
+As part of the research into determining a suitable river concentration
+threshold to visualise we undertook many comparisons between the estimated
+flood plume extent from eReefs and those visible in Sentinel 2 satellite
+imagery. From this we found that the plume extent from eReefs was generally
+accurate to within about 10 km, with the most likely reason for the difference
+being slight errors in the model due to wind. The strength and direction of the
+wind is the predominant factor in determining the spread of the flood plumes.
+As a result any small errors in the modelling of the wind will lead to errors
+in the flood plume boundaries. The eReefs hydrodynamic model is driven by wind
+data from the Bureau of Meteorology's Access-R weather model, which is a
+forecast. It has a resolution of 12 km and so it is surprising that the eReefs
+model is as spatially accurate as it is. Part of the reason for this is that
+while the wind occasionally pushes the plumes offshore, the main determinant of
+the distribution is the dynamics of buoyant plumes. The rotation of the Earth
+acts to deflect to the left (in the Southern Hemisphere) any relative increase
+in motion between fluid layers. One such relative motion is a buoyant plume
+flowing over the top of denser ocean water. Deflected left on a river
+discharging along an east coast means it being push towards the coast. Thus,
+the plumes are trapped near the coast. The distance to which they spread from
+the coast is also set by this balance between density driven flow and the
+Earth’s rotation, something ocean models are very good at.
+
+### References
+
+Baird, M. E., J. Andrewartha, M. Herzfeld, E. Jones, N. Margvelashvili, M.
+Mongin, F. Rizwi, J. Skerratt, M. Soja-Wozniak, K. Wild-Allen, T. Schroeder, B.
+Robson, E. da Silva, M. Devlin (2017) River plumes of the Great Barrier Reef:
+freshwater, sediment and optical footprints quantified by the eReefs modelling
+system. In Syme, G., Hatton MacDonald, D., Fulton, B. and Piantadosi, J. (eds)
+MODSIM2017, 22nd International Congress on Modelling and Simulation. Modelling
+and Simulation Society of Australia and New Zealand, December 2017,
+pp.1892-1898. ISBN: 978-0-9872143-7-9.
+<https://www.mssanz.org.au/modsim2017/L22/baird.pdf>.
+
+{{< include ../../includes/_source_data.qmd >}}
+
+{{< include ../../includes/_recent_data.qmd >}}
+
+{{< include ../../includes/_erratum.qmd >}}

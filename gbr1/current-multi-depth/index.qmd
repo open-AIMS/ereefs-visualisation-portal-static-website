@@ -1,0 +1,31 @@
+---
+title: "gbr1-hydro_current-multi-depth"
+format:
+  html:
+    css:
+      - ../../css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css
+      - ../../css/css_aspJexyZbSy-mMQCoq4YYgcmk8Ps3vDh_U10OuJIIhk.css
+      - ../../css/css_eRVvH_jN5SStb8oQSJsiVAHkQ19dLpDrjRpGVNpiAig.css
+      - ../../css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css
+    template: ../../custom_template.html
+params:
+  product-name: Current at 2.35m, 18m and 103m depth (GBR1)
+  block-name: gbr1-hydro_current-multi-depth
+  product-id: products__ncanimate__ereefs__gbr1_2-0__current-multi-depth
+---
+
+{{< include ../../includes/_visualisation.qmd >}}
+
+This page shows the strength and direction of ocean currents at different
+depths on the Great Barrier Reef based on the [1km eReefs Hydrodynamic model](https://research.csiro.au/ereefs/models/).
+The strength of the current is represented by colour. The arrows represent the
+direction. In the hourly data a lot of the daily fluctuations are due to tidal
+currents. These tend to make the current direction swing back and forth as the
+tides flow and and out of a region.
+
+{{< include ../../includes/_source_data.qmd >}}
+
+{{< include ../../includes/_recent_data.qmd >}}
+
+{{< include ../../includes/_erratum.qmd >}}
+
