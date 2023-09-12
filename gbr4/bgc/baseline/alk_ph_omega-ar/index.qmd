@@ -1,0 +1,164 @@
+---
+title: "gbr4-bgc-baseline_alk_ph_omega-ar"
+format:
+  html: 
+    css: 
+      - ../../../../css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css
+      - ../../../../css/css_aspJexyZbSy-mMQCoq4YYgcmk8Ps3vDh_U10OuJIIhk.css
+      - ../../../../css/css_eRVvH_jN5SStb8oQSJsiVAHkQ19dLpDrjRpGVNpiAig.css
+      - ../../../../css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css
+    template: ../../../../custom_template.html
+params:
+  product-name: Total alkalinity, PH and aragonite saturation state (GBR4 BGC v3.1 baseline)
+  block-name: gbr4-bgc-baseline_alk_ph_omega-ar
+  product-id: products__ncanimate__ereefs__gbr4_bgc_baseline__alk_ph_omega-ar
+---
+
+{{< include ../../../../includes/_visualisation.qmd >}}
+
+Carbon chemistry background
+---------------------------
+
+Coral reefs are constructed from calcium carbonate (CaCO~3~) produced by
+hard corals and other calcifying organisms. Coral polyps form this
+calcium carbonate by combining calcium (Ca^2+^) and carbonate
+(CO~3~^2-^) ions in the seawater. This is achieved by the corals
+trapping small amounts of seawater, containing calcium ions (Ca^2+^), in
+small vesicles (small capsules) at the surface of the coral tissue.
+These vesicles slowly migrate through the coral tissue to its skeleton.
+On the way carbonate ions (CO~3~^2-^) are then injected into these
+vesicles from the coral tissue, raising its concentration above
+surrounding seawater levels, helping to accelerate the carbonate
+precipitation (solid crystal formation). The biological process used to
+pump in the carbonate ions is not yet well understood. In the vesicles
+an amorphous (unstructured) calcium carbonate forms. Once the vesicles
+reach the surface of the skeleton the amorphous calcium carbonate
+particles attach to the skeleton and slowly transform into
+**aragonite**, which is the crystal structure of calcium carbonate that
+makes up the bulk of the coral skeleton (Mass et al., 2017).
+
+The total **Dissolved Inorganic Carbon** (DIC) in seawater is made up
+from the sum of dissolved carbon dioxide (CO~2(aq)~), bicarbonate ions
+(HCO~3~^-^) and carbonate ions (CO~3~^2-^). The distribution of these
+carbon molecule species varies with the seawater pH. At a typical
+seawater pH of 8.1, bicarbonate dominates, representing around 90% of
+DIC. Carbonate ions (CO~3~^2-^) are the next most abundant species
+(\~10% of DIC), while carbon dioxide CO~2(aq)~ represents less than 1%
+(Barker and Ridgwell, 2012). Increases in atmospheric CO~2~ results in
+more dissolved CO~2~ combining with water (H~2~O) to form carbonic acid
+(H~2~CO~3~). This lowers the **pH** of the water as the carbonic acid
+molecule splits into hydrogen ions (H^+^) and bicarbonate ions
+(HCO~3~^-^). It is the free hydrogen ions (H^+^) that make it acidic.
+The existing carbonate ions (CO~3~^2-^) in the water buffer the pH by
+combining with the extra hydrogen ions (H^+^) to form bicarbonate
+(HCO~3~^-^). As a result, increasing CO~2~ levels lowers the seawater
+pH, which in turn lowers the amount of carbonate in the seawater, which
+can impede calcification. While the CSIRO eReefs BioGeoChemical (BCG)
+model assumes a constant atmospheric CO~2~ level (and as such doesn\'t
+model increasing CO~2~ levels) understanding this causal change is
+useful to understanding how **pH** and **total alkalinity**
+(HCO~3~^-^+CO~3~^2-^) are related.
+
+Surface seawater is generally supersaturated with respect to calcium
+carbonate minerals, meaning that the concentration of calcium and
+carbonate ions is higher than the concentration needed for precipitation
+to occur. The **aragonite saturation state** is commonly used to track
+ocean acidification because it is a measure of carbonate ion
+concentration. Aragonite is one of the more soluble forms of calcium
+carbonate (CaCO~3~) and is widely used by marine calcifiers to build
+their skeletons and shells. Corals and other calcifiers are more likely
+to survive and reproduce when the saturation state is greater than
+three. When aragonite saturation state falls below 3, these organisms
+become stressed, and when saturation state is less than 1, shells and
+other aragonite structures begin to dissolve (NOAA, n.d.).
+
+### What do these visualisations show?
+
+These maps show estimates, based on the eReefs BioGeoChemical model, of
+key variables that relate to ocean acidity and a metric (aragonite
+saturation state) that measures how easy it is for calcium carbonate
+(which makes up shells and coral skeletons) to precipitate (solidify) or
+dissolve.
+
+In these visualisations we can see that the pH goes through a seasonal
+cycle with a lower pH in summer due to higher temperatures. The pH and
+aragonite saturation state is often lower near the coast. This is most
+likely due to plankton growth, which removes DIC from the water as it is
+converted to biological forms of carbon. This lowers the DIC, which in
+turn lowers the aragonite saturation state and pH.
+
+### Limitations
+
+The version of the BGC model here assumes a constant value for
+atmospheric CO~2~ of 396.4 ppm, see page 101 of Baird (2019). It is
+therefore not suitable for looking at trends in changes due to ocean
+acidification.
+
+Model variables
+---------------
+
+### Total alkalinity
+
+Concentration of ions that can be converted to uncharged species by a
+strong acid. The model assumes total alkalinity is the sum of the
+bicarbonate and carbonate ions (A~T~ =\[HCO~3~^-^\] + \[CO~3~^2-^\]),
+often referred to as carbonate alkalinity. Alkalinity and DIC together
+quantify the equilibrium state of the seawater carbon chemistry.
+
+### PH
+
+pH based on \[H^+^\] calculated from carbon chemistry equilibra at water
+column values of temperature (T), salinity (S), dissolved inorganic
+carbon (DIC) and total alkalinity (A~T)~.
+
+### Aragonite saturation state
+
+The aragonite saturation state of seawater is the product of the
+concentrations of dissolved calcium and carbonate ions in seawater
+divided by their product at equilibrium: ( \[Ca^2+^\] × \[CO~3~^2-^\] )
+/ \[CaCO~3~\], where dissolved calcium \[Ca^2+^\] is the seawater
+concentration of dissolved calcium ions, \[CO~3~^2-^\] is the seawater
+concentration of carbonate ions and \[CaCO~3~\] is the solubility of
+aragonite in seawater. When the aragonite saturation state is 1, the
+seawater is exactly in equilibrium or saturation with respect to
+aragonite and as a result aragonite does not dissolve or precipitate.
+
+In the BGC model coral growth is halted for aragonite saturation state
+values less than 2. The aragonite saturation state value determines the
+coral calcification rate in the model, where calcification is
+proportional to the amount that the aragonite saturation state value is
+above 1 and the carbon reserves of the coral.
+
+References
+----------
+
+Baird, M. E., Wild-Allen, K. A., Parslow, J., Mongin, M., Robson, B.,
+Skerratt, J., Rizwi, F., Soja-Woznaik, M., Jones, E., Herzfeld, M.,
+Margvelashvili, N., Andrewartha, J., Langlais, C., Adams, M. P.,
+Cherukuru, N., Gustafsson, M., Hadley, S., Ralph, P. J., Rosebrock, U.,
+Schroeder, T., Laiolo, L., Harrison, D., Steven, A. D. L. (2019) CSIRO
+Environmental Modelling Suite (EMS): Scientific description of the
+optical and biogeochemical models (vB3p0). Geosci. Model Dev. Discuss.
+https://doi.org/10.5194/gmd-2019-115
+
+Barker, S. & Ridgwell, A. (2012) Ocean Acidification. Nature Education
+Knowledge 3(10):21,
+https://www.nature.com/scitable/knowledge/library/ocean-acidification-25822734/
+
+Mass, T., Giuffre, A.J., Sun, Stifler, C.A., Frazier M.J., Neder, M.,
+Tamura, N., Stan, C.V., Marcus, M.A., Gilbert, P.U.P.A. (2017) Growing
+coral crystals attach particles, not ions. Proceedings of the National
+Academy of Sciences Sep 2017, 114 (37) E7670-E7678; DOI:
+10.1073/pnas.1707890114
+
+NOAA, (n.d.) Ocean Acidification: Saturation State. Retrieved:
+September, 17, 2020, from
+https://sos.noaa.gov/datasets/ocean-acidification-saturation-state/
+
+Zheng, M. & Cao, L. (2015) Simulation of global ocean acidification and
+chemical habitats of shallow- and cold-water coral reefs,
+https://doi.org/10.1016/j.accre.2015.05.002
+
+{{< include ../../../../includes/_source_data.qmd >}}
+
+{{< include ../../../../includes/_recent_data.qmd >}}

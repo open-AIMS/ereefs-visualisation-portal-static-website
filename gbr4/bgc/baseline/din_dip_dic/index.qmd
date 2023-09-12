@@ -1,0 +1,33 @@
+---
+title: "gbr4-bgc-baseline_din_dip_dic"
+format:
+  html: 
+    css: 
+      - ../../../../css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css
+      - ../../../../css/css_aspJexyZbSy-mMQCoq4YYgcmk8Ps3vDh_U10OuJIIhk.css
+      - ../../../../css/css_eRVvH_jN5SStb8oQSJsiVAHkQ19dLpDrjRpGVNpiAig.css
+      - ../../../../css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css
+    template: ../../../../custom_template.html
+params:
+  product-name: Dissolved Inorganic (Carbon, Nitrogen & Phosphorus) (GBR4 BGC baseline)
+  block-name: gbr4-bgc-baseline_din_dip_dic
+  product-id: products__ncanimate__ereefs__gbr4_bgc_baseline__din_dip_dic
+---
+
+{{< include ../../../../includes/_visualisation.qmd >}}
+
+### Dissolved Inorganic Nitrogen
+
+Concentration of dissolved inorganic nitrogen (DIN).
+
+### Dissolved Inorganic Phosphorus
+
+Concentration of dissolved inorganic phosphorus, also referred to as orthophosphate or soluble reactive phosphorus, SRP, composed chiefly of HPO42- ions, with a small percentage present as PO43-.
+
+### Dissolved Inorganic Carbon
+
+Concentration of dissolved inorganic carbon, composed chiefly at seawater pH of HCO3-, with a small percentage present as CO32-.
+
+{{< include ../../../../includes/_source_data.qmd >}}
+
+{{< include ../../../../includes/_recent_data.qmd >}}

@@ -1,0 +1,41 @@
+---
+title: "gbr4-bgc-baseline_oxygen_oxy-sat"
+format:
+  html: 
+    css: 
+      - ../../../../css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css
+      - ../../../../css/css_aspJexyZbSy-mMQCoq4YYgcmk8Ps3vDh_U10OuJIIhk.css
+      - ../../../../css/css_eRVvH_jN5SStb8oQSJsiVAHkQ19dLpDrjRpGVNpiAig.css
+      - ../../../../css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css
+    template: ../../../../custom_template.html
+params:
+  product-name: Dissolved oxygen & oxygen saturation percentage (GBR4 BGC v3.1 baseline)
+  block-name: gbr4-bgc-baseline_oxygen_oxy-sat
+  product-id: products__ncanimate__ereefs__gbr4_bgc_baseline__oxygen_oxy-sat
+---
+
+{{< include ../../../../includes/_visualisation.qmd >}}
+
+### Dissolved Oxygen
+
+Concentration of oxygen.
+
+Dissolved oxygen plays a pivotal role, driving multiple biogeochemical processes and influencing the balance of other elements like carbon, nitrogen, and phosphorus. The BGC model cycles carbon, nitrogen, phosphorous and oxygen through multiple phytoplankton, zooplankton, detritus and dissolved organic and inorganic forms in the water column and sediment layers. 
+
+The production (by photosynthesis) and consumption (by respiration and remineralisation) of dissolved oxygen is included in the model and, depending on prevailing concentrations, facilitates or inhibits the oxidation of ammonium to nitrate and its subsequent denitrification to dinitrogen gas which is then lost from the system. 
+
+More detail on how oxygen levels were modelled can be found in Baird et al. (2020).
+
+### Oxygen saturation percentage
+
+The saturation state of oxygen [O2]sat is determined as a function of temperature and salinity following Weiss (1970). It represents the maximum amount of the dissolved oxygen that the water can hold. It is used to calculate the amount of oxygen exchange in the sea-air boundary. If the oxygen saturation percentage is below 100% then oxygen will be absorbed from the atmosphere. If it is above 100% then oxygen will be out gased from the sea into the atmosphere.
+
+### Reference
+
+Baird, M. E., Wild-Allen, K. A., Parslow, J., Mongin, M., Robson, B., Skerratt, J., Rizwi, F., Soja-Woźniak, M., Jones, E., Herzfeld, M., Margvelashvili, N., Andrewartha, J., Langlais, C., Adams, M. P., Cherukuru, N., Gustafsson, M., Hadley, S., Ralph, P. J., Rosebrock, U., … Steven, A. D. L. (2020). CSIRO Environmental Modelling Suite (EMS): scientific description of the optical and biogeochemical models (vB3p0). Geoscientific Model Development, 13(9), 4503–4553. https://doi.org/10.5194/gmd-13-4503-2020
+
+Weiss, R.: The solubility of nitrogen, oxygen and argon in water and seawater, Deep Sea Res., 17, 721–735, 1970.
+
+{{< include ../../../../includes/_source_data.qmd >}}
+
+{{< include ../../../../includes/_recent_data.qmd >}}

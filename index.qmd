@@ -55,4 +55,67 @@ Note: The eReefs models are currently not being run in near-real time by CSIRO a
 
 # eReefs CSIRO BioGeoChemical model (4 km)
 
-The [GBR4 BioGeoChemical (GBR) model](https://research.csiro.au/ereefs/models/models-about/models-biogeochemistry/) builds on the GBR4 hydrodynamic model by...
+The [GBR4 BioGeoChemical (GBR) model](https://research.csiro.au/ereefs/models/models-about/models-biogeochemistry/) builds on the GBR4 hydrodynamic model by
+modelling the water quality (nutrients and [suspended sediment](https://research.csiro.au/ereefs/models/models-about/models-sediment-transport/)) and key
+ecological processes (coral, seagrass, plankton) that drive the water
+chemistry. This model allows us to better understand how water quality is
+affected by land runoff. Detailed information about the model can be found in
+the paper: [CSIRO Environmental Modelling Suite (EMS): Scientific description of
+the optical and biogeochemical models (vB3p0)](https://doi.org/10.5194/gmd-2019-115).
+
+The visualisations on this site are based on version 3.1 of the BioGeoChemical
+(BGC) model with the baseline conditions. Version 3.1 of the BGC was developed
+to compare the effects of land practice improvements on water quality changes
+in the Great Barrier Reef. It was run with three scenarios of river sediment
+and nutrient loads to simulate the differences between baseline conditions
+(based on current land use practices in 2019), pre-industrial catchment
+conditions, and target catchment conditions (anthropogenic loads reduced
+according to the percentage reductions of DIN, PN, PP and TSS specified in the
+[Reef 2050 Water Quality Improvement Plan 2017-2022](https://www.reefplan.qld.gov.au/__data/assets/pdf_file/0017/46115/reef-2050-water-quality-improvement-plan-2017-22.pdf)). This site currently only
+visualises the baseline scenario run of the model, however data is available
+for the other scenarios via the [NCI THREDDS service](https://dapds00.nci.org.au/thredds/catalogs/fx3/catalog.html) (raw model data in
+curvilinear NetCDF format), the [AIMS Data Extraction tool](https://extraction.ereefs.aims.gov.au/?_gl=1*1h5mq5j*_ga*OTM5OTM3MTMzLjE2NjczNTcwNzg.*_ga_6SSTNBNHXG*MTY5NDQ4MTU0NS42Ni4xLjE2OTQ0ODc3NzkuMC4wLjA.) (time series
+extraction in CSV format) and regridded and aggregated format via the [AIMS
+eReefs THREDDS service](https://thredds.ereefs.aims.gov.au/?_gl=1*140if4k*_ga*OTM5OTM3MTMzLjE2NjczNTcwNzg.*_ga_6SSTNBNHXG*MTY5NDQ4MTU0NS42Ni4xLjE2OTQ0ODc3NzkuMC4wLjA.).
+
+A [technical assessment of the skill level of the BGC version 3.1 model](https://research.csiro.au/ereefs/wp-content/uploads/sites/34/2020/08/Reanalysis_v1_August2020.pdf) shows
+that the absolute accuracy of the BGC model varies significantly with variable
+and location. A older analysis on the BGC version 2.0 ([Skerratt et al., 2018](https://doi.org/10.1016/j.jmarsys.2018.12.006))
+provides additional background on the skill of the BGC model. As a result care
+should be taken to ensure the model is fit-for-purpose and in general BGC
+results should used in combination with second sources of information for
+making recommendations.
+
+::: {.grid .column-page}
+
+::: {.ncanimate-product-tile .border .g-col-12 .g-col-md-6}
+## Water chemistry
+![](/images/Blue_Soda_bubbles_macro-500x250.jpg){fig-alt="Bubles suspended in water" fig-align="center"}
+
+- [Total alkalinity, PH & Aragonite saturation state](./gbr4/bgc/baseline/alk_ph_omega-ar)
+- [Dissolved inorganic nitrogen, nitrate & ammonia](./gbr4/bgc/baseline/din_no3_nh4)
+- [Dissolved Oxygen & oxygen saturation percentage](./gbr4/bgc/baseline/oxygen_oxy-sat)
+- [Dissolved Inorganic (Carbon, Nitrogen & Phosphorus)](./gbr4/bgc/baseline/din_dip_dic)
+- [Dissolved Organic (Carbon, Nitrogen & Phosphorus)](./gbr4/bgc/baseline/dor-c_dor-n_dor-p)
+- [Particulate inorganic phosphorus & particulate inorganic](./gbr4/bgc/baseline/pip_pip-sed)
+
+:::
+
+::: {.ncanimate-product-tile .border .g-col-12 .g-col-md-6}
+## Water Quality Measures
+![](/images/middles3-229-500x250.jpg){fig-alt="A turbid seascape" fig-align="center"}
+
+- [Total chlorophyll, dissolved inorganic nitrogen & total suspended solids](./gbr4/bgc/baseline/chl-a-sum_din_efi)
+- [Total Suspended Solids, dust, mud carbonate & mud mineral](./gbr4/bgc/baseline/efi_dust_mud-carbonate_mud-mineral)
+- [Secchi depth, vertical attenuation at 490nm & light intensity above seagrass](./gbr4/bgc/baseline/secchi_kd-490_epipar-sg)
+- [Simulated true colour](./gbr4/bgc/baseline/true-colour)
+:::
+
+::: {.ncanimate-product-tile .border .g-col-12 .g-col-md-6}
+## Macroalgae, seagrass and coral
+![](/images/AIMS-Coral-IMG_0362-500x250.jpg){fig-alt="A colony of hard corals" fig-align="center"}
+
+- [Coral symbiont (nitrogen & chlorophyll) & coral host nitrogen](./gbr4/bgc/baseline/cs-n_cs-chl_ch-n)
+- [Nitrogen (macroalgae, seagrass zostera, seagrass halophila & deep seagrass)](./gbr4/bgc/baseline/ma-n_sg-n_sgh-n_sgd-n)
+:::
+:::
