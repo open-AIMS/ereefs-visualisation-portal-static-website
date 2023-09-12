@@ -3102,50 +3102,29 @@
 });
 var EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT = 800;
 
-// function scrollToVisualisation() {
-//   const targetDiv = document.getElementById('block-eatlas-ncanimate2-eatlas-ncanimate2-1');
-// 
-//   if (targetDiv) {
-//     const divTop = targetDiv.offsetTop;
-// 
-//     if (window.scrollY > divTop) {
-//       // We are scrolled below the div, let's scroll to the div
-//       
-//       console.log("scrolling to div")
-//       window.scrollTo({ top: divTop, behavior: 'smooth' });
-//       // Set up a function to log "scroll complete" once the scroll finishes
-//       let scrollTimeout;
-//       window.onscroll = function () {
-//         clearTimeout(scrollTimeout);
-//         scrollTimeout = setTimeout(() => {
-//           // scroll complete. TODO: hide the top menu bar
-//           // var topMenuBar = document.querySelector("#quarto-header");
-//           // var currentClasses = topMenuBar.className.split(" ");
-//           // // Check if '-top' exists and replace it with '-not-top'
-//           // var indexTop = currentClasses.indexOf('-top');
-//           // if(indexTop !== -1) {
-//           //   currentClasses[indexTop] = '-not-top';
-//           // } else {
-//           //   console.log("No '-top' class found")
-//           // }
-//           // // Check if '-pinned' exists and replace it with '-unpinned'
-//           // var indexPinned = currentClasses.indexOf('-pinned');
-//           // if(indexPinned !== -1) {
-//           //   currentClasses[indexPinned] = '-unpinned';
-//           // } else {
-//           //   console.log("No '-pinned' class found")
-//           // }
-// 
-//           // // Update the classes of the top menu bar
-//           // topMenuBar.className = currentClasses.join(" ");
-//           window.onscroll = null;  // Remove the event handler after logging
-//         }, 100);  // Set timeout duration as per your requirement  console.log("continuing")
-//       }
-//     }
-//   } else {
-//     console.error('Target div not found');
-//   }
-// }
+/**
+ * Developed to scroll to the visualisation when new media is loaded. If there is no 
+ * scrolling, then it is not obvious that anything has happened when a hash link has been clicked.
+ */
+function scrollToVisualisation() {
+  const targetDiv = document.getElementById('block-eatlas-ncanimate2-eatlas-ncanimate2-1');
+
+  if (targetDiv) {
+    const divTop = targetDiv.offsetTop;
+
+    if (window.scrollY > divTop) {
+      console.log(`window.scrollY = ${window.scrollY}`)
+      console.log(`divTop = ${divTop}`)
+
+      // We are scrolled below the div, let's scroll to the div
+      console.log("scrolling to top")
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      // window.scrollTo({ top: divTop, behavior: 'smooth' });  // this works, but the top menu bar appears and hides some content
+    }
+  } else {
+    console.error('Target div not found');
+  }
+}
 
 // Utility (static) function
 function eatlas_ncanimate2_resize_videos(videos) {
@@ -3847,8 +3826,8 @@ EAtlasNcAnimate2Widget.prototype.loadMedia = function (
   }
 
   // When media is updated, scolling back to the top should make it obvious to the user.
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-  // scrollToVisualisation();
+  // window.scrollTo({ top: 0, behavior: 'smooth' });
+  scrollToVisualisation();
 
   this.setTabsHref();
   this.loadDownloads(media_metadata);

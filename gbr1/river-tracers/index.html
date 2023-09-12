@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="generator" content="quarto-1.3.450">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+    <title>AIMS eReefs - gbr1_river-tracers</title>
+    <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      div.columns{display: flex; gap: min(4vw, 1.5em);}
+      div.column{flex: auto; overflow-x: auto;}
+      div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+      ul.task-list{list-style: none;}
+      ul.task-list li input[type="checkbox"] {
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+        vertical-align: middle;
+      }
+    </style>
+
+    
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/ereefs_aims_favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+     <script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>       <link rel="stylesheet" href="../../css/styles.css">
+        <link rel="stylesheet" href="../../css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css">
+        <link rel="stylesheet" href="../../css/css_aspJexyZbSy-mMQCoq4YYgcmk8Ps3vDh_U10OuJIIhk.css">
+        <link rel="stylesheet" href="../../css/css_eRVvH_jN5SStb8oQSJsiVAHkQ19dLpDrjRpGVNpiAig.css">
+        <link rel="stylesheet" href="../../css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css">
+    
+    <!--
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascript/EAtlasNcAnimate2Map.js""></a>"></script>
+    <script type="text/javascript" src="/javascript/EAtlasNcAnimate2Widget.js"></script>
+    <script
+      type="text/javascript"
+      src="/javascript/eatlas_ncanimate2_load_videos_orig.js"
+    ></script>
+    -->
+
+    <!--
+    -->
+    <script type="text/javascript" src="../../javascript/js_YD9ro0PAqY25gGWrTki6TjRUG8TdokmmxjfqpNNfzVU.js"></script>
+    <script type="text/javascript" src="../../javascript/js_knBiEmiAhpyiEjn4DQ2U6kTb9kwgdnFqedbNw310faM.js"></script>
+    <script type="text/javascript" src="../../javascript/eatlas_ncanimate2_load_videos.js"></script>
+    <script type="text/javascript" src="../../javascript/js_4slruh5p14nWW8K-L5g6FJeNhqzN0qOnJl6KC4GMupU.js"></script>
+  </head>
+
+  <body class="nav-fixed fullcontent">
+     <div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/AIMS-logo.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">AIMS eReefs</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-visualisation-portal" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Visualisation portal</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-visualisation-portal">    
+        <li>
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
+ <span class="dropdown-text">AIMS eReefs Visualisation Portal</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../index.html#ereefs-csiro-hydrodynamic-model" rel="" target="">
+ <span class="dropdown-text">Hydrodynamic model</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../index.html#ereefs-csiro-biogeochemical-model-4-km" rel="" target="">
+ <span class="dropdown-text">BioGeoChemical model</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://extraction.ereefs.aims.gov.au/?_gl=11ag9zj1_gaOTM5OTM3MTMzLjE2NjczNTcwNzg._ga_6SSTNBNHXG*MTY5MTk2OTEyOC4yNy4wLjE2OTE5NjkxMjguMC4wLjA." rel="" target="">
+ <span class="menu-text">Data Extraction</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-help" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Help</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-help">    
+        <li>
+    <a class="dropdown-item" href="../../help/index.html" rel="" target="">
+ <span class="dropdown-text">Visualisation Portal Help</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://open-aims.github.io/ereefs-tutorials/" rel="" target="">
+ <span class="dropdown-text">Tutorials</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://extraction.ereefs.aims.gov.au/faqs" rel="" target="">
+ <span class="dropdown-text">Data Extraction FAQs</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="../../about.html" rel="" target="">
+ <span class="dropdown-text">eReefs AIMS Visualisation Portal</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.ereefs.org.au/" rel="" target="">
+ <span class="dropdown-text">eReefs Program Website</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content"> 
+
+    <!-- remove this in the qmd file -->
+     <section id="meta-params.product-name" class="level1 page-columns page-full">
+<h1>Flood plume extents for major rivers on GBR based on modelled river tracers</h1>
+<div id="block-eatlas-ncanimate2-eatlas-ncanimate2-1" class="block block-eatlas-ncanimate2 column-screen-inset">
+<div class="content">
+
+<div class="eatlas_ncanimate2_block" productid="products__ncanimate__ereefs__gbr1_2-0__rivers" blockname="gbr1_river-tracers"><div class="tabs"><span class="label">Time step:</span><ul></ul></div><div class="message-container"><span class="text">Loading...</span></div><div class="image-container" style="text-align: center; display: none;"><img src=""></div><div class="video-container" style="text-align: center; display: none;"><video width="1300" height="600" controls=""><source class="video_mp4" src="" type="video/mp4"><div class="no-video-support-message"><span class="text">Your browser does not support the video tag.</span></div></video><div class="video-warning"><span class="warning-label">WARNING</span>: This video may contain flashing patterns which may not be suitable for people with photosensitive epilepsy.</div></div><div class="playerTools"><div class="navigationBlock"><div class="navigation" style="display: none;"><span class="label">Skip frames</span><button class="previousFrame">&lt;</button><button class="nextFrame">&gt;</button></div></div><div class="elevation" style="display: none;"><label for="depth_bid_1">Elevation: </label><select id="depth_bid_1"></select></div><div class="downloads" style="display: none;"><span class="label">Download</span><ul><li class="mp4"><a href="">mp4</a></li><li class="wmv"><a href="">wmv</a></li><li class="zip"><a href="">zip</a></li><li class="png"><a href="">png</a></li><li class="svg"><a href="">svg</a></li><li class="pdf"><a href="">pdf</a></li></ul></div></div><div class="controls"><canvas class="regionCanvas" mapurl="https://maps.eatlas.org.au/maps/ea/wms?SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;FORMAT=image%2Fpng&amp;TRANSPARENT=true&amp;LAYERS=ea%3AGBR_GBRMPA_GBR-features,ea%3AGBR_e-Atlas-GBRMPA_GBRMP-bounds_Ocean-bounds,ea%3AGBR_NERP-TE-13-1_eAtlas_NRM-Regions-GBRMP-2012&amp;STYLES=GBR-features_Outlook,Polygon_Outline-Red,GBR_NRM-Regions-GBRMP_Mainland-border&amp;SRS=EPSG%3A4326&amp;WIDTH=${WIDTH}&amp;HEIGHT=${HEIGHT}&amp;BBOX=${WEST},${SOUTH},${EAST},${NORTH}" mapwidth="" mapheight=""></canvas><div class="regionList"></div><div class="calendar">
+<table class="date-selector table" data-quarto-postprocess="true">
+<tbody>
+<tr class="odd year-selector">
+<td class="year_previous text-selection-disabled" data-quarto-table-cell-role="th"><span>&lt;</span></td>
+<td class="year" data-quarto-table-cell-role="th"><span>----</span></td>
+<td class="year_next text-selection-disabled" data-quarto-table-cell-role="th"><span>&gt;</span></td>
+</tr>
+<tr class="even">
+<td class="month_1"><span>Jan</span></td>
+<td class="month_2"><span>Feb</span></td>
+<td class="month_3"><span>Mar</span></td>
+</tr>
+<tr class="odd">
+<td class="month_4"><span>Apr</span></td>
+<td class="month_5"><span>May</span></td>
+<td class="month_6"><span>Jun</span></td>
+</tr>
+<tr class="even">
+<td class="month_7"><span>Jul</span></td>
+<td class="month_8"><span>Aug</span></td>
+<td class="month_9"><span>Sep</span></td>
+</tr>
+<tr class="odd">
+<td class="month_10"><span>Oct</span></td>
+<td class="month_11"><span>Nov</span></td>
+<td class="month_12"><span>Dec</span></td>
+</tr>
+</tbody>
+</table>
+</div></div></div>
+</div>
+</div>
+<p><br> This product shows flood plumes associated with the major rivers along the Queensland coastline flowing into the Great Barrier Reef Marine Park. These visualisations are produced from using currents calculated by the eReefs hydrodynamic model to drive a tracer transport model.</p>
+<p>Flood plumes deliver sediments and nutrients into the ocean, both of which can result in detrimental effects on seagrass and reef habitats.</p>
+<p>The left most panel shows the near-surface salinity and the wind vectors. The salinity indicates how salty the water is and it is lowered by river run off and rainfall. Thus reduced salinity is a measure of the combined impact of all rivers combined. The wind is shown as arrows overlaid on the salinity. The wind pushes the flood plumes around and has a strong influence on where the plumes go. The other major influence is the impact of the rotation of the Earth on buoyant plumes. The other three panels each show the river tracers for five rivers each. We split up the rivers into multiple panels to limit the amount of overlap in their extent during large flooding events.</p>
+<p>In the model, tracers are released at the mouth into the surface flow of each river. These tracers move with the ocean currents, becoming more dilute as they spread out and mix with the ocean water, allowing the concentration of river water to be tracked over time. These tracers show the fraction of the water, at any given location, associated with each river.</p>
+<p>The lowest threshold of river water concentration (1%) shown in the visualisation was chosen to align with the visible extent of flood plumes as seen in satellite imagery. At this concentration we can expect organisms on the sea floor to see raised nutrient levels, some fine sediment and a significant reduction in light. Limitations and spatial accuracy</p>
+<p>It should be noted that the river tracer product tracks the concentration of river water. It does not track sediment or nutrient in the water. As a result, it should be used as a guide for the potential area that might be affected by flood water. The primary value of this product is that it attributes flood plume water to its source river allowing the extent of individual rivers to be understood.</p>
+<p>To understand more about the actual nutrient and sediment levels refer to the <a href="https://ereefs.aims.gov.au/ereefs-aims/gbr4/bgc/baseline/chl-a-sum_din_efi">eReefs BioGeoChemical (BGC) model</a> as it directly represents sediment and nutrients from all processes including wind resuspension and biological processes. In the BGC model however, it is not possible to directly attribute components of the sediment and nutrients concentrations to their source rivers.</p>
+<p>This visualisation only shows the 15 largest rivers (based on largest historical flow) and so does not fully represent all the flood plumes. The salinity product can be used to see other rivers modelled by eReefs that are not explicitly separated out using the river tracer visualisation product.</p>
+<p>The rivers shown in the visualisation were adjusted in their concentration threshold to represent the full flow of water associated with their river basin. In some catchments there are multiple rivers flowing into the ocean and eReefs represents this whole basin with a single river. As a result, the shape of the flood plume close to the coast may not be representative.</p>
+<p>As part of the research into determining a suitable river concentration threshold to visualise we undertook many comparisons between the estimated flood plume extent from eReefs and those visible in Sentinel 2 satellite imagery. From this we found that the plume extent from eReefs was generally accurate to within about 10 km, with the most likely reason for the difference being slight errors in the model due to wind. The strength and direction of the wind is the predominant factor in determining the spread of the flood plumes. As a result any small errors in the modelling of the wind will lead to errors in the flood plume boundaries. The eReefs hydrodynamic model is driven by wind data from the Bureau of Meteorology’s Access-R weather model, which is a forecast. It has a resolution of 12 km and so it is surprising that the eReefs model is as spatially accurate as it is. Part of the reason for this is that while the wind occasionally pushes the plumes offshore, the main determinant of the distribution is the dynamics of buoyant plumes. The rotation of the Earth acts to deflect to the left (in the Southern Hemisphere) any relative increase in motion between fluid layers. One such relative motion is a buoyant plume flowing over the top of denser ocean water. Deflected left on a river discharging along an east coast means it being push towards the coast. Thus, the plumes are trapped near the coast. The distance to which they spread from the coast is also set by this balance between density driven flow and the Earth’s rotation, something ocean models are very good at.</p>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References</h3>
+<p>Baird, M. E., J. Andrewartha, M. Herzfeld, E. Jones, N. Margvelashvili, M. Mongin, F. Rizwi, J. Skerratt, M. Soja-Wozniak, K. Wild-Allen, T. Schroeder, B. Robson, E. da Silva, M. Devlin (2017) River plumes of the Great Barrier Reef: freshwater, sediment and optical footprints quantified by the eReefs modelling system. In Syme, G., Hatton MacDonald, D., Fulton, B. and Piantadosi, J. (eds) MODSIM2017, 22nd International Congress on Modelling and Simulation. Modelling and Simulation Society of Australia and New Zealand, December 2017, pp.1892-1898. ISBN: 978-0-9872143-7-9. <a href="https://www.mssanz.org.au/modsim2017/L22/baird.pdf" class="uri">https://www.mssanz.org.au/modsim2017/L22/baird.pdf</a>.</p>
+</section>
+<section id="source-data" class="level2">
+<h2 class="anchored" data-anchor-id="source-data">Source data</h2>
+<p>The videos/images on this page are based on the <a href="https://research.csiro.au/ereefs/models/">4km eReefs Hydrodynamic model (v2.0)</a> of the Great Barrier Reef. The raw data is available from the <a href="https://dapds00.nci.org.au/thredds/catalog/fx3/gbr4_v2/catalog.html">NCI THREDDS server</a> (hourly) and the aggregate data from the <a href="https://thredds.ereefs.aims.gov.au/?_gl=1*11kury6*_ga*OTM5OTM3MTMzLjE2NjczNTcwNzg.*_ga_6SSTNBNHXG*MTY5MjMxODA1MC40Ny4xLjE2OTIzMTk4NDIuMC4wLjA.">AIMS eAtlas THREDDS server</a> (daily, monthly, yearly, all). These map layers are also available for inspection as an <a href="https://maps.eatlas.org.au/atlasmapper/client/ereefs/index.html">interactive map</a>.</p>
+</section>
+<section id="recent-data" class="level2">
+<h2 class="anchored" data-anchor-id="recent-data">Recent data</h2>
+<p>The results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the <a href="https://dapds00.nci.org.au/thredds/catalog/fx3/gbr4_v2/catalog.html">NCI THREDDS server</a>. If the model data is more up to date than this portal <a href="mailto:e-atlas@aims.gov.au?subject=%5BeReefs%5D%20GBR4%20Hydro%20problem">let us know</a>.</p>
+</section>
+<section id="erratum" class="level2">
+<h2 class="anchored" data-anchor-id="erratum">Erratum</h2>
+<p>From 28 Dec 2014 - 29 Dec 2014 and from 1 Dec - 10 Dec 2021, the forcing data for the GBR1 eReefs model was incorrect due to a process failure while extracting the relevant ACCESS data. This resulted in static tides and winds during this period, leading to incorrect model outputs during Dec 2014 and 2021, with some carry over error into Jan 2022. This forcing error led to a decrease in water mixing resulting in the temperature building up several degrees hotter than it should and to the flood plumes from the Fitzroy and Burnett moving in the wrong direction.</p>
+<p>CSIRO are correcting this problem by re-running the model from Dec 2021 for several months to replace this section of the data. This warning will be updated when this change has been made.</p>
+
+
+</section>
+</section>  </main> <!-- /main -->
+     <script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+     </div> <!-- /content -->
+    
+  
+
+</body></html>
