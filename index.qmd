@@ -119,3 +119,11 @@ making recommendations.
 - [Nitrogen (macroalgae, seagrass zostera, seagrass halophila & deep seagrass)](./gbr4/bgc/baseline/ma-n_sg-n_sgh-n_sgd-n)
 :::
 :::
+
+### Refereneces
+
+Skerratt, J, Mongin, M, Baird, M, Wild-Allen, K, Robson, B, Schaffelke, B,
+Davies, C, Richardson, A, Margvelashvili, N, Soja-Wozniak, M, and Steven, A,
+2019a, Simulated nutrient and plankton dynamics in the Great Barrier Reef
+(2011-2016), Journal of Marine Systems, vol. 192, pp. 51-74,
+<http://dx.doi.org/10.1016/j.jmarsys.2018.12.006>

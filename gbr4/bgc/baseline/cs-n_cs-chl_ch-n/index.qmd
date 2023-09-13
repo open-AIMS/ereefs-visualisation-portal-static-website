@@ -1,0 +1,100 @@
+---
+title: "gbr4-bgc-baseline_cs-n_cs-chl_ch-n"
+format:
+  html: 
+    css: 
+      - ../../../../css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css
+      - ../../../../css/css_aspJexyZbSy-mMQCoq4YYgcmk8Ps3vDh_U10OuJIIhk.css
+      - ../../../../css/css_eRVvH_jN5SStb8oQSJsiVAHkQ19dLpDrjRpGVNpiAig.css
+      - ../../../../css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css
+    template: ../../../../custom_template.html
+params:
+  product-name: Coral symbiont (nitrogen & chlorophyll) & coral host nitrogen (GBR4 BGC v3.1 baseline)
+  block-name: gbr4-bgc-baseline_cs-n_cs-chl_ch-n
+  product-id: products__ncanimate__ereefs__gbr4_bgc_baseline__cs-n_cs-chl_ch-n
+---
+
+{{< include ../../../../includes/_visualisation.qmd >}}
+
+### What do these visualisations show?
+
+These visualisations show model results of the uptake of nitrogen by
+corals, showing how much is contained in the coral tissue (coral host
+nitrogen) and how much is contained in the symbiotic zooxanthellae algae
+that grow inside the coral (coral symbiont).
+
+These maps show that the coral nutrient and chlorophyll levels change
+very slowly over time. The main effect that can been seen in these
+visualisations is that the corals increase their chlorophyll density
+(and its corresponding nitrogen levels) during the winter months when
+the light levels are lower.
+
+### Limitations
+
+These visualisations show some of the internal dynamics of the coral
+modelling performed in the BGC. This model uses a \'single polyp\' model
+that estimates the nutrient dynamics created by the coral in each grid
+cell of the model. This coral model helps the BGC to capture the
+nutrient dynamics caused by the uptake and release of nitrogen of corals
+as they grow and the effect they have on the PH of the water as they
+calcify their skeletons.
+
+The BGC coral model and these matching visualisations should only be
+used as a guide for better understanding the BGC model and not as a
+reflection of the state of coral on the GBR. The BGC model does not
+include a detailed coral ecosystem model and thus does not provide an
+estimate of coral cover. It does not consider the effects of coral
+mortality caused by cyclones, disease or Crown-of-Thorns Starfish and so
+only provides a first approximation to how the coral reefs affect water
+chemistry.
+
+This coral model is limited to coral reef areas (as determined by the
+GBRMPA reef features dataset), which is why there are only non-zero
+values over coral reef pixels. Additionally the model does not consider
+coral reefs in Torres Strait as these reefs were not included in the
+GBRMPA reef features dataset used to configure the model.
+
+**Note:** The visualisations for the monthly and yearly aggregations are
+based on regridded data (converting the original raw model data from a
+curvilinear grid to a regular rectangular grid). This process uses
+interpolation to perform the regridding process. Since this data is very
+discontinuous (zero everywhere, except for coral reef pixels) this
+interpolation results in visual anomalies around the boundaries of the
+reefs as the interpolation smooths the transition from the coral reef
+pixels to zero for open water.
+
+Coral symbiont N
+----------------
+
+Concentration of nitrogen biomass per m^2^ of coral symbiont cells, or
+zooxanthellae. C:N:P is 106:16:1. Light is accessed in the following
+order: Macroalgae, Seagrass, Coral.
+
+Coral symbiont Chl
+------------------
+
+Concentration of chlorophyll biomass per m^2^ of coral symbiont cells.
+As chlorophyll is the only pigment resolved in the coral symbiont, ci
+represents the sum of the concentration of all photosynthetic pigments
+within the cell and has an absorption spectrum of divinyl chlorophyll a.
+Light is accessed in the following order: Macroalgae, Seagrass, Coral.
+
+Coral host N
+------------
+
+Concentration of nitrogen biomass per m^2^ of coral host tissue in the
+entire grid cell. Unlike other epibenthic variables, corals area is
+assumed to exist in communities that are potentially smaller than the
+grid size. The fraction of the grid cell covered by corals is given by
+A~CH~. Thus the biomass in the occupied region is given by CH/A~CH~. The
+percent coverage of the coral of the bottom for the whole cell is given
+by A~CH~ (1 - exp(-Ω~CH~ CH/A~CH~)). With only one type of coral
+resolved, CH represents the biomass of all symbiotic corals. Since the
+model contains no other benthic filter-feeders, CH best represent the
+sum of the biomass of all symbiotic filter-feeding organisms such as
+corals, sponges, clams etc. C:N:P is 106:16:1. Light is accessed in the
+following order: Macroalgae, Seagrass, Coral.
+
+{{< include ../../../../includes/_source_data.qmd >}}
+
+{{< include ../../../../includes/_recent_data.qmd >}}

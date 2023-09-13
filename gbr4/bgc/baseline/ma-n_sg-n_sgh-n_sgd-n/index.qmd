@@ -1,0 +1,113 @@
+---
+title: "gbr4-bgc-baseline_ma-n_sg-n_sgh-n_sgd-n"
+format:
+  html: 
+    css: 
+      - ../../../../css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css
+      - ../../../../css/css_aspJexyZbSy-mMQCoq4YYgcmk8Ps3vDh_U10OuJIIhk.css
+      - ../../../../css/css_eRVvH_jN5SStb8oQSJsiVAHkQ19dLpDrjRpGVNpiAig.css
+      - ../../../../css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css
+    template: ../../../../custom_template.html
+params:
+  product-name: Nitrogen (macroalgae, seagrass zostera, seagrass halophila & deep seagrass) (GBR4 BGC baseline)
+  block-name: gbr4-bgc-baseline_ma-n_sg-n_sgh-n_sgd-n
+  product-id: products__ncanimate__ereefs__gbr4_bgc_baseline__ma-n_sg-n_sgh-n_sgd-n
+---
+
+{{< include ../../../../includes/_visualisation.qmd >}}
+
+These visualisations show the amount of modelled seagrass and macroalgae
+represented as the amount of nitrogen contained in their biomass in each
+modelled pixel. Seagrass and macroalgae play a key role in the nitrogen
+cycle of inshore areas. When they grow they take up nitrogen, phosphorus
+and carbon from the water into their leaf and root structures. When they
+die they break down and release these nutrient stores back into the
+water column.
+
+Seagrasses are represented in the model as an amount per m^2^ with a
+constant stoichiometry (C:N:P = 550:30:1) for both above-ground, and
+belowground, biomass, and can translocate organic matter at this
+constant stoichiometry between the two stores of biomass. Growth occurs
+only in the above-ground biomass, but losses (grazing, decay etc.) occur
+in both. Multiple seagrass varieties are represented. The varieties are
+modelled using the same equations for growth, respiration and mortality,
+but with different parameter values.
+
+The model parameters for each of the three types of seagrass are shown
+in Table 24 (pg 48) of [Baird et al.
+(2019)](http://doi.org/10.5194/gmd-2019-115).
+
+Details about about the macroalgae model are detailed in section 4.2 of
+[Baird et al. (2019)](http://doi.org/10.5194/gmd-2019-115).
+
+### Limitations:
+
+These maps show model derived estimates of density for seagrass and
+macroalgae. They are not derived from direct observations. Observed
+seagrass distributions can be found from the dataset: [Seagrass mapping
+synthesis: A resource for coastal management in the Great Barrier Reef
+(NESP TWQ Project 3.2.1 and 5.4, TropWATER, James Cook
+University)](https://eatlas.org.au/data/uuid/5011393e-0db7-46ce-a8ee-f331fcf83a88).
+
+The BGC model assumes that morality of macroalgae has a constant rate (see
+section 4.2.4 of [Baird et al. (2019)](http://doi.org/10.5194/gmd-2019-115)) and so macroalgae dynamics are not
+affected by environmental factors such as cyclones.
+
+Macroalgae N
+------------
+
+Concentration of nitrogen biomass per m^2^ of macroalgae. Macroalgae (or
+seaweed) grows above all other benthic plants (corals, seagrasses,
+benthic microalgae). It is parameterised as a non-calcifying leafy
+algae, with a C:N:P ratio of 550:30:1, and a formulation for calculating
+the percentage of the bottom covered as 1-exp(-Ω~MA~ MA). In the model,
+in the absence of both calcifying macroalgae (particularly Halimeda) and
+unicellular epiphytes, macroalgae represents the biomass of all seaweeds
+and epiphytes. Light is accessed in the following order: Macroalgae,
+Seagrass, Coral.
+
+Seagrass Zostera N
+------------------
+
+Concentration of nitrogen biomass per m^2^ of a seagrass form
+parameterised to be similar to Zostera. This form captures light after
+it has passed through macroalgae and before it passes through Halophila.
+This form is better adapted to high light, low nutrient conditions than
+Halophila as a result of a deeper root structure and being able to shade
+it. See macroalgae for elemental ratio and bottom cover. Light is
+accessed in the following order: Macroalgae, Seagrass, Coral.
+
+Seagrass Halophila N
+--------------------
+
+Concentration of nitrogen biomass per m^2^ of a seagrass form
+parameterised to be similar to Halophila. This form captures light after
+it has passed through the Zostera seagrass form. The Halophila form is
+better adapted to low light conditions than Zostera, having a faster
+growth rate and lower minimum light requirement. See macroalgae for
+elemental ratio and bottom cover. Light is accessed in the following
+order: Macroalgae, Seagrass, Coral.
+
+Deep seagrass N
+---------------
+
+Concentration of nitrogen biomass per m^2^ of a seagrass form
+parameterised to be similar to Halophila deciphens. This form captures
+light after it has passed through the Zostera and Halophila ovalis
+seagrass form.
+
+References:
+-----------
+
+Baird, M. E., Wild-Allen, K. A., Parslow, J., Mongin, M., Robson, B.,
+Skerratt, J., Rizwi, F., Soja-Woznaik, M., Jones, E., Herzfeld, M.,
+Margvelashvili, N., Andrewartha, J., Langlais, C., Adams, M. P.,
+Cherukuru, N., Gustafsson, M., Hadley, S., Ralph, P. J., Rosebrock, U.,
+Schroeder, T., Laiolo, L., Harrison, D., Steven, A. D. L. (2019) CSIRO
+Environmental Modelling Suite (EMS): Scientific description of the
+optical and biogeochemical models (vB3p0). Geosci. Model Dev. Discuss.
+<https://doi.org/10.5194/gmd-2019-115>
+
+{{< include ../../../../includes/_source_data.qmd >}}
+
+{{< include ../../../../includes/_recent_data.qmd >}}
