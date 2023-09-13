@@ -84,23 +84,107 @@
     "text": "The results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the NCI THREDDS server. If the model data is more up to date than this portal let us know."
   },
   {
-    "objectID": "gbr4/bgc/baseline/din_no3_nh4/index.html",
-    "href": "gbr4/bgc/baseline/din_no3_nh4/index.html",
-    "title": "Dissolved inorganic nitrogen, nitrate & ammonia (GBR4 BGC v3.1 baseline)",
+    "objectID": "gbr4/bgc/baseline/pip_pip-sed/index.html",
+    "href": "gbr4/bgc/baseline/pip_pip-sed/index.html",
+    "title": "Particulate inorganic phosphorus & particulate inorganic (GBR4 BGC v3.1 baseline)",
     "section": "",
-    "text": "Time step:Loading...Your browser does not support the video tag.WARNING: This video may contain flashing patterns which may not be suitable for people with photosensitive epilepsy.Skip frames&lt;&gt;Elevation: Downloadmp4wmvzippngsvgpdf\n\n\n\n&lt;\n----\n&gt;\n\n\nJan\nFeb\nMar\n\n\nApr\nMay\nJun\n\n\nJul\nAug\nSep\n\n\nOct\nNov\nDec\n\n\n\n\n\n\nThis visualisation shows modelled nitrogen levels from the CSIRO eReefs Biogeochemical model. Nitrogen is a key limiting nutrient in the growth of plants and algae. Coral reefs are generally nutrient poor environments with much of the nutrients being locally recycled. Increased nutrient levels promote the growth of phytoplankton, turf algae and macroalgae, inhibiting the rate of recovery of coral reefs.\nThe BGC model tracks the transformation of nitrogen through the nitrogen cycle, from fixing of nitrogen gas into ammonia by tricodesmium, to its uptake by plants, propagation through the food chain to zooplantkon, to release due to mortality and finally denitrification back into nitrogen gas.\nThe BGC model contains two forms of dissolved inorganic nitrogen (DIN), dissolved ammonia (NH4) and dissolved nitrate (NO3): DIN = [NH4] + [NO3]. In the model, the ammonia component of the DIN pool is assumed to be taken up first by all primary producers (phytoplankton, tricodesmium, macroalgae and seagrass), followed by the nitrate, with the caveat that the uptake of ammonia cannot exceed the diffusion limit for ammonia. The underlying principle of this assumption is that photosynthetic organisms can entirely preference ammonia, but that the uptake of ammonia is still limited by diffusion to the organism’s surface.\nNitrification is the oxidation of ammonia (NH4) with oxygen, to form nitrite followed by the rapid oxidation of these nitrites into nitrates (NO3). In the BGC model nitrification occurs in the water column and sediment depending on oxygen levels.\nPhotosynthetic growth is determined by concentrations of dissolved nutrients (nitrogen and phosphate) and photosynthetically active radiation. Autotrophs (seagrass, phytoplankton, macroalgae and tricodesmium) take up dissolved ammonium, nitrate, phosphate and inorganic carbon. Ammonia is preferentially taken up as a source of nitrogen over nitrate as it can be directly used by plants. Nitrogen is transported through the phytoplankton to zooplankton food chain. Nitrogen is released as ammonia when an organism decays. Tricodesmium fixes nitrogen, converting nitrogen gas N2 into ammonia NH3 when the DIN concentration falls below a critical concentration.\n\n\nConcentration of dissolved inorganic nitrogen (DIN). DIN = [NH4] + [NO3].\n\n\n\nConcentration of nitrate. In the absence of nitrite [NO2-] in the model, nitrate represents [NO3-] + [NO2-].\n\n\n\nConcentration of ammonia ions [NH4+].\n\n\n\nThe videos/images on this page are based on the 4km eReefs Hydrodynamic model (v2.0) of the Great Barrier Reef. The raw data is available from the NCI THREDDS server (hourly) and the aggregate data from the AIMS eAtlas THREDDS server (daily, monthly, yearly, all). These map layers are also available for inspection as an interactive map.\n\n\n\nThe results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the NCI THREDDS server. If the model data is more up to date than this portal let us know."
+    "text": "Time step:Loading...Your browser does not support the video tag.WARNING: This video may contain flashing patterns which may not be suitable for people with photosensitive epilepsy.Skip frames&lt;&gt;Elevation: Downloadmp4wmvzippngsvgpdf\n\n\n\n&lt;\n----\n&gt;\n\n\nJan\nFeb\nMar\n\n\nApr\nMay\nJun\n\n\nJul\nAug\nSep\n\n\nOct\nNov\nDec\n\n\n\n\n\n\nPhosphorus is a key nutrient required for organic growth. The main source of natural phosphorus is sedimentry rock.\n\n\nPhosphorus ions that are absorbed onto particles. It is considered a particulate with the same properties as Mud.\n\n\n\nPhosphorus that is permanently removed from the system through burial of Particulate Inorganic Phosphorus in the sediment.\n\n\n\nThe videos/images on this page are based on the 4km eReefs Hydrodynamic model (v2.0) of the Great Barrier Reef. The raw data is available from the NCI THREDDS server (hourly) and the aggregate data from the AIMS eAtlas THREDDS server (daily, monthly, yearly, all). These map layers are also available for inspection as an interactive map.\n\n\n\nThe results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the NCI THREDDS server. If the model data is more up to date than this portal let us know."
   },
   {
-    "objectID": "gbr4/bgc/baseline/din_no3_nh4/index.html#source-data",
-    "href": "gbr4/bgc/baseline/din_no3_nh4/index.html#source-data",
-    "title": "Dissolved inorganic nitrogen, nitrate & ammonia (GBR4 BGC v3.1 baseline)",
+    "objectID": "gbr4/bgc/baseline/pip_pip-sed/index.html#source-data",
+    "href": "gbr4/bgc/baseline/pip_pip-sed/index.html#source-data",
+    "title": "Particulate inorganic phosphorus & particulate inorganic (GBR4 BGC v3.1 baseline)",
     "section": "",
     "text": "The videos/images on this page are based on the 4km eReefs Hydrodynamic model (v2.0) of the Great Barrier Reef. The raw data is available from the NCI THREDDS server (hourly) and the aggregate data from the AIMS eAtlas THREDDS server (daily, monthly, yearly, all). These map layers are also available for inspection as an interactive map."
   },
   {
-    "objectID": "gbr4/bgc/baseline/din_no3_nh4/index.html#recent-data",
-    "href": "gbr4/bgc/baseline/din_no3_nh4/index.html#recent-data",
-    "title": "Dissolved inorganic nitrogen, nitrate & ammonia (GBR4 BGC v3.1 baseline)",
+    "objectID": "gbr4/bgc/baseline/pip_pip-sed/index.html#recent-data",
+    "href": "gbr4/bgc/baseline/pip_pip-sed/index.html#recent-data",
+    "title": "Particulate inorganic phosphorus & particulate inorganic (GBR4 BGC v3.1 baseline)",
+    "section": "",
+    "text": "The results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the NCI THREDDS server. If the model data is more up to date than this portal let us know."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/true-colour/index.html",
+    "href": "gbr4/bgc/baseline/true-colour/index.html",
+    "title": "Simulated true colour (GBR4 BGC v3.1 baseline)",
+    "section": "",
+    "text": "Time step:Loading...Your browser does not support the video tag.WARNING: This video may contain flashing patterns which may not be suitable for people with photosensitive epilepsy.Skip frames&lt;&gt;Elevation: Downloadmp4wmvzippngsvgpdf\n\n\n\n&lt;\n----\n&gt;\n\n\nJan\nFeb\nMar\n\n\nApr\nMay\nJun\n\n\nJul\nAug\nSep\n\n\nOct\nNov\nDec\n\n\n\n\n\n\nA key challenge with validating the BGC model is that the number of in-situ observations is very limited compared with the geographic scope and detail of the model. To help overcome this limitation the CSIRO eReefs BGC model simulates the light transport through the water based on the nutrients, plankton and suspended sediments. It uses this information to simulate what the ocean would look like if it were imaged by the NASA MODIS satellite. This allows the model results to be directly compared with satellite imagery to check its performance and skill.\nThis visualisation shows the estimated colour image as would be seen by the MODIS satellite, except with no clouds. While we don’t create a direct comparison with the MODIS imagery here on this site, you can view the MODIS imagery via the NASA WorldView browser.\n\n\nThe videos/images on this page are based on the 4km eReefs Hydrodynamic model (v2.0) of the Great Barrier Reef. The raw data is available from the NCI THREDDS server (hourly) and the aggregate data from the AIMS eAtlas THREDDS server (daily, monthly, yearly, all). These map layers are also available for inspection as an interactive map.\n\n\n\nThe results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the NCI THREDDS server. If the model data is more up to date than this portal let us know."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/true-colour/index.html#source-data",
+    "href": "gbr4/bgc/baseline/true-colour/index.html#source-data",
+    "title": "Simulated true colour (GBR4 BGC v3.1 baseline)",
+    "section": "",
+    "text": "The videos/images on this page are based on the 4km eReefs Hydrodynamic model (v2.0) of the Great Barrier Reef. The raw data is available from the NCI THREDDS server (hourly) and the aggregate data from the AIMS eAtlas THREDDS server (daily, monthly, yearly, all). These map layers are also available for inspection as an interactive map."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/true-colour/index.html#recent-data",
+    "href": "gbr4/bgc/baseline/true-colour/index.html#recent-data",
+    "title": "Simulated true colour (GBR4 BGC v3.1 baseline)",
+    "section": "",
+    "text": "The results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the NCI THREDDS server. If the model data is more up to date than this portal let us know."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/din_dip_dic/index.html",
+    "href": "gbr4/bgc/baseline/din_dip_dic/index.html",
+    "title": "Dissolved Inorganic (Carbon, Nitrogen & Phosphorus) (GBR4 BGC baseline)",
+    "section": "",
+    "text": "Time step:Loading...Your browser does not support the video tag.WARNING: This video may contain flashing patterns which may not be suitable for people with photosensitive epilepsy.Skip frames&lt;&gt;Elevation: Downloadmp4wmvzippngsvgpdf\n\n\n\n&lt;\n----\n&gt;\n\n\nJan\nFeb\nMar\n\n\nApr\nMay\nJun\n\n\nJul\nAug\nSep\n\n\nOct\nNov\nDec\n\n\n\n\n\n\n\n\nConcentration of dissolved inorganic nitrogen (DIN).\n\n\n\nConcentration of dissolved inorganic phosphorus, also referred to as orthophosphate or soluble reactive phosphorus, SRP, composed chiefly of HPO42- ions, with a small percentage present as PO43-.\n\n\n\nConcentration of dissolved inorganic carbon, composed chiefly at seawater pH of HCO3-, with a small percentage present as CO32-.\n\n\n\nThe videos/images on this page are based on the 4km eReefs Hydrodynamic model (v2.0) of the Great Barrier Reef. The raw data is available from the NCI THREDDS server (hourly) and the aggregate data from the AIMS eAtlas THREDDS server (daily, monthly, yearly, all). These map layers are also available for inspection as an interactive map.\n\n\n\nThe results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the NCI THREDDS server. If the model data is more up to date than this portal let us know."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/din_dip_dic/index.html#source-data",
+    "href": "gbr4/bgc/baseline/din_dip_dic/index.html#source-data",
+    "title": "Dissolved Inorganic (Carbon, Nitrogen & Phosphorus) (GBR4 BGC baseline)",
+    "section": "",
+    "text": "The videos/images on this page are based on the 4km eReefs Hydrodynamic model (v2.0) of the Great Barrier Reef. The raw data is available from the NCI THREDDS server (hourly) and the aggregate data from the AIMS eAtlas THREDDS server (daily, monthly, yearly, all). These map layers are also available for inspection as an interactive map."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/din_dip_dic/index.html#recent-data",
+    "href": "gbr4/bgc/baseline/din_dip_dic/index.html#recent-data",
+    "title": "Dissolved Inorganic (Carbon, Nitrogen & Phosphorus) (GBR4 BGC baseline)",
+    "section": "",
+    "text": "The results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the NCI THREDDS server. If the model data is more up to date than this portal let us know."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/secchi_kd-490_epipar-sg/index.html",
+    "href": "gbr4/bgc/baseline/secchi_kd-490_epipar-sg/index.html",
+    "title": "Secchi depth, vertical attenuation at 490nm & light intensity above seagrass (GBR4 BGC v3.1 baseline)",
+    "section": "",
+    "text": "Time step:Loading...Your browser does not support the video tag.WARNING: This video may contain flashing patterns which may not be suitable for people with photosensitive epilepsy.Skip frames&lt;&gt;Elevation: Downloadmp4wmvzippngsvgpdf\n\n\n\n&lt;\n----\n&gt;\n\n\nJan\nFeb\nMar\n\n\nApr\nMay\nJun\n\n\nJul\nAug\nSep\n\n\nOct\nNov\nDec\n\n\n\n\n\n\n\n\nSecchi depth is an estimate of water clarity, which is traditionally measured by lowering a secchi disk into the water until the disk can not be seen. The model estimates the optical properties of the water based on the sediment and nutrients in the water. These all affect the scattering and absorption of light as it passes through the water allowing the model to estimate the attenuation of the light through the water. The Secchi depth is calculated from the vertical integral of attenuation of light at 488nm.\n\n\n\nAs light passes through the water column its intensity descreases due to a combination of absorption and scattering. The amount of light descreases exponentially as a function of the depth. The amount of light at a given depth can be estimated by scaling the surface irradiance by e(-Kd*depth), where Kd is the vertical attenuation coefficient, and e is the base of the natural logarithm.\nIn practice the vertical attenuation varies with the wavelength of light as colours are absorbed at different rates due to the inherent properties of sea water (blue penetrates more than red light) and the amount of sediment and organic material in the water. The vertical attenuation also varies with depth if the water column is not fully mixed. Stratification of colour dissolved organic matter (CDOM) or suspended sediment can result in variation in the clarity of the water, and thus the vertical attenuation, with depth.\nIn the BGC model the vertical attenuation is a depth dependent variable that corresponds to the light attenutation in the model depth layer at a wavelength of 490 nm (blue/cyan). It is calculated based on the optical model of the water, which considers the wavelength dependent absorption and scattering of the light through the water column depending on the amount of modelled colour dissolved organic matter (CDOM) and sediment in the water column. Further details of the vertical attenuation is outlined in section 3.2.2 of the BGC Appendix B: Scientific description of the optical, carbon chemistry and biogeochemical models.\n\n\n\nThe variable EpiPAR_sg represents the light intensity above seagrass measured in daily light integral (mol photons per square meter per day). Please note that the eReefs BGC model is using a 4km resolution and is developed for large-scale predictions. This limits the possibility of using this variable for a detailed analysis of processes relevant to seagrass. The NESP project 3.2.1 (Deriving ecologically relevant load targets to meet desired ecosystem condition for the Great Barrier Reef: a case study for seagrass meadows in the Burdekin region) is currently investigating the possibility of using this model to derive and test ecologically relevant targets.\n\n\n\nThe videos/images on this page are based on the 4km eReefs Hydrodynamic model (v2.0) of the Great Barrier Reef. The raw data is available from the NCI THREDDS server (hourly) and the aggregate data from the AIMS eAtlas THREDDS server (daily, monthly, yearly, all). These map layers are also available for inspection as an interactive map.\n\n\n\nThe results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the NCI THREDDS server. If the model data is more up to date than this portal let us know."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/secchi_kd-490_epipar-sg/index.html#secchi-depth",
+    "href": "gbr4/bgc/baseline/secchi_kd-490_epipar-sg/index.html#secchi-depth",
+    "title": "Secchi depth, vertical attenuation at 490nm & light intensity above seagrass (GBR4 BGC v3.1 baseline)",
+    "section": "",
+    "text": "Secchi depth is an estimate of water clarity, which is traditionally measured by lowering a secchi disk into the water until the disk can not be seen. The model estimates the optical properties of the water based on the sediment and nutrients in the water. These all affect the scattering and absorption of light as it passes through the water allowing the model to estimate the attenuation of the light through the water. The Secchi depth is calculated from the vertical integral of attenuation of light at 488nm."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/secchi_kd-490_epipar-sg/index.html#vertical-attenuation-at-490nm",
+    "href": "gbr4/bgc/baseline/secchi_kd-490_epipar-sg/index.html#vertical-attenuation-at-490nm",
+    "title": "Secchi depth, vertical attenuation at 490nm & light intensity above seagrass (GBR4 BGC v3.1 baseline)",
+    "section": "",
+    "text": "As light passes through the water column its intensity descreases due to a combination of absorption and scattering. The amount of light descreases exponentially as a function of the depth. The amount of light at a given depth can be estimated by scaling the surface irradiance by e(-Kd*depth), where Kd is the vertical attenuation coefficient, and e is the base of the natural logarithm.\nIn practice the vertical attenuation varies with the wavelength of light as colours are absorbed at different rates due to the inherent properties of sea water (blue penetrates more than red light) and the amount of sediment and organic material in the water. The vertical attenuation also varies with depth if the water column is not fully mixed. Stratification of colour dissolved organic matter (CDOM) or suspended sediment can result in variation in the clarity of the water, and thus the vertical attenuation, with depth.\nIn the BGC model the vertical attenuation is a depth dependent variable that corresponds to the light attenutation in the model depth layer at a wavelength of 490 nm (blue/cyan). It is calculated based on the optical model of the water, which considers the wavelength dependent absorption and scattering of the light through the water column depending on the amount of modelled colour dissolved organic matter (CDOM) and sediment in the water column. Further details of the vertical attenuation is outlined in section 3.2.2 of the BGC Appendix B: Scientific description of the optical, carbon chemistry and biogeochemical models."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/secchi_kd-490_epipar-sg/index.html#light-intensity-above-seagrass",
+    "href": "gbr4/bgc/baseline/secchi_kd-490_epipar-sg/index.html#light-intensity-above-seagrass",
+    "title": "Secchi depth, vertical attenuation at 490nm & light intensity above seagrass (GBR4 BGC v3.1 baseline)",
+    "section": "",
+    "text": "The variable EpiPAR_sg represents the light intensity above seagrass measured in daily light integral (mol photons per square meter per day). Please note that the eReefs BGC model is using a 4km resolution and is developed for large-scale predictions. This limits the possibility of using this variable for a detailed analysis of processes relevant to seagrass. The NESP project 3.2.1 (Deriving ecologically relevant load targets to meet desired ecosystem condition for the Great Barrier Reef: a case study for seagrass meadows in the Burdekin region) is currently investigating the possibility of using this model to derive and test ecologically relevant targets."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/secchi_kd-490_epipar-sg/index.html#source-data",
+    "href": "gbr4/bgc/baseline/secchi_kd-490_epipar-sg/index.html#source-data",
+    "title": "Secchi depth, vertical attenuation at 490nm & light intensity above seagrass (GBR4 BGC v3.1 baseline)",
+    "section": "",
+    "text": "The videos/images on this page are based on the 4km eReefs Hydrodynamic model (v2.0) of the Great Barrier Reef. The raw data is available from the NCI THREDDS server (hourly) and the aggregate data from the AIMS eAtlas THREDDS server (daily, monthly, yearly, all). These map layers are also available for inspection as an interactive map."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/secchi_kd-490_epipar-sg/index.html#recent-data",
+    "href": "gbr4/bgc/baseline/secchi_kd-490_epipar-sg/index.html#recent-data",
+    "title": "Secchi depth, vertical attenuation at 490nm & light intensity above seagrass (GBR4 BGC v3.1 baseline)",
     "section": "",
     "text": "The results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the NCI THREDDS server. If the model data is more up to date than this portal let us know."
   },
@@ -504,23 +588,114 @@
     "text": "The results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the NCI THREDDS server. If the model data is more up to date than this portal let us know."
   },
   {
-    "objectID": "gbr4/bgc/baseline/din_dip_dic/index.html",
-    "href": "gbr4/bgc/baseline/din_dip_dic/index.html",
-    "title": "Dissolved Inorganic (Carbon, Nitrogen & Phosphorus) (GBR4 BGC baseline)",
+    "objectID": "gbr4/bgc/baseline/din_no3_nh4/index.html",
+    "href": "gbr4/bgc/baseline/din_no3_nh4/index.html",
+    "title": "Dissolved inorganic nitrogen, nitrate & ammonia (GBR4 BGC v3.1 baseline)",
     "section": "",
-    "text": "Time step:Loading...Your browser does not support the video tag.WARNING: This video may contain flashing patterns which may not be suitable for people with photosensitive epilepsy.Skip frames&lt;&gt;Elevation: Downloadmp4wmvzippngsvgpdf\n\n\n\n&lt;\n----\n&gt;\n\n\nJan\nFeb\nMar\n\n\nApr\nMay\nJun\n\n\nJul\nAug\nSep\n\n\nOct\nNov\nDec\n\n\n\n\n\n\n\n\nConcentration of dissolved inorganic nitrogen (DIN).\n\n\n\nConcentration of dissolved inorganic phosphorus, also referred to as orthophosphate or soluble reactive phosphorus, SRP, composed chiefly of HPO42- ions, with a small percentage present as PO43-.\n\n\n\nConcentration of dissolved inorganic carbon, composed chiefly at seawater pH of HCO3-, with a small percentage present as CO32-.\n\n\n\nThe videos/images on this page are based on the 4km eReefs Hydrodynamic model (v2.0) of the Great Barrier Reef. The raw data is available from the NCI THREDDS server (hourly) and the aggregate data from the AIMS eAtlas THREDDS server (daily, monthly, yearly, all). These map layers are also available for inspection as an interactive map.\n\n\n\nThe results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the NCI THREDDS server. If the model data is more up to date than this portal let us know."
+    "text": "Time step:Loading...Your browser does not support the video tag.WARNING: This video may contain flashing patterns which may not be suitable for people with photosensitive epilepsy.Skip frames&lt;&gt;Elevation: Downloadmp4wmvzippngsvgpdf\n\n\n\n&lt;\n----\n&gt;\n\n\nJan\nFeb\nMar\n\n\nApr\nMay\nJun\n\n\nJul\nAug\nSep\n\n\nOct\nNov\nDec\n\n\n\n\n\n\nThis visualisation shows modelled nitrogen levels from the CSIRO eReefs Biogeochemical model. Nitrogen is a key limiting nutrient in the growth of plants and algae. Coral reefs are generally nutrient poor environments with much of the nutrients being locally recycled. Increased nutrient levels promote the growth of phytoplankton, turf algae and macroalgae, inhibiting the rate of recovery of coral reefs.\nThe BGC model tracks the transformation of nitrogen through the nitrogen cycle, from fixing of nitrogen gas into ammonia by tricodesmium, to its uptake by plants, propagation through the food chain to zooplantkon, to release due to mortality and finally denitrification back into nitrogen gas.\nThe BGC model contains two forms of dissolved inorganic nitrogen (DIN), dissolved ammonia (NH4) and dissolved nitrate (NO3): DIN = [NH4] + [NO3]. In the model, the ammonia component of the DIN pool is assumed to be taken up first by all primary producers (phytoplankton, tricodesmium, macroalgae and seagrass), followed by the nitrate, with the caveat that the uptake of ammonia cannot exceed the diffusion limit for ammonia. The underlying principle of this assumption is that photosynthetic organisms can entirely preference ammonia, but that the uptake of ammonia is still limited by diffusion to the organism’s surface.\nNitrification is the oxidation of ammonia (NH4) with oxygen, to form nitrite followed by the rapid oxidation of these nitrites into nitrates (NO3). In the BGC model nitrification occurs in the water column and sediment depending on oxygen levels.\nPhotosynthetic growth is determined by concentrations of dissolved nutrients (nitrogen and phosphate) and photosynthetically active radiation. Autotrophs (seagrass, phytoplankton, macroalgae and tricodesmium) take up dissolved ammonium, nitrate, phosphate and inorganic carbon. Ammonia is preferentially taken up as a source of nitrogen over nitrate as it can be directly used by plants. Nitrogen is transported through the phytoplankton to zooplankton food chain. Nitrogen is released as ammonia when an organism decays. Tricodesmium fixes nitrogen, converting nitrogen gas N2 into ammonia NH3 when the DIN concentration falls below a critical concentration.\n\n\nConcentration of dissolved inorganic nitrogen (DIN). DIN = [NH4] + [NO3].\n\n\n\nConcentration of nitrate. In the absence of nitrite [NO2-] in the model, nitrate represents [NO3-] + [NO2-].\n\n\n\nConcentration of ammonia ions [NH4+].\n\n\n\nThe videos/images on this page are based on the 4km eReefs Hydrodynamic model (v2.0) of the Great Barrier Reef. The raw data is available from the NCI THREDDS server (hourly) and the aggregate data from the AIMS eAtlas THREDDS server (daily, monthly, yearly, all). These map layers are also available for inspection as an interactive map.\n\n\n\nThe results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the NCI THREDDS server. If the model data is more up to date than this portal let us know."
   },
   {
-    "objectID": "gbr4/bgc/baseline/din_dip_dic/index.html#source-data",
-    "href": "gbr4/bgc/baseline/din_dip_dic/index.html#source-data",
-    "title": "Dissolved Inorganic (Carbon, Nitrogen & Phosphorus) (GBR4 BGC baseline)",
+    "objectID": "gbr4/bgc/baseline/din_no3_nh4/index.html#source-data",
+    "href": "gbr4/bgc/baseline/din_no3_nh4/index.html#source-data",
+    "title": "Dissolved inorganic nitrogen, nitrate & ammonia (GBR4 BGC v3.1 baseline)",
     "section": "",
     "text": "The videos/images on this page are based on the 4km eReefs Hydrodynamic model (v2.0) of the Great Barrier Reef. The raw data is available from the NCI THREDDS server (hourly) and the aggregate data from the AIMS eAtlas THREDDS server (daily, monthly, yearly, all). These map layers are also available for inspection as an interactive map."
   },
   {
-    "objectID": "gbr4/bgc/baseline/din_dip_dic/index.html#recent-data",
-    "href": "gbr4/bgc/baseline/din_dip_dic/index.html#recent-data",
-    "title": "Dissolved Inorganic (Carbon, Nitrogen & Phosphorus) (GBR4 BGC baseline)",
+    "objectID": "gbr4/bgc/baseline/din_no3_nh4/index.html#recent-data",
+    "href": "gbr4/bgc/baseline/din_no3_nh4/index.html#recent-data",
+    "title": "Dissolved inorganic nitrogen, nitrate & ammonia (GBR4 BGC v3.1 baseline)",
+    "section": "",
+    "text": "The results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the NCI THREDDS server. If the model data is more up to date than this portal let us know."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/efi_dust_mud-carbonate_mud-mineral/index.html",
+    "href": "gbr4/bgc/baseline/efi_dust_mud-carbonate_mud-mineral/index.html",
+    "title": "Total Suspended Solids, dust, mud carbonate & mud mineral (GBR4 BGC v3.1 baseline)",
+    "section": "",
+    "text": "Time step:Loading...Your browser does not support the video tag.WARNING: This video may contain flashing patterns which may not be suitable for people with photosensitive epilepsy.Skip frames&lt;&gt;Elevation: Downloadmp4wmvzippngsvgpdf\n\n\n\n&lt;\n----\n&gt;\n\n\nJan\nFeb\nMar\n\n\nApr\nMay\nJun\n\n\nJul\nAug\nSep\n\n\nOct\nNov\nDec\n\n\n\n\n\n\nThe sediment is modelled in multiple layers with a thin layer of easily resuspendable material overlying thicker layers of more consolidated sediment. The sediment model contains inorganic particles of different size (Dust, Mud, Sand and Gravel) and different mineralogies (carbonate and non-carbonate). The critical shear stress for resuspension, and the sinking rates, are generally larger for large particles, while and mineralogy only affects the optical properties. The size-class Dust comes only in a non-carbonate mineralogy, and the Mud-carbonate class contains a category of FineSed-mineral that has the same physical and optical properties as Mud-mineral, except that it is initialised with a zero value and only enters the domain from rivers.\n\n\nThis is the sum of the suspended sediments in the water column. It is [Fine sediment] + [Mud] + [Mud carbonate] + [Mud mineral] + [Dust]. Suspended sediment is often measured in mg / L. To convert between the model units (kg / m3) and typical units (mg / L), multiply the values by 1000, so 0.005 kg / m3 = 5 mg / L.\n\n\n\nVery fine terrestrial sediment (nominal size 1 µm) released from the catchments via the rivers. It has a sinking velocity of 1 m d-1. This fine particle size is intended to model fine particles that are distributed in flood plumes.\n\n\n\nSmall sized (nominal size 30 µm), re-suspending particles with a sinking velocity of 17 m d-1. This sediment is white in colour.\n\n\n\nSmall sized (nominal size 30 µm), re-suspending particles with a sinking velocity of 17 m d-1. This sediment is brown in colour.\n\n\n\nThe videos/images on this page are based on the 4km eReefs Hydrodynamic model (v2.0) of the Great Barrier Reef. The raw data is available from the NCI THREDDS server (hourly) and the aggregate data from the AIMS eAtlas THREDDS server (daily, monthly, yearly, all). These map layers are also available for inspection as an interactive map.\n\n\n\nThe results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the NCI THREDDS server. If the model data is more up to date than this portal let us know."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/efi_dust_mud-carbonate_mud-mineral/index.html#total-suspended-solids",
+    "href": "gbr4/bgc/baseline/efi_dust_mud-carbonate_mud-mineral/index.html#total-suspended-solids",
+    "title": "Total Suspended Solids, dust, mud carbonate & mud mineral (GBR4 BGC v3.1 baseline)",
+    "section": "",
+    "text": "This is the sum of the suspended sediments in the water column. It is [Fine sediment] + [Mud] + [Mud carbonate] + [Mud mineral] + [Dust]. Suspended sediment is often measured in mg / L. To convert between the model units (kg / m3) and typical units (mg / L), multiply the values by 1000, so 0.005 kg / m3 = 5 mg / L."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/efi_dust_mud-carbonate_mud-mineral/index.html#dust",
+    "href": "gbr4/bgc/baseline/efi_dust_mud-carbonate_mud-mineral/index.html#dust",
+    "title": "Total Suspended Solids, dust, mud carbonate & mud mineral (GBR4 BGC v3.1 baseline)",
+    "section": "",
+    "text": "Very fine terrestrial sediment (nominal size 1 µm) released from the catchments via the rivers. It has a sinking velocity of 1 m d-1. This fine particle size is intended to model fine particles that are distributed in flood plumes."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/efi_dust_mud-carbonate_mud-mineral/index.html#mud-carbonate",
+    "href": "gbr4/bgc/baseline/efi_dust_mud-carbonate_mud-mineral/index.html#mud-carbonate",
+    "title": "Total Suspended Solids, dust, mud carbonate & mud mineral (GBR4 BGC v3.1 baseline)",
+    "section": "",
+    "text": "Small sized (nominal size 30 µm), re-suspending particles with a sinking velocity of 17 m d-1. This sediment is white in colour."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/efi_dust_mud-carbonate_mud-mineral/index.html#mud-mineral",
+    "href": "gbr4/bgc/baseline/efi_dust_mud-carbonate_mud-mineral/index.html#mud-mineral",
+    "title": "Total Suspended Solids, dust, mud carbonate & mud mineral (GBR4 BGC v3.1 baseline)",
+    "section": "",
+    "text": "Small sized (nominal size 30 µm), re-suspending particles with a sinking velocity of 17 m d-1. This sediment is brown in colour."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/efi_dust_mud-carbonate_mud-mineral/index.html#source-data",
+    "href": "gbr4/bgc/baseline/efi_dust_mud-carbonate_mud-mineral/index.html#source-data",
+    "title": "Total Suspended Solids, dust, mud carbonate & mud mineral (GBR4 BGC v3.1 baseline)",
+    "section": "",
+    "text": "The videos/images on this page are based on the 4km eReefs Hydrodynamic model (v2.0) of the Great Barrier Reef. The raw data is available from the NCI THREDDS server (hourly) and the aggregate data from the AIMS eAtlas THREDDS server (daily, monthly, yearly, all). These map layers are also available for inspection as an interactive map."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/efi_dust_mud-carbonate_mud-mineral/index.html#recent-data",
+    "href": "gbr4/bgc/baseline/efi_dust_mud-carbonate_mud-mineral/index.html#recent-data",
+    "title": "Total Suspended Solids, dust, mud carbonate & mud mineral (GBR4 BGC v3.1 baseline)",
+    "section": "",
+    "text": "The results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the NCI THREDDS server. If the model data is more up to date than this portal let us know."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/chl-a-sum_din_efi/index.html",
+    "href": "gbr4/bgc/baseline/chl-a-sum_din_efi/index.html",
+    "title": "Total chlorophyll, dissolved inorganic nitrogen & total suspended solids (GBR4 BGC v3.1 baseline)",
+    "section": "",
+    "text": "Time step:Loading...Your browser does not support the video tag.WARNING: This video may contain flashing patterns which may not be suitable for people with photosensitive epilepsy.Skip frames&lt;&gt;Elevation: Downloadmp4wmvzippngsvgpdf\n\n\n\n&lt;\n----\n&gt;\n\n\nJan\nFeb\nMar\n\n\nApr\nMay\nJun\n\n\nJul\nAug\nSep\n\n\nOct\nNov\nDec\n\n\n\n\n\n\n\n\nSum of chlorophyll concentration of the four microalgae types (small, large, microphytobenthos, trichodesmium)\n\n\n\nConcentration of dissolved inorganic nitrogen (DIN). DIN = [NH4] + [NO3].\n\n\n\nThis is the sum of the suspended sediments in the water column. It is [Fine sediment] + [Mud] + [Mud carbonate] + [Mud mineral] + [Dust]\n\n\n\nThe videos/images on this page are based on the 4km eReefs Hydrodynamic model (v2.0) of the Great Barrier Reef. The raw data is available from the NCI THREDDS server (hourly) and the aggregate data from the AIMS eAtlas THREDDS server (daily, monthly, yearly, all). These map layers are also available for inspection as an interactive map.\n\n\n\nThe results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the NCI THREDDS server. If the model data is more up to date than this portal let us know."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/chl-a-sum_din_efi/index.html#source-data",
+    "href": "gbr4/bgc/baseline/chl-a-sum_din_efi/index.html#source-data",
+    "title": "Total chlorophyll, dissolved inorganic nitrogen & total suspended solids (GBR4 BGC v3.1 baseline)",
+    "section": "",
+    "text": "The videos/images on this page are based on the 4km eReefs Hydrodynamic model (v2.0) of the Great Barrier Reef. The raw data is available from the NCI THREDDS server (hourly) and the aggregate data from the AIMS eAtlas THREDDS server (daily, monthly, yearly, all). These map layers are also available for inspection as an interactive map."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/chl-a-sum_din_efi/index.html#recent-data",
+    "href": "gbr4/bgc/baseline/chl-a-sum_din_efi/index.html#recent-data",
+    "title": "Total chlorophyll, dissolved inorganic nitrogen & total suspended solids (GBR4 BGC v3.1 baseline)",
+    "section": "",
+    "text": "The results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the NCI THREDDS server. If the model data is more up to date than this portal let us know."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/dor-c_dor-n_dor-p/index.html",
+    "href": "gbr4/bgc/baseline/dor-c_dor-n_dor-p/index.html",
+    "title": "Dissolved Organic (Carbon, Nitrogen & Phosphorus) (GBR4 BGC v3.1 baseline)",
+    "section": "",
+    "text": "Time step:Loading...Your browser does not support the video tag.WARNING: This video may contain flashing patterns which may not be suitable for people with photosensitive epilepsy.Skip frames&lt;&gt;Elevation: Downloadmp4wmvzippngsvgpdf\n\n\n\n&lt;\n----\n&gt;\n\n\nJan\nFeb\nMar\n\n\nApr\nMay\nJun\n\n\nJul\nAug\nSep\n\n\nOct\nNov\nDec\n\n\n\n\n\n\n\n\nThe concentration of carbon in dissolved organic compounds.\n\n\n\nThe concentration of nitrogen in dissolved organic compounds.\n\n\n\nThe concentration of phosphorus in dissolved organic compounds.\n\n\n\nThe videos/images on this page are based on the 4km eReefs Hydrodynamic model (v2.0) of the Great Barrier Reef. The raw data is available from the NCI THREDDS server (hourly) and the aggregate data from the AIMS eAtlas THREDDS server (daily, monthly, yearly, all). These map layers are also available for inspection as an interactive map.\n\n\n\nThe results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the NCI THREDDS server. If the model data is more up to date than this portal let us know."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/dor-c_dor-n_dor-p/index.html#source-data",
+    "href": "gbr4/bgc/baseline/dor-c_dor-n_dor-p/index.html#source-data",
+    "title": "Dissolved Organic (Carbon, Nitrogen & Phosphorus) (GBR4 BGC v3.1 baseline)",
+    "section": "",
+    "text": "The videos/images on this page are based on the 4km eReefs Hydrodynamic model (v2.0) of the Great Barrier Reef. The raw data is available from the NCI THREDDS server (hourly) and the aggregate data from the AIMS eAtlas THREDDS server (daily, monthly, yearly, all). These map layers are also available for inspection as an interactive map."
+  },
+  {
+    "objectID": "gbr4/bgc/baseline/dor-c_dor-n_dor-p/index.html#recent-data",
+    "href": "gbr4/bgc/baseline/dor-c_dor-n_dor-p/index.html#recent-data",
+    "title": "Dissolved Organic (Carbon, Nitrogen & Phosphorus) (GBR4 BGC v3.1 baseline)",
     "section": "",
     "text": "The results are updated in near-real-time, however sometimes they can be behind real time up to 2 weeks. This happens due to delays in the model runs being held up for technical reasons or delays in source data that drive the model. This visualisation portal can sometimes also delay the products by up to 1 day. To check the latest available model data look at the date on the NCI THREDDS server. If the model data is more up to date than this portal let us know."
   },
