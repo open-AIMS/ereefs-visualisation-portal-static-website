@@ -1,9 +1,5 @@
 ---
 title: "AIMS eReefs"
-format:
-  html:
-    include-in-header:
-      - header.html
 ---
 
 # eReefs AIMS Visualisation Portal
