@@ -9,7 +9,15 @@ website:
     logo: images/AIMS-logo.png
     background: "#335b84"
     left:
-      - text: Visualisation portal
+      - text: eReefs Websites
+        menu:
+          - href: https://www.ereefs.org.au/platform/
+            text: whose is this?
+          - href: https://research.csiro.au/ereefs/
+            text: CSIRO
+          - href: index.qmd
+            text: What other sites are there?
+      - text: Visualisation Portal
         menu:
           - href: index.qmd
             text: AIMS eReefs Visualisation Portal
