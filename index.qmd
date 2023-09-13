@@ -10,9 +10,8 @@ In this portal you will find a range of visualisations of the eReefs Hydrodynami
 - Coral bleaching from high temperature ([March 2016](./gbr4/temp-wind-salt-current/index.qmd#year=2016;month=3), [March 2017](./gbr4/temp-wind-salt-current/index.qmd#year=2017;month=3)),
 - Flood plumes with low salinity ([North Queensland Flooding 2019](./gbr1/salt-multi-depth/index.qmd#region=townsville-3;year=2019;month=2), [Burdekin Jan 2011](./gbr1/salt-multi-depth/index.qmd#year=2011;month=1;region=townsville-3))
 
-::: {.grid .column-page}
-
-::: {.ncanimate-product-tile .border .g-col-12 .g-col-md-6}
+::: {.ncanimate-products .column-screen-inset}
+::: {.ncanimate-product-tile}
 ## 4 km model (Sept 2010 - present)
 ### Water movement and physical characteristics
 ![](/images/AIMS-JL009front007-500x250.jpg){fig-alt="Waves break on the front reef creating a tough environment for corals to grow. Note the large encrusting soft coral below the breaking wave." fig-align="center"}
@@ -24,7 +23,7 @@ In this portal you will find a range of visualisations of the eReefs Hydrodynami
 - [Comparing eReefs (GBR4 temperature, current) to IMOS satellite temperature and ocean current](./gbr4/imos-vs-ereefs/index.qmd)
 :::
 
-::: {.ncanimate-product-tile .border .g-col-12 .g-col-md-6}
+::: {.ncanimate-product-tile}
 ## 1 km model (Dec 2014 - present)
 ### Water movement and physical characteristics
 ![](/images/AIMS-JL009front007-500x250.jpg){fig-alt="Waves break on the front reef creating a tough environment for corals to grow. Note the large encrusting soft coral below the breaking wave." fig-align="center"}
@@ -38,8 +37,8 @@ In this portal you will find a range of visualisations of the eReefs Hydrodynami
 - [Temperature range at 2.35m](./gbr1/temp-range)
 - [Flood plume extents for major rivers on GBR based on modelled river tracers](./gbr1/river-tracers)
 :::
-
 :::
+
 
 # eReefs CSIRO Hydrodynamic Model
 
@@ -82,9 +81,8 @@ should be taken to ensure the model is fit-for-purpose and in general BGC
 results should used in combination with second sources of information for
 making recommendations.
 
-::: {.grid .column-page}
-
-::: {.ncanimate-product-tile .border .g-col-12 .g-col-md-6}
+::: {.ncanimate-products .column-screen-inset}
+::: {.ncanimate-product-tile}
 ## Water chemistry
 ![](/images/Blue_Soda_bubbles_macro-500x250.jpg){fig-alt="Bubles suspended in water" fig-align="center"}
 
@@ -97,7 +95,7 @@ making recommendations.
 
 :::
 
-::: {.ncanimate-product-tile .border .g-col-12 .g-col-md-6}
+::: {.ncanimate-product-tile}
 ## Water Quality Measures
 ![](/images/middles3-229-500x250.jpg){fig-alt="A turbid seascape" fig-align="center"}
 
@@ -107,7 +105,7 @@ making recommendations.
 - [Simulated true colour](./gbr4/bgc/baseline/true-colour)
 :::
 
-::: {.ncanimate-product-tile .border .g-col-12 .g-col-md-6}
+::: {.ncanimate-product-tile}
 ## Macroalgae, seagrass and coral
 ![](/images/AIMS-Coral-IMG_0362-500x250.jpg){fig-alt="A colony of hard corals" fig-align="center"}
 
