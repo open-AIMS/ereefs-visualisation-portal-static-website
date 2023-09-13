@@ -2,11 +2,6 @@
 title: "gbr4-bgc-baseline_ma-n_sg-n_sgh-n_sgd-n"
 format:
   html: 
-    css: 
-      - ../../../../css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css
-      - ../../../../css/css_aspJexyZbSy-mMQCoq4YYgcmk8Ps3vDh_U10OuJIIhk.css
-      - ../../../../css/css_eRVvH_jN5SStb8oQSJsiVAHkQ19dLpDrjRpGVNpiAig.css
-      - ../../../../css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css
     template: ../../../../custom_template.html
 params:
   product-name: Nitrogen (macroalgae, seagrass zostera, seagrass halophila & deep seagrass) (GBR4 BGC baseline)
