@@ -7,7 +7,7 @@ website:
   navbar:
     title: "AIMS eReefs"
     logo: images/AIMS-logo.png
-    background: "#335b84"
+    # background: "#335b84"
     left:
       - text: eReefs Websites
         menu:
@@ -44,7 +44,11 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: 
+          - flatly
+          - css/custom.scss
+      dark: darkly
     css: 
       - css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css
       - css/css_aspJexyZbSy-mMQCoq4YYgcmk8Ps3vDh_U10OuJIIhk.css
