@@ -1,0 +1,79 @@
+---
+title: "gbr4-bgc-baseline_secchi_kd-490_epipar-sg"
+format:
+  html: 
+    css: 
+      - ../../../../css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css
+      - ../../../../css/css_aspJexyZbSy-mMQCoq4YYgcmk8Ps3vDh_U10OuJIIhk.css
+      - ../../../../css/css_eRVvH_jN5SStb8oQSJsiVAHkQ19dLpDrjRpGVNpiAig.css
+      - ../../../../css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css
+    template: ../../../../custom_template.html
+params:
+  product-name: Secchi depth, vertical attenuation at 490nm & light intensity above seagrass (GBR4 BGC v3.1 baseline)
+  block-name: gbr4-bgc-baseline_secchi_kd-490_epipar-sg
+  product-id: products__ncanimate__ereefs__gbr4_bgc_baseline__secchi_kd-490_epipar-sg
+---
+
+{{< include ../../../../includes/_visualisation.qmd >}}
+
+Secchi depth
+------------
+
+Secchi depth is an estimate of water clarity, which is traditionally
+measured by lowering a [secchi
+disk](https://en.wikipedia.org/wiki/Secchi_disk) into the water until
+the disk can not be seen. The model estimates the optical properties of
+the water based on the sediment and nutrients in the water. These all
+affect the scattering and absorption of light as it passes through the
+water allowing the model to estimate the attenuation of the light
+through the water. The Secchi depth is calculated from the vertical
+integral of attenuation of light at 488nm.
+
+Vertical attenuation at 490nm
+-----------------------------
+
+As light passes through the water column its intensity descreases due to
+a combination of absorption and scattering. The amount of light
+descreases exponentially as a function of the depth. The amount of light
+at a given depth can be estimated by scaling the surface irradiance by
+*e*^*(-Kd\*depth*)^, where Kd is the vertical attenuation coefficient,
+and *e* is the base of the natural logarithm.
+
+In practice the vertical attenuation varies with the wavelength of light
+as colours are absorbed at different rates due to the inherent
+properties of sea water (blue penetrates more than red light) and the
+amount of sediment and organic material in the water. The vertical
+attenuation also varies with depth if the water column is not fully
+mixed. Stratification of colour dissolved organic matter (CDOM) or
+suspended sediment can result in variation in the clarity of the water,
+and thus the vertical attenuation, with depth.
+
+In the BGC model the vertical attenuation is a depth dependent variable
+that corresponds to the light attenutation in the model depth layer at a
+wavelength of 490 nm (blue/cyan). It is calculated based on the optical
+model of the water, which considers the wavelength dependent absorption
+and scattering of the light through the water column depending on the
+amount of modelled colour dissolved organic matter (CDOM) and sediment
+in the water column. Further details of the vertical attenuation is
+outlined in section 3.2.2 of the [BGC Appendix B: Scientific description
+of the optical, carbon chemistry and biogeochemical
+models](https://research.csiro.au/ereefs/?ddownload=651).
+
+Light intensity above seagrass
+------------------------------
+
+The variable EpiPAR\_sg represents the light intensity above seagrass
+measured in daily light integral (mol photons per square meter per day).
+Please note that the eReefs BGC model is using a 4km resolution and is
+developed for large-scale predictions. This limits the possibility of
+using this variable for a detailed analysis of processes relevant to
+seagrass. The [NESP project
+3.2.1](https://nesptropical.edu.au/index.php/round-3-projects/project-3-2-1/)
+(*Deriving ecologically relevant load targets to meet desired ecosystem
+condition for the Great Barrier Reef: a case study for seagrass meadows
+in the Burdekin region*) is currently investigating the possibility of
+using this model to derive and test ecologically relevant targets.
+
+{{< include ../../../../includes/_source_data.qmd >}}
+
+{{< include ../../../../includes/_recent_data.qmd >}}

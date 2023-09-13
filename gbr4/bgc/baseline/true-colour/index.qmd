@@ -1,0 +1,35 @@
+---
+title: "gbr4-bgc-baseline_true-colour"
+format:
+  html: 
+    css: 
+      - ../../../../css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css
+      - ../../../../css/css_aspJexyZbSy-mMQCoq4YYgcmk8Ps3vDh_U10OuJIIhk.css
+      - ../../../../css/css_eRVvH_jN5SStb8oQSJsiVAHkQ19dLpDrjRpGVNpiAig.css
+      - ../../../../css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css
+    template: ../../../../custom_template.html
+params:
+  product-name: Simulated true colour (GBR4 BGC v3.1 baseline)
+  block-name: gbr4-bgc-baseline_true-colour
+  product-id: products__ncanimate__ereefs__gbr4_bgc_baseline__true-colour
+---
+
+{{< include ../../../../includes/_visualisation.qmd >}}
+
+A key challenge with validating the BGC model is that the number of in-situ
+observations is very limited compared with the geographic scope and detail of
+the model. To help overcome this limitation the CSIRO eReefs BGC model
+simulates the light transport through the water based on the nutrients,
+plankton and suspended sediments. It uses this information to simulate what the
+ocean would look like if it were imaged by the NASA MODIS satellite. This
+allows the model results to be directly compared with satellite imagery to
+check its performance and skill.
+
+This visualisation shows the estimated colour image as would be seen by the
+MODIS satellite, except with no clouds. While we don't create a direct
+comparison with the MODIS imagery here on this site, you can view the MODIS
+imagery via the [NASA WorldView browser](https://worldview.earthdata.nasa.gov/?v=128.54593584758447,-31.75702092134829,171.2501420451839,-8.125135981270493&l=Reference_Labels(hidden),Reference_Features(hidden),Coastlines,MODIS_Aqua_CorrectedReflectance_TrueColor(hidden),MODIS_Terra_CorrectedReflectance_TrueColor).
+
+{{< include ../../../../includes/_source_data.qmd >}}
+
+{{< include ../../../../includes/_recent_data.qmd >}}

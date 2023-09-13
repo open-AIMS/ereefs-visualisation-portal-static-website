@@ -1,0 +1,33 @@
+---
+title: "gbr4-bgc-baseline_chl-a-sum_din_efi"
+format:
+  html: 
+    css: 
+      - ../../../../css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css
+      - ../../../../css/css_aspJexyZbSy-mMQCoq4YYgcmk8Ps3vDh_U10OuJIIhk.css
+      - ../../../../css/css_eRVvH_jN5SStb8oQSJsiVAHkQ19dLpDrjRpGVNpiAig.css
+      - ../../../../css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css
+    template: ../../../../custom_template.html
+params:
+  product-name: Total chlorophyll, dissolved inorganic nitrogen & total suspended solids (GBR4 BGC v3.1 baseline)
+  block-name: gbr4-bgc-baseline_chl-a-sum_din_efi
+  product-id: products__ncanimate__ereefs__gbr4_bgc_baseline__chl-a-sum_din_efi
+---
+
+{{< include ../../../../includes/_visualisation.qmd >}}
+
+### Total Chlorophyll
+
+Sum of chlorophyll concentration of the four microalgae types (small, large, microphytobenthos, trichodesmium)
+
+### Dissolved inorganic nitrogen
+
+Concentration of dissolved inorganic nitrogen (DIN). DIN = \[NH4] + \[NO3].
+
+### Total suspended solids
+
+This is the sum of the suspended sediments in the water column. It is \[Fine sediment] + \[Mud] + \[Mud carbonate] + \[Mud mineral] + \[Dust]
+
+{{< include ../../../../includes/_source_data.qmd >}}
+
+{{< include ../../../../includes/_recent_data.qmd >}}

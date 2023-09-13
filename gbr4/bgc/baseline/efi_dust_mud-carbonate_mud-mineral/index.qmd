@@ -1,0 +1,62 @@
+---
+title: "gbr4-bgc-baseline_efi_dust_mud-carbonate_mud-mineral"
+format:
+  html: 
+    css: 
+      - ../../../../css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css
+      - ../../../../css/css_aspJexyZbSy-mMQCoq4YYgcmk8Ps3vDh_U10OuJIIhk.css
+      - ../../../../css/css_eRVvH_jN5SStb8oQSJsiVAHkQ19dLpDrjRpGVNpiAig.css
+      - ../../../../css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css
+    template: ../../../../custom_template.html
+params:
+  product-name: Total Suspended Solids, dust, mud carbonate & mud mineral (GBR4 BGC v3.1 baseline)
+  block-name: gbr4-bgc-baseline_efi_dust_mud-carbonate_mud-mineral
+  product-id: products__ncanimate__ereefs__gbr4_bgc_baseline__efi_dust_mud-carbonate_mud-mineral
+---
+
+{{< include ../../../../includes/_visualisation.qmd >}}
+
+The sediment is modelled in multiple layers with a thin layer of easily
+resuspendable material overlying thicker layers of more consolidated
+sediment. The sediment model contains inorganic particles of different
+size (Dust, Mud, Sand and Gravel) and different mineralogies (carbonate
+and non-carbonate). The critical shear stress for resuspension, and the
+sinking rates, are generally larger for large particles, while and
+mineralogy only affects the optical properties. The size-class Dust
+comes only in a non-carbonate mineralogy, and the Mud-carbonate class
+contains a category of FineSed-mineral that has the same physical and
+optical properties as Mud-mineral, except that it is initialised with a
+zero value and only enters the domain from rivers.
+
+Total Suspended Solids
+----------------------
+
+This is the sum of the suspended sediments in the water column. It is
+\[Fine sediment\] + \[Mud\] + \[Mud carbonate\] + \[Mud mineral\] +
+\[Dust\]. Suspended sediment is often measured in mg / L. To convert
+between the model units (kg / m^3^) and typical units (mg / L), multiply
+the values by 1000, so 0.005 kg / m^3^ = 5 mg / L.
+
+Dust
+----
+
+Very fine terrestrial sediment (nominal size 1 µm) released from the
+catchments via the rivers. It has a sinking velocity of 1 m d^-1^. This
+fine particle size is intended to model fine particles that are
+distributed in flood plumes.
+
+Mud carbonate
+-------------
+
+Small sized (nominal size 30 µm), re-suspending particles with a sinking
+velocity of 17 m d^-1^. This sediment is white in colour.
+
+Mud mineral
+-----------
+
+Small sized (nominal size 30 µm), re-suspending particles with a sinking
+velocity of 17 m d^-1^. This sediment is brown in colour.
+
+{{< include ../../../../includes/_source_data.qmd >}}
+
+{{< include ../../../../includes/_recent_data.qmd >}}
