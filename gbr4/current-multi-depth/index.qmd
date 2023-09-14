@@ -1,0 +1,24 @@
+---
+title: "gbr4-hydro_current-multi-depth"
+format:
+  html: 
+    template: ../../custom_template.html
+params:
+  product-name: Current at 1.5m, 18m and 103m depth (GBR4)
+  block-name: gbr4-hydro_current-multi-depth
+  product-id: products__ncanimate__ereefs__gbr4_v2__current-multi-depth
+---
+
+{{< include ../../includes/_visualisation.qmd >}}
+
+This page shows the strength and direction of ocean currents at different depths on the Great Barrier Reef based on the 4km eReefs Hydrodynamic model.
+
+
+## Current at different depths
+
+This map is useful for investigating the depth of various ocean currents. The strength of the current is represented by colour. The arrows represent the direction. In the hourly data a lot of the daily fluctuations are due to tidal currents. These tend to make the current direction swing back and forth as the tides flow and and out of a region.
+
+
+{{< include ../../includes/_source_data.qmd >}}
+
+{{< include ../../includes/_recent_data.qmd >}}
