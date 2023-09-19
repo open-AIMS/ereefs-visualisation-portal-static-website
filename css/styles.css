@@ -17,3 +17,12 @@
 .ncanimate-products {
   justify-content: center
 }
+
+/* trying to make the navbar static
+.headroom--pinned,
+.headroom--unpinned,
+.headroom--top,
+.headroom--not-top {
+  position: block !important;
+} 
+*/
