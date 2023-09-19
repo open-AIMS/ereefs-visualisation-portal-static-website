@@ -16,7 +16,6 @@ params:
 
 {{< include ../../includes/_visualisation.qmd >}}
 
-<br>
 This product shows flood plumes associated with the major rivers along the
 Queensland coastline flowing into the Great Barrier Reef Marine Park. These
 visualisations are produced from using currents calculated by the eReefs

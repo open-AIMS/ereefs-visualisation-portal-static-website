@@ -6,21 +6,22 @@ website:
   favicon: images/ereefs_aims_favicon.png
   navbar:
     title: "AIMS eReefs"
-    logo: images/AIMS-logo.png
-    # background: "#335b84"
+    logo: images/ereefs_logo.png
     left:
       - text: eReefs Websites
         menu:
-          - href: https://www.ereefs.org.au/platform/
-            text: whose is this?
+          - href: https://www.ereefs.org.au/
+            text: Project Website
           - href: https://research.csiro.au/ereefs/
             text: CSIRO
-          - href: index.qmd
-            text: What other sites are there?
+          - href: http://www.bom.gov.au/environment/activities/reeftemp/reeftemp.shtml
+            text: ReefTemp
+          - href: https://portal.ereefs.info/map
+            text: Interactive Data Portal
       - text: Visualisation Portal
         menu:
           - href: index.qmd
-            text: AIMS eReefs Visualisation Portal
+            text: Visualisation Portal
           - href: index.qmd#ereefs-csiro-hydrodynamic-model
             text: Hydrodynamic model
           - href: index.qmd#ereefs-csiro-biogeochemical-model-4-km

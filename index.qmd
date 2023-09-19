@@ -48,7 +48,7 @@ This model is run with a 4 km and 1 km grid size. The 4 km grid has a longer hin
 
 Note: The eReefs models are currently not being run in near-real time by CSIRO as a result this site only shows the back catalogue up to mid 2020. Near realtime results are expected to be back in operation by the end of 2020.
 
-# eReefs CSIRO BioGeoChemical model (4 km)
+# eReefs CSIRO BioGeoChemical model (4&nbsp;km)
 
 The [GBR4 BioGeoChemical (GBR) model](https://research.csiro.au/ereefs/models/models-about/models-biogeochemistry/) builds on the GBR4 hydrodynamic model by
 modelling the water quality (nutrients and [suspended sediment](https://research.csiro.au/ereefs/models/models-about/models-sediment-transport/)) and key

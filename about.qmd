@@ -2,4 +2,163 @@
 title: "About"
 ---
 
-About this site
+# About AIMS eReefs platform
+
+The eReefs research project is a collaboration between the [Great
+Barrier Reef Foundation](https://www.barrierreef.org/),
+[CSIRO](https://www.csiro.au/), the [Australian Institute of Marine
+Science](https://www.aims.gov.au/), [Bureau of
+Meteorology](http://www.bom.gov.au/), and [Queensland
+Government](https://www.qld.gov.au/). It aims to develop a platform that
+will provide a picture of what is currently happening on the reef and
+what has happened in the past. This website provides visualisations and
+aggregations of the eReefs hydrodynamic and biogeochemical models
+allowing easy access to the current and historic environmental
+conditions on the Great Barrier Reef.
+
+About the eReefs models
+-----------------------
+
+The [eReefs hydrodynamic model](https://research.csiro.au/ereefs/models/models-about/models-hydrodynamics/)
+predicts the movement of marine waters, as well as key physical
+environmental conditions such as water temperature and salinity. This
+model is a deterministic physics based model that evolves based on
+equations of conversation of momentum, continuity and conservation of
+heat and salt driven externally by wind, atmospheric pressure gradients,
+surface heat and water fluxes and open-boundary conditions such as tides
+and low frequency ocean currents. The external boundary of CSIRO
+hydrodynamic model are forced by the [BOM Access-R weather models](http://www.bom.gov.au/australia/charts/about/about_access.shtml)
+and [BOM OMAP for boundary currents](http://www.bom.gov.au/oceanography/forecasts/). The GBR1 1 km
+model is nested inside the GBR4 4 km model, with the GBR4 acting as the
+boundary of the GBR1 model.
+
+The hydrodynamic model results allow us to better understand the effect
+of cyclones, the location of potentially damaging heat waves that can
+cause coral bleaching, the ocean currents that disperse larve of corals
+and Crown-of-Thorns starfish, and fresh water plumes from flooded rivers
+that can damage inshore reefs.
+
+The [eReefs BioGeoChemical (BGC) and sediment model](https://research.csiro.au/ereefs/models/models-about/models-biogeochemistry/)
+uses the results of the hydrodynamic model to track the movement and
+concentration of nutrients and sediments. It models the effects of land
+run off into the marine space and the nutrient recycling processes
+associated with plankton, seagrass and coral.
+
+More information: [*eReefs*: An operational information system for
+managing the Great Barrier Reef](https://doi.org/10.1080/1755876X.2019.1650589).
+
+What does this website show?
+----------------------------
+
+This site presents visualisations of key variables from both the eReefs
+Hydrodynamic and BGC models. The raw model outputs are available
+publicly via the [National Computing Infrastructure (NCI) THREDDS data
+service](https://dapds00.nci.org.au/thredds/catalogs/fx3/catalog.html)
+and are described in more detail on the [Access to raw model output](https://research.csiro.au/ereefs/models/model-outputs/access-to-raw-model-output/)
+page on the CSIRO eReefs site. The problem is that using the raw model
+data directly can be a huge challenge due to their huge data size (\~ 19
+TB). The raw model data uses files that have a curvilinear grid, that
+helps the efficiency of the model, but prevents the data from being
+directly viewable in GIS applications such as QGIS or ArcGIS. Another
+significant challenge is that the model data has over 10\'s of millions
+of individual map layers making it very difficult to understand the
+processes looking at them one at a time. The AIMS eReefs platform aims
+to solve these problems by:
+
+-   Presenting visualisations using pre-rendered videos. These videos
+    provide rapid viewing of the eReefs data. These videos show multiple
+    related variables, to allow the connections between key processes to
+    be easily seen,
+-   Generating aggregations over time (daily, months, seasonal, annual)
+    of the model data to show longer time scale spatial patterns of
+    variables, whilst shrinking the data to a more manageable size,
+-   Regridding the model data from curvilinear data to a rectangular
+    grid so that it can be used in a desktop GIS applications,
+-   Providing a [data extraction service](https://extraction.ereefs.aims.gov.au/) that allows time
+    series data of locations of interest to be easily downloaded,
+-   Providing [data services](https://thredds.ereefs.aims.gov.au/thredds/s3catalogue/aims-ereefs-public-prod/derived/ncaggregate/ereefs/catalog.html)
+    of all the generated derived data so that it can be accessed
+    programmatically to facilitate reproducible science.
+-   Generating exposures maps to identify regions where organisms are
+    being exposed to harsh conditions that might adversely affect their
+    health.
+
+The products on this website are updated in near real time from the NCI
+data services. As CSIRO updates the model data this site regenerates and
+updates the visualisation and data services available.
+
+How are the map products on this website generated?
+---------------------------------------------------
+
+Two new tools were developed to process and visualise the eReefs model
+data. These were a tool for processing the model outputs to calculate
+time aggregates and exposures (Ncaggregate), and a tool for
+automatically generating maps and videos from the data (Ncanimate).
+Along with these tools a host of smaller coordinating tools were
+developed. These were to automate the mirroring of data, to coordinate
+the processing workflow and for presenting of the thousands of products
+on the website.
+
+::: {.media-image .mediaframe_wikipedia .wysiwyg-media-file .column-page}
+::: {.image}
+![AIMS eReefs platform
+overview](images/AIMS-eReefs-platform-overview.png){.media-image}
+:::
+
+::: {.metadata style="width: 1000px; "}
+[AIMS eReefs platform overview]{.title}
+
+::: {.description}
+The GBR4 and GBR1 model data is generated by CSIRO. It is then push to
+the National Computing Intrastructure (NCI) where it is made available
+publicly as a data service. The AIMS eReefs platform creates a local
+partial mirror of the data, stripping off unused variables to save on
+space. This data is then processed to produce regridded aggregation data
+with daily, monthly and annual aggregations. This data is made available
+as data services to allow data download, programmatic access to the data
+and as a web mapping service to link in with the CSIRO eReefs Vis
+Portal. The raw model data, along with the aggregated data is visualised
+as maps and map videos. These are made available via the AIMSeReefs
+visualisation portal. The final component is the data extraction tool.
+Requests from users trigger the extraction process. These extractions
+can take a while and so users are emailed back when there extractions
+are complete.
+:::
+
+[[![CC BY
+SA](../../images/cc.png){.cc
+width="15"
+height="15"}](http://creativecommons.org/licenses/by-sa/3.0/au/) by
+[AIMS](//eatlas.org.au/node/2)]{.license}
+:::
+:::
+
+How do I access the data used in the visualisations?
+----------------------------------------------------
+
+All the dataset used to create the visualisations on this site are made
+available in NetCDF format from our **[AIMS eAtlas THREDDS
+server](https://thredds.ereefs.aims.gov.au/)**.
+
+These correspond to all the aggregate products generated by this
+project. This corresponds to daily, monthly, annual aggregates. These
+files have been regridded to a regular grid to allow them to be loaded
+into a standard GIS application such as ArcMap. You can do this by
+following the [Reading netCDF as a raster layer](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/netcdf/reading-netcdf-data-as-a-raster-layer.htm) guide.
+
+How do I access the data programmatically?
+------------------------------------------
+
+All the data used in the visualisations are available programmatically
+via the **[AIMS eAtlas THREDDS server](https://thredds.ereefs.aims.gov.au/)** by either download the
+full NetCDF data or by using libraries to access the data using the
+OPeNDAP data protocol. The following are tutorials in using these
+services in a range of languages.
+
+  Language   Description                                                                                                                                                                                             Data source                        Notebook
+  ---------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Python     [1. Plot AIMS eReefs data as a map from OpeNDAP service](http://github.com/aims-ks/ereefs-python-scripts/blob/master/notebooks/1-plot-aims-ereefs-map-data.ipynb)                                       AIMS eReefs aggregate model data   [Notebook (Jupyter)](https://github.com/aims-ks/ereefs-python-scripts/blob/master/notebooks/1-plot-aims-ereefs-map-data.ipynb)
+  Python     [2. Plot AIMS eReefs time plot from OpeNDAP service](http://github.com/aims-ks/ereefs-python-scripts/blob/master/notebooks/2-plot-aims-ereefs-time-plot.ipynb)                                          AIMS eReefs aggregate model data   [Notebook (Jupyter)](https://github.com/aims-ks/ereefs-python-scripts/blob/master/notebooks/2-plot-aims-ereefs-time-plot.ipynb)
+  Python     [3. Processing the data from the AIMS eReefs extraction tool - Wind and currents](http://github.com/aims-ks/ereefs-python-scripts/blob/master/notebooks/3-extraction-tool-data-wind-vs-current.ipynb)   AIMS eReefs data extraction tool   [Notebook (Jupyter)](https://github.com/aims-ks/ereefs-python-scripts/blob/master/notebooks/3-extraction-tool-data-wind-vs-current.ipynb)
+  R          [How to plot AIMS eReefs data with R](http://ereefs.aims.gov.au/ereefs-aims/help/how-to-plot-aims-ereefs-data-with-r)                                                                                   AIMS eReefs aggregate model data   [R](https://ereefs.aims.gov.au/ereefs-aims/help/how-to-plot-aims-ereefs-data-with-r) [markdown](https://github.com/aims-ks/ereefs-r-scripts/blob/master/notebooks/1-plot-aims-ereefs-data.Rmd)
+  R          [R package to facilitate extracting and visualising eReefs model output data](https://research.csiro.au/ereefs/models/models-about/r-package-plotting-ereefs-data/)                                     CISRO eReefs raw model data        [R library](https://github.com/AIMS/ereefs)
