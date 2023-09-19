@@ -23,7 +23,7 @@
 // Instead I will define the primary, secondary, etc variables to the values that I want.
 
 /*-- scss:defaults --*/
-// minimal_mistakes.$primary-color: #0F528C;
+minimal_mistakes.$primary-color: #0F528C;
   
 // overriding flatly variables:
 $primary:       minimal_mistakes.$primary-color !default;
@@ -32,7 +32,7 @@ $success:       minimal_mistakes.$success-color !default;
 $info:          minimal_mistakes.$info-color !default;
 $warning:       minimal_mistakes.$warning-color !default;
 $danger:        minimal_mistakes.$danger-color !default;
-$light:         minimal_mistakes.$light-gray !default;
+$light:         minimal_mistakes.$lighter-gray !default;
 $dark:          minimal_mistakes.$darker-gray !default;
 
 
