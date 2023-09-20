@@ -1,0 +1,742 @@
+/**
+ * This stylesheet is loaded in the eReefs header block.
+ */
+
+/**
+ * Change the grey background to a white background
+ */
+body {
+	background-color: #f8f8fa;
+}
+
+header div.container,
+nav div.container {
+  padding: 0 50px;
+  max-width: 1400px;
+  margin: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header.app-header {
+  background: #335b84;
+}
+
+header.app-header .container {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header.app-header .container a.aims-logo {
+  flex-grow: 0;
+}
+
+header.app-header .container a.aims-logo img {
+  width: 300px;
+}
+
+header.app-header .container .title {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 2.5rem;
+}
+
+header.app-header .container .title img.aims-logo-sml {
+  margin-right: 8px;
+  height: 2.5rem !important;
+  vertical-align: bottom;
+}
+
+nav#app-nav-bar {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  background: #2c4e72;
+  padding: .5rem 0;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+.region-header .block-menu, .region-header .block-menu ul.menu li:hover ul {
+  background-color: transparent;
+}
+
+nav {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  padding: .5rem 0;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+nav#app-nav-bar {
+  background: #2c4e72;
+}
+
+nav#app-nav-bar #app-navbar-nav {
+  display: flex;
+}
+
+nav#app-nav-bar #block-menu-menu-menu-aims-ereefs-app-menu {
+  margin: 0;
+  width: auto;
+  flex-grow: 1;
+}
+
+nav#app-nav-bar #block-menu-menu-menu-aims-ereefs-app-menu ul.menu li a {
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+  height: auto;
+}
+
+nav#app-nav-bar #block-menu-menu-menu-aims-ereefs-app-menu ul.menu li.active-trail a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+nav#app-nav-bar #block-menu-menu-menu-aims-ereefs-app-menu ul.menu li.leaf.first a {
+  padding-left: 0;
+}
+
+nav#app-nav-bar #block-menu-menu-menu-aims-ereefs-app-menu ul.menu li a:hover {
+  text-decoration: underline;
+}
+
+nav#app-nav-bar #block-menu-menu-menu-aims-ereefs-app-menu ul.menu li ul.menu {
+  padding-top: 8px;
+  background: #2c4e72;
+}
+
+nav#app-nav-bar #block-menu-menu-menu-aims-ereefs-app-menu ul.menu li ul.menu li a,
+nav#app-nav-bar #block-menu-menu-menu-aims-ereefs-app-menu ul.menu li ul.menu li.first a {
+  padding-left: 1rem;
+}
+
+nav#app-nav-bar #block-search-form {
+  margin: 0;
+  width: auto;
+  padding: 5px 0;
+}
+
+nav#app-nav-bar #block-search-form input.form-text {
+  width: 15em;
+}
+
+nav#app-nav-bar #block-search-form input[type="submit"] {
+  margin-right: 0;
+}
+
+nav#visualisation-portal-nav-bar {
+  background: #ffffff;
+}
+
+nav#visualisation-portal-nav-bar a.navbar-title {
+  display: inline-block;
+  color: #25425f;
+  padding: 0;
+  margin-right: 2rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+nav#visualisation-portal-nav-bar #basic-navbar-nav {
+  display: flex !important;
+  flex-basis: auto;
+  flex-grow: 1;
+  align-items: center;
+}
+
+nav#visualisation-portal-nav-bar #basic-navbar-nav #block-menu-menu-menu-ereefs-aims {
+  flex-direction: row;
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+nav#visualisation-portal-nav-bar #block-menu-menu-menu-ereefs-aims ul.menu li a {
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+  height: auto;
+  color: #25425f;
+}
+
+nav#visualisation-portal-nav-bar #block-menu-menu-menu-ereefs-aims ul.menu li a:hover {
+  text-decoration: underline;
+}
+
+nav#visualisation-portal-nav-bar #block-menu-menu-menu-ereefs-aims ul.menu li ul.menu {
+  padding-top: 8px;
+  background: #ffffff;
+}
+
+nav#visualisation-portal-nav-bar #block-menu-menu-menu-ereefs-aims ul.menu li ul.menu li {
+  border-top: 1px dotted #25425f;
+  width: 350px;
+}
+
+nav#visualisation-portal-nav-bar #block-menu-menu-menu-ereefs-aims ul.menu li ul.menu li a,
+nav#visualisation-portal-nav-bar #block-menu-menu-menu-ereefs-aims ul.menu li ul.menu li.first a {
+  padding-left: 1rem;
+}
+
+nav#visualisation-portal-nav-bar #block-menu-menu-menu-ereefs-aims .content {
+  width: 100%;
+}
+
+nav#visualisation-portal-nav-bar #block-menu-menu-menu-ereefs-aims .eatlas-responsive-menu-container .eatlas-responsive-menu-button {
+  padding: 0;
+}
+
+nav#visualisation-portal-nav-bar #block-menu-menu-menu-ereefs-aims .eatlas-responsive-menu-container ul.accordion-menu {
+  margin-top: 0.4rem;
+}
+
+nav#visualisation-portal-nav-bar #block-menu-menu-menu-ereefs-aims .eatlas-responsive-menu-container ul.accordion-menu li a {
+  font-size: 1rem;
+  padding: 0.8rem 0.5rem;
+  height: auto;
+  color: #25425f;
+}
+
+nav#visualisation-portal-nav-bar #block-menu-menu-menu-ereefs-aims .eatlas-responsive-menu-container ul.accordion-menu li {
+  border-top: 1px dotted #25425f;
+}
+
+nav#visualisation-portal-nav-bar #block-menu-menu-menu-ereefs-aims .eatlas-responsive-menu-container ul.accordion-menu li ul li a {
+  background: #ffffff;
+  padding-left: 1rem;
+}
+
+/**
+ * Home page style
+ * Style the block: eReefs AIMS - Large header image
+ */
+.large-image-header {
+	line-height: 0; /* Remove the line at the bottom of the image, caused by font "descender" */
+	position: relative; /* This is used to guide the image overlay */
+
+	background-position: center center;
+	background-size: 100%;
+	/* height =  height / width * 100 */
+	/*   = 1192 / 3880 * 100 */
+	/*   = 30.72  */
+	height: 30vw;
+	max-height: 50vh;
+}
+
+/* Dark overlay over the image */
+.large-image-header .overlay {
+	background-color: #000;
+	opacity: 0.3;
+
+	/* Place it on top of ".large-image-header" <= first parent with "position: relative" */
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+/* Play button and text over the overlay */
+/* NOTE: See "accessibility" at the bottom of the page */
+.large-image-header .button-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.large-image-header .button-wrapper .button {
+	font-weight: bold;
+	font-size: 3em;
+	line-height: 1em;
+	text-align: center;
+
+	color: #FFF;
+	text-shadow: 4px 4px 10px #000;
+
+	max-height: 100%;
+	padding: 0 10px;
+	overflow: hidden;
+}
+
+/* NcAnimate product block */
+/**
+ * Flex is not well supported by IE.
+ * The page is still usable when flex is not used, it's just ugly.
+ * Flex: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+ */
+.ncanimate-products {
+	display: flex;
+	flex-wrap: wrap;
+	/* justify-content: space-between; */
+	align-items: stretch;
+}
+.ncanimate-products .ncanimate-product-tile {
+	margin: 1em;
+	padding: 0 1em;
+	width: 500px;
+
+	border: 3px solid #CCC;
+	border-radius: 10px;
+}
+/* Change the background colour with mouse-over, to make it look more dynamic. */
+.ncanimate-products .ncanimate-product-tile:hover {
+	background-color: #EEE;
+}
+
+
+
+/**
+ * Footer
+ */
+#footer {
+	height: 40px;
+	background-color: #2c4e72;
+}
+#footer .region-footer {
+	width: 1400px;
+	margin: 0 auto;
+	padding-top: 10px;
+	color: #FFF;
+}
+#footer .region-footer .content {
+	margin: 0 1em;
+}
+#footer .region-footer .content a {
+	color: #FFF;
+}
+
+
+#wrapper {
+	overflow: visible;
+	color: #113a5f;
+}
+
+/* Fix Drupal clearfix patch to allow sidebar to float to the left of the page content. */
+.node.clearfix:after {
+	clear: none;
+}
+
+/* Hide advanced search */
+#edit-advanced-search {
+	display: none;
+}
+
+/* eReefs - Home page */
+.ereefs-video {
+	text-align: center;
+}
+.ereefs-video div {
+	/* Blue box "placeholder" for the video, so the page do not look empty while the iFrame loads. */
+	background-color: #113A5F;
+	/* Remove the gap at the bottom of the iFrame */
+	line-height: 0;
+	/* Make its width as large as its content */
+	display: inline-block;
+}
+
+.page-node-1434 .page-title {
+	display: none;
+}
+
+.ereefs-home-page-title {
+	font-style: italic;
+	text-align: center;
+	font-size: 2em;
+	line-height: normal;
+
+	width: 800px;
+	margin: 40px auto 0 auto;
+}
+
+.ereefs-home-contact-button {
+	text-align: center;
+}
+.ereefs-home-contact-button a {
+	display: inline-block;
+	font-size: 1.5em;
+	background-color: #046e9c;
+	color: #fff;
+	padding: 15px 20px;
+	margin: 1em;
+	border-radius: 7px;
+}
+
+
+
+/* Partners page */
+/* Hide partners - on view mode (not on edit mode) */
+.content #partners {
+	margin-top: 2em;
+}
+
+.content #partners .hidden {
+	display: none;
+}
+
+.content #partners h2.partner-separator {
+	border-top: 2px solid #113a5f;
+	margin: 2em 0;
+}
+.content #partners div.partner-separator {
+	margin: 1em 0;
+}
+
+/* Left column - Navigation menu */
+.ereefs-submenu ul.menu {
+	padding: 0;
+	margin: 0;
+}
+.ereefs-submenu ul.menu li {
+	list-style-image: none;
+	list-style-type: none;
+	margin: 0.5em 0;
+}
+
+
+
+/* Help pages */
+
+ul#list-of-help-articles {
+  list-style: none;
+  margin: 0 0 0.75em 0;
+  padding: 0;
+}
+
+ul#list-of-help-articles li {
+  border-top: 1px dashed #999999;
+  margin: 1em 0 0 0;
+  padding: 1em 0 0 0;
+}
+
+ul#list-of-help-articles li a {
+  font-weight: bold;
+}
+
+pre code {
+  display: block;
+  padding: 0.8em;
+  margin: 0 0 10px;
+  overflow: auto;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+pre code.output {
+  background-color: #ffffff;
+}
+
+.content table {
+  font-size: 0.9em;
+}
+
+.content table th {
+  padding: 0.1em 0.8em;
+  border: 1px solid #dfe2e5;
+  font-weight: bold;
+}
+
+.content table td {
+  padding: 0.1em 0.8em;
+  border: 1px solid #dfe2e5;
+}
+
+
+/* Footer */
+
+.ereefs-footer {
+	clear: both;
+	background-color: #113A5F;
+	color: #FFFFFF;
+	font-size: 0.5em;
+	margin: 20px -50px -56px -50px;
+	padding: 20px 50px 50px 50px;
+}
+
+.logo-container {
+	text-align: center;
+}
+
+.logo-container img {
+	margin: 5px 18px;
+	vertical-align: middle;
+}
+
+.ereefs-footer hr {
+	border: none;
+	background-color: #FFFFFF;
+	height: 1px;
+	margin-bottom: 1px;
+}
+
+.ereefs-footer p {
+	border-top: 1px solid #FFFFFF;
+	opacity: 0.6;
+}
+
+.ereefs-member-photo,
+.view-ereefs-members .views-field-field-preview {
+	float: left;
+}
+.ereefs-member-photo .mediaframe_wikipedia,
+.view-ereefs-members .views-field-field-preview .mediaframe_wikipedia {
+	margin: 1.5em 1.5em 0.5em 0;
+}
+
+.field-name-field-position,
+.view-ereefs-members .views-field-field-position {
+	font-style: italic;
+}
+
+.view-ereefs-members {
+	line-height: 1.8em;
+}
+
+.view-ereefs-members .views-field-title {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.view-ereefs-members .views-row-odd,
+.view-ereefs-members .views-row-even {
+	margin-bottom: 2em;
+	overflow: auto; /* Alternative to clear:both */
+}
+
+.view-ereefs-members .views-row-last {
+	margin-bottom: 0;
+}
+
+#block-views-ereefs-members-block-4,
+#block-views-ereefs-members-block-5,
+#block-views-ereefs-members-block-6,
+#block-views-ereefs-members-block-7 {
+	margin-bottom: 3em;
+}
+
+
+
+
+/**
+ * Responsive design
+ */
+
+/* Larger screen */
+#wrapper,
+.ereefs-header,
+.page-content_full-width,
+.region-header .pagewidth {
+	width: 1400px;
+}
+
+#wrapper {
+	padding: 1em 0 0 0;
+	margin-bottom: 5em;
+}
+.page-content_with-column,
+.page-content_full-width {
+	padding: 0 0 40px 0;
+}
+
+#container {
+	margin: 0 50px 0 50px;
+}
+
+#sidebar-first {
+	width: 200px;
+	font-size: 0.8em;
+}
+
+.page-content_with-column {
+	width: auto; /* Page width - sidebar width and some space between sidebar and page content */
+	float: none;
+	margin-left: 230px; /* Same as the sidebar-first width + 30px spacing */
+}
+
+/* Make media frame images looks more centered - should be set in the eAtlas Media frame module */
+div.mediaframe_wikipedia,
+div.mediaframe_gallery {
+	margin-left: -0.25em;
+}
+
+/* iPad = 768px x 1024px */
+@media screen and (max-width: 1100px) {
+	.ereefs-footer .logo-container img {
+		zoom: 0.8;
+	}
+}
+
+/* Reduce space between element of the navigation menus */
+@media screen and (max-width: 1400px) {
+	.region-header .block-menu ul.menu li a,
+	.region-header .block-menu ul.menu li a:hover {
+		padding-right: 10px;
+	}
+}
+
+/* Toggle navigation menus */
+@media screen and (max-width: 1200px) {
+  nav#app-nav-bar #block-menu-menu-menu-aims-ereefs-app-menu ul.menu li a {
+    padding: 0.5rem 1.8rem;
+  }
+
+  nav#visualisation-portal-nav-bar #block-menu-menu-menu-ereefs-aims ul.menu li a {
+    padding: 0.5rem 1rem;
+  }
+
+  nav#visualisation-portal-nav-bar a.navbar-title {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  nav#app-nav-bar #block-menu-menu-menu-aims-ereefs-app-menu ul.menu li a {
+    padding: 0.5rem 0.75rem;
+  }
+
+  nav#visualisation-portal-nav-bar a.navbar-title {
+    display: none;
+  }
+
+  .region-header .eatlas-responsive-menu ul.menu {
+    display: none;
+  }
+
+  .eatlas-responsive-menu-container {
+    display: block;
+  }
+
+	.large-image-header .button-wrapper .button {
+		font-size: 2em;
+		top: 10%;
+	}
+	.large-image-header .button-wrapper .button img {
+		width: 75px;
+	}
+
+	.ereefs-footer .logo-container img {
+		zoom: 0.7;
+	}
+
+	/* Remove the sidebar-first (the 2nd level menu) */
+	#sidebar-first {
+		display: none;
+	}
+	.page-content_with-column {
+		margin-left: 0;
+	}
+
+	/* Make the search field smaller */
+	nav#app-nav-bar #block-search-form input.form-text {
+		width: 10em;
+	}
+
+	/* Fix the search form, on the search page */
+	.search-results {
+		padding: 0;
+	}
+
+	/* Make the margin reduce as the page get smaller */
+  header div.container,
+  nav div.container {
+    padding: 0 5%;
+  }
+
+  #wrapper {
+		margin-bottom: 0;
+	}
+
+	#container {
+		margin: 0 5%;
+	}
+	.ereefs-footer {
+		/* We added 10% to the container width (5% + 5%)
+		 * The container width is now 110%
+		 * To have the margin occupy that extra space,
+		 * it needs to be 11% smaller (I not sure why, I can't figure out the maths...)
+		 * 11% devided by 2 (left and right) = 5.5% */
+		margin-left: -5.5%;
+		margin-right: -5.5%;
+		padding-left: 5.5%;
+		padding-right: 5.5%;
+	}
+}
+
+@media screen and (max-width: 770px) {
+  header.app-header .container {
+    height: 80px;
+  }
+
+  header.app-header .container a.aims-logo {
+    display: none;
+  }
+
+  nav#app-nav-bar {
+    flex-flow: column nowrap;
+  }
+
+  nav#app-nav-bar #block-menu-menu-menu-aims-ereefs-app-menu .content > ul.menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav#app-nav-bar #block-menu-menu-menu-aims-ereefs-app-menu ul.menu li {
+    display: block;
+  }
+
+  nav#app-nav-bar #block-menu-menu-menu-aims-ereefs-app-menu ul.menu li a {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .ereefs-footer .logo-container img {
+		zoom: 0.5;
+	}
+}
+
+@media screen and (max-width: 600px) {
+  nav#visualisation-portal-nav-bar a.navbar-title {
+    font-size: 1.2rem;
+    white-space: normal;
+  }
+
+  .large-image-header .button-wrapper .button {
+    font-size: 1.5em;
+  }
+
+  .large-image-header .button-wrapper .button img {
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  nav#app-nav-bar #app-navbar-nav {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 390px) {
+	.ereefs-header .attributions {
+    font-size: 0.5em;
+	}
+}
+
