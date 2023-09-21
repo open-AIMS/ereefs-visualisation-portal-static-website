@@ -2,13 +2,6 @@
  * This stylesheet is loaded in the eReefs header block.
  */
 
-/**
- * Change the grey background to a white background
- */
-body {
-	background-color: #f8f8fa;
-}
-
 header div.container,
 nav div.container {
   padding: 0 50px;
@@ -294,7 +287,8 @@ nav#visualisation-portal-nav-bar #block-menu-menu-menu-ereefs-aims .eatlas-respo
 }
 /* Change the background colour with mouse-over, to make it look more dynamic. */
 .ncanimate-products .ncanimate-product-tile:hover {
-	background-color: #EEE;
+  background-color: rgba(128, 128, 128, 0.2); /* Gray color with 50% opacity */
+	background-blend-mode: multiply;
 }
 
 

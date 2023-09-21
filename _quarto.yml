@@ -61,15 +61,14 @@ website:
 
 format:
   html:
-    theme:
-      light: 
-          - flatly
-          - css/custom.scss
-      dark: darkly
+    theme: 
+       light: flatly
+       dark: darkly
     css: 
       - css/ereefs_aims.css
       - css/eatlas_ncanimate2.css
       - css/eatlas_ncanimate2_responsive.css
+      - css/custom.scss
       - css/styles.css
     toc: false
 
