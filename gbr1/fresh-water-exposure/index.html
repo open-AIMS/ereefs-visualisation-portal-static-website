@@ -265,7 +265,7 @@
 <p>The freshwater exposure is calculated from the sum of the daily average salinity below the exposure threshold. Salinity levels above the threshold don't contribute at all to the exposure. Salinity levels below the threshold contribute in proportion to the amount below the threshold. As a result with a threshold of 28 PSU and an exposure to 22 PSU for 3 days the freshwater exposure would be (28-22)*3 = 18 PSU days. The same exposure at 25 PSU would take 6 days (28-25)*6 = 18 PSU days. This method of calculating exposure is conceptually very similar to temperature exposure measured in Degree Heating Weeks, where the higher the temperature is above the typical maximum summer temperature the faster the heat stress occurs. For freshwater exposure the stress occurs when the salinity drops below the threshold value. The lower the salinity the faster the exposure accumulates. More research is needed to determine if this is the best method for estimating stress from freshwater.</p>
 <p>For comparison the freshwater exposure calculations were applied to the observations taken during the Fitzroy flooding event in 2011 that caused significant coral mortality on reef flats corals in the Keppel Islands (Berkelmans et al.&nbsp;2012). This shows that exposure to greater than <strong>50 PSU days can result in significant mortality</strong>, particularly in sensitive coral species.</p>
 <div style="max-width: 600px; margin: auto;">
-<table class="table">
+<table class="table-hover table">
 <caption>Freshwater exposure calculated from measurements taken on the Keppel Islands during the 2011 flooding. (Berkelmans et al.&nbsp;2012)</caption>
 <colgroup>
 <col style="width: 22%">
@@ -326,38 +326,38 @@
 </div>
 <p><br> Observations taken along the eastern side of Magnetic Island taken on the 20th February 2019 showed no evidence of freshwater bleaching, although some corals were pale due to low light conditions. Corals on the rocks near AIMS (near the Haughton river) showed freshwater mortality. These two points of reference can be used to gauge whether the 1 km or 4 km results are more accurate.</p>
 
-<table class="column-page table" cellspacing="1" cellpadding="1" border="1" align="center">
-<tbody>
-
-<tr class="table-secondary">
-<td colspan="1" rowspan="2">
+<table class="column-page table table-hover">
+<thead>
+<tr class="header">
+<th colspan="1" rowspan="2">
 Location
-</td>
-<td colspan="2" rowspan="1">
-<strong>1 km model</strong> (28 PSU threshold)
-</td>
-<td colspan="2" rowspan="1">
-<strong>4 km model</strong> (28 PSU threshold)
-</td>
-<td colspan="1" rowspan="2">
+</th>
+<th colspan="2" rowspan="1">
+1 km model (28 PSU threshold)
+</th>
+<th colspan="2" rowspan="1">
+4 km model (28 PSU threshold)
+</th>
+<th colspan="1" rowspan="2">
 Observed freshwater mortality
-</td>
+</th>
 </tr>
-
-<tr class="table-secondary">
-<td>
+<tr>
+<th>
 Freshwater exposure (PSU days)
-</td>
-<td>
+</th>
+<th>
 Predicted morality (Berkelmans, 2012)
-</td>
-<td>
+</th>
+<th>
 4 km model freshwater exposure (28 PSU threshold)
-</td>
-<td>
+</th>
+<th>
 Predicted morality (Berkelmans, 2012)
-</td>
+</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 Magnetic Island
@@ -365,16 +365,19 @@ Magnetic Island
 <td>
 35
 </td>
-<td style="background-color: #66CC33;">
+
+<td class="table-success">
 None
 </td>
 <td>
 0
 </td>
-<td style="background-color: #66CC33;">
+
+<td class="table-success">
 None
 </td>
-<td style="background-color: #66CC33;">
+
+<td class="table-success">
 None
 </td>
 </tr>
@@ -385,16 +388,19 @@ Cape Ferguson
 <td>
 75
 </td>
-<td style="background-color: #FF3333;">
+
+<td class="table-danger">
 High
 </td>
 <td>
 15
 </td>
-<td style="background-color: #66CC33;">
+
+<td class="table-success">
 None
 </td>
-<td style="background-color: #FF3333;">
+
+<td class="table-danger">
 High
 </td>
 </tr>
