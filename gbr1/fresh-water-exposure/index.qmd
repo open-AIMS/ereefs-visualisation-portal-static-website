@@ -8,7 +8,6 @@ params:
   block-name: gbr1-hydro_fresh-water-exposure
   product-id: products__ncanimate__ereefs__gbr1_2-0__fresh-water-exposure
 ---
-
 {{< include ../../includes/_visualisation.qmd >}}
 
 This page shows as estimate of exposure to fresh water on the Great
@@ -104,7 +103,7 @@ sensitive coral species.
 | North Keppel            | 50                                                         | 40                       |
 | Miall                   | 40                                                         | 0                        |
 
-: Freshwater exposure calculated from measurements taken on the Keppel Islands during the 2011 flooding. (Berkelmans et al. 2012)
+: Freshwater exposure calculated from measurements taken on the Keppel Islands during the 2011 flooding. (Berkelmans et al. 2012) {.hover}
 :::
 
 ## How accurate is the modelled freshwater exposure?
@@ -152,35 +151,37 @@ the rocks near AIMS (near the Haughton river) showed freshwater
 mortality. These two points of reference can be used to gauge whether
 the 1 km or 4 km results are more accurate.
 
-<table class="column-page table" cellspacing="1" cellpadding="1" border="1" align="center">
+<table class="column-page table table-hover">
+	<thead>
+		<tr class="header">
+			<th colspan="1" rowspan="2">Location</th>
+			<th colspan="2" rowspan="1">1 km model (28 PSU threshold)</th>
+			<th colspan="2" rowspan="1">4 km model (28 PSU threshold)</th>
+			<th colspan="1" rowspan="2">Observed freshwater mortality</th>
+		</tr>
+		<tr>
+			<th>Freshwater exposure (PSU days)</th>
+			<th>Predicted morality (Berkelmans, 2012)</th>
+			<th>4 km model freshwater exposure (28 PSU threshold)</th>
+			<th>Predicted morality (Berkelmans, 2012)</th>
+		</tr>
+	</thead>
 	<tbody>
-		<tr class="table-secondary">
-			<td colspan="1" rowspan="2">Location</td>
-			<td colspan="2" rowspan="1"><strong>1 km model</strong> (28 PSU threshold)</td>
-			<td colspan="2" rowspan="1"><strong>4 km model</strong> (28 PSU threshold)</td>
-			<td colspan="1" rowspan="2">Observed freshwater mortality</td>
-		</tr>
-		<tr class="table-secondary">
-			<td>Freshwater exposure (PSU days)</td>
-			<td>Predicted morality (Berkelmans, 2012)</td>
-			<td>4 km model freshwater exposure (28 PSU threshold)</td>
-			<td>Predicted morality (Berkelmans, 2012)</td>
-		</tr>
 		<tr>
 			<td>Magnetic Island</td>
 			<td>35</td>
-			<td style="background-color: #66CC33;">None</td>
+			<td class="table-success">None</td>
 			<td>0</td>
-			<td style="background-color: #66CC33;">None</td>
-			<td style="background-color: #66CC33;">None</td>
+			<td class="table-success">None</td>
+			<td class="table-success">None</td>
 		</tr>
 		<tr>
 			<td>Cape Ferguson</td>
 			<td>75</td>
-			<td style="background-color: #FF3333;">High</td>
+			<td class="table-danger">High</td>
 			<td>15</td>
-			<td style="background-color: #66CC33;">None</td>
-			<td style="background-color: #FF3333;">High</td>
+			<td class="table-success">None</td>
+			<td class="table-danger">High</td>
 		</tr>
 	</tbody>
 </table>

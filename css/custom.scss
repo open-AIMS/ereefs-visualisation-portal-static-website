@@ -27,7 +27,7 @@ minimal_mistakes.$primary-color: #0F528C;
   
 // overriding flatly variables:
 $primary:       minimal_mistakes.$primary-color !default;
-$secondary:     $gray-600 !default;
+$secondary:     $gray-600 !default; // becuase minimal_mistakes has not secondary color, I copied flatly's value
 $success:       minimal_mistakes.$success-color !default;
 $info:          minimal_mistakes.$info-color !default;
 $warning:       minimal_mistakes.$warning-color !default;
@@ -36,7 +36,6 @@ $light:         minimal_mistakes.$lighter-gray !default;
 $dark:          minimal_mistakes.$darker-gray !default;
 
 $link-color:    $primary !default;
-
 
 /*-- scss:rules --*/
 
