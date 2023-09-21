@@ -248,11 +248,11 @@
 }
 
 .eatlas_ncanimate2_block .tabs ul li.images .icon {
-    background-image: url('../img/icon-image.svg');
+    background-image: url('../images/icon-image.svg');
 }
 
 .eatlas_ncanimate2_block .tabs ul li.videos .icon {
-    background-image: url('../img/icon-video.svg');
+    background-image: url('../images/icon-video.svg');
 }
 
 .eatlas_ncanimate2_block .tabs ul li.active {
