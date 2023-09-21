@@ -96,56 +96,15 @@ significant coral mortality on reef flats corals in the Keppel Islands
 PSU days can result in significant mortality**, particularly in
 sensitive coral species.
 
-::: {.table .table-hover}
-| Default | Left | Right | Center |
-|---------|:-----|------:|:------:|
-| 12      | 12   |    12 |   12   |
-| 123     | 123  |   123 |  123   |
-| 1       | 1    |     1 |   1    |
+::: {style="max-width: 600px; margin: auto;"}
+| Island                  | Freshwater exposure (*PSU days*, 28&nbsp;PSU&nbsp;threshold) | Reef flat mortality (%)  |
+|-------------------------|:----------------------------------------------------------:|:------------------------:|
+| Great Keppel            | 130                                                        | 100                      |
+| Halfway                 | 110                                                        | 100                      |
+| North Keppel            | 50                                                         | 40                       |
+| Miall                   | 40                                                         | 0                        |
 
-: Demonstration of pipe table syntax
-
-:::
-
-::: {.table .table-hover}
-+-----------------------+-----------------------+-----------------------+
-| Island                | Freshwater exposure   | Reef flat mortality   |
-|                       |                       | (%)                   |
-|                       | (*PSU days*, 28 PSU   |                       |
-|                       | threshold)            |                       |
-+=======================+=======================+=======================+
-| Great Keppel          | 130                   | 100                   |
-+-----------------------+-----------------------+-----------------------+
-| Halfway               | 110                   | 100                   |
-+-----------------------+-----------------------+-----------------------+
-| North Keppel          | 50                    | 40                    |
-+-----------------------+-----------------------+-----------------------+
-| Miall                 | 40                    | 0                     |
-+-----------------------+-----------------------+-----------------------+
-:::
-
-::: {style="text-align: center;"}
-::: {.mediaframe_wikipedia_imgframeblk style="max-width: 600px;"}
-+-----------------------+-----------------------+-----------------------+
-| Island                | Freshwater exposure   | Reef flat mortality   |
-|                       |                       | (%)                   |
-|                       | (*PSU days*, 28 PSU   |                       |
-|                       | threshold)            |                       |
-+=======================+=======================+=======================+
-| Great Keppel          | 130                   | 100                   |
-+-----------------------+-----------------------+-----------------------+
-| Halfway               | 110                   | 100                   |
-+-----------------------+-----------------------+-----------------------+
-| North Keppel          | 50                    | 40                    |
-+-----------------------+-----------------------+-----------------------+
-| Miall                 | 40                    | 0                     |
-+-----------------------+-----------------------+-----------------------+
-
-::: {.description}
-Freshwater exposure calculated from measurements taken on the Keppel
-Islands during the 2011 flooding. (Berkelmans et al. 2012)
-:::
-:::
+: Freshwater exposure calculated from measurements taken on the Keppel Islands during the 2011 flooding. (Berkelmans et al. 2012)
 :::
 
 ## How accurate is the modelled freshwater exposure?

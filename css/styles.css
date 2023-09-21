@@ -10,12 +10,27 @@
   max-height: 100px; /* Removes any height limitation on the logo */
 }
 
-/* trying to make a gap between the logo and the title in the header */
+/* making a gap between the logo and the title in the header */
 .navbar .navbar-brand-logo {
   margin-right: 1em;
 }
 .ncanimate-products {
   justify-content: center
+}
+
+/* making the footer logos separated */
+.nav-footer img {
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+/* shrinking the unused right nav-footer */
+.nav-footer-right {
+  flex: 0 1 0px;
+}
+
+.nav-footer-center {
+  text-align: right;
 }
 
 /* trying to make the navbar static

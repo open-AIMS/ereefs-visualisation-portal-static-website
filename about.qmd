@@ -155,6 +155,7 @@ full NetCDF data or by using libraries to access the data using the
 OPeNDAP data protocol. The following are tutorials in using these
 services in a range of languages.
 
+::: {.column-body-outset}
   Language   Description                                                                                                                                                                                             Data source                        Notebook
   ---------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   Python     [1. Plot AIMS eReefs data as a map from OpeNDAP service](http://github.com/aims-ks/ereefs-python-scripts/blob/master/notebooks/1-plot-aims-ereefs-map-data.ipynb)                                       AIMS eReefs aggregate model data   [Notebook (Jupyter)](https://github.com/aims-ks/ereefs-python-scripts/blob/master/notebooks/1-plot-aims-ereefs-map-data.ipynb)
@@ -162,3 +163,4 @@ services in a range of languages.
   Python     [3. Processing the data from the AIMS eReefs extraction tool - Wind and currents](http://github.com/aims-ks/ereefs-python-scripts/blob/master/notebooks/3-extraction-tool-data-wind-vs-current.ipynb)   AIMS eReefs data extraction tool   [Notebook (Jupyter)](https://github.com/aims-ks/ereefs-python-scripts/blob/master/notebooks/3-extraction-tool-data-wind-vs-current.ipynb)
   R          [How to plot AIMS eReefs data with R](http://ereefs.aims.gov.au/ereefs-aims/help/how-to-plot-aims-ereefs-data-with-r)                                                                                   AIMS eReefs aggregate model data   [R](https://ereefs.aims.gov.au/ereefs-aims/help/how-to-plot-aims-ereefs-data-with-r) [markdown](https://github.com/aims-ks/ereefs-r-scripts/blob/master/notebooks/1-plot-aims-ereefs-data.Rmd)
   R          [R package to facilitate extracting and visualising eReefs model output data](https://research.csiro.au/ereefs/models/models-about/r-package-plotting-ereefs-data/)                                     CISRO eReefs raw model data        [R library](https://github.com/AIMS/ereefs)
+:::

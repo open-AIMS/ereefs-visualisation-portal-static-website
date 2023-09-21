@@ -45,19 +45,18 @@ website:
             text: eReefs Program Website
   page-footer:
     background: primary
+    left: |
+      Colaborators
+      <br>[![](/images/logos/AIMS-210x49.png){fig-alt="AIMS"}](https://aims.gov.au/)
+      [![](/images/logos/CSIRO-60x60.png){fig-alt="CSIRO"}](https://www.csiro.au/)
+      [![](/images/logos/BoM-210x51.png){fig-alt="Beauro of Meteorology"}](http://www.bom.gov.au/)
     center: |
-      Colaborators:
-      <br>[![](./images/logos/AIMS-210x49.png){fig-alt="AIMS"}](https://aims.gov.au/)
-      [![](./images/logos/CSIRO-60x60.png){fig-alt="CSIRO"}](https://www.csiro.au/)
-      [![](./images/logos/BoM-210x51.png){fig-alt="Beauro of Meteorology"}](http://www.bom.gov.au/)
-      <br>
-      <br>
-      Funders:
-      <br>![](./images/logos/Aus-Gov-159x80.png){fig-alt="Australian Government"}
-      ![](./images/logos/BHP-BMA-210x51.png){fig-alt="BHP Billiton Mitsubishi Alliance"}
-      ![](./images/logos/GBRF_1-210x66.png){fig-alt="Great Barrier Reef Foundation"}
-      ![](./images/logos/QLD-Gov-64x80.png){fig-alt="Queensland Government"}
-      ![](./images/logos/SIEF-110x66.png){fig-alt="Science and Industry Endowment Fund"}
+      Funders
+      <br>![](/images/logos/Aus-Gov-159x80.png){fig-alt="Australian Government"}
+      ![](/images/logos/BHP-BMA-210x51.png){fig-alt="BHP Billiton Mitsubishi Alliance"}
+      ![](/images/logos/GBRF_1-210x66.png){fig-alt="Great Barrier Reef Foundation"}
+      ![](/images/logos/QLD-Gov-64x80.png){fig-alt="Queensland Government"}
+      ![](/images/logos/SIEF-110x66.png){fig-alt="Science and Industry Endowment Fund"}
 
 
 format:
