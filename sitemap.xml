@@ -2,142 +2,142 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/help/how-to-plot-aims-ereefs-data-with-python/index.html</loc>
-    <lastmod>2023-09-21T04:11:22.752Z</lastmod>
+    <lastmod>2023-09-24T23:32:30.475Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/help/how-to-manually-download-aims-ereefs-data/index.html</loc>
-    <lastmod>2023-09-21T04:11:21.948Z</lastmod>
+    <lastmod>2023-09-24T23:32:29.655Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/help/how-to-download-video-or-image/index.html</loc>
-    <lastmod>2023-09-21T04:11:20.960Z</lastmod>
+    <lastmod>2023-09-24T23:32:28.659Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/help/how-to-access-the-aims-ereefs-data-using-opendap-and-arcmap/index.html</loc>
-    <lastmod>2023-09-21T04:11:19.800Z</lastmod>
+    <lastmod>2023-09-24T23:32:27.483Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/current-multi-depth/index.html</loc>
-    <lastmod>2023-09-21T04:11:18.644Z</lastmod>
+    <lastmod>2023-09-24T23:32:26.259Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/bgc/baseline/true-colour/index.html</loc>
-    <lastmod>2023-09-21T04:11:17.688Z</lastmod>
+    <lastmod>2023-09-24T23:32:25.319Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/bgc/baseline/chl-a-sum_din_efi/index.html</loc>
-    <lastmod>2023-09-21T04:11:16.692Z</lastmod>
+    <lastmod>2023-09-24T23:32:24.287Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/bgc/baseline/pip_pip-sed/index.html</loc>
-    <lastmod>2023-09-21T04:11:15.764Z</lastmod>
+    <lastmod>2023-09-24T23:32:23.339Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/bgc/baseline/dor-c_dor-n_dor-p/index.html</loc>
-    <lastmod>2023-09-21T04:11:14.700Z</lastmod>
+    <lastmod>2023-09-24T23:32:22.351Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/bgc/baseline/efi_dust_mud-carbonate_mud-mineral/index.html</loc>
-    <lastmod>2023-09-21T04:11:13.764Z</lastmod>
+    <lastmod>2023-09-24T23:32:21.451Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/bgc/baseline/cs-n_cs-chl_ch-n/index.html</loc>
-    <lastmod>2023-09-21T04:11:12.604Z</lastmod>
+    <lastmod>2023-09-24T23:32:20.271Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/imos-vs-ereefs/index.html</loc>
-    <lastmod>2023-09-21T04:11:11.396Z</lastmod>
+    <lastmod>2023-09-24T23:32:19.139Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/temp-wind-salt-current/index.html</loc>
-    <lastmod>2023-09-21T04:11:10.460Z</lastmod>
+    <lastmod>2023-09-24T23:32:18.215Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/index.html</loc>
-    <lastmod>2023-09-21T04:11:09.144Z</lastmod>
+    <lastmod>2023-09-24T23:32:16.959Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr1/temp-multi-depth/index.html</loc>
-    <lastmod>2023-09-21T04:11:07.916Z</lastmod>
+    <lastmod>2023-09-24T23:32:15.815Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr1/fresh-water-exposure/index.html</loc>
-    <lastmod>2023-09-21T04:11:06.860Z</lastmod>
+    <lastmod>2023-09-24T23:32:14.799Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr1/temp-range/index.html</loc>
-    <lastmod>2023-09-21T04:11:05.516Z</lastmod>
+    <lastmod>2023-09-24T23:32:13.543Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr1/temp-wind-salt-current/index.html</loc>
-    <lastmod>2023-09-21T04:11:02.568Z</lastmod>
+    <lastmod>2023-09-24T23:32:10.727Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr1/river-tracers/index.html</loc>
-    <lastmod>2023-09-21T04:11:05.000Z</lastmod>
+    <lastmod>2023-09-24T23:32:13.067Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr1/salt-multi-depth/index.html</loc>
-    <lastmod>2023-09-21T04:11:06.032Z</lastmod>
+    <lastmod>2023-09-24T23:32:14.039Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr1/current-magnitude-average/index.html</loc>
-    <lastmod>2023-09-21T04:11:07.388Z</lastmod>
+    <lastmod>2023-09-24T23:32:15.291Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr1/current-multi-depth/index.html</loc>
-    <lastmod>2023-09-21T04:11:08.444Z</lastmod>
+    <lastmod>2023-09-24T23:32:16.311Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/about.html</loc>
-    <lastmod>2023-09-21T04:11:09.824Z</lastmod>
+    <lastmod>2023-09-24T23:32:17.635Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/temp-range/index.html</loc>
-    <lastmod>2023-09-21T04:11:10.912Z</lastmod>
+    <lastmod>2023-09-24T23:32:18.667Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/bgc/baseline/ma-n_sg-n_sgh-n_sgd-n/index.html</loc>
-    <lastmod>2023-09-21T04:11:11.996Z</lastmod>
+    <lastmod>2023-09-24T23:32:19.711Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/bgc/baseline/alk_ph_omega-ar/index.html</loc>
-    <lastmod>2023-09-21T04:11:13.272Z</lastmod>
+    <lastmod>2023-09-24T23:32:20.915Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/bgc/baseline/din_dip_dic/index.html</loc>
-    <lastmod>2023-09-21T04:11:14.244Z</lastmod>
+    <lastmod>2023-09-24T23:32:21.899Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/bgc/baseline/secchi_kd-490_epipar-sg/index.html</loc>
-    <lastmod>2023-09-21T04:11:15.248Z</lastmod>
+    <lastmod>2023-09-24T23:32:22.867Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/bgc/baseline/oxygen_oxy-sat/index.html</loc>
-    <lastmod>2023-09-21T04:11:16.248Z</lastmod>
+    <lastmod>2023-09-24T23:32:23.831Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/bgc/baseline/din_no3_nh4/index.html</loc>
-    <lastmod>2023-09-21T04:11:17.192Z</lastmod>
+    <lastmod>2023-09-24T23:32:24.811Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/gbr4/temp-multi-depth/index.html</loc>
-    <lastmod>2023-09-21T04:11:18.148Z</lastmod>
+    <lastmod>2023-09-24T23:32:25.799Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/help/index.html</loc>
-    <lastmod>2023-09-21T04:11:19.116Z</lastmod>
+    <lastmod>2023-09-24T23:32:26.787Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/help/how-to-open-a-NetCDF-file-with-ArcMap-and-QGIS/index.html</loc>
-    <lastmod>2023-09-21T04:11:20.508Z</lastmod>
+    <lastmod>2023-09-24T23:32:28.203Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/help/how-to-extract-data-using-the-extraction-tool/index.html</loc>
-    <lastmod>2023-09-21T04:11:21.392Z</lastmod>
+    <lastmod>2023-09-24T23:32:29.111Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jjohnston-aims/ereefs-static-site/help/how-to-plot-aims-ereefs-data-with-r/index.html</loc>
-    <lastmod>2023-09-21T04:11:22.348Z</lastmod>
+    <lastmod>2023-09-24T23:32:30.047Z</lastmod>
   </url>
 </urlset>
