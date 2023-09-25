@@ -68,6 +68,7 @@ format:
        dark: 
          - darkly
          - css/custom.scss
+         - css/custom_dark.scss
     css: 
       - css/ereefs_aims.css
       - css/eatlas_ncanimate2.css
