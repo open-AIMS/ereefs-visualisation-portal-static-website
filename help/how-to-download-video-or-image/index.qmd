@@ -22,5 +22,5 @@ In the case you would like to download a visualisation video or a frame (an imag
 
 ![How to download a video or frame screenshot](./how-to-download-video-or-frame.png){.column-page}
 
-Example page ([Temperature, wind, salinity and current (GBR4)](../products/gbr4-hydro_temp-wind-salt-current.qmd)) indicating in yellow the settings to adjust and in red the buttons available for downloading the video and image (video frame).
+Example page ([Temperature, wind, salinity and current (GBR4)](/gbr4/temp-wind-salt-current/index.qmd)) indicating in yellow the settings to adjust and in red the buttons available for downloading the video and image (video frame).
 
