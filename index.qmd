@@ -3,7 +3,7 @@ title: "AIMS eReefs"
 format:
   html:
     include-in-header:
-      - includes/explore_the_reef_through_time_banner.html
+      - includes/_explore_the_reef_through_time_banner.qmd
 ---
 
 # eReefs AIMS Visualisation Portal
