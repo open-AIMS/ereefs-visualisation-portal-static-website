@@ -31,6 +31,6 @@ also a 24-hour average. This reduces the tidal effects on the current vector,
 but doesn't eliminate it, whereas the geostrophic velocities in the IMOS
 dataset are detided (see the [metadata record](https://catalogue-imos.aodn.org.au/geonetwork/srv/api/records/0c9eb39c-9cbe-4c6a-8a10-5867087e703a) for more information).
 
-{{< include ../../includes/_source_data.qmd >}}
+{{< include ../../includes/_source_data_gbr4.qmd >}}
 
 {{< include ../../includes/_recent_data.qmd >}}

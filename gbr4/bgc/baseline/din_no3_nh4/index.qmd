@@ -61,6 +61,6 @@ nitrate represents [NO3-] + [NO2-].
 
 Concentration of ammonia ions [NH4+].
 
-{{< include ../../../../includes/_source_data.qmd >}}
+{{< include ../../../../includes/_source_data_gbr4.qmd >}}
 
 {{< include ../../../../includes/_recent_data.qmd >}}

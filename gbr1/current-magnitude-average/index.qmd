@@ -25,7 +25,7 @@ For details of this dataset and access to the data see the [eReefs CSIRO
 Hydrodynamic model (Temperature, Salinity, Wind, Current) Summaries
 (AIMS)](https://eatlas.org.au/data/uuid/375c9dc9-70f8-4d97-a3e9-c013896a81e5) metadata page.
 
-{{< include ../../includes/_source_data.qmd >}}
+{{< include ../../includes/_source_data_gbr1.qmd >}}
 
 {{< include ../../includes/_recent_data.qmd >}}
 

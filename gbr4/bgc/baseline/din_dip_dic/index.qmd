@@ -23,6 +23,6 @@ Concentration of dissolved inorganic phosphorus, also referred to as orthophosph
 
 Concentration of dissolved inorganic carbon, composed chiefly at seawater pH of HCO3-, with a small percentage present as CO32-.
 
-{{< include ../../../../includes/_source_data.qmd >}}
+{{< include ../../../../includes/_source_data_gbr4.qmd >}}
 
 {{< include ../../../../includes/_recent_data.qmd >}}

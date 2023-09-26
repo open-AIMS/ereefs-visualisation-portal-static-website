@@ -16,7 +16,7 @@ Barrier Reef based on the [1km eReefs Hydrodynamic model](https://research.csiro
 experimental product that is intended to help investigate whether daily
 temperature range is a useful indicator of resistence to coral bleaching.
 
-{{< include ../../includes/_source_data.qmd >}}
+{{< include ../../includes/_source_data_gbr1.qmd >}}
 
 {{< include ../../includes/_recent_data.qmd >}}
 

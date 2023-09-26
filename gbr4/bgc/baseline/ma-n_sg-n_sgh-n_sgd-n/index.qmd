@@ -103,6 +103,6 @@ Environmental Modelling Suite (EMS): Scientific description of the
 optical and biogeochemical models (vB3p0). Geosci. Model Dev. Discuss.
 <https://doi.org/10.5194/gmd-2019-115>
 
-{{< include ../../../../includes/_source_data.qmd >}}
+{{< include ../../../../includes/_source_data_gbr4.qmd >}}
 
 {{< include ../../../../includes/_recent_data.qmd >}}

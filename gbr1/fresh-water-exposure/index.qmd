@@ -201,7 +201,7 @@ Berkelmans, R., Jones, A.M. & Schaffelke, B. (2012) Salinity thresholds
 of *Acropora* spp. on the Great Barrier Reef. 31: 1103. Coral Reefs.
 <https://doi.org/10.1007/s00338-012-0930-z>
 
-{{< include ../../includes/_source_data.qmd >}}
+{{< include ../../includes/_source_data_gbr1.qmd >}}
 
 {{< include ../../includes/_recent_data.qmd >}}
 

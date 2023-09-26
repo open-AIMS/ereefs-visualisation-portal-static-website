@@ -23,6 +23,6 @@ The concentration of nitrogen in dissolved organic compounds.
 
 The concentration of phosphorus in dissolved organic compounds.
 
-{{< include ../../../../includes/_source_data.qmd >}}
+{{< include ../../../../includes/_source_data_gbr4.qmd >}}
 
 {{< include ../../../../includes/_recent_data.qmd >}}

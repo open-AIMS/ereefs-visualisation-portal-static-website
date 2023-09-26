@@ -21,6 +21,6 @@ Phosphorus ions that are absorbed onto particles. It is considered a particulate
 
 Phosphorus that is permanently removed from the system through burial of Particulate Inorganic Phosphorus in the sediment.
 
-{{< include ../../../../includes/_source_data.qmd >}}
+{{< include ../../../../includes/_source_data_gbr4.qmd >}}
 
 {{< include ../../../../includes/_recent_data.qmd >}}
