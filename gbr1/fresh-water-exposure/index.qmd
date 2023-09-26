@@ -112,36 +112,21 @@ The results on this page are generated from a model and not based on
 direct measurements of the salinity. It is difficult to reliably
 determine the level of error without direct measures of salinity during
 the event, however there are a few clues that give us some estimate of
-the error and confidence in the results. Figure 1 shows a comparison
+the error and confidence in the results. @fig-fresh-water-comparison shows a comparison
 between the freshwater exposure calculated from the 1 km and 4 km eReefs
 hydrodynamic models (v2.0). This shows there is a significant difference
 between these models. For a threshold of 28 PSU at Magnetic Island the 1
 km model shows freshwater exposure of 35 PSU days, where as the 4 km
 model shows 0 PSU days.
 
-::: {.media-image .mediaframe_wikipedia .wysiwyg-media-file}
-::: {.image}
-![Freshwater exposure eReefs model
-comparison](../../images/GBR1-GBR4-freshwater-exposure-comparison_map_2019-02-800x643.png){.media-image
-width="800" height="643"}
-:::
+![Freshwater exposure eReefs model comparison ](../../images/GBR1-GBR4-freshwater-exposure-comparison_map_2019-02-800x643.png){#fig-fresh-water-comparison}
 
-::: {.metadata style="width: 800px; "}
-[Freshwater exposure eReefs model comparison]{.title}
+[![CC BY](../../images/cc.png) by AIMS](http://creativecommons.org/licenses/by/3.0/au/)
 
-::: {.description}
-Figure 1. This shows a comparison between the freshwater exposure
+@fig-fresh-water-comparison shows a comparison between the freshwater exposure
 calculated for February 2019 from the 4 km and 1 km eReefs hydrodynamic
 model (v2.0) with a threshold of 28 PSU. The 4 km model predicts a
 smaller freshwater plume.
-:::
-
-[[![CC
-BY](../../images/cc.png){.cc
-width="15" height="15"}
-by AIMS](http://creativecommons.org/licenses/by/3.0/au/)]{.license}
-:::
-:::
 
 <br>
 Observations taken along the eastern side of Magnetic Island taken on

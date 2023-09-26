@@ -135,7 +135,7 @@ For this step-by-step tutorial ArcMap version 10.6.1 was used.
           | 17              | n/a                        | -0.50 m                                       |
           | --------------- | -----------------          | ------------------------------------          |
 
-          : *Mapping of dimension k to depth value in meters*
+          : *Mapping of dimension k to depth value in meters*{.hover}
 
     11. Click \"OK\" to close the window.\
         ![Access data with OPeNDAP in ArcMap - screenshot

@@ -94,7 +94,7 @@ file](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/netcdf/exercise-1-di
               | 16              | -0.50 m                    | -1.50 m                                       |
               | 17              | n/a                        | -0.50 m                                       |
 
-              : *Mapping of dimension k to depth value in meters*
+              : *Mapping of dimension k to depth value in meters*{.hover}
               
     3.  Click \"OK\" to close the property window and apply the
         changes.\
