@@ -8,11 +8,39 @@ format:
 
 # eReefs AIMS Visualisation Portal
 
-In this portal you will find a range of visualisations of the eReefs Hydrodynamic and BioGeoChemical models of the Great Barrier Reef. These models are like weather models, but for the marine environment, providing a picture of the current and historical environmental conditions on the Great Barrier Reef. Here you can see past extreme weather events such as:
+In this portal you will find a range of visualisations of the eReefs
+Hydrodynamic and BioGeoChemical models of the Great Barrier Reef. These models
+are like weather models, but for the marine environment, providing a picture of
+the current and historical environmental conditions on the Great Barrier Reef.
+Here you can see past extreme weather events such as:
 
 - Cyclones: [Yasi (Feb 2011)](./gbr4/temp-wind-salt-current/index.qmd#year=2011;month=2), [Ita (April 2014)](./gbr4/temp-wind-salt-current/index.qmd#year=2014;month=4), [Nathan (March 2015)](./gbr4/temp-wind-salt-current/index.qmd#year=2015;month=3), [Debbi (March 2017)](./gbr4/temp-wind-salt-current/index.qmd#year=2017;month=3),
 - Coral bleaching from high temperature ([March 2016](./gbr4/temp-wind-salt-current/index.qmd#year=2016;month=3), [March 2017](./gbr4/temp-wind-salt-current/index.qmd#year=2017;month=3)),
 - Flood plumes with low salinity ([North Queensland Flooding 2019](./gbr1/salt-multi-depth/index.qmd#region=townsville-3;year=2019;month=2), [Burdekin Jan 2011](./gbr1/salt-multi-depth/index.qmd#year=2011;month=1;region=townsville-3))
+
+This site provides both direct visualisations of the outputs of the eReefs
+Hydrodynamic and BioGeoChemical models and aggregations of the hourly and daily
+data to longer time periods (monthly and annual).
+
+# eReefs CSIRO Hydrodynamic Model
+
+The [eReefs hydrodynamic model](https://research.csiro.au/ereefs/models/models-about/models-hydrodynamics/) predicts the movement of water and key
+environmental conditions (temperature, salinity, currents, tides). This model
+allows us to better understand how cyclones mix the water, the location of
+potentially damaging heat waves, the ocean currents that disperse larvae of
+corals and Crown-of-Thorns starfish, and fresh water plumes from flooded rivers
+that can damage inshore reefs.
+
+This model is run with a 4 km and 1 km grid size. The 4 km grid has a longer
+hindcast going back to September 2010, while the 1 km model starts in December
+2014. The 1 km model also only extends out to the edge of the Great Barrier
+Reef, whereas the 4 km model covers much of the Coral Sea. The hydrodynamic
+model and visualisations are normally updated in near-real time, within 1 week
+of the current date.
+
+Note: The eReefs models are currently not being run in near-real time by CSIRO
+as a result this site only shows the back catalogue up to mid 2020. Near
+realtime results are expected to be back in operation by the end of 2020.
 
 ::: {.ncanimate-products .column-screen-inset}
 ::: {.ncanimate-product-tile}
@@ -42,15 +70,6 @@ In this portal you will find a range of visualisations of the eReefs Hydrodynami
 - [Flood plume extents for major rivers on GBR based on modelled river tracers](./gbr1/river-tracers)
 :::
 :::
-
-
-# eReefs CSIRO Hydrodynamic Model
-
-The [eReefs hydrodynamic model](https://research.csiro.au/ereefs/models/models-about/models-hydrodynamics/) predicts the movement of water and key environmental conditions (temperature, salinity, currents, tides). This model allows us to better understand how cyclones mix the water, the location of potentially damaging heat waves, the ocean currents that disperse larvae of corals and Crown-of-Thorns starfish, and fresh water plumes from flooded rivers that can damage inshore reefs.
-
-This model is run with a 4 km and 1 km grid size. The 4 km grid has a longer hindcast going back to September 2010, while the 1 km model starts in December 2014. The 1 km model also only extends out to the edge of the Great Barrier Reef, whereas the 4 km model covers much of the Coral Sea. The hydrodynamic model and visualisations are normally updated in near-real time, within 1 week of the current date.
-
-Note: The eReefs models are currently not being run in near-real time by CSIRO as a result this site only shows the back catalogue up to mid 2020. Near realtime results are expected to be back in operation by the end of 2020.
 
 # eReefs CSIRO BioGeoChemical model (4&nbsp;km)
 
