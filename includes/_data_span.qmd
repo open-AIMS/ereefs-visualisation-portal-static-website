@@ -1,0 +1,5 @@
+## Data span
+
+These results are based on a fixed time period (Dec 2010 - Apr 2019) hind-cast analysis developed 
+for comparing changes in land practices. The river run off used to drive the BGC model were 
+provided by the [SOURCE Catchments modelling](https://www.reefplan.qld.gov.au/tracking-progress/paddock-to-reef/modelling-and-monitoring).

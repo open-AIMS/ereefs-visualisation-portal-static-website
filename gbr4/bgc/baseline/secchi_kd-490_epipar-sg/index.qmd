@@ -69,6 +69,6 @@ condition for the Great Barrier Reef: a case study for seagrass meadows
 in the Burdekin region*) is currently investigating the possibility of
 using this model to derive and test ecologically relevant targets.
 
-{{< include ../../../../includes/_source_data_gbr4.qmd >}}
+{{< include ../../../../includes/_source_data_bgc.qmd >}}
 
-{{< include ../../../../includes/_recent_data.qmd >}}
+{{< include ../../../../includes/_data_span.qmd >}}

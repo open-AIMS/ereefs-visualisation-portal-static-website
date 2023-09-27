@@ -59,7 +59,7 @@ Many marine organisms (such as Crown-of-Thorns Starfish and corals) are disperse
 
 ### Interesting events
 
-- Cyclones: [Nathan (March 2015)](#year=2015;month=3), [Debbi (March 2017)](#year=2017;month=3),
+- Cyclones: [**Nathan** (March 2015)](#year=2015;month=3), [**Debbi** (March 2017)](#year=2017;month=3),
 - Coral bleaching from high temperature ([March 2016](#year=2016;month=3), [March 2017](#year=2017;month=3)),
 - Flood plumes with low salinity ([Feb 2019](#region=townsville-3;year=2019;month=2))
 - Strong East Australian Current ([Nov 2015, monthly average current](#frame=Monthly;year=2015;month=11))

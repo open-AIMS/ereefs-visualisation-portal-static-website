@@ -52,6 +52,6 @@ Mud mineral
 Small sized (nominal size 30 µm), re-suspending particles with a sinking
 velocity of 17 m d^-1^. This sediment is brown in colour.
 
-{{< include ../../../../includes/_source_data_gbr4.qmd >}}
+{{< include ../../../../includes/_source_data_bgc.qmd >}}
 
-{{< include ../../../../includes/_recent_data.qmd >}}
+{{< include ../../../../includes/_data_span.qmd >}}

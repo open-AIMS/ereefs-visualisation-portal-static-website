@@ -90,6 +90,6 @@ sum of the biomass of all symbiotic filter-feeding organisms such as
 corals, sponges, clams etc. C:N:P is 106:16:1. Light is accessed in the
 following order: Macroalgae, Seagrass, Coral.
 
-{{< include ../../../../includes/_source_data_gbr4.qmd >}}
+{{< include ../../../../includes/_source_data_bgc.qmd >}}
 
-{{< include ../../../../includes/_recent_data.qmd >}}
+{{< include ../../../../includes/_data_span.qmd >}}

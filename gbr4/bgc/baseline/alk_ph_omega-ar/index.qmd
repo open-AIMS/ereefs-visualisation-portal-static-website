@@ -154,6 +154,6 @@ Zheng, M. & Cao, L. (2015) Simulation of global ocean acidification and
 chemical habitats of shallow- and cold-water coral reefs,
 https://doi.org/10.1016/j.accre.2015.05.002
 
-{{< include ../../../../includes/_source_data_gbr4.qmd >}}
+{{< include ../../../../includes/_source_data_bgc.qmd >}}
 
-{{< include ../../../../includes/_recent_data.qmd >}}
+{{< include ../../../../includes/_data_span.qmd >}}
