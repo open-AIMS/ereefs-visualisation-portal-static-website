@@ -13,15 +13,19 @@ params:
 
 ### Total Chlorophyll
 
-Sum of chlorophyll concentration of the four microalgae types (small, large, microphytobenthos, trichodesmium)
+Sum of chlorophyll concentration of the four microalgae types (small,
+large, microphytobenthos, trichodesmium).
 
 ### Dissolved inorganic nitrogen
 
-Concentration of dissolved inorganic nitrogen (DIN). DIN = \[NH4] + \[NO3].
+Concentration of dissolved inorganic nitrogen (DIN). DIN = \[NH~4~\] +
+\[NO~3~\].
 
 ### Total suspended solids
 
-This is the sum of the suspended sediments in the water column. It is \[Fine sediment] + \[Mud] + \[Mud carbonate] + \[Mud mineral] + \[Dust]
+This is the sum of the suspended sediments in the water column. It is
+\[Fine sediment\] + \[Mud\] + \[Mud carbonate\] + \[Mud mineral\] +
+\[Dust\]
 
 {{< include ../../../../includes/_source_data_bgc.qmd >}}
 

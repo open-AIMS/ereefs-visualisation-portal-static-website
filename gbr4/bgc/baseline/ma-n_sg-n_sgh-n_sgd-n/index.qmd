@@ -35,7 +35,7 @@ in Table 24 (pg 48) of [Baird et al.
 Details about about the macroalgae model are detailed in section 4.2 of
 [Baird et al. (2019)](http://doi.org/10.5194/gmd-2019-115).
 
-### Limitations:
+### Limitations
 
 These maps show model derived estimates of density for seagrass and
 macroalgae. They are not derived from direct observations. Observed

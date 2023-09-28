@@ -17,11 +17,14 @@ Concentration of dissolved inorganic nitrogen (DIN).
 
 ### Dissolved Inorganic Phosphorus
 
-Concentration of dissolved inorganic phosphorus, also referred to as orthophosphate or soluble reactive phosphorus, SRP, composed chiefly of HPO42- ions, with a small percentage present as PO43-.
+Concentration of dissolved inorganic phosphorus, also referred to as
+orthophosphate or soluble reactive phosphorus, SRP, composed chiefly of
+HPO~4~^2-^ ions, with a small percentage present as PO~4~^3-^.
 
 ### Dissolved Inorganic Carbon
 
-Concentration of dissolved inorganic carbon, composed chiefly at seawater pH of HCO3-, with a small percentage present as CO32-.
+Concentration of dissolved inorganic carbon, composed chiefly at
+seawater pH of HCO^3-^, with a small percentage present as CO~3~^2-^.
 
 {{< include ../../../../includes/_source_data_bgc.qmd >}}
 

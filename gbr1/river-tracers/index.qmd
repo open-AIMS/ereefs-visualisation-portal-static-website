@@ -39,7 +39,9 @@ The lowest threshold of river water concentration (1%) shown in the
 visualisation was chosen to align with the visible extent of flood plumes as
 seen in satellite imagery. At this concentration we can expect organisms on the
 sea floor to see raised nutrient levels, some fine sediment and a significant
-reduction in light. Limitations and spatial accuracy
+reduction in light. 
+
+## Limitations and spatial accuracy
 
 It should be noted that the river tracer product tracks the concentration of
 river water. It does not track sediment or nutrient in the water. As a result,
@@ -98,9 +100,5 @@ MODSIM2017, 22nd International Congress on Modelling and Simulation. Modelling
 and Simulation Society of Australia and New Zealand, December 2017,
 pp.1892-1898. ISBN: 978-0-9872143-7-9.
 <https://www.mssanz.org.au/modsim2017/L22/baird.pdf>.
-
-{{< include ../../includes/_source_data_gbr1.qmd >}}
-
-{{< include ../../includes/_recent_data.qmd >}}
 
 {{< include ../../includes/_erratum.qmd >}}

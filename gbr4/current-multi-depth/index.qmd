@@ -11,13 +11,17 @@ params:
 
 {{< include ../../includes/_visualisation.qmd >}}
 
-This page shows the strength and direction of ocean currents at different depths on the Great Barrier Reef based on the 4km eReefs Hydrodynamic model.
-
+This page shows the strength and direction of ocean currents at different
+depths on the Great Barrier Reef based on the [4km eReefs Hydrodynamic
+model](https://research.csiro.au/ereefs/models/).
 
 ## Current at different depths
 
-This map is useful for investigating the depth of various ocean currents. The strength of the current is represented by colour. The arrows represent the direction. In the hourly data a lot of the daily fluctuations are due to tidal currents. These tend to make the current direction swing back and forth as the tides flow and and out of a region.
-
+This map is useful for investigating the depth of various ocean currents. The
+strength of the current is represented by colour. The arrows represent the
+direction. In the hourly data a lot of the daily fluctuations are due to tidal
+currents. These tend to make the current direction swing back and forth as the
+tides flow and and out of a region.
 
 {{< include ../../includes/_source_data_gbr4.qmd >}}
 

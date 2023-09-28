@@ -46,7 +46,7 @@ particularly wet year during the summer months causing extensive plumes to
 drift over reefal areas. (See [Feb 2011 Burdekin region](#year=2011;month=2;region=townsville-3) salinity panel for
 runoff from major flooding).
 
-Note: In flood plumes nutrient and sediment runoff lead to the formation of
+**Note**: In flood plumes nutrient and sediment runoff lead to the formation of
 green plume water which has small suspended particles coated in algae that
 travel much further then is predicted by looking at just the lowering of the
 salinity.

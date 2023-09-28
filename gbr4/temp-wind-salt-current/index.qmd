@@ -84,7 +84,7 @@ dispersed by ocean currents planktonic larvae that float from reef to reef.
 
 - Cyclones: [**Yasi** (Feb 2011)](/gbr4/temp-wind-salt-current#year=2011;month=2), [**Ita** (April 2014)](/gbr4/temp-wind-salt-current#year=2014;month=4), [**Nathan** (March 2015)](/gbr4/temp-wind-salt-current#year=2015;month=3), [**Debbi** (March 2017)](/gbr4/temp-wind-salt-current#year=2017;month=3),
 - Coral bleaching from high temperature ([March 2016](/gbr4/temp-wind-salt-current#year=2016;month=3), [March 2017](/gbr4/temp-wind-salt-current#year=2017;month=3)),
-- Flood plumes with low salinity ([Burdekin Jan 2011](/gbr4/temp-wind-salt-current#year=2011;month=1;region=townsville-3), [Feb 2019](/gbr4/temp-wind-salt-current#region=townsville-3;year=2019;month=2)). [Salinity at 3 depths](/gbr4/temp-wind-salt-current#region=townsville-3) showing detail in the low salinity areas < 32 PSU.
+- Flood plumes with low salinity ([Burdekin Jan 2011](/gbr4/temp-wind-salt-current#year=2011;month=1;region=townsville-3), [Feb 2019](/gbr4/temp-wind-salt-current#region=townsville-3;year=2019;month=2)). [Salinity at 3 depths](/gbr1/salt-multi-depth#region=townsville-3) showing detail in the low salinity areas < 32 PSU.
 - Strong East Australian Current ([Nov 2015, monthly average current](/gbr4/temp-wind-salt-current#frame=Monthly;year=2015;month=11))
 - Clear bifurcation of the currents around Lizard island, north of Cairns ([Oct 2014](/gbr4/temp-wind-salt-current#frame=Monthly;year=2014;month=10))
 
