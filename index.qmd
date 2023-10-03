@@ -14,7 +14,7 @@ are like weather models, but for the marine environment, providing a picture of
 the current and historical environmental conditions on the Great Barrier Reef.
 Here you can see past extreme weather events such as:
 
-- Cyclones: [Yasi (Feb 2011)](./gbr4/temp-wind-salt-current/index.qmd#year=2011;month=2), [Ita (April 2014)](./gbr4/temp-wind-salt-current/index.qmd#year=2014;month=4), [Nathan (March 2015)](./gbr4/temp-wind-salt-current/index.qmd#year=2015;month=3), [Debbi (March 2017)](./gbr4/temp-wind-salt-current/index.qmd#year=2017;month=3),
+- Cyclones: [**Yasi** (Feb 2011)](./gbr4/temp-wind-salt-current/index.qmd#year=2011;month=2), [**Ita** (April 2014)](./gbr4/temp-wind-salt-current/index.qmd#year=2014;month=4), [**Nathan** (March 2015)](./gbr4/temp-wind-salt-current/index.qmd#year=2015;month=3), [**Debbi** (March 2017)](./gbr4/temp-wind-salt-current/index.qmd#year=2017;month=3),
 - Coral bleaching from high temperature ([March 2016](./gbr4/temp-wind-salt-current/index.qmd#year=2016;month=3), [March 2017](./gbr4/temp-wind-salt-current/index.qmd#year=2017;month=3)),
 - Flood plumes with low salinity ([North Queensland Flooding 2019](./gbr1/salt-multi-depth/index.qmd#region=townsville-3;year=2019;month=2), [Burdekin Jan 2011](./gbr1/salt-multi-depth/index.qmd#year=2011;month=1;region=townsville-3))
 
