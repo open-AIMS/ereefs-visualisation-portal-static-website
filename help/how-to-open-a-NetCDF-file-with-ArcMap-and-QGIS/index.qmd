@@ -47,9 +47,10 @@ file](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/netcdf/exercise-1-di
 2.  Start ArcMap.
 3.  Select the tool \"Make NetCDF Raster Layer\" by either using the
     \"Search\" or expanding the branch \"Multidimension Tools\" in the
-    \"ArcToolbox\".\
-    ![Open NetCDF file with ArcMap - screenshot
-    1](./open-netcdf-file-with-arcmap-screenshot1-1000x679.png)
+    \"ArcToolbox\".
+
+<br>![Open NetCDF file with ArcMap - screenshot 1](./open-netcdf-file-with-arcmap-screenshot1-1000x679.png){.column-page}
+
 4.  In the popup window
     1.  For the input field \"Input netCDF File\" select the NetCDF file
         downloaded in step 1.
@@ -62,9 +63,10 @@ file](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/netcdf/exercise-1-di
         Dimension drop-down arrow and choose a dimension from the list.
     6.  Leave the optional input \"Dimension values\" blank, this will
         be adjusted in the next step.
-    7.  Click \"OK\" to start the processing.\
-        ![Open NetCDF file with ArcMap - screenshot
-        2](./open-netcdf-file-with-arcmap-screenshot2.png)
+    7.  Click \"OK\" to start the processing.
+        
+    <br>![Open NetCDF file with ArcMap - screenshot 2](./open-netcdf-file-with-arcmap-screenshot2.png){.column-page}
+        
 5.  Once the layer is processed and shown in the \"Layers\" tab,
     double-click on the layer to open the \"Properties\" window
     1.  Select the \"NetCDF\" tab at the top of the window.
@@ -97,9 +99,9 @@ file](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/netcdf/exercise-1-di
               : *Mapping of dimension k to depth value in meters*{.hover}
               
     3.  Click \"OK\" to close the property window and apply the
-        changes.\
-        ![Open NetCDF file with ArcMap - screenshot
-        3](./open-netcdf-file-with-arcmap-screenshot3.png)
+        changes.
+        
+    <br>![Open NetCDF file with ArcMap - screenshot 3](./open-netcdf-file-with-arcmap-screenshot3.png){.column-page}
 
 Open a derived NetCDF file with QGIS
 ------------------------------------
@@ -112,20 +114,23 @@ For this step-by-step tutorial QGIS version 3.14.1-Pi was used.
     for more information).
 2.  Start QGIS.
 3.  In the top menu select \"Layer\" -\> \"Add Layer\" -\> \"Add Raster
-    Layer\".\
-    ![Open NetCDF file with QGIS - screenshot
-    1](./open-netcdf-file-with-qgis-screenshot1.png)
+    Layer\".
+    
+<br>![Open NetCDF file with QGIS - screenshot 1](./open-netcdf-file-with-qgis-screenshot1.png){.column-page}
+    
 4.  In the popup window (\"Data Source Manager\")
     1.  As \"Source type\" select \"File\".
     2.  In the \"Source\" input field select the NetCDF file downloaded
         in step 1.
-    3.  Click the \"Add\" button.\
-        ![Open NetCDF file with QGIS - screenshot
-        2](./open-netcdf-file-with-qgis-screenshot2.png)
+    3.  Click the \"Add\" button.
+
+    <br>![Open NetCDF file with QGIS - screenshot 2](./open-netcdf-file-with-qgis-screenshot2.png){.column-page}
+
     4.  Another popup window opens. Select one or more variables and
-        click \"OK\".\
-        ![Open NetCDF file with QGIS - screenshot
-        3](./open-netcdf-file-with-qgis-screenshot3.png)
+        click \"OK\".
+
+    <br>![Open NetCDF file with QGIS - screenshot 3](./open-netcdf-file-with-qgis-screenshot3.png){.column-page}
+
     5.  Close the \"Data Source Manager\" window by clicking the
         \"Close\" button.
 5.  By default QGIS uses a multiband symbology. To adjust this and
@@ -145,7 +150,7 @@ For this step-by-step tutorial QGIS version 3.14.1-Pi was used.
     4.  Optionally, after the \"Min\" and \"Max\" values have changed
         you can click the \"Classify\" button to re-classify the label
         values.
-    5.  Click \"OK\" to close the property window.\
-        ![Open NetCDF file with QGIS - screenshot
-        4](./open-netcdf-file-with-qgis-screenshot4.png)
+    5.  Click \"OK\" to close the property window.
+        
+    <br>![Open NetCDF file with QGIS - screenshot 4](./open-netcdf-file-with-qgis-screenshot4.png){.column-page}
 

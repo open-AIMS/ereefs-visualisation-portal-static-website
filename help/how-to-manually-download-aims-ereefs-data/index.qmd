@@ -67,7 +67,7 @@ download the data follow these steps:
 ![Example page
 ([EREEFS_AIMS-CSIRO_gbr4_v2_hydro_daily-monthly-2010-09.nc](http://thredds.ereefs.aims.gov.au/thredds/s3catalogue/aims-ereefs-public-prod/derived/ncaggregate/ereefs/gbr4_v2/daily-monthly/catalog.html?dataset=EREEFS_AIMS-CSIRO_gbr4_v2_hydro_daily-monthly-2010-09.nc))
 indicating in yellow the "access" section and in red the link to
-download the file.](./how-to-download-derived-data.png){fig-alt="A screenshot highlighting some links" .border}
+download the file.](./how-to-download-derived-data.png){fig-alt="A screenshot highlighting some links" .border .column-page}
 
 # Download eReefs model data from NCI THREDDS server
 
@@ -86,4 +86,4 @@ To download the raw eReefs data follow these steps:
 ![Example page
 ([gbr4_simple_2016-06.nc​](http://dapds00.nci.org.au/thredds/catalog/fx3/gbr4/catalog.html?dataset=fx3-gbr4/gbr4_simple_2016-06.nc))
 indicating in yellow the "access" section and in red the link to
-download the file.](./how-to-download-raw-data-from-NCI.png){fig-alt="A screenshot highlighting some links" .border}
+download the file.](./how-to-download-raw-data-from-NCI.png){fig-alt="A screenshot highlighting some links" .border .column-page}
