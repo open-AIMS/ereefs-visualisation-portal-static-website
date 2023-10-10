@@ -1,1 +1,1 @@
-Sitemap: https://jjohnston-aims.github.io/ereefs-static-site/sitemap.xml
+Sitemap: https://open-AIMS.github.io/aims-ereefs-visualisation-portal-static-website/sitemap.xml
