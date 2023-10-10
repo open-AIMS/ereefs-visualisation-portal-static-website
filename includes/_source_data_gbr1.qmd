@@ -2,5 +2,5 @@
 
 The videos/images on this page are based on the [1km eReefs Hydrodynamic model (v2.0)](https://research.csiro.au/ereefs/models/) of the 
 Great Barrier Reef. The raw data is available from [NCI THREDDS server](https://dapds00.nci.org.au/thredds/catalog/fx3/gbr1_2.0/catalog.html) (hourly) and the 
-aggregate data from the [AIMS eAtlas THREDDS server](https://thredds.ereefs.aims.gov.au/?_gl=1*qpvclu*_ga*MTg3NjQyODQyNS4xNjk1MTY5ODcw*_ga_6SSTNBNHXG*MTY5NTY5MDYzNC44LjEuMTY5NTY5MTk3OC4wLjAuMA..) (daily, monthly, yearly, all). These 
+aggregate data from the [AIMS eAtlas THREDDS server](https://thredds.ereefs.aims.gov.au/thredds/catalog/catalog.html) (daily, monthly, yearly, all). These 
 map layers are also available for inspection as an [interactive map](https://maps.eatlas.org.au/atlasmapper/client/ereefs/index.html).

@@ -76,7 +76,7 @@ to solve these problems by:
     grid so that it can be used in a desktop GIS applications,
 -   Providing a [data extraction service](https://extraction.ereefs.aims.gov.au/) that allows time
     series data of locations of interest to be easily downloaded,
--   Providing [data services](https://thredds.ereefs.aims.gov.au/thredds/s3catalogue/aims-ereefs-public-prod/derived/ncaggregate/ereefs/catalog.html)
+-   Providing [data services](https://thredds.ereefs.aims.gov.au/thredds/catalog/catalog.html)
     of all the generated derived data so that it can be accessed
     programmatically to facilitate reproducible science.
 -   Generating exposures maps to identify regions where organisms are

@@ -24,24 +24,24 @@ download the data follow these steps:
 1.  Open the [AIMS eReefs THREDDS server
     website](https://thredds.ereefs.aims.gov.au/) and select the link
     [Data derived from the eReefs
-    model](https://thredds.ereefs.aims.gov.au/thredds/s3catalogue/aims-ereefs-public-prod/derived/ncaggregate/ereefs/catalog.html).
+    model](https://thredds.ereefs.aims.gov.au/thredds/catalog/catalog.html).
 2.  On the next page select the link to the required model
-    1.  [GBR4_H2p0_B3p1_Cq3P_Dhnd](https://thredds.ereefs.aims.gov.au/thredds/s3catalogue/aims-ereefs-public-prod/derived/ncaggregate/ereefs/GBR4_H2p0_B3p1_Cq3P_Dhnd/catalog.html)
+    1.  [GBR4_H2p0_B3p1_Cq3P_Dhnd](https://thredds.ereefs.aims.gov.au/thredds/catalog/ereefs/GBR4_H2p0_B3p1_Cq3P_Dhnd.html)
         := eReefs BioGeoChemical model version 3.1 (4 km resolution) -
         source catchments using **Pre-Industrial** catchment conditions
-    2.  [GBR4_H2p0_B3p1_Cq3R_Dhnd](https://thredds.ereefs.aims.gov.au/thredds/s3catalogue/aims-ereefs-public-prod/derived/ncaggregate/ereefs/GBR4_H2p0_B3p1_Cq3R_Dhnd/catalog.html)
+    2.  [GBR4_H2p0_B3p1_Cq3R_Dhnd](https://thredds.ereefs.aims.gov.au/thredds/catalog/ereefs/GBR4_H2p0_B3p1_Cq3R_Dhnd.html)
         := eReefs BioGeoChemical model version 3.1 (4 km resolution) -
         source catchments using **Hindcast** catchment conditions
         (anthropogenic loads reduced according to the percentage
         reductions of DIN, PN, PP and TSS specified in the [Reef 2050
         Water Quality Improvement Plan
         2017-2022](https://www.reefplan.qld.gov.au/__data/assets/pdf_file/0017/46115/reef-2050-water-quality-improvement-plan-2017-22.pdf))
-    3.  [GBR4_H2p0_B3p1_Cq3b_Dhnd](https://thredds.ereefs.aims.gov.au/thredds/s3catalogue/aims-ereefs-public-prod/derived/ncaggregate/ereefs/GBR4_H2p0_B3p1_Cq3b_Dhnd/catalog.html)
+    3.  [GBR4_H2p0_B3p1_Cq3b_Dhnd](https://thredds.ereefs.aims.gov.au/thredds/catalog/ereefs/GBR4_H2p0_B3p1_Cq3b_Dhnd.html)
         := eReefs BioGeoChemical model version 3.1 (4 km resolution) -
         source catchments using **Baseline** catchment conditions.
-    4.  [gbr1_2.0](https://thredds.ereefs.aims.gov.au/thredds/s3catalogue/aims-ereefs-public-prod/derived/ncaggregate/ereefs/gbr1_2.0/catalog.html)
+    4.  [gbr1_2.0](https://thredds.ereefs.aims.gov.au/thredds/catalog/ereefs/gbr1_2-0.html)
         := eReefs Hydrodynamic model version 2.0 (1 km resolution)
-    5.  [gbr4_v2](https://thredds.ereefs.aims.gov.au/thredds/s3catalogue/aims-ereefs-public-prod/derived/ncaggregate/ereefs/gbr4_v2/catalog.html)
+    5.  [gbr4_v2](https://thredds.ereefs.aims.gov.au/thredds/catalog/ereefs/gbr4_v2.html)
         := Reefs Hydrodynamic model version 2.0 (4 km resolution)
 3.  Each model has its derived output grouped into folders with the
     names indicating the time steps and aggregation in a file. For

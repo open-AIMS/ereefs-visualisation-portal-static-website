@@ -94,7 +94,7 @@ visualises the baseline scenario run of the model, however data is available
 for the other scenarios via the [NCI THREDDS service](https://dapds00.nci.org.au/thredds/catalogs/fx3/catalog.html) (raw model data in
 curvilinear NetCDF format), the [AIMS Data Extraction tool](https://extraction.ereefs.aims.gov.au/?_gl=1*1h5mq5j*_ga*OTM5OTM3MTMzLjE2NjczNTcwNzg.*_ga_6SSTNBNHXG*MTY5NDQ4MTU0NS42Ni4xLjE2OTQ0ODc3NzkuMC4wLjA.) (time series
 extraction in CSV format) and regridded and aggregated format via the [AIMS
-eReefs THREDDS service](https://thredds.ereefs.aims.gov.au/?_gl=1*140if4k*_ga*OTM5OTM3MTMzLjE2NjczNTcwNzg.*_ga_6SSTNBNHXG*MTY5NDQ4MTU0NS42Ni4xLjE2OTQ0ODc3NzkuMC4wLjA.).
+eReefs THREDDS service](https://thredds.ereefs.aims.gov.au/thredds/catalog/catalog.html).
 
 A [technical assessment of the skill level of the BGC version 3.1 model](https://research.csiro.au/ereefs/wp-content/uploads/sites/34/2020/08/Reanalysis_v1_August2020.pdf) shows
 that the absolute accuracy of the BGC model varies significantly with variable
