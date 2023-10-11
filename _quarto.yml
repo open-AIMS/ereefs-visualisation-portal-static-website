@@ -10,6 +10,7 @@ website:
     title: "AIMS eReefs"
     logo: images/ereefs_logo.png
     background: light
+    pinned: false
     left:
       - text: eReefs Websites
         menu:
