@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - "images/front-page-crop1.jpg"
 
 website:
   title: "AIMS eReefs"
