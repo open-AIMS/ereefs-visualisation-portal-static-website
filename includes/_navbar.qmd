@@ -1,0 +1,140 @@
+<header class="header nba-header__container" role="banner" data-toggle-id="header__container" data-toggle-state="default">
+				<div class="header__main container">
+			<div class="header__brand">
+				<a href="https://research.csiro.au/ereefs" class="header__brand__link"><div class="header__brand__logo"><img class="" src="https://research.csiro.au/ereefs/wp-content/uploads/sites/34/2022/11/csiro_ereefs_logo-220x100.png" alt="eReefs Research"></div><span class="header__brand__text header__brand__text--len-15">eReefs Research</span></a>			</div>
+			<div class="header__nav">
+				<div class="header__nav__desktop nba-header__nav">
+					<nav class="nav nav__primary" role="navigation">
+						<a href="#maincontent" class="sr-only--focusable skip__link nav__link nav__link--parent">Skip to content</a>
+						<a href="#headersearch" class="sr-only--focusable skip__link nav__link nav__link--parent" data-toggle-target--id="header__container" data-toggle-target--state="search">
+							Skip to search						</a>
+						<div class="nav__menu"><ul id="menu-main-menu-1" class="nav__link__area">
+<li class="header__main__link menu__dropdown__control nba-header__dropdown__control" data-toggle-id="menu__dropdown__6525e2d43d204" data-toggle-state="closed">
+<div class="menu__dropdown__contents">	<a href="https://research.csiro.au/ereefs/" class="nav__link nav__link--parent menu__dropdown__link">Home</a>
+
+	<button class="menu__dropdown__accordion-toggle menu__dropdown__indicator" aria-expanded="false" aria-label="Show submenu" data-toggle-target--id="menu__dropdown__6525e2d43d204" data-toggle-target--state="open" data-toggle-this--toggleclass="mobile-subnav__active" data-toggle-this--aria-expanded="true" data-toggle-this--aria-label="Close submenu"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" class="chevron-down  svg-inline chevron-down-regular"><use xlink:href="#chevron-down-regular"></use></svg></button></div>
+<ul role="menu" class="menu__dropdown list--remove-type nav__link--dropdown">
+
+		<li class="menu__dropdown__item">
+			<a href="https://research.csiro.au/ereefs/welcome-to-ereefs/about-ereefs/" class="reversed nav__link nav__link--sub">About eReefs</a>
+</li>
+</ul>
+</li>
+
+<li class="header__main__link menu__dropdown__control nba-header__dropdown__control" data-toggle-id="menu__dropdown__6525e2d43d28c" data-toggle-state="closed">
+<div class="menu__dropdown__contents">	<a href="https://research.csiro.au/ereefs/ereefs-data/" class="nav__link nav__link--parent menu__dropdown__link">Data</a>
+
+	<button class="menu__dropdown__accordion-toggle menu__dropdown__indicator" aria-expanded="false" aria-label="Show submenu" data-toggle-target--id="menu__dropdown__6525e2d43d28c" data-toggle-target--state="open" data-toggle-this--toggleclass="mobile-subnav__active" data-toggle-this--aria-expanded="true" data-toggle-this--aria-label="Close submenu"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" class="chevron-down  svg-inline chevron-down-regular"><use xlink:href="#chevron-down-regular"></use></svg></button></div>
+<ul role="menu" class="menu__dropdown list--remove-type nav__link--dropdown">
+
+		<li class="menu__dropdown__item">
+			<a href="/ereefs/ereefs-data/#access" class="reversed nav__link nav__link--sub">How to access eReefs data</a>
+</li>
+
+		<li class="menu__dropdown__item">
+			<a href="https://research.csiro.au/ereefs/ereefs-data/information-architecture/" class="reversed nav__link nav__link--sub">Information architecture</a>
+</li>
+</ul>
+</li>
+
+<li class="header__main__link menu__dropdown__control nba-header__dropdown__control" data-toggle-id="menu__dropdown__6525e2d43d2f8" data-toggle-state="closed">
+<div class="menu__dropdown__contents">	<a href="https://research.csiro.au/ereefs/models/" class="nav__link nav__link--parent menu__dropdown__link">Models</a>
+
+	<button class="menu__dropdown__accordion-toggle menu__dropdown__indicator" aria-expanded="false" aria-label="Show submenu" data-toggle-target--id="menu__dropdown__6525e2d43d2f8" data-toggle-target--state="open" data-toggle-this--toggleclass="mobile-subnav__active" data-toggle-this--aria-expanded="true" data-toggle-this--aria-label="Close submenu"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" class="chevron-down  svg-inline chevron-down-regular"><use xlink:href="#chevron-down-regular"></use></svg></button></div>
+<ul role="menu" class="menu__dropdown list--remove-type nav__link--dropdown">
+
+		<li class="menu__dropdown__item">
+			<a href="https://research.csiro.au/ereefs/models/" class="reversed nav__link nav__link--sub">Summary</a>
+</li>
+
+		<li class="menu__dropdown__item">
+			<a href="https://research.csiro.au/ereefs/models/models-about/" class="reversed nav__link nav__link--sub">About the models</a>
+</li>
+
+		<li class="menu__dropdown__item">
+			<a href="https://research.csiro.au/ereefs/models/forcing/" class="reversed nav__link nav__link--sub">Model Inputs</a>
+</li>
+
+		<li class="menu__dropdown__item">
+			<a href="https://research.csiro.au/ereefs/models/model-outputs/" class="reversed nav__link nav__link--sub">Model outputs</a>
+</li>
+</ul>
+</li>
+
+<li class="header__main__link menu__dropdown__control nba-header__dropdown__control" data-toggle-id="menu__dropdown__6525e2d43d3be" data-toggle-state="closed">
+<div class="menu__dropdown__contents">	<a href="https://research.csiro.au/ereefs/remote-sensing/" class="nav__link nav__link--parent menu__dropdown__link">Remote sensing</a>
+
+	<button class="menu__dropdown__accordion-toggle menu__dropdown__indicator" aria-expanded="false" aria-label="Show submenu" data-toggle-target--id="menu__dropdown__6525e2d43d3be" data-toggle-target--state="open" data-toggle-this--toggleclass="mobile-subnav__active" data-toggle-this--aria-expanded="true" data-toggle-this--aria-label="Close submenu"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" class="chevron-down  svg-inline chevron-down-regular"><use xlink:href="#chevron-down-regular"></use></svg></button></div>
+<ul role="menu" class="menu__dropdown list--remove-type nav__link--dropdown">
+
+		<li class="menu__dropdown__item">
+			<a href="https://research.csiro.au/ereefs/remote-sensing/how-it-works/" class="reversed nav__link nav__link--sub">How it works</a>
+</li>
+
+		<li class="menu__dropdown__item">
+			<a href="https://research.csiro.au/ereefs/remote-sensing/regional-algorithms/" class="reversed nav__link nav__link--sub">Regional Algorithms</a>
+</li>
+
+		<li class="menu__dropdown__item">
+			<a href="https://research.csiro.au/ereefs/remote-sensing/data-processing/" class="reversed nav__link nav__link--sub">Satellite Data and Processing</a>
+</li>
+
+		<li class="menu__dropdown__item">
+			<a href="https://research.csiro.au/ereefs/remote-sensing/access-to-data/" class="reversed nav__link nav__link--sub">Access to Data</a>
+</li>
+
+		<li class="menu__dropdown__item">
+			<a href="https://research.csiro.au/ereefs/remote-sensing/history-of-remote-sensing-in-ereefs/" class="reversed nav__link nav__link--sub">Marine Water Quality Dashboard (MWQ)</a>
+</li>
+
+		<li class="menu__dropdown__item">
+			<a href="https://research.csiro.au/ereefs/remote-sensing/further-reading/" class="reversed nav__link nav__link--sub">Further reading</a>
+</li>
+</ul>
+</li>
+
+<li class="header__main__link">
+	<a href="https://research.csiro.au/ereefs/models/further-reading/" class="nav__link nav__link--parent">Research Outputs</a>
+</li>
+
+<li class="header__main__link">
+	<a href="https://research.csiro.au/ereefs/welcome-to-ereefs/contact/" class="nav__link nav__link--parent">Contact Us</a>
+</li>
+<li class="context__wrapper header__main__link menu__dropdown__control nba-header__dropdown__control nba-header__contextual-nav" data-toggle-id="menu__dropdown__6525e2d433749" data-toggle-state="closed"><div class="context__nav"><div class="menu__dropdown__contents"><a class="nav__link nav__link--parent menu__dropdown__link" href="https://research.csiro.au/ereefs/remote-sensing/">Remote sensing</a><button class="menu__dropdown__accordion-toggle menu__dropdown__indicator" aria-expanded="false" aria-label="Show submenu" data-toggle-target--id="menu__dropdown__6525e2d433749" data-toggle-target--state="open" data-toggle-this--toggleclass="mobile-subnav__active" data-toggle-this--aria-expanded="true" data-toggle-this--aria-label="Close submenu"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" class="chevron-down  svg-inline chevron-down-regular"><use xlink:href="#chevron-down-regular"></use></svg></button></div><ul class="menu__dropdown list--remove-type nav__link--dropdown"><li class="menu__dropdown__item"><a class="reversed nav__link nav__link--sub" href="https://research.csiro.au/ereefs/remote-sensing/how-it-works/">How it works</a></li><li class="menu__dropdown__item"><a class="reversed nav__link nav__link--sub" href="https://research.csiro.au/ereefs/remote-sensing/regional-algorithms/">Regional Algorithms</a></li><li class="menu__dropdown__item"><span class="reversed nav__link nav__link--sub active">Satellite Data and Processing</span></li><li class="menu__dropdown__item"><a class="reversed nav__link nav__link--sub" href="https://research.csiro.au/ereefs/remote-sensing/access-to-data/">Access to Data</a></li><li class="menu__dropdown__item"><a class="reversed nav__link nav__link--sub" href="https://research.csiro.au/ereefs/remote-sensing/lucinda-jetty-coastal-observatory/">Lucinda Jetty Coastal Observatory (LJCO)</a></li><li class="menu__dropdown__item"><a class="reversed nav__link nav__link--sub" href="https://research.csiro.au/ereefs/remote-sensing/history-of-remote-sensing-in-ereefs/">Marine Water Quality Dashboard (MWQ)</a></li><li class="menu__dropdown__item"><a class="reversed nav__link nav__link--sub" href="https://research.csiro.au/ereefs/remote-sensing/further-reading/">Further reading</a></li></ul></div></li></ul></div><div class="nav__menu nav__pre-menu"><ul class="nav__link__area"><li class="header__main__link"><a href="https://www.csiro.au/" class="nav__link nav__link--parent">CSIRO.au</a></li></ul></div>					</nav>
+				</div>
+				<div class="header__nav__mobile">
+					<nav class="nav" role="navigation">
+						<div class="nav__menu">
+							<ul class="nav__link__area" role="menubar">
+								<li class="header__main__link toggle-menu__wrap" role="menuitem">
+									<button class="nav__link nav__link--parent nav__link--icon toggle-menu__btn nba-header__mobile-visibility" aria-expanded="false" aria-label="Show menu" data-toggle-target--id="header__container" data-toggle-target--state="mobile-nav" data-toggle-this--toggleclass="mobile-nav__active" data-toggle-this--aria-expanded="true" data-toggle-this--aria-label="Close menu">
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" data-toggle-this--icon="times-regular" class=" svg-inline bars-regular"><use xlink:href="#bars-regular"></use></svg>									</button>
+								</li>
+								<li class="header__main__link toggle-search__wrap" role="menuitem">
+									<button class="nav__link nav__link--parent nav__link--icon toggle-search__btn" aria-expanded="false" aria-label="Show search" data-toggle-target--id="header__container" data-toggle-target--state="search" data-toggle-this--toggleclass="search__active" data-toggle-this--aria-expanded="true" data-toggle-this--aria-label="Close search">
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" data-toggle-this--icon="times-regular" class=" svg-inline search-regular"><use xlink:href="#search-regular"></use></svg>									</button>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<div class="header__search container nba-header__search">
+					            <form method="get" class="search__form" action="https://scsearch.csiro.au/csiroau">
+              <label for="search_1736983527" class="sr-only">Search</label>
+              <input id="search_1736983527" name="q" class="search__box" type="text" placeholder="Search..." value="">
+              <button class="search__btn" type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" class=" svg-inline search-regular"><use xlink:href="#search-regular"></use></svg>                <span class="sr-only">Search</span>
+              </button>
+                      <input type="hidden" name="site" value="Technical">
+                                <input type="hidden" name="fq" value="og_site_name_s:&quot;eReefs Research&quot;">
+                                <input type="hidden" name="start" value="0">
+                      <input type="hidden" name="sort" value="score desc">
+            </form>
+          					<div class="header__search__control">
+						<button class="nav__link nav__link--parent nav__link--icon close-search__btn search__active" aria-label="Close search" data-toggle-target--id="header__container" data-toggle-target--state="default">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" class=" svg-inline times-regular"><use xlink:href="#times-regular"></use></svg>						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+			</header>
