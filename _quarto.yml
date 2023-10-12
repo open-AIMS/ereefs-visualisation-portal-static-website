@@ -6,6 +6,7 @@ project:
 website:
   title: "AIMS eReefs"
   favicon: images/ereefs_aims_favicon.png
+  search: true
   page-footer:
     background: primary
     left: |
@@ -24,13 +25,8 @@ website:
 format:
   html:
     theme: 
-       light: 
-         - flatly
-         - css/custom.scss
-       dark: 
-         - darkly
-         - css/custom.scss
-         - css/custom_dark.scss
+      - flatly
+      - css/custom.scss
     css: 
       - css/ereefs_aims.css
       - css/eatlas_ncanimate2.css
