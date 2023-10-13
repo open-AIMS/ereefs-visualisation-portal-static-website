@@ -7,6 +7,9 @@ website:
   title: "AIMS eReefs"
   favicon: images/ereefs_aims_favicon.png
   search: true
+  navbar:
+    background: light
+    pinned: true
   page-footer:
     background: primary
     left: |
