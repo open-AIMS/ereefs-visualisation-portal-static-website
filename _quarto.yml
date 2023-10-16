@@ -36,6 +36,10 @@ format:
       - css/eatlas_ncanimate2_responsive.css
       - css/styles.css
     toc: false
+    include-in-header:
+      - javascript/remove_quarto_header.html
+    grid:
+      body-width: 1280px
 
 execute:
   freeze: auto # ensures code blocks are only executed locally as opposed to being executes as part of GitHub actions

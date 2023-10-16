@@ -31,3 +31,5 @@ Several eReefs websites exist, which are linked to in the drop down menu of this
 ## Custom navigation
 
 In order to match the styling of the CSIRO website, cusom navigation was created. This was done because quarto supports only a pinned header, or 
+
+... maybe I can build the nav bar as normal, but use javascript to change the navbar-nav class.
