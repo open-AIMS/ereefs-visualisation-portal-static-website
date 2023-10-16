@@ -1,0 +1,15 @@
+<script>
+// Wait for the DOM to fully load
+document.addEventListener("DOMContentLoaded", function () {
+  // Get a reference to the header element by its ID
+  var header = document.getElementById("quarto-header");
+
+  // Check if the header element exists before attempting to remove it
+  if (header) {
+    // Remove the header element
+    header.remove();
+  } else {
+    console.log("Header element not found");
+  }
+});
+</script>

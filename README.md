@@ -26,4 +26,8 @@ There has been some weird behaviour with the background image in the header. Thi
 
 ## Styling
 
-Several eReefs websites exist, which are linked to in the drop down menu of this website. This website has been styled with the [Flatly](https://bootswatch.com/flatly/) theme, modified to align with the other eReefs websites.
+Several eReefs websites exist, which are linked to in the drop down menu of this website. This website has been styled with the [Flatly](https://bootswatch.com/flatly/) theme, modified to align with the CSIRO website as it is likely the one most difficult to change.
+
+## Custom navigation
+
+In order to match the styling of the CSIRO website, cusom navigation was created. This was done because quarto supports only a pinned header, or 
