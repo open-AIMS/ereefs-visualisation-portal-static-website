@@ -30,6 +30,13 @@ Several eReefs websites exist, which are linked to in the drop down menu of this
 
 ## Custom navigation
 
-In order to match the styling of the CSIRO website, cusom navigation was created. This was done because quarto supports only a pinned header, or 
+In order to match the styling of the CSIRO website, cusom navigation was created. This was done because quarto supports only a pinned header, or a dynamically hidden header with headroom.js. In order to create this custom header: 
 
-... maybe I can build the nav bar as normal, but use javascript to change the navbar-nav class.
+- create the header with the _quarto.yml file
+- rendered the page
+- copy the code for the header
+- put this code into the custom include (`includes/_navbar_custom.qmd`)
+- change the header id="quarto-header" to id="custom-header"
+
+When the website is built quarto will create it's own header, which is why we have the `javascript/remove_quarto_header.js` file to remove it.
+
