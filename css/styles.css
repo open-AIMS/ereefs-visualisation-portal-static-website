@@ -1,10 +1,5 @@
 /* css styles */
 
-/* making the navbar static so that class changes done by quarto-nav.js will no longer affect the navbar */
-header.headroom--unpinned {
-  transform: translateY(0%);
-}
-
 .navbar {
   height: auto; /* Makes the navbar adjust to its content size */
 }
@@ -12,7 +7,7 @@ header.headroom--unpinned {
 /* Adjust logo size */
 .navbar-brand img {
   height: 100%; /* Makes the logo take the full height of the navbar */
-  max-height: 100px; /* Removes any height limitation on the logo */
+  max-height: 75px; /* Limits the height of the logo to match https://research.csiro.au/ereefs/ */
 }
 
 /* making a gap between the logo and the title in the header */
@@ -23,6 +18,16 @@ header.headroom--unpinned {
   justify-content: center
 }
 
+.navbar-container {
+  max-width: 1280px;
+}
+
+.me-auto {
+  margin-left: auto !important; /* align menu items to the right */
+  margin-right: 0 !important;
+}
+
+/* ----- footer ----- */
 /* making the footer logos separated */
 .nav-footer img {
   margin: 1em;
