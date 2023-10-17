@@ -1,10 +1,7 @@
 /* css styles */
 
 /* making the navbar static so that class changes done by quarto-nav.js will no longer affect the navbar */
-header.headroom--pinned {
-  transform: translateY(-100%);
-}
-header.headroom--top {
+header.headroom--unpinned {
   transform: translateY(0%);
 }
 
