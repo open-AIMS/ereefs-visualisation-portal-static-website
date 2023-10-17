@@ -4,6 +4,13 @@
   height: auto; /* Makes the navbar adjust to its content size */
 }
 
+.navbar > .container-fluid {
+  display: -webkit-flex;
+  -webkit-flex-wrap: inherit;
+  -webkit-align-items: center;
+  -webkit-justify-content: space-between;
+}
+
 /* Adjust logo size */
 .navbar-brand img {
   height: 100%; /* Makes the logo take the full height of the navbar */
