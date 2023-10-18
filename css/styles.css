@@ -5,6 +5,7 @@
 }
 
 .navbar > .container-fluid {
+  margin: 0 auto;
   display: -webkit-flex;
   -webkit-flex-wrap: inherit;
   -webkit-align-items: center;
