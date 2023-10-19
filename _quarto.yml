@@ -8,8 +8,45 @@ website:
   favicon: images/ereefs_aims_favicon.png
   search: true
   navbar:
+    title: "AIMS eReefs"
+    logo: images/ereefs_logo.png
     background: light
-    pinned: true
+    pinned: false
+    left:
+      - text: eReefs Websites
+        menu:
+          - href: https://www.ereefs.org.au/
+            text: Project Website
+          - href: https://research.csiro.au/ereefs/
+            text: CSIRO
+          - href: http://www.bom.gov.au/environment/activities/reeftemp/reeftemp.shtml
+            text: ReefTemp
+          - href: https://portal.ereefs.info/map
+            text: Interactive Data Portal
+      - text: Visualisation Portal
+        menu:
+          - href: index.qmd
+            text: Visualisation Portal
+          - href: index.qmd#ereefs-csiro-hydrodynamic-model
+            text: Hydrodynamic model
+          - href: index.qmd#ereefs-csiro-biogeochemical-model-4-km
+            text: BioGeoChemical model
+      - href: https://extraction.ereefs.aims.gov.au/?_gl=1*1ag9zj1*_ga*OTM5OTM3MTMzLjE2NjczNTcwNzg.*_ga_6SSTNBNHXG*MTY5MTk2OTEyOC4yNy4wLjE2OTE5NjkxMjguMC4wLjA.
+        text: Data Extraction
+      - text: Help
+        menu:
+          - href: help/index.qmd
+            text: Visualisation Portal Help
+          - href: https://open-aims.github.io/ereefs-tutorials/
+            text: Tutorials
+          - href: https://extraction.ereefs.aims.gov.au/faqs
+            text: Data Extraction FAQs
+      - text: About
+        menu:
+          - href: about.qmd
+            text: eReefs AIMS Visualisation Portal
+          - href: https://www.ereefs.org.au/
+            text: eReefs Program Website
   page-footer:
     background: primary
     left: |
@@ -37,7 +74,6 @@ format:
       - css/styles.css
     toc: false
     include-in-header:
-      - javascript/remove_quarto_header.html
       - text: <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
       - text: <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Open+Sans&display=swap" rel="stylesheet">
     grid:
