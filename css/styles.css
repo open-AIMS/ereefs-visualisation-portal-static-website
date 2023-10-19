@@ -28,6 +28,10 @@
 }
 
 .navbar-brand-container {
+  font-weight: 500;
+}
+
+.navbar-brand {
   font-size: 1.6rem;
   font-weight: 500;
 }
@@ -39,6 +43,15 @@
 .me-auto {
   margin-left: auto !important; /* align menu items to the right */
   margin-right: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 500;
 }
 
 /* ----- footer ----- */

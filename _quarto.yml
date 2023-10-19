@@ -38,8 +38,11 @@ format:
     toc: false
     include-in-header:
       - javascript/remove_quarto_header.html
+      - text: <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+      - text: <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Open+Sans&display=swap" rel="stylesheet">
     grid:
       body-width: 1220px
+    mainfont: Open Sans
 
 execute:
   freeze: auto # ensures code blocks are only executed locally as opposed to being executes as part of GitHub actions
