@@ -39,7 +39,7 @@ format:
     include-in-header:
       - javascript/remove_quarto_header.html
     grid:
-      body-width: 1280px
+      body-width: 1220px
 
 execute:
   freeze: auto # ensures code blocks are only executed locally as opposed to being executes as part of GitHub actions

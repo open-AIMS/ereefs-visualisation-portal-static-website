@@ -2,6 +2,7 @@
 
 .navbar {
   height: auto; /* Makes the navbar adjust to its content size */
+  font-family: "Montserrat";
 }
 
 .navbar > .container-fluid {
@@ -15,7 +16,7 @@
 /* Adjust logo size */
 .navbar-brand img {
   height: 100%; /* Makes the logo take the full height of the navbar */
-  max-height: 100px; /* Removes any height limitation on the logo */
+  max-height: 50px;
 }
 
 /* making a gap between the logo and the title in the header */
@@ -26,8 +27,13 @@
   justify-content: center
 }
 
+.navbar-brand-container {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
 .navbar-container {
-  max-width: 1280px;
+  max-width: 1220px;
 }
 
 .me-auto {

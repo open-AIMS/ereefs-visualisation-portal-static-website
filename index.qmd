@@ -5,6 +5,7 @@ format:
     include-in-header:
       - includes/_navbar_custom.qmd
       - includes/_explore_the_reef_through_time_banner.qmd
+      - text: <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
 ---
 
 # eReefs AIMS Visualisation Portal
