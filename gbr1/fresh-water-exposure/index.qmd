@@ -134,7 +134,7 @@ the rocks near AIMS (near the Haughton river) showed freshwater
 mortality. These two points of reference can be used to gauge whether
 the 1 km or 4 km results are more accurate.
 
-<table class="column-page table table-hover">
+<table class="table table-hover">
 	<thead>
 		<tr class="header">
 			<th colspan="1" rowspan="2">Location</th>

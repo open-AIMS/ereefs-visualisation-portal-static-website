@@ -20,7 +20,7 @@ In the case you would like to download a visualisation video or a frame (an imag
     1.  click on the button "VIDEO FRAME" to open the image in a new page
     2.  righ-click on the image and select "Save image as" (Firefox and Chrome) or "Save picture as" (MS Edge)
 
-![How to download a video or frame screenshot](./how-to-download-video-or-frame.png){.column-page}
+![How to download a video or frame screenshot](./how-to-download-video-or-frame.png)
 
 :::{.figure-caption}
 Example page ([Temperature, wind, salinity and current

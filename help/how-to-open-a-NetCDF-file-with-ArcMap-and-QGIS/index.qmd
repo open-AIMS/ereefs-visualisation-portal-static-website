@@ -49,7 +49,7 @@ file](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/netcdf/exercise-1-di
     \"Search\" or expanding the branch \"Multidimension Tools\" in the
     \"ArcToolbox\".
 
-<br>![Open NetCDF file with ArcMap - screenshot 1](./open-netcdf-file-with-arcmap-screenshot1-1000x679.png){.column-page}
+<br>![Open NetCDF file with ArcMap - screenshot 1](./open-netcdf-file-with-arcmap-screenshot1-1000x679.png)
 
 4.  In the popup window
     1.  For the input field \"Input netCDF File\" select the NetCDF file
@@ -65,7 +65,7 @@ file](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/netcdf/exercise-1-di
         be adjusted in the next step.
     7.  Click \"OK\" to start the processing.
         
-    <br>![Open NetCDF file with ArcMap - screenshot 2](./open-netcdf-file-with-arcmap-screenshot2.png){.column-page}
+    <br>![Open NetCDF file with ArcMap - screenshot 2](./open-netcdf-file-with-arcmap-screenshot2.png)
         
 5.  Once the layer is processed and shown in the \"Layers\" tab,
     double-click on the layer to open the \"Properties\" window
@@ -101,7 +101,7 @@ file](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/netcdf/exercise-1-di
     3.  Click \"OK\" to close the property window and apply the
         changes.
         
-    <br>![Open NetCDF file with ArcMap - screenshot 3](./open-netcdf-file-with-arcmap-screenshot3.png){.column-page}
+    <br>![Open NetCDF file with ArcMap - screenshot 3](./open-netcdf-file-with-arcmap-screenshot3.png)
 
 Open a derived NetCDF file with QGIS
 ------------------------------------
@@ -116,7 +116,7 @@ For this step-by-step tutorial QGIS version 3.14.1-Pi was used.
 3.  In the top menu select \"Layer\" -\> \"Add Layer\" -\> \"Add Raster
     Layer\".
     
-<br>![Open NetCDF file with QGIS - screenshot 1](./open-netcdf-file-with-qgis-screenshot1.png){.column-page}
+<br>![Open NetCDF file with QGIS - screenshot 1](./open-netcdf-file-with-qgis-screenshot1.png)
     
 4.  In the popup window (\"Data Source Manager\")
     1.  As \"Source type\" select \"File\".
@@ -124,12 +124,12 @@ For this step-by-step tutorial QGIS version 3.14.1-Pi was used.
         in step 1.
     3.  Click the \"Add\" button.
 
-    <br>![Open NetCDF file with QGIS - screenshot 2](./open-netcdf-file-with-qgis-screenshot2.png){.column-page}
+    <br>![Open NetCDF file with QGIS - screenshot 2](./open-netcdf-file-with-qgis-screenshot2.png)
 
     4.  Another popup window opens. Select one or more variables and
         click \"OK\".
 
-    <br>![Open NetCDF file with QGIS - screenshot 3](./open-netcdf-file-with-qgis-screenshot3.png){.column-page}
+    <br>![Open NetCDF file with QGIS - screenshot 3](./open-netcdf-file-with-qgis-screenshot3.png)
 
     5.  Close the \"Data Source Manager\" window by clicking the
         \"Close\" button.
@@ -152,5 +152,5 @@ For this step-by-step tutorial QGIS version 3.14.1-Pi was used.
         values.
     5.  Click \"OK\" to close the property window.
         
-    <br>![Open NetCDF file with QGIS - screenshot 4](./open-netcdf-file-with-qgis-screenshot4.png){.column-page}
+    <br>![Open NetCDF file with QGIS - screenshot 4](./open-netcdf-file-with-qgis-screenshot4.png)
 

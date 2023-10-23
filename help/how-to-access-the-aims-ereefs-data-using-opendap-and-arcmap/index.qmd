@@ -138,6 +138,6 @@ For this step-by-step tutorial ArcMap version 10.6.1 was used.
 
     11. Click \"OK\" to close the window.
 
-<br>![Access data with OPeNDAP in ArcMap - screenshot 1](./access-data-with-opendap-in-arcmap-screenshot1.png){.column-page}
+<br>![Access data with OPeNDAP in ArcMap - screenshot 1](./access-data-with-opendap-in-arcmap-screenshot1.png)
 
 4.  After processing the input the layer is shown.
