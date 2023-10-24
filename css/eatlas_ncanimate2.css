@@ -212,7 +212,7 @@
     vertical-align: middle;
 }
 .eatlas_ncanimate2_block .tabs ul li .tabLabel {
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 
 .eatlas_ncanimate2_block .tabs ul {
@@ -229,11 +229,16 @@
     background-color: #DDDDDD;
 }
 
+.eatlas_ncanimate2_block .tabs ul li a span {
+  margin-right: 0.5em;
+}
+  
 .eatlas_ncanimate2_block .tabs ul li a {
-    display: inline-block;
-    text-align: center;
+    /* display: inline-block; */ /* for some reason text-align: left doesn't work with this disabled*/
+    text-align: left;
     width: 120px;
     padding: 0.5em;
+    text-decoration: none;
 }
 
 .eatlas_ncanimate2_block .tabs ul li .icon {
