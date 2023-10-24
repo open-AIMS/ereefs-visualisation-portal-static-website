@@ -40,3 +40,33 @@ In order to match the styling of the CSIRO website, cusom navigation was created
 
 When the website is built quarto will create it's own header, which is why we have the `javascript/remove_quarto_header.js` file to remove it.
 
+
+# TODO items after first round feedback
+
+- [ ] any video:
+  - [x] `Time step:` tabs
+    - [x] space between icon and text
+      - [x] remove underline the `Time step:` tabs
+        - [x] vertical-align: middle is causing this or something similar
+    - [x] sort monthly tab wrapping on small screen
+  - [ ] video size is not responsive and not full screen
+    - [ ] Should I do this? We don't want to video to be so small that it's unusable on mobile. You want people to be able to scroll and hit the full screen button
+  - [ ] remove debuging logs
+  - [ ] consistent css between Download buttons
+  - [ ] Elevation drop down value is not remembered when switching timesteps
+  - [ ] Calendar year:
+    - [ ] no year in calendar
+    - [ ] calendar year navigation needs some thought. Help section exists in order to explain the navigation problem around years (clicking the arrows doesn't actually change the year).
+    - [ ] consider implementing a drop down
+  - [ ] make it obvious which months in calendar are links and which have no data.
+- [ ] footer
+  - [ ] add links to all logos
+  - [ ] `display: None` to middle of footer
+- [ ] fav icon to match the ereefs logo
+- [ ] menu
+  - [ ] menu should show you where you are with highlighting
+  - [ ] project website could be renamed to something more clear to someone who is new to our website.
+  - [ ] CSIRO -> "CSIRO research portal"
+  - [ ] interactive data portal should direct to portal.ereefs.info
+  - [ ] visualisation portal menu should not be drop down and should take you to this page.
+- [ ] mistaken font [times new roman] on the depth drop down
