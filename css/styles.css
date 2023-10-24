@@ -55,31 +55,15 @@ h1 {
 }
 
 /* ----- footer ----- */
+.nav-footer .nav-footer-center {
+  display: none;
+}
+
 /* making the footer logos separated */
 .nav-footer img {
   margin: 1em;
-  /*
-  margin-right: 1em;
-  margin-left: 1em;
-  /*
 }
 
-/* shrinking the unused right nav-footer */
-.nav-footer-center {
-  flex: 1 1 0px;
-  width: 0px;
-}
-  
-
-.nav-footer-right {
-  flex: 1 1 40%;
-  text-align: right;
-}
-
-.nav-footer-left {
-  flex: 1 1 40%;
-}
-  
 /* trying to make the navbar static
 .headroom--pinned,
 .headroom--unpinned,
