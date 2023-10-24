@@ -59,10 +59,10 @@ When the website is built quarto will create it's own header, which is why we ha
     - [ ] calendar year navigation needs some thought. Help section exists in order to explain the navigation problem around years (clicking the arrows doesn't actually change the year).
     - [ ] consider implementing a drop down
   - [ ] make it obvious which months in calendar are links and which have no data.
-- [ ] footer
-  - [ ] add links to all logos
-  - [ ] `display: None` to middle of footer
-- [ ] fav icon to match the ereefs logo
+- [x] footer
+  - [x] add links to all logos
+  - [x] `display: None` to middle of footer
+- [x] fav icon to match the ereefs logo
 - [ ] menu
   - [ ] menu should show you where you are with highlighting
   - [ ] project website could be renamed to something more clear to someone who is new to our website.

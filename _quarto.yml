@@ -56,10 +56,10 @@ website:
       [![](/images/logos/BoM-210x51.png){fig-alt="Bureau of Meteorology"}](http://www.bom.gov.au/){style="height: 49px;"}
     right: |
       Funders
-      <br>![](/images/logos/dcceew_logo.svg){fig-alt="Department of Climate Change, Energy, the Environment and Water" style="height: 49px;"}
-      ![](/images/logos/GBRF_1-210x66.png){fig-alt="Great Barrier Reef Foundation" style="height: 49px;"}
-      ![](/images/logos/QLD-Gov-64x80.png){fig-alt="Queensland Government" style="height: 49px;"}
-      ![](/images/logos/SIEF-110x66.png){fig-alt="Science and Industry Endowment Fund" style="height: 49px;"}
+      <br>[![](/images/logos/dcceew_logo.svg){fig-alt="Department of Climate Change, Energy, the Environment and Water" style="height: 49px;"}](https://www.dcceew.gov.au/)
+      [![](/images/logos/GBRF_1-210x66.png){fig-alt="Great Barrier Reef Foundation" style="height: 49px;"}](https://www.barrierreef.org/)
+      [![](/images/logos/QLD-Gov-64x80.png){fig-alt="Queensland Government" style="height: 49px;"}](https://www.qld.gov.au/)
+      [![](/images/logos/SIEF-110x66.png){fig-alt="Science and Industry Endowment Fund" style="height: 49px;"}](https://sief.org.au/)
 
 
 format:
