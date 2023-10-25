@@ -3890,7 +3890,7 @@ EAtlasNcAnimate2Widget.prototype.redrawCalendar = function () {
     var nextYearCell = yearSelector.find(".year_next");
     var nextYearLink = nextYearCell.find("a");
     var yearCell = yearSelector.find(".year");
-    var yearLink = yearCell.find("a");
+    var yearLink = yearCell.find("span");
 
     // Set calendar year
     yearLink.html(year == null ? "----" : year);
