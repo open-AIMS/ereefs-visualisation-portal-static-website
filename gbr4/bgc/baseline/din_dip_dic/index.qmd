@@ -11,20 +11,164 @@ params:
 
 {{< include ../../../../includes/_visualisation.qmd >}}
 
-### Dissolved Inorganic Nitrogen
+This set of visualisations represents estimates of Dissolved Inorganic
+Nitrogen (DIN), Dissolved Inorganic Carbon (DIC) and Dissolved Inorganic
+Phosphorus (DIP) from the 4 km resolution eReefs BioGeoChemical (BGC)
+model along the Queensland coast covering the Great Barrier Reef out
+into the Coral Sea.
 
-Concentration of dissolved inorganic nitrogen (DIN).
+The primary production (plankton growth) in Australian coastal
+environments is generally limited by dissolved nitrogen in marine
+environments. Photosynthetic growth is determined by concentrations of
+dissolved nutrients (nitrogen and phosphate) and available light.
 
-### Dissolved Inorganic Phosphorus
+The BGC model simulates the cycling of carbon, nitrogen, phosphorus, and
+oxygen across multiple compartments---such as phytoplankton,
+zooplankton, detritus, dissolved organic and inorganic
+substances---distributed over various water column and sediment layers.
+The model conservatively tracks these nutrient flows based on
+mechanistic equations.
 
-Concentration of dissolved inorganic phosphorus, also referred to as
-orthophosphate or soluble reactive phosphorus, SRP, composed chiefly of
-HPO~4~^2-^ ions, with a small percentage present as PO~4~^3-^.
+The ratio of carbon, nitrogen, and phosphorus in the organisms in the
+models is modelled as structural material with a Redfield ratio (O:C:N:P
+of 110:106:16:1 for plankton and animals; 554:550:30:1 for benthic
+plants) and a reserve within each organism. Growth is restricted by the
+limiting nutrient and light.
 
-### Dissolved Inorganic Carbon
+More details about how DIN, DIC, and DIP are calculated in the model can
+be found in Baird et al. (2020)
 
-Concentration of dissolved inorganic carbon, composed chiefly at
-seawater pH of HCO^3-^, with a small percentage present as CO~3~^2-^.
+## Dissolved Inorganic Nitrogen (DIN)
+
+Nitrogen is critical for the plant and animal growth. It is needed for
+protein synthesis, DNA and RNA, and a major component in the development
+of chlorophyll needed for photosynthesis. Nitrogen is cycled through
+organisms but is eventually converted back into nitrogen gas. In the
+sediment nitrogen in the porewaters is denitrified and lost as nitrogen
+gas.
+
+Within the GBR lagoon the main source of DIN is from land run off during
+flooding events. These flood plumes are generally stay close to the
+coast, pushed northwards by the wind. The nitrogen in the plumes leads
+to rapid growth of phytoplankton. This algal rich water absorbs light
+leading to less light reaching the seagrass meadows and inshore coral
+reefs (See [Secchi depth, vertical attenuation at 490nm & light
+intensity above seagrass
+product](../secchi_kd-490_epipar-sg))
+lowering their growth.
+
+In the Coral Sea the nitrogen levels in the surface waters of the ocean
+are generally very low as it is quickly taken up by the growth of
+phytoplankton. As these plankton die their detritus slowly sink and the
+nitrogen is released back into deeper waters. Westward ocean currents
+coming from the Coral Sea divide north of Cairns, leading to northern
+(Gulf of Papua Current) and southern currents (East Australian Current).
+These flow along the outer edge of the Great Barrier Reef and the
+continental shelf. On the outer edge of the ribbon reefs on the eastern
+side of Torres Strait and on the outer edge of the southern GBR these
+currents result in significant upwelling, drawing up nitrogen rich
+deeper water closer to the surface. This results in increased
+concentrations of DIN in these regions.
+
+### Model specifics
+
+This visualisation shows the modelled Concentration of dissolved
+inorganic nitrogen (DIN) in mg N m-3. DIN is the sum of nitrate and
+ammonium concentrations, \[NO3\]+\[NH4\].
+
+The model contains two forms of dissolved inorganic nitrogen (DIN) used
+by photosynthetic organisms, dissolved ammonium (NH4) and dissolved
+nitrate (NO3). In the model, the ammonium component of the DIN pool is
+taken up first, followed by the nitrate, with the caveat that the uptake
+of ammonium is limited by diffusion.
+
+For nitrogen the main sources are river inputs, the atmosphere by
+nitrogen fixing Trichodesmium cyanobacteria and from upwelling of deeper
+nutrient rich waters. Nitrogen fixation (conversion of nitrogen gas to
+ammonium) occurs by trichodesmium algae when DIN is low (4 to 20 mg N
+m−3; Robson et al., 2013) and carbon and phosphorus are available to
+support nitrogen uptake.
+
+An assessment of the BGC model shows it has a skill of (bias ± Root Mean
+Square Error) of nitrate of −0.70±3.86 mg N m−3 and ammonium of
+−0.77±1.63 mg N m−3 (Baird e. al., 2020). This represents the difference
+between the model values and 36 long-term water quality monitoring sites
+along the Queensland coast.
+
+## Dissolved Inorganic Phosphorus (DIP)
+
+Dissolved Inorganic Phosphorus is used for various biological functions
+including ATP synthesis and DNA. In the BGC model DIP is needed for
+growth of marine phytoplankton, benthic microalgae, trichodesmium,
+seagrass, coral and macroalgae. Zooplankton receive their phosphorus
+from consuming phytoplankton. As organisms die, they become detritus and
+the phosphorus is liberated as DIP. DIP converts to and from Particulate
+Inorganic Phosphorus (PIP) at a rate dependant on the level of oxygen. A
+proportion of the phosphorus is adsorbed into the sediment and is
+permanently immobilised.
+
+The phosphorus cycle is different to the nitrogen cycle as there is no
+exchange with the atmosphere. The final sink for phosphorus is the ocean
+sediment. The deeper ocean floor sediment is rich in phosphorus.
+Upwelling from the Coral Sea brings up nutrient-rich waters along the
+edge of the continental shelf.
+
+### Model specifics
+
+This visualisation shows the modelled concentration of dissolved
+inorganic phosphorus (DIP), also referred to as orthophosphate or
+soluble reactive phosphorus, SRP, composed chiefly of HPO42- ions, with
+a small percentage present as PO43-.
+
+Assessment of the predicted DIP indicates that the model has a skill of
+(bias ± RMSE) of -0.88 ± 2.17 mg P m−3 (Baird e. al., 2020). This is an
+assessment of the model against the AIMS long term water quality
+monitoring sites.
+
+## Dissolved Inorganic Carbon (DIC)
+
+The major pools of dissolved inorganic carbon (DIC) species in the ocean
+are HCO3-, CO3-, and dissolved CO2, which influence the speciation of H+
+and OH− ions, and therefore pH.
+
+The change in the surface DIC concentration is dependent on the partial
+pressure of carbon dioxide in the atmosphere and the dissolved carbon
+dioxide concentration, which is in turn determined from the DIC and the
+total alkalinity. At pH values around 8, dissolved CO2 makes up only
+approximately 1∕200 of DIC in seawater.
+
+In the water column DIC is up taken by phytoplankton as part of
+photosynthesis and released as part of respiration.
+
+### Model specifics
+
+The model contains two state variables to represent the state of carbon
+chemistry, dissolved inorganic carbon and alkalinity, which when
+combined with temperature and salinity allow the pH and aragonite
+saturation state to be calculated.
+
+Assessment of carbon chemistry properties along the entire length of the
+GBR shows a bias ± RMSE of DIC of -7.7 ± 34.2 mmol m−3 (Baird e. al.,
+2020).
+
+## Reference
+
+Baird, M. E., Wild-Allen, K. A., Parslow, J., Mongin, M., Robson, B.,
+Skerratt, J., Rizwi, F., Soja-Woźniak, M., Jones, E., Herzfeld, M.,
+Margvelashvili, N., Andrewartha, J., Langlais, C., Adams, M. P.,
+Cherukuru, N., Gustafsson, M., Hadley, S., Ralph, P. J., Rosebrock, U.,
+... Steven, A. D. L. (2020). CSIRO Environmental Modelling Suite (EMS):
+scientific description of the optical and biogeochemical models (vB3p0).
+Geoscientific Model Development, 13(9), 4503--4553.
+<https://doi.org/10.5194/gmd-13-4503-2020>
+
+Robson, B. J., Baird, M. E., and Wild-Allen, K. A.: A physiological
+model for the marine cyanobacteria, *Trichodesmium*, in: MODSIM2013,
+20th International Congress on Modelling and Simulation, edited by:
+Piantadosi, J. R. S. A. and Boland, J., Modelling and Simulation Society
+of Australia and New Zealand, 1652--1658, available
+at: <https://www.mssanz.org.au/modsim2013/H3/robson.pdf> (last access:
+25 October 2023), 2013. 
 
 {{< include ../../../../includes/_source_data_bgc.qmd >}}
 
