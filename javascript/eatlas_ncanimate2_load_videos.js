@@ -3113,11 +3113,11 @@ function scrollToVisualisation() {
     const divTop = targetDiv.offsetTop;
 
     if (window.scrollY > divTop) {
-      console.log(`window.scrollY = ${window.scrollY}`)
-      console.log(`divTop = ${divTop}`)
+      // console.log(`window.scrollY = ${window.scrollY}`)
+      // console.log(`divTop = ${divTop}`)
 
       // We are scrolled below the div, let's scroll to the div
-      console.log("scrolling to top")
+      // console.log("scrolling to top")
       window.scrollTo({ top: 0, behavior: 'smooth' });
       // window.scrollTo({ top: divTop, behavior: 'smooth' });  // this works, but the top menu bar appears and hides some content
     }
@@ -3345,8 +3345,8 @@ EAtlasNcAnimate2Widget.prototype.initTabs = function (
   framePeriodOrder,
   framePeriodSettings
 ) {
-  console.log("framePeriodOrder = ", framePeriodOrder);
-  console.log("framePeriodOrder = ", framePeriodSettings);
+  // console.log("framePeriodOrder = ", framePeriodOrder);
+  // console.log("framePeriodOrder = ", framePeriodSettings);
   for (var i = 0; i < framePeriodOrder.length; i++) {
     var framePeriod = framePeriodOrder[i];
     var settings = framePeriodSettings[framePeriod];
@@ -4101,7 +4101,7 @@ EAtlasNcAnimate2Widget.prototype.load = function () {
   // JJ: I think this is where the metadata about the video is loaded
   var productId = this.block.attr("productid");
   var blockName = this.block.attr("blockname");
-  console.log("blockName = ", blockName);
+  // console.log("blockName = ", blockName);
 
   // var meta_url = "/" + blockName + ".json";
   var meta_url =
@@ -4109,7 +4109,7 @@ EAtlasNcAnimate2Widget.prototype.load = function () {
     "https://api.test.ereefs.aims.gov.au/metadata/NCANIMATE_PRODUCT/" +
     productId;
 
-  console.log("meta_url = ", meta_url);
+  // console.log("meta_url = ", meta_url);
 
   // JQuery can request JSON data over different domain (CORS)
   // JQuery doesn't handle error with JSONP
@@ -4130,8 +4130,7 @@ EAtlasNcAnimate2Widget.prototype.load = function () {
 
     success: (function (that) {
       return function (data, status, xhr) {
-        console.log("got data:");
-        // console.log(data);
+        // console.log("got data:");
         that.media_map = {};
 
         var framePeriods = [];
@@ -5316,7 +5315,6 @@ var EATLAS_NCANIMATE2_ANCHOR_VALUE_SEPARATOR = "=";
 (function ($) {
   // Initialise the EAtlasNcAnimate2Widgets when the page is ready
   $(document).ready(function () {
-    console.log("document ready");
     $(".eatlas_ncanimate2_block").each(function (index) {
       var videoSelector = new EAtlasNcAnimate2Widget($(this));
       videoSelector.init();
