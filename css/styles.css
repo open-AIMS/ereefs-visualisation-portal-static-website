@@ -54,6 +54,11 @@ h1 {
   font-weight: 500;
 }
 
+/* Make the current menu item more obvious */
+.navbar-nav .nav-link.active {
+    font-weight: 500;
+}
+
 /* ----- footer ----- */
 .nav-footer .nav-footer-center {
   display: none;

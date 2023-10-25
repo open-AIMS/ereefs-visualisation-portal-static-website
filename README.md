@@ -49,7 +49,7 @@ When the website is built quarto will create it's own header, which is why we ha
       - [x] remove underline the `Time step:` tabs
         - [x] vertical-align: middle is causing this or something similar
     - [x] sort monthly tab wrapping on small screen
-  - [ ] video size is not responsive and not full screen
+  - [ ] video size is not responsive and not full screen.
     - Should I do this? We don't want to video to be so small that it's unusable on mobile. You want people to be able to scroll and hit the full screen button
   - [x] remove debuging logs
   - [ ] consistent css between Download buttons
@@ -60,16 +60,19 @@ When the website is built quarto will create it's own header, which is why we ha
     - [x] calendar year navigation needs some thought. Help section exists in order to explain the navigation problem around years (clicking the arrows doesn't actually change the year).
       - I don't think this needs a lot of explanation as once you use it, it becomes evident. I created a help article to replace the test on how to use the tool that previously existed on every page.
     - [x] consider implementing a drop down - this is a good idea but I think should be part of the backlog.
-  - [ ] make it obvious which months in calendar are links and which have no data.
-    - [ ] make the text bold just like the selected month (except without the background)
+  - [x] make it obvious which months in calendar are links and which have no data.
+    - [x] make the text bold just like the selected month (except without the background)
 - [x] footer
   - [x] add links to all logos
   - [x] `display: None` to middle of footer
 - [x] fav icon to match the ereefs logo
 - [ ] menu
   - [ ] menu should show you where you are with highlighting
-  - [ ] project website could be renamed to something more clear to someone who is new to our website.
-  - [ ] CSIRO -> "CSIRO research portal"
-  - [ ] interactive data portal should direct to portal.ereefs.info
-  - [ ] visualisation portal menu should not be drop down and should take you to this page.
+    - This is built in to quarto, but not for drop down menus.
+    - [x] visualisation portal menu should not be drop down and should take you to this page.
+  - [x] project website could be renamed to something more clear to someone who is new to our website.
+    - renamed to "Project Overview"
+  - [x] CSIRO -> "CSIRO research portal"
+  - [x] interactive data portal should direct to portal.ereefs.info
 - [ ] mistaken font [times new roman] on the depth drop down
+  - I'm not getting this font. Font should be "inherit" from inspecting the CSS.

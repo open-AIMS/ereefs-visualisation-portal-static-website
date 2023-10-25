@@ -16,21 +16,15 @@ website:
       - text: eReefs Websites
         menu:
           - href: https://www.ereefs.org.au/
-            text: Project Website
+            text: Project Overview
           - href: https://research.csiro.au/ereefs/
             text: CSIRO Research Portal
           - href: http://www.bom.gov.au/environment/activities/reeftemp/reeftemp.shtml
             text: ReefTemp
           - href: https://portal.ereefs.info/
             text: Interactive Data Portal
-      - text: Visualisation Portal
-        menu:
-          - href: index.qmd
-            text: Visualisation Portal
-          - href: index.qmd#ereefs-csiro-hydrodynamic-model
-            text: Hydrodynamic model
-          - href: index.qmd#ereefs-csiro-biogeochemical-model-4-km
-            text: BioGeoChemical model
+      - href: index.qmd
+        text: Visualisation Portal
       - href: https://extraction.ereefs.aims.gov.au/?_gl=1*1ag9zj1*_ga*OTM5OTM3MTMzLjE2NjczNTcwNzg.*_ga_6SSTNBNHXG*MTY5MTk2OTEyOC4yNy4wLjE2OTE5NjkxMjguMC4wLjA.
         text: Data Extraction
       - text: Help
@@ -47,8 +41,6 @@ website:
             text: eReefs AIMS Visualisation Portal
           - href: https://www.ereefs.org.au/
             text: eReefs Program Website
-      - href: ./index.qmd
-        text: Home
   page-footer:
     background: primary
     left: |
