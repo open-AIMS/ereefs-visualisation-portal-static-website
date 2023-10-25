@@ -45,6 +45,7 @@
 .eatlas_ncanimate2_block table.date-selector .selectable {
     color: #000000;
     cursor: pointer;
+    font-weight: bold;
 }
 .eatlas_ncanimate2_block table.date-selector .year {
     color: #113a5f;

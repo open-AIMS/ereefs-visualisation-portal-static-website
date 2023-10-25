@@ -18,10 +18,10 @@ website:
           - href: https://www.ereefs.org.au/
             text: Project Website
           - href: https://research.csiro.au/ereefs/
-            text: CSIRO
+            text: CSIRO Research Portal
           - href: http://www.bom.gov.au/environment/activities/reeftemp/reeftemp.shtml
             text: ReefTemp
-          - href: https://portal.ereefs.info/map
+          - href: https://portal.ereefs.info/
             text: Interactive Data Portal
       - text: Visualisation Portal
         menu:
@@ -47,6 +47,8 @@ website:
             text: eReefs AIMS Visualisation Portal
           - href: https://www.ereefs.org.au/
             text: eReefs Program Website
+      - href: ./index.qmd
+        text: Home
   page-footer:
     background: primary
     left: |

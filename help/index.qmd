@@ -2,6 +2,10 @@
 title: "Help"
 ---
 
+### [How to use the visualisation tool](./how-to-use-the-visualisation-tool/index.qmd)
+
+A short description of how to use the visualisation tool found on each product page.
+
 ### [How to download a visualisation video or frame](./how-to-download-video-or-image/index.qmd)
 
 A short tutorial on how to download a visualisation video or frame for an AIMS eReefs product.
