@@ -66,8 +66,8 @@ When the website is built quarto will create it's own header, which is why we ha
   - [x] add links to all logos
   - [x] `display: None` to middle of footer
 - [x] fav icon to match the ereefs logo
-- [ ] menu
-  - [ ] menu should show you where you are with highlighting
+- [x] menu
+  - [x] menu should show you where you are with highlighting
     - This is built in to quarto, but not for drop down menus.
     - [x] visualisation portal menu should not be drop down and should take you to this page.
   - [x] project website could be renamed to something more clear to someone who is new to our website.
