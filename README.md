@@ -54,6 +54,7 @@ When the website is built quarto will create it's own header, which is why we ha
   - [x] remove debuging logs
   - [ ] consistent css between Download buttons
     - This weird because MP4 and Video Frame anchors have different stricture in the html. I think this is why the button are treated differently.
+      - TODO: put `href="javascript:void(0);` on the Video Frame button to make it behave the same. This needs to be done in the javascript I think. Line 4509 of  `~/Workspace/ereefs-static-site/javascript/eatlas_ncanimate2_load_videos.js` more or less.
   - [ ] Elevation drop down value is not remembered when switching timesteps
     - Problem also exists in old ereefs site.
   - [x] Calendar year:
