@@ -49,12 +49,13 @@ When the website is built quarto will create it's own header, which is why we ha
       - [x] remove underline the `Time step:` tabs
         - [x] vertical-align: middle is causing this or something similar
     - [x] sort monthly tab wrapping on small screen
-  - [ ] video size is not responsive and not full screen.
+  - [x] video size is not responsive and not full screen.
     - Should I do this? We don't want to video to be so small that it's unusable on mobile. You want people to be able to scroll and hit the full screen button
   - [x] remove debuging logs
   - [ ] consistent css between Download buttons
     - This weird because MP4 and Video Frame anchors have different stricture in the html. I think this is why the button are treated differently.
   - [ ] Elevation drop down value is not remembered when switching timesteps
+    - Problem also exists in old ereefs site.
   - [x] Calendar year:
     - [x] no year in calendar
     - [x] calendar year navigation needs some thought. Help section exists in order to explain the navigation problem around years (clicking the arrows doesn't actually change the year).

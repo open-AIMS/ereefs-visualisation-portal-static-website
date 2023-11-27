@@ -77,3 +77,13 @@ h1 {
   position: block !important;
 } 
 */
+
+/* make the video 100% width */
+.video-container {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+.video-container video {
+    width: 100%;
+}
