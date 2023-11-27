@@ -4465,6 +4465,7 @@ EAtlasNcAnimate2Widget.prototype.loadDownloads = function (media_metadata) {
       if (outputFiles != null) {
         jQuery.each(outputFiles, function (outputFileID, outputFile) {
           var key = outputFile["filetype"].toLowerCase();
+          console.log(`key = ${key}`);
           keys.push(key);
           downloads[key] = outputFile;
         });
