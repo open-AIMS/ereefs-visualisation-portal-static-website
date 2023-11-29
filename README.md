@@ -54,9 +54,9 @@ When the website is built quarto will create it's own header, which is why we ha
     - Should I do this? We don't want to video to be so small that it's unusable on mobile. You want people to be able to scroll and hit the full screen button
   - [x] remove debuging logs
   - [x] consistent css between Download buttons
-  - [ ] Elevation drop down value is not remembered when switching timesteps
+  - [x] Elevation drop down value is not remembered when switching timesteps
     - Problem also exists in old ereefs site.
-    - [ ] If elevation is changed because the old one isn't available, need to make it obvious to the user.
+  - [ ] If elevation is changed because the old one isn't available, need to make it obvious to the user.
   - [x] Calendar year:
     - [x] no year in calendar
     - [x] calendar year navigation needs some thought. Help section exists in order to explain the navigation problem around years (clicking the arrows doesn't actually change the year).
@@ -78,3 +78,4 @@ When the website is built quarto will create it's own header, which is why we ha
   - [x] interactive data portal should direct to portal.ereefs.info
 - [ ] mistaken font [times new roman] on the depth drop down
   - I'm not getting this font. Font should be "inherit" from inspecting the CSS.
+  - This shows in Firefox, but not Chrome.
