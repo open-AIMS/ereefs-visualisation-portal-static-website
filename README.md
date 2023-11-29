@@ -57,6 +57,7 @@ When the website is built quarto will create it's own header, which is why we ha
   - [x] Elevation drop down value is not remembered when switching timesteps
     - Problem also exists in old ereefs site.
   - [ ] If elevation is changed because the old one isn't available, need to make it obvious to the user.
+    - continue with TODO: JJ: in the javascript
   - [x] Calendar year:
     - [x] no year in calendar
     - [x] calendar year navigation needs some thought. Help section exists in order to explain the navigation problem around years (clicking the arrows doesn't actually change the year).

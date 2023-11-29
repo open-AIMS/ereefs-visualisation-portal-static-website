@@ -3467,6 +3467,16 @@ EAtlasNcAnimate2Widget.prototype.loadMedia = function (
   month
 ) {
   // JJ: This is where the video is loaded I guess.
+  
+  // JJ: I'm trying to figure out whether the current_elevation gets updated by the multiple runs of loadMedia. I guess that during any itteration, if `elevation` is equal to `current_elevation` then the warning can be removed, and then later it can be added. The problem will be if they are different (and so the warning gets updated), and then in a subsequent itteration they are the same and the warning gets removed.
+  // TODO: JJ: put the conditional in here
+  console.log(`this.current_elevation = ${this.current_elevation}`);
+  
+  // console.log("hiding elevation warning");  // This runs twice because load media called once from EAtlasNcAnimate2Widget.prototype.load, and it calls itself at the end for some reason.
+  // TODO: JJ: move this code to an appropriate location and add a conditional so that it only hides the warning if required
+  // Hiding the elevation warning here because loadMedia gets run twice for some reason
+  // console.log("hiding elevation warning"); // TODO: move this code so that it only runs when video is first loaded
+  // jQuery('.elevation-warning').css('display', 'none'); // Hide any warning. It will be shown again by loadElevations if required.
 
   // If default region is null, that means there is no region, therefore no usable data...
   if (this.default_region === null) {
@@ -3819,6 +3829,7 @@ EAtlasNcAnimate2Widget.prototype.loadMedia = function (
         alt_month = null;
       }
 
+      console.log("loading inside of loadMedia")
       this.loadMedia(framePeriod, elevation, region, alt_year, alt_month);
     } else {
       // There is no video / map available for the given framePeriod, elevation, region
@@ -4328,6 +4339,7 @@ EAtlasNcAnimate2Widget.prototype.load = function () {
             that.default_region = default_region_obj.id;
 
             var anchorValues = eatlas_ncanimate2_get_anchor_values();
+            console.log("loading inside of EAtlasNcAnimate2Widget.prototype.load")
             that.loadMedia(
               anchorValues["frame"],
               anchorValues["elevation"],
@@ -4384,6 +4396,7 @@ EAtlasNcAnimate2Widget.prototype.load = function () {
       return function (event) {
         // Load the media (video or map)
         var anchorValues = eatlas_ncanimate2_get_anchor_values();
+        console.log("loading on hashchange")
         that.loadMedia(
           anchorValues["frame"],
           anchorValues["elevation"],
@@ -4444,8 +4457,24 @@ EAtlasNcAnimate2Widget.prototype.loadElevations = function (framePeriod) {
       );
     }
     if (typeof this.current_elevation !== 'undefined') {
-        // console.log(`this.current_elevation = ${this.current_elevation}`);
+      console.log(`this.current_elevation = ${this.current_elevation}`);
+      console.log(`elevations = ${elevations}`);
+      console.log(`typeof elevations = ${typeof elevations}`);
+      console.log(`elevations.includes(this.current_elevation) = ${elevations.includes(this.current_elevation)}`);
+      if (elevations.includes(this.current_elevation)) {
+        console.log("alerting")
+        alert("Keeping previously selected elevation");
         this.elevationContainerSelect.val(this.current_elevation);
+        jQuery('.elevation-warning').css('display', 'block');
+      } else if (this.current_elevation != null) {
+        // this.elevationContainerSelect.val(elevations[0]);
+        alert("The previously selected elevation is not available for request");
+        // TODO: find the div with class 'elevation-warning' and change display to auto
+        // Find the div with class 'elevation-warning' and change display to block (or another appropriate style)
+        // jQuery('.elevation-warning').css('display', 'block');
+      } else {
+        // this is what happens when the page first loads, ie, there is no current_elevation
+      }
     }
     this.elevationContainer.show();
   } else {
