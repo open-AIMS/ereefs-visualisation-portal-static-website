@@ -54,6 +54,10 @@ h1 {
   font-weight: 500;
 }
 
+select, option {
+  font-family: initial; /* ensures consistency between the selected and the options because the options can't be styled in firefox without a custom drop down */
+}
+
 /* Make the current menu item more obvious */
 .navbar-nav .nav-link.active {
     font-weight: 500;
