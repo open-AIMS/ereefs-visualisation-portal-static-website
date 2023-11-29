@@ -2,7 +2,8 @@
 
 ## Setup
 
-- Install Quarto
+- Install [Quarto](https://quarto.org/docs/get-started/)
+  - `sudo apt install quarto` on WSL
 - run `quarto preview` and confirm the website displays as expected.
 
 ## Previewing

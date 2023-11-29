@@ -4459,7 +4459,7 @@ EAtlasNcAnimate2Widget.prototype.loadElevations = function (framePeriod) {
     }
     if (typeof this.current_elevation !== 'undefined') {
         console.log(`this.current_elevation = ${this.current_elevation}`);
-        // TODO: JJ: set this.current_elevation selected
+        this.elevationContainerSelect.val(this.current_elevation);
     } else {
         console.log(`this.current_elevation not defined`);
     }
