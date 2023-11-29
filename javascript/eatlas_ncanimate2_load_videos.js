@@ -3473,10 +3473,6 @@ EAtlasNcAnimate2Widget.prototype.loadMedia = function (
     return;
   }
 
-  console.log("loading media with:")
-  console.log(`  region ${region}`)
-  console.log(`  elevation ${elevation}`)
-
   if (framePeriod === undefined || framePeriod === null) {
     framePeriod = this.default_framePeriod;
   }
@@ -3497,11 +3493,7 @@ EAtlasNcAnimate2Widget.prototype.loadMedia = function (
     month = null;
   }
 
-  console.log(`  current_framePeriod = ${this.current_framePeriod}`)
-  console.log(`  framePeriod = ${this.framePeriod}`)
   if (framePeriod !== this.current_framePeriod) {
-    console.log("RELOADING elevations")
-    // TODO: JJ: can I set this.current_elevation here, then in loadElevations, make it the one selected?
     this.loadElevations(framePeriod);
   }
 
@@ -3863,7 +3855,6 @@ EAtlasNcAnimate2Widget.prototype.selectMedia = function (
   year,
   month
 ) {
-  console.log("running selectMedia")
   this.selector_year = year;
   this.current_year = year;
   this.current_month = month;
@@ -3880,7 +3871,6 @@ EAtlasNcAnimate2Widget.prototype.selectMedia = function (
     this.current_region = region;
     this.map_selector.selectRegion(region);
   }
-  // console.log(`this.current_elevation = ${this.current_elevation}`)
 
   this.redrawCalendar();
 };
@@ -4092,15 +4082,12 @@ EAtlasNcAnimate2Widget.prototype.changeElevation = function (elevation) {
     this.current_framePeriod in this.media_map &&
     elevation in this.media_map[this.current_framePeriod]
   ) {
-    console.log(`changing elevation to ${elevation}`);
     this.elevationContainerSelect.val(elevation);
   }
 };
 
 // Called from EAtlasNcAnimate2Map instance
 EAtlasNcAnimate2Widget.prototype.changeRegion = function (region) {
-  // console.log("chaning region...")
-  // console.log(`current_elevation = ${this.current_elevation}`)
   this.current_region = region;
   this.loadMedia(
     this.current_framePeriod,
@@ -4433,7 +4420,6 @@ EAtlasNcAnimate2Widget.prototype.loadElevations = function (framePeriod) {
   // Remove elevations from the select dropdown field
   this.elevationContainerSelect.find("option").remove();
 
-  console.log('loading elevations...')
   // Get the list of elevations for the given frame period
   var elevations = [];
   if (framePeriod in this.media_map) {
@@ -4458,10 +4444,8 @@ EAtlasNcAnimate2Widget.prototype.loadElevations = function (framePeriod) {
       );
     }
     if (typeof this.current_elevation !== 'undefined') {
-        console.log(`this.current_elevation = ${this.current_elevation}`);
-        // TODO: JJ: set this.current_elevation selected
-    } else {
-        console.log(`this.current_elevation not defined`);
+        // console.log(`this.current_elevation = ${this.current_elevation}`);
+        this.elevationContainerSelect.val(this.current_elevation);
     }
     this.elevationContainer.show();
   } else {
