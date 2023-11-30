@@ -96,7 +96,5 @@ If you select an elevation then change to a time step for which that elevation i
 - [ ] on About page remove the table and link to the tutorials page (replace last sentence)
 - [ ] product page visualisation should stick to the existing quarto column size
   - [ ] home page blocks of links should rows of 2 instead of rows of 3.
-- [ ] mistaken font [times new roman] on the depth drop down
-  - I'm not getting this font. Font should be "inherit" from inspecting the CSS.
-  - This shows in Firefox, but not Chrome.
-  - Marc is looking into this
+- [x] mistaken font [times new roman] on the depth drop down
+  - The issue was the "Montserrat" font, adding similar alternative font and font class fixes issue.

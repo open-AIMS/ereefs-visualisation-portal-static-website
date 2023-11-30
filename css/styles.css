@@ -2,7 +2,7 @@
 
 .navbar {
   height: auto; /* Makes the navbar adjust to its content size */
-  font-family: "Montserrat";
+  font-family: "Montserrat", "Open Sans", sans-serif;
 }
 
 .navbar > .container-fluid {
@@ -46,7 +46,7 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat";
+  font-family: "Montserrat", "Open Sans", sans-serif;
   font-weight: 400;
 }
 
@@ -55,7 +55,7 @@ h1 {
 }
 
 select, option {
-  font-family: initial; /* ensures consistency between the selected and the options because the options can't be styled in firefox without a custom drop down */
+  font-family: "Montserrat", "Open Sans", sans-serif;
 }
 
 /* Make the current menu item more obvious */
