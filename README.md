@@ -77,6 +77,22 @@ When the website is built quarto will create it's own header, which is why we ha
     - renamed to "Project Overview"
   - [x] CSIRO -> "CSIRO research portal"
   - [x] interactive data portal should direct to portal.ereefs.info
+  - [ ] Change title from "AIMS eReefs" to "AIMS eReefs Visualisation Portal"
+  - [ ] remove the About -> eReefs Program Website menu item 
+  - [ ] add icons for external links (even ASCII character are better than nothing)
+  - [ ] drop down text color should be darker
+  - [ ] main banner link not working
+  - [ ] make the main banner a little less prominent (reduce the height)
+- [ ] fix links to R and python tutorials
+- [ ] Remove "AIMS eReefs" at the top of the home page
+- [ ] remove other H1s. Should only be 1 on a page
+- [ ] Help page:
+  - [ ] increase whitespace (or make it consistent with the product page headings)
+  - [ ] add an image banner to the top of the help page (if necessary to make it less dull)
+- [ ] on About page remove the table and link to the tutorials page (replace last sentence)
+- [ ] product page visualisation should stick to the existing quarto column size
+  - [ ] home page blocks of links should rows of 2 instead of rows of 3.
 - [ ] mistaken font [times new roman] on the depth drop down
   - I'm not getting this font. Font should be "inherit" from inspecting the CSS.
   - This shows in Firefox, but not Chrome.
+  - Marc is looking into this
