@@ -3339,6 +3339,7 @@ EAtlasNcAnimate2Widget.prototype.fixVideoFrameTime = function (videoTime) {
 EAtlasNcAnimate2Widget.prototype.init = function () {
   this.initElevationSelector();
   this.load();
+  console.log(`in init, this.current_elevation = ${this.current_elevation}`);
 };
 
 EAtlasNcAnimate2Widget.prototype.initTabs = function (
@@ -4061,6 +4062,7 @@ EAtlasNcAnimate2Widget.prototype.redrawCalendar = function () {
 };
 
 // Add event listeners to the elevation dropdown (depth selector)
+// JJ: I think this just changes the url, which triggers the hashchange function
 EAtlasNcAnimate2Widget.prototype.initElevationSelector = function () {
   this.elevationContainerSelect.change(
     (function (that) {
@@ -4110,7 +4112,7 @@ EAtlasNcAnimate2Widget.prototype.changeRegion = function (region) {
 };
 
 EAtlasNcAnimate2Widget.prototype.load = function () {
-  // JJ: I think this is where the metadata about the video is loaded
+  // loads metadata and also the media.
   var productId = this.block.attr("productid");
   var blockName = this.block.attr("blockname");
   // console.log("blockName = ", blockName);
