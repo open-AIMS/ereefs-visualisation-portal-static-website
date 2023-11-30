@@ -3471,7 +3471,7 @@ EAtlasNcAnimate2Widget.prototype.loadMedia = function (
   
   // JJ: I'm trying to figure out whether the current_elevation gets updated by the multiple runs of loadMedia. I guess that during any itteration, if `elevation` is equal to `current_elevation` then the warning can be removed, and then later it can be added. The problem will be if they are different (and so the warning gets updated), and then in a subsequent itteration they are the same and the warning gets removed.
   // TODO: JJ: put the conditional in here
-  console.log(`this.current_elevation = ${this.current_elevation}`);
+  console.log(`in loadMedia, this.current_elevation = ${this.current_elevation}`);
   
   // console.log("hiding elevation warning");  // This runs twice because load media called once from EAtlasNcAnimate2Widget.prototype.load, and it calls itself at the end for some reason.
   // TODO: JJ: move this code to an appropriate location and add a conditional so that it only hides the warning if required
@@ -3830,7 +3830,7 @@ EAtlasNcAnimate2Widget.prototype.loadMedia = function (
         alt_month = null;
       }
 
-      console.log("loading inside of loadMedia")
+      console.log("calling loadMedia inside of loadMedia")
       this.loadMedia(framePeriod, elevation, region, alt_year, alt_month);
     } else {
       // There is no video / map available for the given framePeriod, elevation, region
@@ -4130,6 +4130,7 @@ EAtlasNcAnimate2Widget.prototype.load = function () {
   //   http://designwithpc.com/post/11989720389/jsonp-error-handling-with-jqueryajax
   // Solution:
   //   Use reverse proxy
+  // JJ: the Metdata API has now been configured to add the correct CORS headers.
   jQuery.ajax({
     url: meta_url,
     // JQuery cache the query response but not the response code (replaced with 200),
@@ -4341,7 +4342,7 @@ EAtlasNcAnimate2Widget.prototype.load = function () {
             that.default_region = default_region_obj.id;
 
             var anchorValues = eatlas_ncanimate2_get_anchor_values();
-            console.log("loading inside of EAtlasNcAnimate2Widget.prototype.load")
+            console.log("calling loadMedia inside of EAtlasNcAnimate2Widget.prototype.load")
             that.loadMedia(
               anchorValues["frame"],
               anchorValues["elevation"],
@@ -4349,6 +4350,7 @@ EAtlasNcAnimate2Widget.prototype.load = function () {
               anchorValues["year"],
               anchorValues["month"]
             );
+            // JJ: if there was no region information in the metadata, the media would not be loaded. Shouldn't there be an else statement that will log an error message, or display "No region available" or something?
           }
         }
         // console.log(`that.media_map = ${that.media_map}`)
@@ -4398,7 +4400,7 @@ EAtlasNcAnimate2Widget.prototype.load = function () {
       return function (event) {
         // Load the media (video or map)
         var anchorValues = eatlas_ncanimate2_get_anchor_values();
-        console.log("loading on hashchange")
+        console.log("calling loadMedia on hashchange")
         that.loadMedia(
           anchorValues["frame"],
           anchorValues["elevation"],
@@ -4459,7 +4461,7 @@ EAtlasNcAnimate2Widget.prototype.loadElevations = function (framePeriod) {
       );
     }
     if (typeof this.current_elevation !== 'undefined') {
-      console.log(`this.current_elevation = ${this.current_elevation}`);
+      console.log(`in loadElevations, this.current_elevation = ${this.current_elevation}`);
       console.log(`elevations = ${elevations}`);
       console.log(`typeof elevations = ${typeof elevations}`);
       console.log(`elevations.includes(this.current_elevation) = ${elevations.includes(this.current_elevation)}`);
