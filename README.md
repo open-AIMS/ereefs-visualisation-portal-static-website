@@ -3,7 +3,6 @@
 ## Setup
 
 - Install [Quarto](https://quarto.org/docs/get-started/)
-  - `sudo apt install quarto` on WSL
 - run `quarto preview` and confirm the website displays as expected.
 
 ## Previewing
@@ -58,6 +57,7 @@ When the website is built quarto will create it's own header, which is why we ha
     - Problem also exists in old ereefs site.
   - [ ] If elevation is changed because the old one isn't available, need to make it obvious to the user.
     - continue with TODO: JJ: in the javascript
+    - To test it, I need a product for which we are lacking data on one level of elevation in a certain situation (like hourly data). Marc suggested that I mock the metadata api response to simulate this.
   - [x] Calendar year:
     - [x] no year in calendar
     - [x] calendar year navigation needs some thought. Help section exists in order to explain the navigation problem around years (clicking the arrows doesn't actually change the year).
