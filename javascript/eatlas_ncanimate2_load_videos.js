@@ -3749,6 +3749,13 @@ EAtlasNcAnimate2Widget.prototype.loadMedia = function (
     var alt_year = null;
     var alt_month = null;
 
+    console.log(`elevation = ${elevation}`)
+    console.log(`region = ${region}`)
+    console.log(`framePeriod in this.media_map = ${framePeriod in this.media_map}`)
+    console.log(`elevation in this.media_map[framePeriod] = ${elevation in this.media_map[framePeriod]}`)
+    console.log("because elevation is not in this.media_map[framePeriod], the conditional below doesn't pass and so it goes to the else statement which says 'Media not available.'")
+    console.log(`this.media_map[framePeriod] = ${JSON.stringify(this.media_map[framePeriod])}`)
+    // console.log(`region in this.media_map[framePeriod][elevation] = ${region in this.media_map[framePeriod][elevation]}`)
     if (
       elevation !== null &&
       region !== null &&
@@ -4118,10 +4125,11 @@ EAtlasNcAnimate2Widget.prototype.load = function () {
   // console.log("blockName = ", blockName);
 
   // var meta_url = "/" + blockName + ".json";
-  var meta_url =
-    // "https://api.ereefs.aims.gov.au/metadata/NCANIMATE_PRODUCT/" +
-    "https://api.test.ereefs.aims.gov.au/metadata/NCANIMATE_PRODUCT/" +
-    productId;
+  var meta_url = "/mock_response.json";
+  // var meta_url =
+  //   // "https://api.ereefs.aims.gov.au/metadata/NCANIMATE_PRODUCT/" +
+  //   "https://api.test.ereefs.aims.gov.au/metadata/NCANIMATE_PRODUCT/" +
+  //   productId;
 
   // console.log("meta_url = ", meta_url);
 
@@ -4466,16 +4474,16 @@ EAtlasNcAnimate2Widget.prototype.loadElevations = function (framePeriod) {
       console.log(`typeof elevations = ${typeof elevations}`);
       console.log(`elevations.includes(this.current_elevation) = ${elevations.includes(this.current_elevation)}`);
       if (elevations.includes(this.current_elevation)) {
-        console.log("alerting")
-        alert("Keeping previously selected elevation");
+        console.log("Keeping previously selected elevation")
         this.elevationContainerSelect.val(this.current_elevation);
-        jQuery('.elevation-warning').css('display', 'block');
+        jQuery('.elevation-warning').css('display', 'none');
       } else if (this.current_elevation != null) {
+        // JJ: currently if you select an elevation, then select a time step for which the elevation isn't available, it will no get to this part of the code because.
         // this.elevationContainerSelect.val(elevations[0]);
         alert("The previously selected elevation is not available for request");
         // TODO: find the div with class 'elevation-warning' and change display to auto
         // Find the div with class 'elevation-warning' and change display to block (or another appropriate style)
-        // jQuery('.elevation-warning').css('display', 'block');
+        jQuery('.elevation-warning').css('display', 'block');
       } else {
         // this is what happens when the page first loads, ie, there is no current_elevation
       }
