@@ -1,9 +1,5 @@
 # {{< meta params.product-name >}}
 
-::: {.callout-warning .elevation-warning style="display: none"}
-Testing showing and hiding the warning box. Eventually this will read - The previously selected elevation is not available with the requested visualisation.
-:::
-
 ::: {#block-eatlas-ncanimate2-eatlas-ncanimate2-1 .block .block-eatlas-ncanimate2 .column-screen-inset}
 
 ::: {.content}
