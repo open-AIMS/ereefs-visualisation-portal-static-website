@@ -3749,12 +3749,12 @@ EAtlasNcAnimate2Widget.prototype.loadMedia = function (
     var alt_year = null;
     var alt_month = null;
 
-    console.log(`elevation = ${elevation}`)
-    console.log(`region = ${region}`)
-    console.log(`framePeriod in this.media_map = ${framePeriod in this.media_map}`)
-    console.log(`elevation in this.media_map[framePeriod] = ${elevation in this.media_map[framePeriod]}`)
-    console.log("because elevation is not in this.media_map[framePeriod], the conditional below doesn't pass and so it goes to the else statement which says 'Media not available.'")
-    console.log(`this.media_map[framePeriod] = ${JSON.stringify(this.media_map[framePeriod])}`)
+    // console.log(`elevation = ${elevation}`)
+    // console.log(`region = ${region}`)
+    // console.log(`framePeriod in this.media_map = ${framePeriod in this.media_map}`)
+    // console.log(`elevation in this.media_map[framePeriod] = ${elevation in this.media_map[framePeriod]}`)
+    // console.log("because elevation is not in this.media_map[framePeriod], the conditional below doesn't pass and so it goes to the else statement which says 'Media not available.'")
+    // console.log(`this.media_map[framePeriod] = ${JSON.stringify(this.media_map[framePeriod])}`)
     // console.log(`region in this.media_map[framePeriod][elevation] = ${region in this.media_map[framePeriod][elevation]}`)
     if (
       elevation !== null &&
