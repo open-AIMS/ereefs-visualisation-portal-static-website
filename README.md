@@ -42,8 +42,7 @@ When the website is built quarto will create it's own header, which is why we ha
 
 # Elevation missing problem
 
-If you select an elevation then change to a time step for which that elevation is not available, you will get "Media not available". To get this scenario I have mocked the response from the metadata API. In order to replicate, run `cp mock_response_2_into_1.json _site/mock_response.json` before `quarto preview`.
-
+If you select an elevation then change to a time step for which that elevation is not available, you will get "Media not available". To get this scenario I have mocked the response from the metadata API. In order to replicate, run `cp mock_response_2_into_1.json _site/mock_response.json` before `quarto preview`, then click on [Nathan (March 2015) link](http://localhost:6718/gbr4/temp-wind-salt-current/#year=2015;month=3) on the homepage.
 
 # TODO items after first round feedback
 
@@ -62,6 +61,7 @@ If you select an elevation then change to a time step for which that elevation i
   - [ ] If elevation is changed because the old one isn't available, need to make it obvious to the user.
     - continue with TODO: JJ: in the javascript
     - To test it, I need a product for which we are lacking data on one level of elevation in a certain situation (like hourly data). Marc suggested that I mock the metadata api response to simulate this.
+    - If the selected elevation is not available on the timestep, the app does not change elevation, it simply displays "Media not available". So I just need to make sure the elevation drop down shows the elevation that is being queried for.
   - [x] Calendar year:
     - [x] no year in calendar
     - [x] calendar year navigation needs some thought. Help section exists in order to explain the navigation problem around years (clicking the arrows doesn't actually change the year).
