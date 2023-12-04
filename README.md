@@ -40,16 +40,19 @@ In order to match the styling of the CSIRO website, cusom navigation was created
 
 When the website is built quarto will create it's own header, which is why we have the `javascript/remove_quarto_header.js` file to remove it.
 
+## Development
+
+The new version of the website was created by bringing accross css and javascrtip from the old verison. No time was spent looking into the files to see what unused functions, classe, etc, could be removed so there is a lot of redundant code relating to eAtlas.
+
 # TODO items after first round feedback
 
-- [ ] any video:
+- [x] any video:
   - [x] `Time step:` tabs
     - [x] space between icon and text
       - [x] remove underline the `Time step:` tabs
         - [x] vertical-align: middle is causing this or something similar
     - [x] sort monthly tab wrapping on small screen
   - [x] video size is not responsive and not full screen.
-    - Should I do this? We don't want to video to be so small that it's unusable on mobile. You want people to be able to scroll and hit the full screen button
   - [x] remove debuging logs
   - [x] consistent css between Download buttons
   - [x] Elevation drop down value is not remembered when switching timesteps
@@ -91,3 +94,13 @@ When the website is built quarto will create it's own header, which is why we ha
   - [ ] home page blocks of links should rows of 2 instead of rows of 3.
 - [x] mistaken font [times new roman] on the depth drop down
   - The issue was the "Montserrat" font, adding similar alternative font and font class fixes issue.
+- [ ] javascript
+  - [ ] remove references to eAtlas
+  - [ ] get the original javascript files and implment minifying
+- [ ] css
+  - [ ] remove eatlas from the file names
+  - [ ] rename eatlas references in the classes inside eatlas_ncanimate2.css 
+  - [ ] remove _minimal_mistakes.scss and incorporate it else where
+- [ ] remove unused includes like _csiro_navbar.qmd
+- [ ] increase whitespace between bullet point in the product tiles on the home page
+- [ ] discuss taking 'aims' out of the repository name at standup
