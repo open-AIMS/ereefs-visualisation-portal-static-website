@@ -208,61 +208,13 @@ nav#visualisation-portal-nav-bar #block-menu-menu-menu-ereefs-aims .eatlas-respo
   padding-left: 1rem;
 }
 
-/**
- * Home page style
- * Style the block: eReefs AIMS - Large header image
- */
-.large-image-header {
-	line-height: 0; /* Remove the line at the bottom of the image, caused by font "descender" */
-	position: relative; /* This is used to guide the image overlay */
 
-	background-position: center center;
-	background-size: 100%;
-	/* height =  height / width * 100 */
-	/*   = 1192 / 3880 * 100 */
-	/*   = 30.72  */
-	height: 30vw;
-	max-height: 50vh;
-}
 
-/* Dark overlay over the image */
-.large-image-header .overlay {
-	background-color: #000;
-	opacity: 0.3;
-
-	/* Place it on top of ".large-image-header" <= first parent with "position: relative" */
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-}
-
-/* Play button and text over the overlay */
-/* NOTE: See "accessibility" at the bottom of the page */
-.large-image-header .button-wrapper {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-}
-.large-image-header .button-wrapper .button {
-	font-weight: bold;
-	font-size: 3em;
-	line-height: 1em;
-	text-align: center;
-
-	color: #FFF;
-	text-shadow: 4px 4px 10px #000;
-
-	max-height: 100%;
-	padding: 0 10px;
-	overflow: hidden;
+/* Page header (except front page) */
+.banner {
+	background-image: url('./../images/banner.jpg');
+	background-size: cover;
+	height: 12vh;
 }
 
 /* NcAnimate product block */
