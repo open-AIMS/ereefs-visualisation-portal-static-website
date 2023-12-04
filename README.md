@@ -53,10 +53,7 @@ When the website is built quarto will create it's own header, which is why we ha
   - [x] remove debuging logs
   - [x] consistent css between Download buttons
   - [x] Elevation drop down value is not remembered when switching timesteps
-    - Problem also exists in old ereefs site.
-  - [ ] If elevation is changed because the old one isn't available, need to make it obvious to the user.
-    - continue with TODO: JJ: in the javascript
-    - To test it, I need a product for which we are lacking data on one level of elevation in a certain situation (like hourly data). Marc suggested that I mock the metadata api response to simulate this.
+  - [x] If elevation is changed because the old one isn't available, need to make it obvious to the user.
     - If the selected elevation is not available on the timestep, the app does not change elevation, it simply displays "Media not available". So I just need to make sure the elevation drop down shows the elevation that is being queried for.
   - [x] Calendar year:
     - [x] no year in calendar
@@ -77,8 +74,8 @@ When the website is built quarto will create it's own header, which is why we ha
     - renamed to "Project Overview"
   - [x] CSIRO -> "CSIRO research portal"
   - [x] interactive data portal should direct to portal.ereefs.info
-  - [ ] Change title from "AIMS eReefs" to "AIMS eReefs Visualisation Portal"
-  - [ ] remove the About -> eReefs Program Website menu item 
+  - [x] Change title from "AIMS eReefs" to "AIMS eReefs Visualisation Portal"
+  - [x] remove the About -> eReefs Program Website menu item 
   - [ ] add icons for external links (even ASCII character are better than nothing)
   - [ ] drop down text color should be darker
   - [ ] main banner link not working
