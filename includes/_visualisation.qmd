@@ -1,6 +1,6 @@
 # {{< meta params.product-name >}}
 
-::: {#block-eatlas-ncanimate2-eatlas-ncanimate2-1 .block .block-eatlas-ncanimate2 .column-screen-inset}
+::: {#block-eatlas-ncanimate2-eatlas-ncanimate2-1 .block .block-eatlas-ncanimate2}
 
 ::: {.content}
 
