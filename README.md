@@ -74,8 +74,8 @@ When the website is built quarto will create it's own header, which is why we ha
     - renamed to "Project Overview"
   - [x] CSIRO -> "CSIRO research portal"
   - [x] interactive data portal should direct to portal.ereefs.info
-  - [ ] Change title from "AIMS eReefs" to "AIMS eReefs Visualisation Portal"
-  - [ ] remove the About -> eReefs Program Website menu item 
+  - [x] Change title from "AIMS eReefs" to "AIMS eReefs Visualisation Portal"
+  - [x] remove the About -> eReefs Program Website menu item 
   - [ ] add icons for external links (even ASCII character are better than nothing)
   - [ ] drop down text color should be darker
   - [ ] main banner link not working

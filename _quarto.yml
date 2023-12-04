@@ -4,11 +4,11 @@ project:
     - "images/front-page-crop1.jpg"
 
 website:
-  title: "AIMS eReefs"
+  title: "AIMS eReefs Visualisation Portal"
   favicon: images/ereefs_aims_favicon.png
   search: true
   navbar:
-    title: "AIMS eReefs"
+    title: "AIMS eReefs Visualisation Portal"
     logo: images/ereefs_logo.png
     background: light
     pinned: false
@@ -35,12 +35,8 @@ website:
             text: Tutorials
           - href: https://extraction.ereefs.aims.gov.au/faqs
             text: Data Extraction FAQs
-      - text: About
-        menu:
-          - href: about.qmd
-            text: eReefs AIMS Visualisation Portal
-          - href: https://www.ereefs.org.au/
-            text: eReefs Program Website
+      - href: about.qmd
+        text: About
   page-footer:
     background: primary
     left: |
