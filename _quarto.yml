@@ -2,6 +2,7 @@ project:
   type: website
   resources:
     - "images/front-page-crop1.jpg"
+    - "images/banner.jpg"
 
 website:
   title: "AIMS eReefs"
@@ -70,6 +71,7 @@ format:
     include-in-header:
       - text: <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
       - text: <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Open+Sans&display=swap" rel="stylesheet">
+      - includes/_page_banner.html
     grid:
       body-width: 1220px
     mainfont: Open Sans
