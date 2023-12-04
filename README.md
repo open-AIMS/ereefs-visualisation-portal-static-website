@@ -40,14 +40,6 @@ In order to match the styling of the CSIRO website, cusom navigation was created
 
 When the website is built quarto will create it's own header, which is why we have the `javascript/remove_quarto_header.js` file to remove it.
 
-# Elevation missing problem
-
-If you select an elevation then change to a time step for which that elevation is not available, you will get "Media not available". To get this scenario I have mocked the response from the metadata API. In order to replicate: 
-
-- update the definition of `var meta_url` in `./javascript/eatlas_ncanimate2_load_videos.js` to be `var meta_url = "/mock_response.json";`.
-- run `cp mock_response_2_into_1.json _site/mock_response.json` before `quarto preview`
-- click on [Nathan (March 2015) link](http://localhost:6718/gbr4/temp-wind-salt-current/#year=2015;month=3) on the homepage
-
 # TODO items after first round feedback
 
 - [ ] any video:
