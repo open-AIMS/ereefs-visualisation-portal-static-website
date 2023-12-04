@@ -3339,15 +3339,12 @@ EAtlasNcAnimate2Widget.prototype.fixVideoFrameTime = function (videoTime) {
 EAtlasNcAnimate2Widget.prototype.init = function () {
   this.initElevationSelector();
   this.load();
-  console.log(`in init, this.current_elevation = ${this.current_elevation}`);
 };
 
 EAtlasNcAnimate2Widget.prototype.initTabs = function (
   framePeriodOrder,
   framePeriodSettings
 ) {
-  // console.log("framePeriodOrder = ", framePeriodOrder);
-  // console.log("framePeriodOrder = ", framePeriodSettings);
   for (var i = 0; i < framePeriodOrder.length; i++) {
     var framePeriod = framePeriodOrder[i];
     var settings = framePeriodSettings[framePeriod];
@@ -3467,18 +3464,6 @@ EAtlasNcAnimate2Widget.prototype.loadMedia = function (
   year,
   month
 ) {
-  // JJ: This is where the video is loaded I guess.
-  
-  // JJ: I'm trying to figure out whether the current_elevation gets updated by the multiple runs of loadMedia. I guess that during any itteration, if `elevation` is equal to `current_elevation` then the warning can be removed, and then later it can be added. The problem will be if they are different (and so the warning gets updated), and then in a subsequent itteration they are the same and the warning gets removed.
-  // TODO: JJ: put the conditional in here
-  console.log(`in loadMedia, this.current_elevation = ${this.current_elevation}`);
-  
-  // console.log("hiding elevation warning");  // This runs twice because load media called once from EAtlasNcAnimate2Widget.prototype.load, and it calls itself at the end for some reason.
-  // TODO: JJ: move this code to an appropriate location and add a conditional so that it only hides the warning if required
-  // Hiding the elevation warning here because loadMedia gets run twice for some reason
-  // console.log("hiding elevation warning"); // TODO: move this code so that it only runs when video is first loaded
-  // jQuery('.elevation-warning').css('display', 'none'); // Hide any warning. It will be shown again by loadElevations if required.
-
   // If default region is null, that means there is no region, therefore no usable data...
   if (this.default_region === null) {
     return;
@@ -3749,12 +3734,12 @@ EAtlasNcAnimate2Widget.prototype.loadMedia = function (
     var alt_year = null;
     var alt_month = null;
 
-    console.log(`elevation = ${elevation}`)
-    console.log(`region = ${region}`)
-    console.log(`framePeriod in this.media_map = ${framePeriod in this.media_map}`)
-    console.log(`elevation in this.media_map[framePeriod] = ${elevation in this.media_map[framePeriod]}`)
-    console.log("because elevation is not in this.media_map[framePeriod], the conditional below doesn't pass and so it goes to the else statement which says 'Media not available.'")
-    console.log(`this.media_map[framePeriod] = ${JSON.stringify(this.media_map[framePeriod])}`)
+    // console.log(`elevation = ${elevation}`)
+    // console.log(`region = ${region}`)
+    // console.log(`framePeriod in this.media_map = ${framePeriod in this.media_map}`)
+    // console.log(`elevation in this.media_map[framePeriod] = ${elevation in this.media_map[framePeriod]}`)
+    // console.log("because elevation is not in this.media_map[framePeriod], the conditional below doesn't pass and so it goes to the else statement which says 'Media not available.'")
+    // console.log(`this.media_map[framePeriod] = ${JSON.stringify(this.media_map[framePeriod])}`)
     // console.log(`region in this.media_map[framePeriod][elevation] = ${region in this.media_map[framePeriod][elevation]}`)
     if (
       elevation !== null &&
@@ -3837,7 +3822,6 @@ EAtlasNcAnimate2Widget.prototype.loadMedia = function (
         alt_month = null;
       }
 
-      console.log("calling loadMedia inside of loadMedia")
       this.loadMedia(framePeriod, elevation, region, alt_year, alt_month);
     } else {
       // There is no video / map available for the given framePeriod, elevation, region
@@ -4069,7 +4053,7 @@ EAtlasNcAnimate2Widget.prototype.redrawCalendar = function () {
 };
 
 // Add event listeners to the elevation dropdown (depth selector)
-// JJ: I think this just changes the url, which triggers the hashchange function
+// When the elevation is changed, change the url, which triggers the hashchange function
 EAtlasNcAnimate2Widget.prototype.initElevationSelector = function () {
   this.elevationContainerSelect.change(
     (function (that) {
@@ -4125,11 +4109,10 @@ EAtlasNcAnimate2Widget.prototype.load = function () {
   // console.log("blockName = ", blockName);
 
   // var meta_url = "/" + blockName + ".json";
-  var meta_url = "/mock_response.json";
-  // var meta_url =
-  //   // "https://api.ereefs.aims.gov.au/metadata/NCANIMATE_PRODUCT/" +
-  //   "https://api.test.ereefs.aims.gov.au/metadata/NCANIMATE_PRODUCT/" +
-  //   productId;
+  var meta_url =
+    // "https://api.ereefs.aims.gov.au/metadata/NCANIMATE_PRODUCT/" +
+    "https://api.test.ereefs.aims.gov.au/metadata/NCANIMATE_PRODUCT/" +
+    productId;
 
   // console.log("meta_url = ", meta_url);
 
@@ -4138,7 +4121,7 @@ EAtlasNcAnimate2Widget.prototype.load = function () {
   //   http://designwithpc.com/post/11989720389/jsonp-error-handling-with-jqueryajax
   // Solution:
   //   Use reverse proxy
-  // JJ: the Metdata API has now been configured to add the correct CORS headers.
+  // Update: the Metdata API has now been configured to add the correct CORS headers. Not sure where theis reverse proxy comes into play, of if the code needs to be updated because we are no longer using it.
   jQuery.ajax({
     url: meta_url,
     // JQuery cache the query response but not the response code (replaced with 200),
@@ -4350,7 +4333,6 @@ EAtlasNcAnimate2Widget.prototype.load = function () {
             that.default_region = default_region_obj.id;
 
             var anchorValues = eatlas_ncanimate2_get_anchor_values();
-            console.log("calling loadMedia inside of EAtlasNcAnimate2Widget.prototype.load")
             that.loadMedia(
               anchorValues["frame"],
               anchorValues["elevation"],
@@ -4358,7 +4340,8 @@ EAtlasNcAnimate2Widget.prototype.load = function () {
               anchorValues["year"],
               anchorValues["month"]
             );
-            // JJ: if there was no region information in the metadata, the media would not be loaded. Shouldn't there be an else statement that will log an error message, or display "No region available" or something?
+          } else {
+            that.showMessage("No regions available");
           }
         }
         // console.log(`that.media_map = ${that.media_map}`)
@@ -4408,7 +4391,6 @@ EAtlasNcAnimate2Widget.prototype.load = function () {
       return function (event) {
         // Load the media (video or map)
         var anchorValues = eatlas_ncanimate2_get_anchor_values();
-        console.log("calling loadMedia on hashchange")
         that.loadMedia(
           anchorValues["frame"],
           anchorValues["elevation"],
@@ -4469,21 +4451,11 @@ EAtlasNcAnimate2Widget.prototype.loadElevations = function (framePeriod) {
       );
     }
     if (typeof this.current_elevation !== 'undefined') {
-      console.log(`in loadElevations, this.current_elevation = ${this.current_elevation}`);
-      console.log(`elevations = ${elevations}`);
-      console.log(`typeof elevations = ${typeof elevations}`);
-      console.log(`elevations.includes(this.current_elevation) = ${elevations.includes(this.current_elevation)}`);
       if (elevations.includes(this.current_elevation)) {
-        console.log("Keeping previously selected elevation")
         this.elevationContainerSelect.val(this.current_elevation);
-        jQuery('.elevation-warning').css('display', 'none');
       } else if (this.current_elevation != null) {
-        // JJ: currently if you select an elevation, then select a time step for which the elevation isn't available, it will no get to this part of the code because.
-        // this.elevationContainerSelect.val(elevations[0]);
-        alert("The previously selected elevation is not available for request");
-        // TODO: find the div with class 'elevation-warning' and change display to auto
-        // Find the div with class 'elevation-warning' and change display to block (or another appropriate style)
-        jQuery('.elevation-warning').css('display', 'block');
+        // alert("The previously selected elevation is not available for request");
+        // The code will never make it here. It ends up at "Media not available." at the end of loadMedia
       } else {
         // this is what happens when the page first loads, ie, there is no current_elevation
       }
