@@ -1,5 +1,13 @@
 /* css styles */
 
+body * {
+  max-width: 100%;
+}
+
+body main img {
+  height: auto !important;
+}
+
 .navbar {
   height: auto; /* Makes the navbar adjust to its content size */
   font-family: "Montserrat", "Open Sans", sans-serif;

@@ -1,0 +1,89 @@
+---
+title: "gbr4-bgc-baseline_alk_ph_omega-ar"
+format:
+  html: 
+    template: ../../../../custom_template.html
+params:
+  product-name: GBR4 BGC Scenario Comparison - Dissolved inorganic nitrogen (DIN)
+  block-name: gbr4-bgc-scenarios_din
+  product-id: products__ncanimate__ereefs__gbr4_bgc_comparison__din_base_pre_hindcast_river
+---
+
+{{< include ../../../../includes/_visualisation.qmd >}}
+
+{{< include ../_scenarios_description.qmd >}}
+
+Model variables
+---------------
+
+### Dissolved Inorganic Nitrogen (DIN)
+
+Concentration of dissolved inorganic nitrogen (DIN). DIN = \[NH~4~\] +
+\[NO~3~\].
+
+Within the GBR lagoon the main source of DIN is from land run off during
+flooding events. These flood plumes generally stay close to the
+coast, pushed northwards by the wind. The nitrogen in the plumes leads
+to rapid growth of phytoplankton. This algal rich water absorbs light
+leading to less light reaching the seagrass meadows and inshore coral
+reefs (see [Secchi depth, vertical attenuation at 490nm & light
+intensity above seagrass product](../../baseline/secchi_kd-490_epipar-sg))
+lowering their growth.
+
+#### Model specifics
+
+This visualisation shows the modelled concentration of dissolved
+inorganic nitrogen (DIN) in mg N m-3. DIN is the sum of nitrate and
+ammonium concentrations, \[NO3\]+\[NH4\].
+
+The model contains two forms of dissolved inorganic nitrogen (DIN) used
+by photosynthetic organisms, dissolved ammonium (NH4) and dissolved
+nitrate (NO3). In the model, the ammonium component of the DIN pool is
+taken up first, followed by the nitrate, with the caveat that the uptake
+of ammonium is limited by diffusion.
+
+For nitrogen the main sources are river inputs, the atmosphere by
+nitrogen fixing Trichodesmium cyanobacteria and from upwelling of deeper
+nutrient rich waters. Nitrogen fixation (conversion of nitrogen gas to
+ammonium) occurs by trichodesmium algae when DIN is low (4 to 20 mg N
+m−3; Robson et al., 2013) and carbon and phosphorus are available to
+support nitrogen uptake.
+
+An assessment of the BGC model shows it has a skill of (bias ± Root Mean
+Square Error) of nitrate of −0.70±3.86 mg N m−3 and ammonium of
+−0.77±1.63 mg N m−3 (Baird e. al., 2020). This represents the difference
+between the model values and 36 long-term water quality monitoring sites
+along the Queensland coast.
+
+### Dissolved Inorganic Nitrogen pre-industrial minus baseline (DIN_pre-base)
+
+This variable represents the difference in concentration of dissolved
+inorganic nitrogen in mg N m-3 between the pre-industrial scenario and the 
+baseline scenario. This highlights the anthropogenic contribution.
+
+DIN_pre-base = pre-industrial (q3p) DIN - baseline (q3b) DIN 
+
+### Dissolved Inorganic Nitrogen reduced loads (WQIP-Targets) minus baseline (DIN_reduced-base)
+
+This variable represents the difference in concentration of dissolved
+inorganic nitrogen in mg N m-3 between the reduced loads (WQIP-Targets) scenario and the
+baseline scenario. This highlights the alignment of the current state with the targets.
+
+DIN_reduced-base = reduced loads (q3R) DIN - baseline (q3b) DIN
+
+{{< include ../_all_rivers_description.qmd >}}
+
+{{< include ../_references.qmd >}}
+
+Robson, B. J., Baird, M. E., and Wild-Allen, K. A.: A physiological
+model for the marine cyanobacteria,*Trichodesmium*, in: MODSIM2013,
+20th International Congress on Modelling and Simulation, edited by:
+Piantadosi, J. R. S. A. and Boland, J., Modelling and Simulation Society
+of Australia and New Zealand, 1652--1658, available
+at: <https://www.mssanz.org.au/modsim2013/H3/robson.pdf> (last access:
+25 October 2023), 2013.
+
+{{< include ../_source_data_bgc_scenarios.qmd >}}
+
+
+{{< include ../../../../includes/_data_span.qmd >}}

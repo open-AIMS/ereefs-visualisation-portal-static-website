@@ -1,0 +1,57 @@
+eReefs BGC Scenarios
+---------------------------
+
+In 2016, Brodie et al. conducted a study utilising the eReefs 4 km coupled hydrodynamic - biogeochemical model and two
+GBR Dynamic SedNet
+catchment model scenarios to analyse the water quality in the Great Barrier Reef (GBR) (Brodie et al., 2017). The
+complex
+eReefs biogeochemical model allowed for the resolution of biogeochemical processes affecting water quality changes. The
+main objective was to identify specific load reduction targets for different basins within the GBR, aiming to minimize
+ecological impacts related to chlorophyll and suspended sediment concentrations, as well as bottom light thresholds.
+
+In 2020 Baird et al. built upon the previous study and expanded it by extending the time period from 2011–2014 to
+2011–2018 and analysing the water quality response of a new set of catchment loads scenarios (Baird et al., 2021). These
+new scenario runs used the updated eReefs coupled hydrodynamic-biogeochemical model with the model configuration
+GBR4_H2p0_B3p1_Cq3x_Dhnd. H2p0 is the configuration of the hydrodynamic model and has been operational since 2016. B3p1
+is the configuration of the biogeochemical model, described in Baird et al. (2020). Cq3x refers to one of the catchment
+model configurations (q3x = q3b, q3p, q3O, q3R, q3A, q3B, q3C; see Baird et al., 2021, for more information) of the 2019
+report card version of the GBR Dynamic SedNet used to deliver nutrient and sediment river loads. Dhnd describes the
+deployment of the model, in this case being a non-assimilating hindcast (Baird et al., 2021).
+
+For this scenario comparison we focused on the model configurations q3b baseline, q3p pre-industrial, and q3R reduced 
+loads (WQIP-Targets):
+
+#### q3b Baseline
+
+This scenario is used as the baseline as it uses the Paddock to Reef Integrated Monitoring, Modelling and Reporting
+Program (P2R) GBR Dynamic SedNet with 2019 catchment condition from 1st of December 2010 to 30th of June 2018 (used for
+GBR Report Card published in 2019) and Empirical SedNet with 2019 catchment condition from 1st of July 2018 to 30th of
+April 2019.
+
+#### q3p Pre-Industrial
+
+This scenario uses a configuration to simulate pre-industrial conditions and shows the change in water quality
+measures from the removal of all anthropogenic loads. P2R GBR Dynamic SedNet with Pre-Industrial catchment condition from
+1st of December 2010 to 30th of June 2018 (used for GBR Report Card published in 2019), Empirical SedNet with
+Pre-Industrial catchment from 1st of July 2018 to 30th of April 2019.
+
+#### q3R Reduces loads (WQIP-Targets)
+
+This scenario uses GBR Dynamic SedNet with 2019 catchment condition (q3b) with anthropogenic loads (q3b - q3p) reduced
+according to the percentage reductions of DIN, PN, PP and TSS specified in the Reef 2050 Water Quality Improvement
+Plan (WQIP) 2017–2022 as calculated in Brodie et al. (2017). Further, the reductions are adjusted to account for the
+cumulative reductions already achieved between 2014 and 2019 that will be reflected in the 2019 catchment condition used
+in q3b.
+
+### What do these visualisations show?
+
+The first panel ("Baseline scenario") shows the variable in the baseline scenario (q3b) as a reference. The second panel
+("Pre-industrial") compares the pre-industrial scenario (q3p) with the baseline scenario (q3b) by subtracting the
+baseline from the pre-industrial scenario (q3p-q3b). The results show the influence of the anthropogenic load. The third
+panel ("WQIP-Targets") shows the difference between the baseline and the WQIP-Targets by subtracting the baseline from
+the reduced loads (WQIP-Targets) scenario (q3R-qrb). The fourth panel ("% River water in sea water") is added as a
+reference. It shows the total percentage of river water in sea water which can be used to identify significant river
+discharges and flood plumes. 
+
+
+

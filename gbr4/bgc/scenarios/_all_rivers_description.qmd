@@ -1,0 +1,17 @@
+### Aggregation of all rivers (all_rivers)
+
+The GBR4 river tracer model output represents the river water concentration in sea water for the major rivers along the 
+Queensland coastline flowing into the Great Barrier Reef Marine Park. The "all_rivers" product aggregates the output for
+each river into one variable to represent the total concentration of river water in the sea water.
+
+In the model, tracers are released at the mouth into the surface flow of each river. These tracers move with the ocean
+currents, becoming more dilute as they spread out and mix with the ocean water, allowing the concentration of river
+water to be tracked over time. These tracers show the fraction of the water, at any given location, associated with each
+river.
+
+The lowest threshold of river water concentration (1%) shown in the visualisation was chosen to align with the visible
+extent of flood plumes as seen in satellite imagery. At this concentration we can expect organisms on the sea floor to
+see raised nutrient levels, some fine sediment and a significant reduction in light.
+
+See [Flood plume extents for major rivers on GBR based on modelled river tracers](../../../../gbr1/river-tracers) for more
+information.
