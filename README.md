@@ -79,7 +79,7 @@ The new version of the website was created by bringing accross css and javascrti
   - [x] interactive data portal should direct to portal.ereefs.info
   - [x] Change title from "AIMS eReefs" to "AIMS eReefs Visualisation Portal"
   - [x] remove the About -> eReefs Program Website menu item 
-  - [ ] add icons for external links (even ASCII character are better than nothing)
+  - [x] add icons for external links (even ASCII character are better than nothing)
   - [ ] drop down text color should be darker
   - [ ] main banner link not working
   - [ ] make the main banner a little less prominent (reduce the height)
