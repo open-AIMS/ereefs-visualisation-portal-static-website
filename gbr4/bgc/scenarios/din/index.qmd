@@ -1,5 +1,5 @@
 ---
-title: "gbr4-bgc-baseline_alk_ph_omega-ar"
+title: "gbr4-bgc-scenarios_din"
 format:
   html: 
     template: ../../../../custom_template.html
