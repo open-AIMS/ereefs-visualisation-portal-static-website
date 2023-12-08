@@ -57,5 +57,6 @@
 }
 
 .banner {
+    /* hides the default banner so that both are not displayed */
     display: none;
 }

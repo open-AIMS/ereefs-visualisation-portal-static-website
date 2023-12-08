@@ -1,147 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/about.html</loc>
-    <lastmod>2023-12-08T01:22:09.767Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/help/how-to-plot-aims-ereefs-data-with-r/index.html</loc>
-    <lastmod>2023-12-08T01:22:09.023Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/help/how-to-manually-download-aims-ereefs-data/index.html</loc>
-    <lastmod>2023-12-08T01:22:08.215Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/help/how-to-extract-data-using-the-extraction-tool/index.html</loc>
-    <lastmod>2023-12-08T01:22:07.487Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/help/index.html</loc>
-    <lastmod>2023-12-08T01:22:06.683Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr1/temp-range/index.html</loc>
-    <lastmod>2023-12-08T01:22:06.011Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr1/temp-multi-depth/index.html</loc>
-    <lastmod>2023-12-08T01:22:05.191Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr1/fresh-water-exposure/index.html</loc>
-    <lastmod>2023-12-08T01:22:04.435Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr1/current-magnitude-average/index.html</loc>
-    <lastmod>2023-12-08T01:22:03.499Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/temp-range/index.html</loc>
-    <lastmod>2023-12-08T01:22:02.695Z</lastmod>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/current-multi-depth/index.html</loc>
+    <lastmod>2023-12-08T02:39:25.740Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/temp-multi-depth/index.html</loc>
-    <lastmod>2023-12-08T01:22:01.927Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/din_dip_dic/index.html</loc>
-    <lastmod>2023-12-08T01:22:01.223Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/pip_pip-sed/index.html</loc>
-    <lastmod>2023-12-08T01:22:00.319Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/din_no3_nh4/index.html</loc>
-    <lastmod>2023-12-08T01:21:59.631Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/true-colour/index.html</loc>
-    <lastmod>2023-12-08T01:21:58.887Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/oxygen_oxy-sat/index.html</loc>
-    <lastmod>2023-12-08T01:21:58.015Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/cs-n_cs-chl_ch-n/index.html</loc>
-    <lastmod>2023-12-08T01:21:57.203Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/imos-vs-ereefs/index.html</loc>
-    <lastmod>2023-12-08T01:21:56.319Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/index.html</loc>
-    <lastmod>2023-12-08T01:21:55.667Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/efi_dust_mud-carbonate_mud-mineral/index.html</loc>
-    <lastmod>2023-12-08T01:21:56.771Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/ma-n_sg-n_sgh-n_sgd-n/index.html</loc>
-    <lastmod>2023-12-08T01:21:57.631Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/alk_ph_omega-ar/index.html</loc>
-    <lastmod>2023-12-08T01:21:58.499Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/dor-c_dor-n_dor-p/index.html</loc>
-    <lastmod>2023-12-08T01:21:59.235Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/chl-a-sum_din_efi/index.html</loc>
-    <lastmod>2023-12-08T01:21:59.975Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/secchi_kd-490_epipar-sg/index.html</loc>
-    <lastmod>2023-12-08T01:22:00.723Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/current-multi-depth/index.html</loc>
-    <lastmod>2023-12-08T01:22:01.567Z</lastmod>
+    <lastmod>2023-12-08T02:39:25.044Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/temp-wind-salt-current/index.html</loc>
-    <lastmod>2023-12-08T01:22:02.359Z</lastmod>
+    <lastmod>2023-12-08T02:39:24.348Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr1/river-tracers/index.html</loc>
-    <lastmod>2023-12-08T01:22:03.135Z</lastmod>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/dor-c_dor-n_dor-p/index.html</loc>
+    <lastmod>2023-12-08T02:39:23.572Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr1/salt-multi-depth/index.html</loc>
-    <lastmod>2023-12-08T01:22:03.859Z</lastmod>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/din_no3_nh4/index.html</loc>
+    <lastmod>2023-12-08T02:39:22.824Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr1/current-multi-depth/index.html</loc>
-    <lastmod>2023-12-08T01:22:04.803Z</lastmod>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/din_dip_dic/index.html</loc>
+    <lastmod>2023-12-08T02:39:22.028Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr1/temp-wind-salt-current/index.html</loc>
-    <lastmod>2023-12-08T01:22:05.635Z</lastmod>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/alk_ph_omega-ar/index.html</loc>
+    <lastmod>2023-12-08T02:39:21.156Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/ma-n_sg-n_sgh-n_sgd-n/index.html</loc>
+    <lastmod>2023-12-08T02:39:20.300Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/cs-n_cs-chl_ch-n/index.html</loc>
+    <lastmod>2023-12-08T02:39:19.476Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/help/how-to-use-the-visualisation-tool/index.html</loc>
-    <lastmod>2023-12-08T01:22:06.319Z</lastmod>
+    <lastmod>2023-12-08T02:39:18.700Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/help/how-to-access-the-aims-ereefs-data-using-opendap-and-arcmap/index.html</loc>
-    <lastmod>2023-12-08T01:22:07.183Z</lastmod>
+    <lastmod>2023-12-08T02:39:18.092Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/help/how-to-download-video-or-image/index.html</loc>
-    <lastmod>2023-12-08T01:22:07.823Z</lastmod>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/help/how-to-plot-aims-ereefs-data-with-r/index.html</loc>
+    <lastmod>2023-12-08T02:39:17.072Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/help/how-to-open-a-NetCDF-file-with-ArcMap-and-QGIS/index.html</loc>
-    <lastmod>2023-12-08T01:22:08.731Z</lastmod>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/help/index.html</loc>
+    <lastmod>2023-12-08T02:39:16.364Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/about.html</loc>
+    <lastmod>2023-12-08T02:39:15.700Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr1/current-multi-depth/index.html</loc>
+    <lastmod>2023-12-08T02:39:14.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr1/fresh-water-exposure/index.html</loc>
+    <lastmod>2023-12-08T02:39:14.100Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr1/current-magnitude-average/index.html</loc>
+    <lastmod>2023-12-08T02:39:13.184Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr1/river-tracers/index.html</loc>
+    <lastmod>2023-12-08T02:39:12.348Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/index.html</loc>
+    <lastmod>2023-12-08T02:39:11.612Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr1/temp-wind-salt-current/index.html</loc>
+    <lastmod>2023-12-08T02:39:12.808Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr1/temp-range/index.html</loc>
+    <lastmod>2023-12-08T02:39:13.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr1/temp-multi-depth/index.html</loc>
+    <lastmod>2023-12-08T02:39:14.520Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr1/salt-multi-depth/index.html</loc>
+    <lastmod>2023-12-08T02:39:15.256Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/help/how-to-plot-aims-ereefs-data-with-python/index.html</loc>
-    <lastmod>2023-12-08T01:22:09.331Z</lastmod>
+    <lastmod>2023-12-08T02:39:16.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/help/how-to-manually-download-aims-ereefs-data/index.html</loc>
+    <lastmod>2023-12-08T02:39:16.760Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/help/how-to-open-a-NetCDF-file-with-ArcMap-and-QGIS/index.html</loc>
+    <lastmod>2023-12-08T02:39:17.600Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/help/how-to-extract-data-using-the-extraction-tool/index.html</loc>
+    <lastmod>2023-12-08T02:39:18.396Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/help/how-to-download-video-or-image/index.html</loc>
+    <lastmod>2023-12-08T02:39:19.052Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/efi_dust_mud-carbonate_mud-mineral/index.html</loc>
+    <lastmod>2023-12-08T02:39:19.856Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/true-colour/index.html</loc>
+    <lastmod>2023-12-08T02:39:20.656Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/oxygen_oxy-sat/index.html</loc>
+    <lastmod>2023-12-08T02:39:21.536Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/pip_pip-sed/index.html</loc>
+    <lastmod>2023-12-08T02:39:22.376Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/secchi_kd-490_epipar-sg/index.html</loc>
+    <lastmod>2023-12-08T02:39:23.228Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/bgc/baseline/chl-a-sum_din_efi/index.html</loc>
+    <lastmod>2023-12-08T02:39:23.916Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/temp-range/index.html</loc>
+    <lastmod>2023-12-08T02:39:24.688Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/open-AIMS/aims-ereefs-visualisation-portal-static-website/gbr4/imos-vs-ereefs/index.html</loc>
+    <lastmod>2023-12-08T02:39:25.400Z</lastmod>
   </url>
 </urlset>
