@@ -1,13 +1,11 @@
 ---
-title: "AIMS eReefs"
+title: "eReefs AIMS Visualisation Portal"
 format:
   html:
     include-in-header:
       - text: <link rel="stylesheet" href="css/large_image_header.css">
       - includes/_explore_the_reef_through_time_banner.html
 ---
-
-# eReefs AIMS Visualisation Portal
 
 In this portal you will find a range of visualisations of the eReefs
 Hydrodynamic and BioGeoChemical models of the Great Barrier Reef. These models
