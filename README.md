@@ -106,4 +106,4 @@ The new version of the website was created by bringing accross css and javascrti
     - override flatly variables with the colors directly, instead of referring to minimal_mistakes?
 - [x] remove unused includes like _csiro_navbar.qmd
 - [x] increase whitespace between bullet point in the product tiles on the home page
-- [ ] discuss taking 'aims' out of the repository name at standup
+- [x] discuss taking 'aims' out of the repository name at standup
