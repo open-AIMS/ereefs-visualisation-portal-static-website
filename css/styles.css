@@ -95,3 +95,8 @@ select, option {
 .video-container video {
     width: 100%;
 }
+
+/* so that the product tile lists don't look so cramped */
+.ncanimate-product-tile li {
+  margin-bottom: 0.2em;
+}
