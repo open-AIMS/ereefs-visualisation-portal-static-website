@@ -5,7 +5,7 @@
 ::: {.content}
 
 ```{=html}
-<div class="eatlas_ncanimate2_block" productid="{{< meta params.product-id >}}" blockname="{{< meta params.block-name >}}">
+<div class="ncanimate2_block" productid="{{< meta params.product-id >}}" blockname="{{< meta params.block-name >}}">
     <div class="tabs">
         <span class="label">Time step:</span>
         <ul></ul>

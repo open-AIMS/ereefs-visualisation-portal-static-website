@@ -101,7 +101,7 @@ The new version of the website was created by bringing accross css and javascrti
   - [ ] get the original javascript files and implment minifying
 - [ ] css
   - [x] remove eatlas from the file names
-  - [ ] rename eatlas references in the classes inside eatlas_ncanimate2.css 
+  - [x] rename eatlas references in the classes inside eatlas_ncanimate2.css 
   - [ ] remove _minimal_mistakes.scss and incorporate it else where
     - override flatly variables with the colors directly, instead of referring to minimal_mistakes?
 - [ ] remove unused includes like _csiro_navbar.qmd
