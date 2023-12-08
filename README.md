@@ -92,15 +92,15 @@ The new version of the website was created by bringing accross css and javascrti
   - [x] increase whitespace (or make it consistent with the product page headings)
   - [x] add an image banner to the top of the help page (if necessary to make it less dull)
 - [x] on About page remove the table and link to the tutorials page (replace last sentence)
-- [ ] product page visualisation should stick to the existing quarto column size
-  - [ ] home page blocks of links should rows of 2 instead of rows of 3.
+- [x] product page visualisation should stick to the existing quarto column size
+  - [x] home page blocks of links should rows of 2 instead of rows of 3.
 - [x] mistaken font [times new roman] on the depth drop down
   - The issue was the "Montserrat" font, adding similar alternative font and font class fixes issue.
 - [ ] javascript
   - [ ] remove references to eAtlas
   - [ ] get the original javascript files and implment minifying
 - [ ] css
-  - [ ] remove eatlas from the file names
+  - [x] remove eatlas from the file names
   - [ ] rename eatlas references in the classes inside eatlas_ncanimate2.css 
   - [ ] remove _minimal_mistakes.scss and incorporate it else where
     - override flatly variables with the colors directly, instead of referring to minimal_mistakes?

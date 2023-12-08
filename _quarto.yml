@@ -60,8 +60,8 @@ format:
       - css/custom.scss
     css: 
       - css/ereefs_aims.css
-      - css/eatlas_ncanimate2.css
-      - css/eatlas_ncanimate2_responsive.css
+      - css/ncanimate2.css
+      - css/ncanimate2_responsive.css
       - css/styles.css
     toc: false
     include-in-header:
