@@ -5332,7 +5332,7 @@ var EATLAS_NCANIMATE2_ANCHOR_VALUE_SEPARATOR = "=";
 (function ($) {
   // Initialise the EAtlasNcAnimate2Widgets when the page is ready
   $(document).ready(function () {
-    $(".eatlas_ncanimate2_block").each(function (index) {
+    $(".ncanimate2_block").each(function (index) {
       var videoSelector = new EAtlasNcAnimate2Widget($(this));
       videoSelector.init();
     });
