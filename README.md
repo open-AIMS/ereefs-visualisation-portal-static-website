@@ -87,10 +87,10 @@ The new version of the website was created by bringing accross css and javascrti
 - [ ] fix links to R and python tutorials
   - not 100% sure what this was referring to. I have fixed the about page.
 - [x] Remove "AIMS eReefs" at the top of the home page
-- [ ] remove other H1s. Should only be 1 on a page
-- [ ] Help page:
-  - [ ] increase whitespace (or make it consistent with the product page headings)
-  - [ ] add an image banner to the top of the help page (if necessary to make it less dull)
+- [x] remove other H1s. Should only be 1 on a page
+- [x] Help page:
+  - [x] increase whitespace (or make it consistent with the product page headings)
+  - [x] add an image banner to the top of the help page (if necessary to make it less dull)
 - [x] on About page remove the table and link to the tutorials page (replace last sentence)
 - [ ] product page visualisation should stick to the existing quarto column size
   - [ ] home page blocks of links should rows of 2 instead of rows of 3.
