@@ -1,0 +1,48 @@
+---
+title: "gbr4-bgc-scenarios_epipar-sg"
+format:
+  html: 
+    template: ../../../../custom_template.html
+params:
+  product-name: GBR4 BGC Scenario Comparison - Light intensity above seagrass
+  block-name: gbr4-bgc-scenarios_epipar-sg
+  product-id: products__ncanimate__ereefs__gbr4_bgc_comparison__epipar-sg_base_pre_hindcast_river
+---
+
+{{< include ../../../../includes/_visualisation.qmd >}}
+
+{{< include ../_scenarios_description.qmd >}}
+
+Model variables
+---------------
+
+### Light intensity above seagrass (EpiPAR_sg)
+
+The variable EpiPAR_sg represents the light intensity above seagrass
+measured in daily light integral (mol photons per square meter per day).
+Please note that the eReefs BGC model is using a 4km resolution and is
+developed for large-scale predictions. 
+
+### Light intensity above seagrass pre-industrial minus baseline (EpiPAR_sg_pre-base)
+
+This variable represents the difference of daily light intensity above seagrass in mol photons per square meter between 
+the pre-industrial scenario and the baseline scenario. This highlights the anthropogenic impact.
+
+EpiPAR_sg_pre-base = pre-industrial (q3p) EpiPAR_sg - baseline (q3b) EpiPAR_sg 
+
+### Light intensity above seagrass reduced loads (WQIP-Targets) minus baseline (EpiPAR_sg_reduced-base)
+
+This variable represents the difference of daily light intensity above seagrass in mol photons per square meter between 
+the reduced loads (WQIP-Targets) scenario and the baseline scenario. This highlights the alignment of the current state 
+with the targets.
+
+EpiPAR_sg_reduced-base = reduced loads (q3R) EpiPAR_sg - baseline (q3b) EpiPAR_sg
+
+{{< include ../_all_rivers_description.qmd >}}
+
+{{< include ../_references.qmd >}}
+
+{{< include ../_source_data_bgc_scenarios.qmd >}}
+
+
+{{< include ../../../../includes/_data_span.qmd >}}

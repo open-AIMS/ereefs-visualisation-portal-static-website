@@ -1,0 +1,45 @@
+---
+title: "gbr4-bgc-scenarios_chl-a-sum"
+format:
+  html: 
+    template: ../../../../custom_template.html
+params:
+  product-name: GBR4 BGC Scenario Comparison - Total Chlorophyll
+  block-name: gbr4-bgc-scenarios_chl-a-sum
+  product-id: products__ncanimate__ereefs__gbr4_bgc_comparison__chl-a-sum_base_pre_hindcast_river
+---
+
+{{< include ../../../../includes/_visualisation.qmd >}}
+
+{{< include ../_scenarios_description.qmd >}}
+
+Model variables
+---------------
+
+### Total Chlorophyll (Chl_a_sum)
+
+Sum of chlorophyll concentration in mg Chl m-3 of the four microalgae types (small,
+large, microphytobenthos, trichodesmium).
+
+### Total Chlorophyll pre-industrial minus baseline (Chl_a_sum_pre-base)
+
+This variable represents the difference in concentration of chlorophyll a in mg Chl m-3 between the pre-industrial 
+scenario and the baseline scenario. This highlights the anthropogenic impact.
+
+Chl_a_sum_pre-base = pre-industrial (q3p) Chl_a_sum - baseline (q3b) Chl_a_sum 
+
+### Total Chlorophyll reduced loads (WQIP-Targets) minus baseline (Chl_a_sum_reduced-base)
+
+This variable represents the difference in concentration of chlorophyll a in mg Chl m-3 between the reduced loads 
+(WQIP-Targets) scenario and the baseline scenario. This highlights the alignment of the current state with the targets.
+
+Chl_a_sum_reduced-base = reduced loads (q3R) Chl_a_sum - baseline (q3b) Chl_a_sum
+
+{{< include ../_all_rivers_description.qmd >}}
+
+{{< include ../_references.qmd >}}
+
+{{< include ../_source_data_bgc_scenarios.qmd >}}
+
+
+{{< include ../../../../includes/_data_span.qmd >}}

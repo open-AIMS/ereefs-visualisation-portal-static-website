@@ -1,0 +1,51 @@
+---
+title: "gbr4-bgc-scenarios_secchi"
+format:
+  html: 
+    template: ../../../../custom_template.html
+params:
+  product-name: GBR4 BGC Scenario Comparison - Secchi depth
+  block-name: gbr4-bgc-scenarios_secchi
+  product-id: products__ncanimate__ereefs__gbr4_bgc_comparison__secchi_base_pre_hindcast_river
+---
+
+{{< include ../../../../includes/_visualisation.qmd >}}
+
+{{< include ../_scenarios_description.qmd >}}
+
+Model variables
+---------------
+
+### Secchi depth (Secchi)
+
+Secchi depth is an estimate of water clarity, which is traditionally
+measured by lowering a [secchi disk](https://en.wikipedia.org/wiki/Secchi_disk) into the water until
+the disk can not be seen. The model estimates the optical properties of
+the water based on the sediment and nutrients in the water. These all
+affect the scattering and absorption of light as it passes through the
+water allowing the model to estimate the attenuation of the light
+through the water. The Secchi depth is calculated from the vertical
+integral of attenuation of light at 488nm.
+
+### Secchi depth pre-industrial minus baseline (Secchi_pre-base)
+
+This variable represents the difference of Secchi depths in meter between the pre-industrial 
+scenario and the baseline scenario. This highlights the anthropogenic impact.
+
+Secchi_pre-base = pre-industrial (q3p) Secchi - baseline (q3b) Secchi 
+
+### Secchi depth reduced loads (WQIP-Targets) minus baseline (Secchi_reduced-base)
+
+This variable represents the difference Secchi depths in meter between the reduced loads 
+(WQIP-Targets) scenario and the baseline scenario. This highlights the alignment of the current state with the targets.
+
+Secchi_reduced-base = reduced loads (q3R) Secchi - baseline (q3b) Secchi
+
+{{< include ../_all_rivers_description.qmd >}}
+
+{{< include ../_references.qmd >}}
+
+{{< include ../_source_data_bgc_scenarios.qmd >}}
+
+
+{{< include ../../../../includes/_data_span.qmd >}}

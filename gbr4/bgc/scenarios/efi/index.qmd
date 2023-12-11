@@ -1,0 +1,46 @@
+---
+title: "gbr4-bgc-scenarios_efi"
+format:
+  html: 
+    template: ../../../../custom_template.html
+params:
+  product-name: GBR4 BGC Scenario Comparison - Total suspended solids
+  block-name: gbr4-bgc-scenarios_efi
+  product-id: products__ncanimate__ereefs__gbr4_bgc_comparison__efi_base_pre_hindcast_river
+---
+
+{{< include ../../../../includes/_visualisation.qmd >}}
+
+{{< include ../_scenarios_description.qmd >}}
+
+Model variables
+---------------
+
+### Total suspended solids (EFI)
+
+This is the sum of the suspended sediments in the water column. It is
+\[Fine sediment\] + \[Mud\] + \[Mud carbonate\] + \[Mud mineral\] +
+\[Dust\]. Total suspended solids is measured in mg/l and the variable representing it is EFI - Ecology Fine Inorganics.
+
+### Total suspended solids pre-industrial minus baseline (EFI_pre-base)
+
+This variable represents the difference of total suspended solids in mg/l between the pre-industrial 
+scenario and the baseline scenario. This highlights the anthropogenic impact.
+
+EFI_pre-base = pre-industrial (q3p) EFI - baseline (q3b) EFI 
+
+### Total suspended solids reduced loads (WQIP-Targets) minus baseline (EFI_reduced-base)
+
+This variable represents the difference total suspended solids in mg/l between the reduced loads 
+(WQIP-Targets) scenario and the baseline scenario. This highlights the alignment of the current state with the targets.
+
+EFI_reduced-base = reduced loads (q3R) EFI - baseline (q3b) EFI
+
+{{< include ../_all_rivers_description.qmd >}}
+
+{{< include ../_references.qmd >}}
+
+{{< include ../_source_data_bgc_scenarios.qmd >}}
+
+
+{{< include ../../../../includes/_data_span.qmd >}}
