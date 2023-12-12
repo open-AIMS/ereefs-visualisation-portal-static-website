@@ -4,6 +4,8 @@
 
 - Install [Quarto](https://quarto.org/docs/get-started/)
 - run `quarto preview` and confirm the website displays as expected.
+- create and activate virtual env with python 3.9
+- `pip install -r requirements.txt`
 
 ## Previewing
 
