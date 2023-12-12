@@ -97,7 +97,7 @@ The new version of the website was created by bringing accross css and javascrti
 - [x] mistaken font [times new roman] on the depth drop down
   - The issue was the "Montserrat" font, adding similar alternative font and font class fixes issue.
 - [ ] javascript
-  - [ ] remove references to eAtlas
+  - [x] remove references to eAtlas
   - [x] get the original javascript files 
   - [ ] implement minifying (with post render script?)
 - [ ] css
