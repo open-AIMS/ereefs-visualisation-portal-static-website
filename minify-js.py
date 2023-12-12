@@ -9,8 +9,7 @@ def minify_js(directory):
     logging.info(f"Starting minification in directory: {directory}")
     for root, dirs, files in os.walk(directory):
         for file in files:
-            logging.info(f"Processing file: {file}")
-            # FIXME: why doesn't it find the files?
+            logging.debug(f"Processing file: {file}")
             if file.endswith('.js'):
                 file_path = os.path.join(root, file)
                 logging.info(f"Minifying {file_path}")
