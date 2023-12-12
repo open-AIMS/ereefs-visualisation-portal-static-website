@@ -98,7 +98,8 @@ The new version of the website was created by bringing accross css and javascrti
   - The issue was the "Montserrat" font, adding similar alternative font and font class fixes issue.
 - [ ] javascript
   - [ ] remove references to eAtlas
-  - [ ] get the original javascript files and implment minifying
+  - [x] get the original javascript files 
+  - [ ] implement minifying (with post render script?)
 - [ ] css
   - [x] remove eatlas from the file names
   - [x] rename eatlas references in the classes inside eatlas_ncanimate2.css 
