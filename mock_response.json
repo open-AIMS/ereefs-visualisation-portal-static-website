@@ -1,0 +1,149 @@
+[
+  {
+    "_id": "products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current/products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current_hourly_video_monthly_2010-09_queensland-1_-1_5",
+    "preview": "https://aims-ereefs-public-test.s3.amazonaws.com/ncanimate/products/products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current_hourly/products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current_hourly_video_monthly_2010-09_queensland-1_-1.5_preview.png",
+    "outputFiles": {
+      "mp4Video": {
+        "filetype": "MP4",
+        "width": 2240,
+        "fps": 15,
+        "fileURI": "https://aims-ereefs-public-test.s3.amazonaws.com/ncanimate/products/products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current_hourly/products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current_hourly_video_monthly_2010-09_queensland-1_-1.5.mp4",
+        "type": "VIDEO",
+        "height": 1072
+      }
+    },
+    "dateRange": {
+      "endDate": "2010-10-01T00:00:00.000+10:00",
+      "startDate": "2010-09-01T00:00:00.000+10:00"
+    },
+    "frameDirectoryUrl": "https://aims-ereefs-public-test.s3.amazonaws.com/ncanimate/frames/products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current_hourly/queensland-1/height_-1.5/",
+    "videoTimeIncrement": {
+      "unit": "MONTH",
+      "increment": 1
+    },
+    "type": "NCANIMATE_PRODUCT",
+    "frameTimeIncrement": {
+      "unit": "HOUR",
+      "increment": 1
+    },
+    "targetHeight": -1.5,
+    "datasetId": "products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current_hourly_video_monthly_2010-09_queensland-1_-1.5",
+    "lastModified": "2021-11-09T22:03:11.235Z",
+    "region": {
+      "bbox": {
+        "east": 156.570062893342,
+        "south": -29.2584086447012,
+        "north": -7.38712861975422,
+        "west": 142.358682747285
+      },
+      "scale": 1,
+      "id": "queensland-1",
+      "lastModified": "2020-03-13T08:30:00.000Z",
+      "label": "Queensland"
+    },
+    "properties": {
+      "framePeriod": "Hourly",
+      "targetHeight": "-1.5m"
+    },
+    "definitionId": "products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current",
+    "status": "VALID"
+  },
+  {
+    "_id": "products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current/products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current_hourly_video_monthly_2010-09_queensland-1_-8_8",
+    "preview": "https://aims-ereefs-public-test.s3.amazonaws.com/ncanimate/products/products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current_hourly/products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current_hourly_video_monthly_2010-09_queensland-1_-8.8_preview.png",
+    "outputFiles": {
+      "mp4Video": {
+        "filetype": "MP4",
+        "width": 2240,
+        "fps": 15,
+        "fileURI": "https://aims-ereefs-public-test.s3.amazonaws.com/ncanimate/products/products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current_hourly/products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current_hourly_video_monthly_2010-09_queensland-1_-8.8.mp4",
+        "type": "VIDEO",
+        "height": 1072
+      }
+    },
+    "dateRange": {
+      "endDate": "2010-10-01T00:00:00.000+10:00",
+      "startDate": "2010-09-01T00:00:00.000+10:00"
+    },
+    "frameDirectoryUrl": "https://aims-ereefs-public-test.s3.amazonaws.com/ncanimate/frames/products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current_hourly/queensland-1/height_-8.8/",
+    "videoTimeIncrement": {
+      "unit": "MONTH",
+      "increment": 1
+    },
+    "type": "NCANIMATE_PRODUCT",
+    "frameTimeIncrement": {
+      "unit": "HOUR",
+      "increment": 1
+    },
+    "targetHeight": -8.8,
+    "datasetId": "products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current_hourly_video_monthly_2010-09_queensland-1_-8.8",
+    "lastModified": "2021-11-09T22:04:49.911Z",
+    "region": {
+      "bbox": {
+        "east": 156.570062893342,
+        "south": -29.2584086447012,
+        "north": -7.38712861975422,
+        "west": 142.358682747285
+      },
+      "scale": 1,
+      "id": "queensland-1",
+      "lastModified": "2020-03-13T08:30:00.000Z",
+      "label": "Queensland"
+    },
+    "properties": {
+      "framePeriod": "Hourly",
+      "targetHeight": "-8.8m"
+    },
+    "definitionId": "products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current",
+    "status": "VALID"
+  },
+  {
+    "_id": "products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current/products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current_daily_video_yearly_2010_queensland-1_-1_5",
+    "preview": "https://aims-ereefs-public-test.s3.amazonaws.com/ncanimate/products/products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current_daily/products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current_daily_video_yearly_2010_queensland-1_-1.5_preview.png",
+    "outputFiles": {
+      "mp4Video": {
+        "filetype": "MP4",
+        "width": 2240,
+        "fps": 10,
+        "fileURI": "https://aims-ereefs-public-test.s3.amazonaws.com/ncanimate/products/products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current_daily/products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current_daily_video_yearly_2010_queensland-1_-1.5.mp4",
+        "type": "VIDEO",
+        "height": 1072
+      }
+    },
+    "dateRange": {
+      "endDate": "2011-01-01T00:00:00.000+10:00",
+      "startDate": "2010-09-01T00:00:00.000+10:00"
+    },
+    "frameDirectoryUrl": "https://aims-ereefs-public-test.s3.amazonaws.com/ncanimate/frames/products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current_daily/queensland-1/height_-1.5/",
+    "videoTimeIncrement": {
+      "unit": "YEAR",
+      "increment": 1
+    },
+    "type": "NCANIMATE_PRODUCT",
+    "frameTimeIncrement": {
+      "unit": "DAY",
+      "increment": 1
+    },
+    "targetHeight": -1.5,
+    "datasetId": "products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current_daily_video_yearly_2010_queensland-1_-1.5",
+    "lastModified": "2021-11-09T17:24:51.109Z",
+    "region": {
+      "bbox": {
+        "east": 156.570062893342,
+        "south": -29.2584086447012,
+        "north": -7.38712861975422,
+        "west": 142.358682747285
+      },
+      "scale": 1,
+      "id": "queensland-1",
+      "lastModified": "2020-03-13T08:30:00.000Z",
+      "label": "Queensland"
+    },
+    "properties": {
+      "framePeriod": "Daily",
+      "targetHeight": "-1.5m"
+    },
+    "definitionId": "products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current",
+    "status": "VALID"
+  }
+]
