@@ -3464,7 +3464,6 @@ EAtlasNcAnimate2Widget.prototype.loadMedia = function (
   year,
   month
 ) {
-  console.log("loading media...")
   // If default region is null, that means there is no region, therefore no usable data...
   if (this.default_region === null) {
     return;
