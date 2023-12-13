@@ -1,1 +1,0 @@
-Sitemap: https://open-AIMS.github.io/ereefs-visualisation-portal-static-website/sitemap.xml
