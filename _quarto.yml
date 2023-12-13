@@ -56,7 +56,6 @@ website:
 format:
   html:
     theme: 
-      - flatly
       - css/custom.scss
     css: 
       - css/ereefs_aims.css

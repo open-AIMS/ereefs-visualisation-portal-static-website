@@ -82,7 +82,7 @@ The new version of the website was created by bringing accross css and javascrti
   - [x] Change title from "AIMS eReefs" to "AIMS eReefs Visualisation Portal"
   - [x] remove the About -> eReefs Program Website menu item 
   - [x] add icons for external links (even ASCII character are better than nothing)
-  - [ ] drop down text color should be darker
+  - [x] drop down text color should be darker
   - [x] main banner link not working
   - [x] make the main banner a little less prominent (reduce the height)
     - I assume Marc is happy with this as he created large_image_header.css
@@ -102,11 +102,10 @@ The new version of the website was created by bringing accross css and javascrti
   - [x] remove references to eAtlas
   - [x] get the original javascript files 
   - [x] implement minifying (with post render script?)
-- [ ] css
+- [x] css
   - [x] remove eatlas from the file names
   - [x] rename eatlas references in the classes inside eatlas_ncanimate2.css 
-  - [ ] remove _minimal_mistakes.scss and incorporate it else where
-    - override flatly variables with the colors directly, instead of referring to minimal_mistakes?
+  - [x] remove _minimal_mistakes.scss and incorporate it else where
 - [x] remove unused includes like _csiro_navbar.qmd
 - [x] increase whitespace between bullet point in the product tiles on the home page
 - [x] discuss taking 'aims' out of the repository name at standup

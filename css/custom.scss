@@ -1,5 +1,5 @@
 /* ===========================================================================
-  I'm looking at using this file to override the selected template in quarto.
+  This file overrides the variables used by bootstrap.
 
   See quarto docs for more info:
   https://quarto.org/docs/output-formats/html-themes.html
@@ -9,41 +9,18 @@
   https://quarto.org/docs/output-formats/html-themes.html
 
   The https://www.ereefs.org.au/platform/ site uses the Minimal Mistakes theme, 
-  which is imported as a partial below.
+  and so the chosen colors were based mostly off that.
   https://github.com/mmistakes/minimal-mistakes/blob/master/_sass/minimal-mistakes/_variables.scss
   ========================================================================== */
 
-/*-- scss:uses --*/
-@use 'minimal_mistakes';
-
-// The flatly theme has been set up in a weird way. Instead of redefining the 
-// primary color, they have left is as $blue and redefined $blue to be something 
-// else. 
-// See: https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/html/bootstrap/themes/flatly.scss
-// Instead I will define the primary, secondary, etc variables to the values that I want.
-
 /*-- scss:defaults --*/
-minimal_mistakes.$primary-color: #0F528C;
-  
-// overriding flatly variables:
-$primary:       minimal_mistakes.$primary-color !default;
-$secondary:     $gray-600 !default; // becuase minimal_mistakes has not secondary color, I copied flatly's value
-$success:       minimal_mistakes.$success-color !default;
-$info:          minimal_mistakes.$info-color !default;
-$warning:       minimal_mistakes.$warning-color !default;
-$danger:        minimal_mistakes.$danger-color !default;
+$primary:       #0F528C !default;
+$success:       #3fa63f !default;
+$info:          #3b9cba !default;
+$warning:       #d67f05 !default;
+$danger:        #ee5f5b !default;
 $light:         #fefffe !default; // to match https://research.csiro.au/ereefs/
-$dark:          minimal_mistakes.$darker-gray !default;
+$gray:          #7a8288 !default;
+$dark:          mix(#000, $gray, 60%) !default;
   
-
 $link-color:    $primary !default;
-
-/*-- scss:rules --*/
-
-// These rules come from the minimal mistakes air skin:
-.page__footer {
-  color: #fff !important; // override
-}
-.page__footer-follow .social-icons .svg-inline--fa {
-  color: inherit;
-}$active-color: mix(#fff, minimal_mistakes.$primary-color, 80%) !default;
