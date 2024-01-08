@@ -16,7 +16,8 @@
 /* Adjust logo size */
 .navbar-brand img {
   height: 100%; /* Makes the logo take the full height of the navbar */
-  max-height: 50px;
+  max-height: 60px;
+  width: 60px;
 }
 
 /* making a gap between the logo and the title in the header */

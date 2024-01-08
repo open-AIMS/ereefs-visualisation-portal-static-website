@@ -10,7 +10,7 @@ website:
   search: true
   navbar:
     title: "AIMS eReefs Visualisation Portal"
-    logo: images/ereefs_logo.png
+    logo: https://www.ereefs.org.au/assets/images/logos/ereefs_logo.svg
     background: light
     pinned: false
     left:
