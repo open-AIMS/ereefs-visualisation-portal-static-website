@@ -13,21 +13,21 @@ website:
     logo: https://www.ereefs.org.au/assets/images/logos/ereefs_logo.svg
     background: light
     pinned: false
-    left:
-      - text: eReefs Websites
+    right:
+      - href: https://www.ereefs.org.au/
+        text: Home
+      - text: About
         menu:
-          - href: https://www.ereefs.org.au/
-            text: Project Overview ![External Link](/images/External_link_font_awesome.svg){.external-link}
-          - href: https://research.csiro.au/ereefs/
-            text: CSIRO Research Portal ![External Link](/images/External_link_font_awesome.svg){.external-link}
-          - href: http://www.bom.gov.au/environment/activities/reeftemp/reeftemp.shtml
-            text: ReefTemp ![External Link](/images/External_link_font_awesome.svg){.external-link}
-          - href: https://portal.ereefs.info/
-            text: Interactive Data Portal ![External Link](/images/External_link_font_awesome.svg){.external-link}
-      - href: index.qmd
-        text: Visualisation Portal
-      - href: https://extraction.ereefs.aims.gov.au/?_gl=1*1ag9zj1*_ga*OTM5OTM3MTMzLjE2NjczNTcwNzg.*_ga_6SSTNBNHXG*MTY5MTk2OTEyOC4yNy4wLjE2OTE5NjkxMjguMC4wLjA.
-        text: Data Extraction ![External Link](/images/External_link_font_awesome.svg){.external-link}
+          - href: https://www.ereefs.org.au/research/
+            text: About eReefs
+          - href: about.qmd
+            text: About eReefs AIMS
+      - href: https://www.ereefs.org.au/research/
+        text: Research
+      - href: https://www.ereefs.org.au/tools/
+        text: Tools
+      - href: https://www.ereefs.org.au/contact/
+        text: Contact
       - text: Help
         menu:
           - href: help/index.qmd
@@ -36,8 +36,6 @@ website:
             text: Tutorials ![External Link](/images/External_link_font_awesome.svg){.external-link}
           - href: https://extraction.ereefs.aims.gov.au/faqs
             text: Data Extraction FAQs ![External Link](/images/External_link_font_awesome.svg){.external-link}
-      - href: about.qmd
-        text: About
   page-footer:
     background: primary
     left: |

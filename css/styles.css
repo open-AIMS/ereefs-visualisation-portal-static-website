@@ -85,6 +85,10 @@ select, option {
     color: white;
 }
 
+.dropdown-menu {
+  background-color: #0F528C;
+}
+
 /* ----- footer ----- */
 .nav-footer {
   color: white;
