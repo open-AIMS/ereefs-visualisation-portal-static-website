@@ -45,10 +45,22 @@
   max-width: 1220px;
 }
 
+.nav-link:hover, .nav-link:focus {
+  color: white;
+}
+.navbar-brand:hover, .navbar-brand:focus {
+  color: white;
+}
+
 /* external link icons */
 .external-link {
   height: 1em;
 }
+
+/* search icon */
+.navbar #quarto-search.type-overlay .aa-Autocomplete svg.aa-SubmitIcon {
+  color: white;
+};
 
 .me-auto {
   margin-left: auto !important; /* align menu items to the right */
@@ -69,9 +81,7 @@ select, option {
   font-family: "Montserrat", "Open Sans", sans-serif;
 }
 
-/* Make the current menu item more obvious */
 .navbar-nav .nav-link.active {
-    font-weight: 500;
     color: white;
 }
 
