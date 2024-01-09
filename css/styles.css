@@ -3,6 +3,11 @@
 .navbar {
   height: auto; /* Makes the navbar adjust to its content size */
   font-family: "Montserrat", "Open Sans", sans-serif;
+  background-color: #0F528C;
+}
+
+.navbar a {
+  color: white;
 }
 
 .navbar > .container-fluid {
@@ -53,6 +58,7 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", "Open Sans", sans-serif;
   font-weight: 400;
+  color: #212529
 }
 
 h1 {
@@ -66,9 +72,14 @@ select, option {
 /* Make the current menu item more obvious */
 .navbar-nav .nav-link.active {
     font-weight: 500;
+    color: white;
 }
 
 /* ----- footer ----- */
+.nav-footer {
+  color: white;
+}
+
 .nav-footer .nav-footer-center {
   display: none;
 }

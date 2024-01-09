@@ -70,6 +70,7 @@ format:
     grid:
       body-width: 1220px
     mainfont: Open Sans
+    fontcolor: "#212529"
 
 execute:
   freeze: auto # ensures code blocks are only executed locally as opposed to being executes as part of GitHub actions
