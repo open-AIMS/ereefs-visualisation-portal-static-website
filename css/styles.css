@@ -3,6 +3,11 @@
 .navbar {
   height: auto; /* Makes the navbar adjust to its content size */
   font-family: "Montserrat", "Open Sans", sans-serif;
+  background-color: #0F528C;
+}
+
+.navbar a {
+  color: white;
 }
 
 .navbar > .container-fluid {
@@ -40,10 +45,22 @@
   max-width: 1220px;
 }
 
+.nav-link:hover, .nav-link:focus {
+  color: white;
+}
+.navbar-brand:hover, .navbar-brand:focus {
+  color: white;
+}
+
 /* external link icons */
 .external-link {
   height: 1em;
 }
+
+/* search icon */
+.navbar #quarto-search.type-overlay .aa-Autocomplete svg.aa-SubmitIcon {
+  color: white;
+};
 
 .me-auto {
   margin-left: auto !important; /* align menu items to the right */
@@ -53,6 +70,7 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", "Open Sans", sans-serif;
   font-weight: 400;
+  color: #212529
 }
 
 h1 {
@@ -63,12 +81,15 @@ select, option {
   font-family: "Montserrat", "Open Sans", sans-serif;
 }
 
-/* Make the current menu item more obvious */
 .navbar-nav .nav-link.active {
-    font-weight: 500;
+    color: white;
 }
 
 /* ----- footer ----- */
+.nav-footer {
+  color: white;
+}
+
 .nav-footer .nav-footer-center {
   display: none;
 }
