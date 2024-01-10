@@ -9,7 +9,7 @@ website:
   favicon: images/ereefs_aims_favicon.png
   search: true
   navbar:
-    title: "AIMS eReefs Visualisation Portal"
+    title: "eReefs"
     logo: https://www.ereefs.org.au/assets/images/logos/ereefs_logo.svg
     background: light
     pinned: false
@@ -21,7 +21,7 @@ website:
           - href: https://www.ereefs.org.au/research/
             text: About eReefs
           - href: about.qmd
-            text: About eReefs AIMS
+            text: About AIMS eReefs
       - href: https://www.ereefs.org.au/research/
         text: Research
       - href: https://www.ereefs.org.au/tools/
@@ -62,8 +62,8 @@ format:
       - css/styles.css
     toc: false
     include-in-header:
-      - text: <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
-      - text: <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Open+Sans&display=swap" rel="stylesheet">
+      - text: <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+      - text: <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
       - includes/_page_banner.html
     grid:
       body-width: 1300px
