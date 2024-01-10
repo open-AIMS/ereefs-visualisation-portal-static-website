@@ -2,12 +2,8 @@
 
 .navbar {
   height: auto; /* Makes the navbar adjust to its content size */
-  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-family: Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
   background-color: #0F528C;
-}
-
-.navbar a {
-  color: white;
 }
 
 .navbar > .container-fluid {
@@ -25,31 +21,49 @@
   width: 60px;
 }
 
-/* making a gap between the logo and the title in the header */
-.navbar .navbar-brand-logo {
-  margin-right: 1em;
-}
-.ncanimate-products {
-  justify-content: center
-}
-
-.navbar-brand-container {
+/* .navbar-brand-container {
   font-weight: 500;
-}
+} */
 
 .navbar-brand {
-  font-weight: 500;
+  /* font-weight: 500; */
+  font-size: 1.5em;
 }
 
 .navbar-container {
   max-width: 1220px;
 }
 
-.nav-link:hover, .nav-link:focus {
+.navbar-dark .navbar-brand {
   color: white;
 }
-.navbar-brand:hover, .navbar-brand:focus {
+
+.navbar-dark .navbar-nav .nav-link {
   color: white;
+}
+
+.navbar-dark:hover .navbar-brand:hover {
+  color: white;
+}
+
+.navbar-dark:hover .navbar-nav:hover .nav-link:hover {
+  color: white;
+}
+
+.navbar-dark:focus .navbar-brand:focus {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: white;
+}
+
+.navbar .dropdown-item { 
+  color: white;
+}
+
+.navbar .dropdown-item:hover { 
+  background-color: #0F528C;
 }
 
 /* external link icons */
@@ -68,17 +82,12 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", "Open Sans", sans-serif;
-  font-weight: 400;
+  font-family: "Open Sans Condensed", "Open Sans", sans-serif;
   color: #212529
 }
 
-h1 {
-  font-weight: 500;
-}
-
 select, option {
-  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-family: Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
 .navbar-nav .nav-link.active {
@@ -125,4 +134,8 @@ select, option {
 /* so that the product tile lists don't look so cramped */
 .ncanimate-product-tile li {
   margin-bottom: 0.2em;
+}
+
+body {
+  font-family: Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
