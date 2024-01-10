@@ -111,18 +111,12 @@ select, option {
   color: white;
 }
 
-/* hiding the footer right menu on medium and small screens */
-@media screen and (max-width: 700px) {
-    .nav-footer .nav-footer-right {
-        display: none;
-    }
-}
 
-/* hiding the footer left menu on small screens */
-@media screen and (max-width: 500px) {
-    .nav-footer .nav-footer-left {
-        display: none;
-    }
+.nav-footer .nav-footer-right {
+    display: none;
+}
+.nav-footer .nav-footer-center {
+    display: none;
 }
 
 /* making the footer logos separated */
