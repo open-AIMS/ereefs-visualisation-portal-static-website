@@ -38,13 +38,14 @@ website:
             text: Data Extraction FAQs ![External Link](/images/External_link_font_awesome.svg){.external-link}
   page-footer:
     background: primary
+    # It doesn't seem to support the <hr> element, or <h2> inside the footer, or <div>s within the footer.
     left: |
       eReefs is a collaboration between:
       <br>[![](/images/logos/AIMS-210x49.png){fig-alt="AIMS"}](https://aims.gov.au/)
       [![](/images/logos/CSIRO-60x60.png){fig-alt="CSIRO"}](https://www.csiro.au/){style="height: 49px;"}
       [![](/images/logos/BoM-210x51.png){fig-alt="Bureau of Meteorology"}](http://www.bom.gov.au/){style="height: 49px;"}
-      <br>Supported by funding from:
       <br>
+      <br>Supported by funding from:
       <br>[![](/images/logos/dcceew_logo.svg){fig-alt="Department of Climate Change, Energy, the Environment and Water" style="height: 49px;"}](https://www.dcceew.gov.au/)
       [![](/images/logos/GBRF_1-210x66.png){fig-alt="Great Barrier Reef Foundation" style="height: 49px;"}](https://www.barrierreef.org/)
       [![](/images/logos/QLD-Gov-64x80.png){fig-alt="Queensland Government" style="height: 49px;"}](https://www.qld.gov.au/)
