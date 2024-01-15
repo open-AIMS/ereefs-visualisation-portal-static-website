@@ -21,12 +21,7 @@
   width: 60px;
 }
 
-/* .navbar-brand-container {
-  font-weight: 500;
-} */
-
 .navbar-brand {
-  /* font-weight: 500; */
   font-size: 1.5em;
 }
 
@@ -47,7 +42,7 @@
 }
 
 .navbar-dark:hover .navbar-nav:hover .nav-link:hover {
-  color: white;
+  color: #55A6D9;
 }
 
 .navbar-dark:focus .navbar-brand:focus {
@@ -64,6 +59,7 @@
 
 .navbar .dropdown-item:hover { 
   background-color: #0F528C;
+  color: #55A6D9;
 }
 
 /* external link icons */
@@ -110,12 +106,6 @@ select, option {
 .nav-footer a:hover {
   color: white;
 }
-
-/*
-.nav-footer .nav-footer-center {
-  display: none;
-}
-*/
 
 .nav-footer img {
   padding-left: 0.5em
