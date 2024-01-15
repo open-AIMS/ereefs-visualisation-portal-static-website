@@ -47,7 +47,47 @@ website:
         href: https://www.csiro.au/en/About/Access-to-information/Privacy
       - text: Legal & Disclaimer![External Link](/images/External_link_font_awesome.svg){.external-link}
         href: https://www.csiro.au/en/About/Footer/Legal-notice
-
+  sidebar:
+    style: "floating"
+    search: true
+    pinned: true
+    contents:
+      - section: "About eReefs"
+        contents:
+          - text: "Overview"
+            href: https://www.ereefs.org.au/about/
+          - text: "Collaborators"
+            href: https://www.ereefs.org.au/about/collaborators.html
+          - text: "Funders"
+            href: https://www.ereefs.org.au/about/funders.html
+      - section: "eReefs Research Services"
+        contents:
+          - text: "Overview"
+            href: https://www.ereefs.org.au/research/
+          - text: "Remote Sensing and Water Quality"
+            href: https://www.ereefs.org.au/research/remote-sensing-and-wq.html
+          - text: "Catchment flow and water quality forecasting"
+            href: https://www.ereefs.org.au/research/catchment-flow-and-wq-forecasting.html
+          - text: "Regional hydrodynamic, sediment and water quality modeling"
+            href: https://www.ereefs.org.au/research/regional-hydrodynamic-sediment-and-wq-modeling.html
+          - text: "Relocatable fine scale coastal models (RECOM)"
+            href: https://www.ereefs.org.au/research/relocatable-fine-scale-coastal-models.html
+          - text: "eReefs Regional Models Workshop Presentations - April 2016"
+            href: https://www.ereefs.org.au/research/regional-models-workshop-2016.html
+      - section: "eReefs Research Publications"
+        contents:
+          - text: Case Studies
+            href: https://www.ereefs.org.au/research/publications/case-studies.html
+          - text: Media
+            href: https://www.ereefs.org.au/research/publications/media.html
+      - section: "eReefs Tools"
+        contents:
+          - text: "Overview"
+            href: https://www.ereefs.org.au/tools/
+      - section: "Contact"
+        contents:
+          - text: "Contact Us"
+            href: https://www.ereefs.org.au/contact/
 
 
 format:
@@ -65,7 +105,7 @@ format:
       - text: <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
       - includes/_page_banner.html
     grid:
-      body-width: 1300px
+      body-width: 1000px
     mainfont: Open Sans
     fontcolor: "#212529"
 

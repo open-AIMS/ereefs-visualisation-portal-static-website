@@ -41,7 +41,7 @@ Note: The eReefs models are currently not being run in near-real time by CSIRO
 as a result this site only shows the back catalogue up to mid 2020. Near
 realtime results are expected to be back in operation by the end of 2020.
 
-::: {.ncanimate-products}
+::: {.ncanimate-products .column-screen-right}
 ::: {.ncanimate-product-tile}
 ### 4 km model (Sept 2010 - present)
 #### Water movement and physical characteristics
@@ -103,7 +103,7 @@ should be taken to ensure the model is fit-for-purpose and in general BGC
 results should used in combination with second sources of information for
 making recommendations.
 
-::: {.ncanimate-products}
+::: {.ncanimate-products .column-screen-right}
 ::: {.ncanimate-product-tile}
 ### Water chemistry
 ![](/images/Blue_Soda_bubbles_macro-500x250.jpg){fig-alt="Bubles suspended in water" fig-align="center"}
