@@ -117,19 +117,26 @@ select, option {
 }
 */
 
-/* making the footer logos separated */
 .nav-footer img {
-  margin: 0.5em;
+  padding-left: 0.5em
 }
 
-/* trying to make the navbar static
-.headroom--pinned,
-.headroom--unpinned,
-.headroom--top,
-.headroom--not-top {
-  position: block !important;
-} 
-*/
+.nav-footer-center .footer-items .nav-link {
+  padding-left: 1em;
+  padding-right: 1em
+}
+
+.nav-footer-left, .nav-footer-right {
+  display: none
+}
+
+/* Stack items vertically on small screens */
+@media screen and (max-width: 530px) {
+    .nav-footer .nav-footer-center .footer-items {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 /* make the video 100% width */
 .video-container {
