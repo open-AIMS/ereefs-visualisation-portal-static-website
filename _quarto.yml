@@ -51,44 +51,74 @@ website:
     style: "floating"
     search: true
     pinned: true
+    collapse-level: 3
     contents:
-      - section: "About eReefs"
+      - section: "Products"
         contents:
-          - text: "Overview"
-            href: https://www.ereefs.org.au/about/
-          - text: "Collaborators"
-            href: https://www.ereefs.org.au/about/collaborators.html
-          - text: "Funders"
-            href: https://www.ereefs.org.au/about/funders.html
-      - section: "eReefs Research Services"
-        contents:
-          - text: "Overview"
-            href: https://www.ereefs.org.au/research/
-          - text: "Remote Sensing and Water Quality"
-            href: https://www.ereefs.org.au/research/remote-sensing-and-wq.html
-          - text: "Catchment flow and water quality forecasting"
-            href: https://www.ereefs.org.au/research/catchment-flow-and-wq-forecasting.html
-          - text: "Regional hydrodynamic, sediment and water quality modeling"
-            href: https://www.ereefs.org.au/research/regional-hydrodynamic-sediment-and-wq-modeling.html
-          - text: "Relocatable fine scale coastal models (RECOM)"
-            href: https://www.ereefs.org.au/research/relocatable-fine-scale-coastal-models.html
-          - text: "eReefs Regional Models Workshop Presentations - April 2016"
-            href: https://www.ereefs.org.au/research/regional-models-workshop-2016.html
-      - section: "eReefs Research Publications"
-        contents:
-          - text: Case Studies
-            href: https://www.ereefs.org.au/research/publications/case-studies.html
-          - text: Media
-            href: https://www.ereefs.org.au/research/publications/media.html
-      - section: "eReefs Tools"
-        contents:
-          - text: "Overview"
-            href: https://www.ereefs.org.au/tools/
-      - section: "Contact"
-        contents:
-          - text: "Contact Us"
-            href: https://www.ereefs.org.au/contact/
-
+          - section: "Hydrodynamic Model"
+            contents:
+              - section: "GBR1"
+                contents:
+                  - text: "Temperature, wind, salinity and current"
+                    href: gbr1/temp-wind-salt-current/
+                  - text: "Temperature at 2.35m, 18m and 49m depth"
+                    href: gbr1/temp-multi-depth/
+                  - text: "Current at 2.35m, 18m and 103m depth"
+                    href: gbr1/current-multi-depth/
+                  - text: "Salinity at 2.35m, 5.35m and 18m depth"
+                    href: gbr1/salt-multi-depth/
+                  - text: "Fresh water exposure at 2.35m"
+                    href: gbr1/fresh-water-exposure/
+                  - text: "Current magnitude average at 2.35m"
+                    href: gbr1/current-magnitude-average/
+                  - text: "Temperature range at 2.35m"
+                    href: /gbr1/temp-range/
+                  - text: "Flood plume extents for major rivers on GBR based on modelled river tracers"
+                    href: /gbr1/river-tracers/
+              - section: "GBR4"
+                contents:
+                  - text: "Temperature, wind, salinity and current"
+                    href: gbr4/temp-wind-salt-current/
+                  - text: "Temperature at 1.5m, 18m and 49m depth"
+                    href: /gbr4/temp-multi-depth/
+                  - text: "Current at 1.5m, 18m and 103m depth"
+                    href: /gbr4/current-multi-depth/
+                  - text: "Temperature range at 1.5m"
+                    href: /gbr4/temp-range/
+                  - text: "Comparing eReefs (GBR4 temperature, current) to IMOS satellite temperature and ocean current"
+                    href: /gbr4/imos-vs-ereefs/
+          - section: "BioGeoChemical Model (4 km)"
+            contents:
+              - section: "Water chemistry"
+                contents:
+                  - text: "Total alkalinity, PH & Aragonite saturation state"
+                    href: /gbr4/bgc/baseline/alk_ph_omega-ar/
+                  - text: "Dissolved inorganic nitrogen, nitrate & ammonia"
+                    href: /gbr4/bgc/baseline/din_no3_nh4/
+                  - text: "Dissolved oxygen & oxygen saturation percentage"
+                    href: /gbr4/bgc/baseline/oxygen_oxy-sat/
+                  - text: "Dissolved Inorganic (Carbon, Nitrogen & Phosphorus)"
+                    href: /gbr4/bgc/baseline/din_dip_dic/
+                  - text: "Dissolved Organic (Carbon, Nitrogen & Phosphorus)"
+                    href: /gbr4/bgc/baseline/dor-c_dor-n_dor-p/
+                  - text: "Particulate inorganic phosphorus & particulate inorganic"
+                    href: /gbr4/bgc/baseline/pip_pip-sed/
+              - section: "Water quality measures"
+                contents:
+                  - text: "Total chlorophyll, dissolved inorganic nitrogen & total suspended solids"
+                    href: /gbr4/bgc/baseline/chl-a-sum_din_efi/
+                  - text: "Total Suspended Solids, dust, mud carbonate & mud mineral"
+                    href: /gbr4/bgc/baseline/efi_dust_mud-carbonate_mud-mineral/
+                  - text: "Secchi depth, vertical attenuation at 490nm & light intensity above seagrass"
+                    href: /gbr4/bgc/baseline/secchi_kd-490_epipar-sg/
+                  - text: "Simulated true colour"
+                    href: /gbr4/bgc/baseline/true-colour/
+              - section: "Macroalgae, seagrass and coral"
+                contents:
+                  - text: "Coral symbiont (nitrogen & chlorophyll) & coral host nitrogen"
+                    href: /gbr4/bgc/baseline/cs-n_cs-chl_ch-n/
+                  - text: "Nitrogen (macroalgae, seagrass zostera, seagrass halophila & deep seagrass)"
+                    href: /gbr4/bgc/baseline/ma-n_sg-n_sgh-n_sgd-n/
 
 format:
   html:

@@ -176,7 +176,3 @@ body {
 .sidebar-item:hover a:hover {
   color: #0f528c;
 }
-
-.sidebar-section {
-  padding-left: 0;
-}

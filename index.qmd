@@ -110,7 +110,7 @@ making recommendations.
 
 - [Total alkalinity, PH & Aragonite saturation state](./gbr4/bgc/baseline/alk_ph_omega-ar)
 - [Dissolved inorganic nitrogen, nitrate & ammonia](./gbr4/bgc/baseline/din_no3_nh4)
-- [Dissolved Oxygen & oxygen saturation percentage](./gbr4/bgc/baseline/oxygen_oxy-sat)
+- [Dissolved oxygen & oxygen saturation percentage](./gbr4/bgc/baseline/oxygen_oxy-sat)
 - [Dissolved Inorganic (Carbon, Nitrogen & Phosphorus)](./gbr4/bgc/baseline/din_dip_dic)
 - [Dissolved Organic (Carbon, Nitrogen & Phosphorus)](./gbr4/bgc/baseline/dor-c_dor-n_dor-p)
 - [Particulate inorganic phosphorus & particulate inorganic](./gbr4/bgc/baseline/pip_pip-sed)
@@ -118,7 +118,7 @@ making recommendations.
 :::
 
 ::: {.ncanimate-product-tile}
-### Water Quality Measures
+### Water quality measures
 ![](/images/middles3-229-500x250.jpg){fig-alt="A turbid seascape" fig-align="center"}
 
 - [Total chlorophyll, dissolved inorganic nitrogen & total suspended solids](./gbr4/bgc/baseline/chl-a-sum_din_efi)
