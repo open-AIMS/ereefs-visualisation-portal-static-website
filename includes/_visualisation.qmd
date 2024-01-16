@@ -23,9 +23,6 @@
                 <span class="text">Your browser does not support the video tag.</span>
             </div>
         </video>
-        <div class="video-warning">
-            <span class="warning-label">WARNING</span>: This video may contain flashing patterns which may not be suitable for people with photosensitive epilepsy.
-        </div>
     </div>
     <div class="playerTools">
         <div class="navigationBlock">
