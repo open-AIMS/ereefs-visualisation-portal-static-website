@@ -9,7 +9,7 @@ website:
   favicon: images/ereefs_aims_favicon.png
   search: true
   navbar:
-    title: "eReefs"
+    title: "eReefs Visualisations"
     logo: https://www.ereefs.org.au/assets/images/logos/ereefs_logo.svg
     background: light
     pinned: false
