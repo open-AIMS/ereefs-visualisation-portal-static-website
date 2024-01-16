@@ -90,14 +90,6 @@
     line-height: 0;
 }
 
-.ncanimate2_block .video-container .video-warning {
-    line-height: normal;
-}
-.ncanimate2_block .video-container .video-warning .warning-label {
-    color: #990000;
-    font-weight: bold;
-}
-
 .ncanimate2_block .playerTools {
     display: flex;
     justify-content: space-between;
