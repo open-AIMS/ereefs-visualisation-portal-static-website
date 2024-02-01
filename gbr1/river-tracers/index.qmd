@@ -10,6 +10,7 @@ params:
 ---
 
 {{< include ../../includes/_visualisation.qmd >}}
+{{< include ../../includes/_cyclone_jasper.qmd >}}
 
 This product shows flood plumes associated with the major rivers along the
 Queensland coastline flowing into the Great Barrier Reef Marine Park. These
