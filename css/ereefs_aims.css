@@ -212,7 +212,7 @@ nav#visualisation-portal-nav-bar #block-menu-menu-menu-ereefs-aims .eatlas-respo
 
 /* Page header (except front page) */
 .banner {
-	background-image: url('./../images/banner.jpg');
+	background-image: url('./../images/banner_DJI_0568_colour-enhanced_cropped.jpg'); /* Photo taken by Eric Lawrey using DJI Mini 2 drone at Geoffrey Bay on 2023-08-01 at 2:25 pm on a 0.2 m LAT tide. */
 	background-size: cover;
 	height: 12vh;
 }
