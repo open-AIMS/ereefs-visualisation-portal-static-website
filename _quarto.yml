@@ -2,7 +2,7 @@ project:
   type: website
   resources:
     - "images/front-page-crop1.jpg"
-    - "images/banner.jpg"
+    - "images/banner_DJI_0568_colour-enhanced_cropped.jpg"
 
 website:
   title: "AIMS eReefs Visualisation Portal"
