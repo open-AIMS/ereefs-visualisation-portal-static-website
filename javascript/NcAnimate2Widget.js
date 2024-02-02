@@ -418,19 +418,20 @@ EAtlasNcAnimate2Widget.prototype.loadMedia = function(framePeriod, elevation, re
 
                         var width = videos_metadata["MP4"]["width"];
                         var height = videos_metadata["MP4"]["height"];
-                        if (width && height) {
-                            if (height > EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT) {
-                                width = Math.round(width * EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT / height);
-                                height = EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT;
-                            }
+                        // // This forces a width instead of allowing the css to fit to the available space
+                        // if (width && height) {
+                        //     if (height > EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT) {
+                        //         width = Math.round(width * EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT / height);
+                        //         height = EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT;
+                        //     }
 
-                            // The video preview will be loaded in the image container (it's easier to catch events on an img tag)
-                            this.imageContainerImg.width(width);
-                            this.imageContainerImg.height(height);
+                        //     // The video preview will be loaded in the image container (it's easier to catch events on an img tag)
+                        //     this.imageContainerImg.width(width);
+                        //     this.imageContainerImg.height(height);
 
-                            this.videoContainerVideo.attr('width', width);
-                            this.videoContainerVideo.attr('height', height);
-                        }
+                        //     this.videoContainerVideo.attr('width', width);
+                        //     this.videoContainerVideo.attr('height', height);
+                        // }
 
                         if (videoPreview) {
                             // Set video preview image (poster)
@@ -490,15 +491,16 @@ EAtlasNcAnimate2Widget.prototype.loadMedia = function(framePeriod, elevation, re
 
                     var width = images_metadata["PNG"]["width"];
                     var height = images_metadata["PNG"]["height"];
-                    if (width && height) {
-                        if (height > EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT) {
-                            width = Math.round(width * EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT / height);
-                            height = EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT;
-                        }
+                    // // This forces a width instead of allowing the css to fit to the available space
+                    // if (width && height) {
+                    //     if (height > EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT) {
+                    //         width = Math.round(width * EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT / height);
+                    //         height = EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT;
+                    //     }
 
-                        this.imageContainerImg.width(width);
-                        this.imageContainerImg.height(height);
-                    }
+                    //     this.imageContainerImg.width(width);
+                    //     this.imageContainerImg.height(height);
+                    // }
 
                     this.imageContainerImg.attr('src', imageUrl);
                     // Wait a 1/10 of a second before checking if the image is loaded.
