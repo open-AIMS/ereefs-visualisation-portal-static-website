@@ -4112,8 +4112,8 @@ EAtlasNcAnimate2Widget.prototype.load = function () {
 
   // var meta_url = "/" + blockName + ".json";
   var meta_url =
-    // "https://api.ereefs.aims.gov.au/metadata/NCANIMATE_PRODUCT/" +
-    "https://api.test.ereefs.aims.gov.au/metadata/NCANIMATE_PRODUCT/" +
+    "https://api.ereefs.aims.gov.au/metadata/NCANIMATE_PRODUCT/" +
+    // "https://api.test.ereefs.aims.gov.au/metadata/NCANIMATE_PRODUCT/" +
     productId;
 
   // console.log("meta_url = ", meta_url);
