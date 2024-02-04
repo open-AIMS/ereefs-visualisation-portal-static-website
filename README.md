@@ -26,6 +26,8 @@ Publishing with GitHub Actions set up initially according to [the quarto documen
 
 The publishing process includes a post render script to minify the javascript files. See the `./.github/workflows/publish.yml` for details.
 
+For some reason this is not displaying css correctly. Publishing manually may be required.
+
 ## Styling
 
 Several eReefs websites exist, which are linked to in the drop down menu of this website. This website has been styled with the [Flatly](https://bootswatch.com/flatly/) theme, modified to align with the CSIRO website as it is likely the one most difficult to change.
