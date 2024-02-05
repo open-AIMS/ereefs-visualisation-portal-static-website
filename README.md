@@ -2,7 +2,8 @@
 
 ## Setup
 
-- Install [Quarto](https://quarto.org/docs/get-started/)
+- Install [Quarto v1.4.388](https://github.com/quarto-dev/quarto-cli/releases/download/v1.4.388/quarto-1.4.388-linux-amd64.deb)
+  - For some reason latest version of quarto doesn't display the css as expected.
 - run `quarto preview` and confirm the website displays as expected.
 - create and activate virtual env with python 3.9
 - `pip install -r requirements.txt`
@@ -26,7 +27,7 @@ Publishing with GitHub Actions set up initially according to [the quarto documen
 
 The publishing process includes a post render script to minify the javascript files. See the `./.github/workflows/publish.yml` for details.
 
-For some reason this is not displaying css correctly. Publishing manually may be required.
+The GitHub Actions deployment file [./.github/workflows/deploy.yml](./.github/workflows/deploy.yml) specifies quarto version 1.4.388 as this verison produces rendering as expected.
 
 ## Styling
 
