@@ -150,7 +150,8 @@ select, option {
     display: block;
 }
 .image-container img {
-    width: 100%;
+    width: auto;
+    max-height: 1000px;
 }
 
 /* so that the product tile lists don't look so cramped */
