@@ -3451,7 +3451,7 @@ EAtlasNcAnimate2Widget.prototype.showVideoContainer = function (message) {
   this.imageContainer.hide();
   this.videoContainer.show();
 
-  eatlas_ncanimate2_resize_videos(this.videoContainerVideo);
+  // eatlas_ncanimate2_resize_videos(this.videoContainerVideo);
 };
 
 /**
@@ -4741,12 +4741,12 @@ EAtlasNcAnimate2Widget.prototype.endsWith = function (str, suffix) {
   return str.indexOf(suffix, str.length - suffix.length) !== -1;
 };
 
-(function ($) {
-  // Adjust the video size when the page is resized
-  $(window).resize(function () {
-    eatlas_ncanimate2_resize_videos($(".video-container video"));
-  });
-})(jQuery);
+// (function ($) {
+//   // Adjust the video size when the page is resized
+//   $(window).resize(function () {
+//     eatlas_ncanimate2_resize_videos($(".video-container video"));
+//   });
+// })(jQuery);
 // Class
 function EAtlasNcAnimate2Map(htmlBlockElement, videoSelector) {
   this.blk = htmlBlockElement;
