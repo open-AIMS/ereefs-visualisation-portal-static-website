@@ -59,8 +59,8 @@
 
 .ncanimate2_block .message-container,
 .ncanimate2_block .no-video-support-message {
-    width: 1300px;
-    height: 600px;
+    width: 100%;
+    height: auto;
     line-height: 600px;
 
     background-color: #F8F8F8;

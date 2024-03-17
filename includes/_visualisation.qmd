@@ -17,7 +17,7 @@
         <img src="">
     </div>
     <div class="video-container" style="text-align: center; display: none;">
-        <video width="1300" height="600" controls="">
+        <video controls="">
             <source class="video_mp4" src="" type="video/mp4">
             <div class="no-video-support-message">
                 <span class="text">Your browser does not support the video tag.</span>
