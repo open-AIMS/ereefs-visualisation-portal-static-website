@@ -2,10 +2,10 @@
 
 ## Setup
 
-- Install [Quarto v1.4.388](https://github.com/quarto-dev/quarto-cli/releases/download/v1.4.388/quarto-1.4.388-linux-amd64.deb)
+- Install [Quarto v1.4.388](https://github.com/quarto-dev/quarto-cli/releases)
   - For some reason latest version of quarto doesn't display the css as expected.
-  - `wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.4.388/quarto-1.4.388-linux-amd64.deb`
-  - `sudo dpkg -i quarto-1.4.388-linux-amd64.deb`
+  - `wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.4.551/quarto-1.4.551-linux-amd64.deb`
+  - `sudo dpkg -i quarto-1.4.551-linux-amd64.deb`
 - run `quarto preview` and confirm the website displays as expected.
 - create and activate virtual env with python 3.9
 - `pip install -r requirements.txt`
