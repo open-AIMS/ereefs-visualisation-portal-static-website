@@ -35,28 +35,28 @@
   max-width: 1220px;
 }
 
-.navbar-dark .navbar-brand {
+[data-bs-theme="dark"] .navbar-brand {
   color: white;
   margin-right: 8px;
 }
 
-.navbar-dark .navbar-nav .nav-link {
+[data-bs-theme="dark"] .navbar-nav .nav-link {
   color: white;
 }
 
-.navbar-dark:hover .navbar-brand:hover {
+[data-bs-theme="dark"]:hover .navbar-brand:hover {
   color: white;
 }
 
-.navbar-dark:hover .navbar-nav:hover .nav-link:hover {
+[data-bs-theme="dark"]:hover .navbar-nav:hover .nav-link:hover {
   color: #55A6D9;
 }
 
-.navbar-dark:focus .navbar-brand:focus {
+[data-bs-theme="dark"]:focus .navbar-brand:focus {
   color: white;
 }
 
-.navbar-dark .navbar-nav .nav-link:focus {
+[data-bs-theme="dark"] .navbar-nav .nav-link:focus {
   color: white;
 }
 
@@ -186,8 +186,7 @@ body {
   color: #0f528c;
 }
 
+/* to fix the bug that makes the bottom of the sidebar off the screen */
 nav#quarto-sidebar {
   max-height: 100% !important;
 }
-/*
-*/
