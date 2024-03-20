@@ -98,7 +98,7 @@ the processing workflow and for presenting of the thousands of products
 on the website.
 
 ![AIMS eReefs platform overview
-<br>[![CC BY SA](../../images/cc.png){.cc width="15" height="15"}](http://creativecommons.org/licenses/by-sa/3.0/au/) by [AIMS](//eatlas.org.au/node/2)](images/AIMS-eReefs-platform-overview.png)
+<br>[![CC BY SA](images/cc.png){.cc width="15" height="15"}](http://creativecommons.org/licenses/by-sa/3.0/au/) by [AIMS](//eatlas.org.au/node/2)](images/AIMS-eReefs-platform-overview.png)
 
 
 :::{.figure-caption}
