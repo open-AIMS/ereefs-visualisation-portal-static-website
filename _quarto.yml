@@ -33,9 +33,9 @@ website:
           - href: help/index.qmd
             text: Visualisation Portal Help
           - href: https://open-aims.github.io/ereefs-tutorials/
-            text: Tutorials ![External Link](/images/External_link_font_awesome.svg){.external-link}
+            text: Tutorials
           - href: https://extraction.ereefs.aims.gov.au/faqs
-            text: Data Extraction FAQs ![External Link](/images/External_link_font_awesome.svg){.external-link}
+            text: Data Extraction FAQs
   page-footer:
     background: primary
     center:
@@ -43,10 +43,10 @@ website:
         href: https://www.ereefs.org.au/about/collaborators.html
       - text: Funders
         href: https://www.ereefs.org.au/about/funders.html
-      - text: Privacy Policy![External Link](/images/External_link_font_awesome.svg){.external-link}
+      - text: Privacy Policy
         href: https://www.csiro.au/en/About/Access-to-information/Privacy
-      - text: Legal & Disclaimer![External Link](/images/External_link_font_awesome.svg){.external-link}
-        href: https://www.csiro.au/en/About/Footer/Legal-notice
+      - text: Legal & Disclaimer
+        href: https://www.csiro.au/en/about/Policies/Legal/Legal-notice
   sidebar:
     style: "floating"
     search: true
