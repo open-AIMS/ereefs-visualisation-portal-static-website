@@ -18,7 +18,7 @@ website:
         text: Home
       - text: About
         menu:
-          - href: https://www.ereefs.org.au/research/
+          - href: https://www.ereefs.org.au/about/
             text: About eReefs
           - href: about.qmd
             text: About AIMS eReefs
