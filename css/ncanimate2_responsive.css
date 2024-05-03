@@ -1,0 +1,29 @@
+@media screen and (max-width: 900px) {
+    /* Fix controls layout */
+    .ncanimate2_block .controls {
+        display: block;
+    }
+
+    .ncanimate2_block .controls .regions,
+    .ncanimate2_block .controls .elevation,
+    .ncanimate2_block .controls .calendar {
+        display: block;
+        width: auto;
+    }
+
+    .ncanimate2_block .controls .elevation {
+        text-align: left;
+    }
+
+    .ncanimate2_block table.date-selector {
+        margin-left: 0;
+    }
+
+
+    /* Tabs */
+
+    .ncanimate2_block .tabs ul li a {
+        width: 100px;
+    }
+
+}

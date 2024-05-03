@@ -9,8 +9,14 @@ body main img {
 }
 
 .navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar {
   height: auto; /* Makes the navbar adjust to its content size */
-  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-family: Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  background-color: #0F528C;
 }
 
 .navbar > .container-fluid {
@@ -25,27 +31,61 @@ body main img {
 .navbar-brand img {
   height: 100%; /* Makes the logo take the full height of the navbar */
   max-height: 50px;
-}
-
-/* making a gap between the logo and the title in the header */
-.navbar .navbar-brand-logo {
-  margin-right: 1em;
-}
-.ncanimate-products {
-  justify-content: center
-}
-
-.navbar-brand-container {
-  font-weight: 500;
+  width: 50px;
+  padding-right: 0;
 }
 
 .navbar-brand {
-  font-weight: 500;
+  font-size: 24px;
 }
 
 .navbar-container {
   max-width: 1220px;
 }
+
+[data-bs-theme="dark"] .navbar-brand {
+  color: white;
+  margin-right: 8px;
+}
+
+[data-bs-theme="dark"] .navbar-nav .nav-link {
+  color: white;
+}
+
+[data-bs-theme="dark"]:hover .navbar-brand:hover {
+  color: white;
+}
+
+[data-bs-theme="dark"]:hover .navbar-nav:hover .nav-link:hover {
+  color: #55A6D9;
+}
+
+[data-bs-theme="dark"]:focus .navbar-brand:focus {
+  color: white;
+}
+
+[data-bs-theme="dark"] .navbar-nav .nav-link:focus {
+  color: white;
+}
+
+.navbar .dropdown-item { 
+  color: white;
+}
+
+.navbar .dropdown-item:hover { 
+  background-color: #0F528C;
+  color: #55A6D9;
+}
+
+/* external link icons */
+.external-link {
+  height: 1em;
+}
+
+/* search icon */
+.navbar #quarto-search.type-overlay .aa-Autocomplete svg.aa-SubmitIcon {
+  color: white;
+};
 
 .me-auto {
   margin-left: auto !important; /* align menu items to the right */
@@ -53,48 +93,111 @@ body main img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", "Open Sans", sans-serif;
-  font-weight: 400;
-}
-
-h1 {
-  font-weight: 500;
+  font-family: "Open Sans Condensed", "Open Sans", sans-serif;
+  color: #212529
 }
 
 select, option {
-  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-family: Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
-/* Make the current menu item more obvious */
 .navbar-nav .nav-link.active {
-    font-weight: 500;
+    color: white;
+}
+
+.dropdown-menu {
+  background-color: #0F528C;
 }
 
 /* ----- footer ----- */
-.nav-footer .nav-footer-center {
-  display: none;
+.nav-footer {
+  color: white;
 }
 
-/* making the footer logos separated */
+.nav-footer a {
+  color: white;
+}
+
+.nav-footer a:hover {
+  color: white;
+}
+
 .nav-footer img {
-  margin: 1em;
+  padding-left: 0.5em
 }
 
-/* trying to make the navbar static
-.headroom--pinned,
-.headroom--unpinned,
-.headroom--top,
-.headroom--not-top {
-  position: block !important;
-} 
-*/
+.nav-footer-center .footer-items .nav-link {
+  padding-left: 1em;
+  padding-right: 1em
+}
 
-/* make the video 100% width */
+.nav-footer-left, .nav-footer-right {
+  display: none
+}
+
+/* Stack items vertically on small screens */
+@media screen and (max-width: 530px) {
+    .nav-footer .nav-footer-center .footer-items {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* make the visualisaions 100% width */
 .video-container {
     width: 100%;
     text-align: center;
     display: block;
 }
 .video-container video {
+    width: auto;
+    max-width: 100%;
+    max-height: 1000px;
+}
+.image-container {
     width: 100%;
+    text-align: center;
+    display: block;
+}
+.image-container img {
+    width: auto;
+    max-width: 100%;
+    max-height: 1000px;
+}
+
+/* so that the product tile lists don't look so cramped */
+.ncanimate-product-tile li {
+  margin-bottom: 0.2em;
+}
+
+body {
+  font-family: Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+/* sidebar */
+.sidebar-menu-container {
+  font-family: Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  opacity: 0.8
+  /* TODO: size */
+}
+
+.sidebar-item .text-start {
+  font-family: "Open Sans Condensed", "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #0f528c;
+  border-bottom: 1px solid #cecfd1;
+}
+
+.sidebar-menu-container:hover {
+  opacity: 1;
+}
+
+.sidebar-item:hover a:hover {
+  color: #0f528c;
+}
+
+/* to fix the bug that makes the bottom of the sidebar off the screen */
+nav#quarto-sidebar {
+  max-height: 100% !important;
 }

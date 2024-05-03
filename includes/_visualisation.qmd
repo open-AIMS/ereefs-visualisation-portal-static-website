@@ -5,7 +5,7 @@
 ::: {.content}
 
 ```{=html}
-<div class="eatlas_ncanimate2_block" productid="{{< meta params.product-id >}}" blockname="{{< meta params.block-name >}}">
+<div class="ncanimate2_block" productid="{{< meta params.product-id >}}" blockname="{{< meta params.block-name >}}">
     <div class="tabs">
         <span class="label">Time step:</span>
         <ul></ul>
@@ -17,15 +17,12 @@
         <img src="">
     </div>
     <div class="video-container" style="text-align: center; display: none;">
-        <video width="1219" height="600" controls="">
+        <video controls="">
             <source class="video_mp4" src="" type="video/mp4">
             <div class="no-video-support-message">
                 <span class="text">Your browser does not support the video tag.</span>
             </div>
         </video>
-        <div class="video-warning">
-            <span class="warning-label">WARNING</span>: This video may contain flashing patterns which may not be suitable for people with photosensitive epilepsy.
-        </div>
     </div>
     <div class="playerTools">
         <div class="navigationBlock">

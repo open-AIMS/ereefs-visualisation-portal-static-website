@@ -5,6 +5,6 @@ execute:
   warning: false
 ---
 
-We have a dedicated page for eReefs tutorials relate to R and Python. See [https://open-aims.github.io/ereefs-tutorials/]() for more information.
+We have a dedicated page for eReefs tutorials relate to R and Python. See [https://open-aims.github.io/ereefs-tutorials/](https://open-aims.github.io/ereefs-tutorials/) for more information.
 
 The [Basic access to the AIMS eReefs Server with R](https://open-aims.github.io/ereefs-tutorials/tutorials/r/access-ereefs-data-server/basic-server-access/basic_server_access_r.html) tutorial is most relevant to plotting data with R.

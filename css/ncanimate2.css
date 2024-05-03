@@ -1,4 +1,4 @@
-.eatlas_ncanimate2_block a:focus {
+.ncanimate2_block a:focus {
     /* TODO: Add a "focus" background colour to the "theme" for accessibility - choose a better colour */
     /*
     background: #CCCCFF;
@@ -14,11 +14,11 @@
 }
 
 
-.eatlas_ncanimate2_block {
+.ncanimate2_block {
     overflow: auto;
 }
 
-.eatlas_ncanimate2_block .text-selection-disabled {
+.ncanimate2_block .text-selection-disabled {
     -ms-user-select: none; /* IE 10+ */
     -moz-user-select: -moz-none;
     -khtml-user-select: none;
@@ -26,41 +26,41 @@
     user-select: none;
 }
 
-.eatlas_ncanimate2_block table.date-selector {
+.ncanimate2_block table.date-selector {
     margin-left: auto;
     border-collapse: collapse;
 }
 
-.eatlas_ncanimate2_block table.date-selector th,
-.eatlas_ncanimate2_block table.date-selector td {
+.ncanimate2_block table.date-selector th,
+.ncanimate2_block table.date-selector td {
     border: solid 1px #000000;
     text-align: center;
     padding: 5px 10px;
     width: 3em;
 }
-.eatlas_ncanimate2_block table.date-selector td,
-.eatlas_ncanimate2_block table.date-selector th {
+.ncanimate2_block table.date-selector td,
+.ncanimate2_block table.date-selector th {
     color: #999999;
 }
-.eatlas_ncanimate2_block table.date-selector .selectable {
+.ncanimate2_block table.date-selector .selectable {
     color: #000000;
     cursor: pointer;
     font-weight: bold;
 }
-.eatlas_ncanimate2_block table.date-selector .year {
+.ncanimate2_block table.date-selector .year {
     color: #113a5f;
 }
 
-.eatlas_ncanimate2_block .regionList .selected,
-.eatlas_ncanimate2_block table.date-selector .selected {
+.ncanimate2_block .regionList .selected,
+.ncanimate2_block table.date-selector .selected {
     font-weight: bold;
     background-color: #CCCCFF;
 }
 
-.eatlas_ncanimate2_block .message-container,
-.eatlas_ncanimate2_block .no-video-support-message {
-    width: 1300px;
-    height: 600px;
+.ncanimate2_block .message-container,
+.ncanimate2_block .no-video-support-message {
+    width: 100%;
+    height: auto;
     line-height: 600px;
 
     background-color: #F8F8F8;
@@ -70,8 +70,8 @@
     margin: auto;
 }
 
-.eatlas_ncanimate2_block .message-container .text,
-.eatlas_ncanimate2_block .no-video-support-message .text {
+.ncanimate2_block .message-container .text,
+.ncanimate2_block .no-video-support-message .text {
     font-size: 2em;
     font-weight: bold;
 
@@ -80,48 +80,40 @@
     line-height: normal;
 }
 
-.eatlas_ncanimate2_block .message-container .text .details {
+.ncanimate2_block .message-container .text .details {
     font-size: 0.5em;
 }
 
-.eatlas_ncanimate2_block .video-container,
-.eatlas_ncanimate2_block .image-container {
+.ncanimate2_block .video-container,
+.ncanimate2_block .image-container {
     /* Fix issue with container larger then expected */
     line-height: 0;
 }
 
-.eatlas_ncanimate2_block .video-container .video-warning {
-    line-height: normal;
-}
-.eatlas_ncanimate2_block .video-container .video-warning .warning-label {
-    color: #990000;
-    font-weight: bold;
-}
-
-.eatlas_ncanimate2_block .playerTools {
+.ncanimate2_block .playerTools {
     display: flex;
     justify-content: space-between;
     margin-top: 1em;
 }
 
-.eatlas_ncanimate2_block .playerTools span.label::after {
+.ncanimate2_block .playerTools span.label::after {
     content: ":";
 }
 
-.eatlas_ncanimate2_block .navigation button {
+.ncanimate2_block .navigation button {
     margin: 0 0.5em;
 }
 
-.eatlas_ncanimate2_block .downloads {
+.ncanimate2_block .downloads {
     text-align: right;
 }
-.eatlas_ncanimate2_block .downloads ul {
+.ncanimate2_block .downloads ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
     display: inline-block;
 }
-.eatlas_ncanimate2_block .downloads ul li {
+.ncanimate2_block .downloads ul li {
     display: inline-block;
     margin-left: 0.5em;
     padding: 0 5px 1px 5px;
@@ -132,7 +124,7 @@
     -moz-border-radius: 3px;
     border-radius: 3px;
 }
-.eatlas_ncanimate2_block .downloads ul li a {
+.ncanimate2_block .downloads ul li a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
@@ -140,101 +132,101 @@
     color: #FFFFFF;
     cursor: pointer;
 }
-.eatlas_ncanimate2_block .downloads ul li.mp4 {
+.ncanimate2_block .downloads ul li.mp4 {
     background-color: #0000FF;
 }
-.eatlas_ncanimate2_block .downloads ul li.wmv {
+.ncanimate2_block .downloads ul li.wmv {
     background-color: #006666;
 }
-.eatlas_ncanimate2_block .downloads ul li.zip {
+.ncanimate2_block .downloads ul li.zip {
     background-color: #CC0000;
 }
-.eatlas_ncanimate2_block .downloads ul li.svg {
+.ncanimate2_block .downloads ul li.svg {
     background-color: #666600;
 }
-.eatlas_ncanimate2_block .downloads ul li.png {
+.ncanimate2_block .downloads ul li.png {
     background-color: #006600;
 }
-.eatlas_ncanimate2_block .downloads ul li.pdf {
+.ncanimate2_block .downloads ul li.pdf {
     background-color: #CC0000;
 }
-.eatlas_ncanimate2_block .downloads ul li.frame {
+.ncanimate2_block .downloads ul li.frame {
     background-color: #006600; /* Same colour as PNG, since it's a PNG file */
 }
 
 /* NOTE: "display:flex" would be more appropriate, but IE don't support it. */
-.eatlas_ncanimate2_block .controls {
+.ncanimate2_block .controls {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     margin-top: 1em;
 }
 
-.eatlas_ncanimate2_block .controls .regionList {
+.ncanimate2_block .controls .regionList {
     flex-grow: 1;
 }
-.eatlas_ncanimate2_block .controls .regionList .regionScaleGroup {
+.ncanimate2_block .controls .regionList .regionScaleGroup {
     float: left;
     min-width: 120px;
 }
 
-.eatlas_ncanimate2_block .controls .regionList .region-scale-label {
+.ncanimate2_block .controls .regionList .region-scale-label {
     margin-top: 0.5em;
     font-weight: bold;
 }
 
-.eatlas_ncanimate2_block .controls .regionList ul {
+.ncanimate2_block .controls .regionList ul {
     padding: 0 0 0 1em;
     margin: 0.5em 1em 0.5em 0;
 }
 
-.eatlas_ncanimate2_block .controls .calendar {
+.ncanimate2_block .controls .calendar {
     clear: left;
 }
 
-.eatlas_ncanimate2_block .playerTools .elevation {
+.ncanimate2_block .playerTools .elevation {
     text-align: center;
 }
 
-.eatlas_ncanimate2_block .playerTools .elevation label {
+.ncanimate2_block .playerTools .elevation label {
     display: inline;
 }
 
 
 /* Tabs */
 
-.eatlas_ncanimate2_block .tabs {
+.ncanimate2_block .tabs {
     text-align: left;
     background-color: #EEEEEE;
 }
 
-.eatlas_ncanimate2_block .tabs .label {
+.ncanimate2_block .tabs .label {
     padding: 0 0.5em;
     vertical-align: middle;
 }
-.eatlas_ncanimate2_block .tabs ul li .tabLabel {
+.ncanimate2_block .tabs ul li .tabLabel {
     /* vertical-align: middle; */
 }
 
-.eatlas_ncanimate2_block .tabs ul {
+.ncanimate2_block .tabs ul {
     display: inline-block;
     list-style-type: none;
     margin: 0;
     padding: 3px 3px 0 3px;
 }
 
-.eatlas_ncanimate2_block .tabs ul li {
+.ncanimate2_block .tabs ul li {
     display: inline-block;
 }
-.eatlas_ncanimate2_block .tabs ul li:hover {
+.ncanimate2_block .tabs ul li:hover {
     background-color: #DDDDDD;
 }
 
-.eatlas_ncanimate2_block .tabs ul li a span {
+.ncanimate2_block .tabs ul li a span {
   margin-right: 0.5em;
 }
   
-.eatlas_ncanimate2_block .tabs ul li a {
+.ncanimate2_block .tabs ul li a {
     /* display: inline-block; */ /* for some reason text-align: left doesn't work with this disabled*/
     text-align: left;
     width: 120px;
@@ -242,7 +234,7 @@
     text-decoration: none;
 }
 
-.eatlas_ncanimate2_block .tabs ul li .icon {
+.ncanimate2_block .tabs ul li .icon {
     float: left;
     display: block;
     width: 23px;
@@ -253,24 +245,14 @@
     opacity: 0.2;
 }
 
-.eatlas_ncanimate2_block .tabs ul li.images .icon {
+.ncanimate2_block .tabs ul li.images .icon {
     background-image: url('../images/icon-image.svg');
 }
 
-.eatlas_ncanimate2_block .tabs ul li.videos .icon {
+.ncanimate2_block .tabs ul li.videos .icon {
     background-image: url('../images/icon-video.svg');
 }
 
-.eatlas_ncanimate2_block .tabs ul li.active {
+.ncanimate2_block .tabs ul li.active {
     background-color: #FFFFFF;
 }
-
-
-/* Admin interface */
-
-/* Add some space between "actions" (edit, delete) */
-.eatlas_ncanimate2_video-selector-spacer {
-    display: inline-block;
-    width: 2em;
-}
-

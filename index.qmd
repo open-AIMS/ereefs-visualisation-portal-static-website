@@ -1,13 +1,11 @@
 ---
-title: "AIMS eReefs"
+title: "eReefs AIMS Visualisation Portal"
 format:
   html:
     include-in-header:
       - text: <link rel="stylesheet" href="css/large_image_header.css">
       - includes/_explore_the_reef_through_time_banner.html
 ---
-
-# eReefs AIMS Visualisation Portal
 
 In this portal you will find a range of visualisations of the eReefs
 Hydrodynamic and BioGeoChemical models of the Great Barrier Reef. These models
@@ -23,7 +21,7 @@ This site provides both direct visualisations of the outputs of the eReefs
 Hydrodynamic and BioGeoChemical models and aggregations of the hourly and daily
 data to longer time periods (monthly and annual).
 
-# eReefs CSIRO Hydrodynamic Model
+## eReefs CSIRO Hydrodynamic Model
 
 The [eReefs hydrodynamic model](https://research.csiro.au/ereefs/models/models-about/models-hydrodynamics/) predicts the movement of water and key
 environmental conditions (temperature, salinity, currents, tides). This model
@@ -43,10 +41,10 @@ Note: The eReefs models are currently not being run in near-real time by CSIRO
 as a result this site only shows the back catalogue up to mid 2020. Near
 realtime results are expected to be back in operation by the end of 2020.
 
-::: {.ncanimate-products}
+::: {.ncanimate-products .column-screen-right}
 ::: {.ncanimate-product-tile}
-## 4 km model (Sept 2010 - present)
-### Water movement and physical characteristics
+### 4 km model (Sept 2010 - present)
+#### Water movement and physical characteristics
 ![](/images/AIMS-JL009front007-500x250.jpg){fig-alt="Waves break on the front reef creating a tough environment for corals to grow. Note the large encrusting soft coral below the breaking wave." fig-align="center"}
 
 - [Temperature, wind, salinity and current](./gbr4/temp-wind-salt-current/index.qmd)
@@ -57,8 +55,8 @@ realtime results are expected to be back in operation by the end of 2020.
 :::
 
 ::: {.ncanimate-product-tile}
-## 1 km model (Dec 2014 - present)
-### Water movement and physical characteristics
+### 1 km model (Dec 2014 - present)
+#### Water movement and physical characteristics
 ![](/images/AIMS-JL009front007-500x250.jpg){fig-alt="Waves break on the front reef creating a tough environment for corals to grow. Note the large encrusting soft coral below the breaking wave." fig-align="center"}
 
 - [Temperature, wind, salinity and current](./gbr1/temp-wind-salt-current)
@@ -72,7 +70,7 @@ realtime results are expected to be back in operation by the end of 2020.
 :::
 :::
 
-# eReefs CSIRO BioGeoChemical model (4&nbsp;km)
+## eReefs CSIRO BioGeoChemical model (4&nbsp;km)
 
 The [GBR4 BioGeoChemical (GBR) model](https://research.csiro.au/ereefs/models/models-about/models-biogeochemistry/) builds on the GBR4 hydrodynamic model by
 modelling the water quality (nutrients and [suspended sediment](https://research.csiro.au/ereefs/models/models-about/models-sediment-transport/)) and key
@@ -105,14 +103,14 @@ should be taken to ensure the model is fit-for-purpose and in general BGC
 results should used in combination with second sources of information for
 making recommendations.
 
-::: {.ncanimate-products}
+::: {.ncanimate-products .column-screen-right}
 ::: {.ncanimate-product-tile}
-## Water chemistry
+### Water chemistry
 ![](/images/Blue_Soda_bubbles_macro-500x250.jpg){fig-alt="Bubles suspended in water" fig-align="center"}
 
 - [Total alkalinity, PH & Aragonite saturation state](./gbr4/bgc/baseline/alk_ph_omega-ar)
 - [Dissolved inorganic nitrogen, nitrate & ammonia](./gbr4/bgc/baseline/din_no3_nh4)
-- [Dissolved Oxygen & oxygen saturation percentage](./gbr4/bgc/baseline/oxygen_oxy-sat)
+- [Dissolved oxygen & oxygen saturation percentage](./gbr4/bgc/baseline/oxygen_oxy-sat)
 - [Dissolved Inorganic (Carbon, Nitrogen & Phosphorus)](./gbr4/bgc/baseline/din_dip_dic)
 - [Dissolved Organic (Carbon, Nitrogen & Phosphorus)](./gbr4/bgc/baseline/dor-c_dor-n_dor-p)
 - [Particulate inorganic phosphorus & particulate inorganic](./gbr4/bgc/baseline/pip_pip-sed)
@@ -120,7 +118,7 @@ making recommendations.
 :::
 
 ::: {.ncanimate-product-tile}
-## Water Quality Measures
+### Water quality measures
 ![](/images/middles3-229-500x250.jpg){fig-alt="A turbid seascape" fig-align="center"}
 
 - [Total chlorophyll, dissolved inorganic nitrogen & total suspended solids](./gbr4/bgc/baseline/chl-a-sum_din_efi)
@@ -130,7 +128,7 @@ making recommendations.
 :::
 
 ::: {.ncanimate-product-tile}
-## Macroalgae, seagrass and coral
+### Macroalgae, seagrass and coral
 ![](/images/AIMS-Coral-IMG_0362-500x250.jpg){fig-alt="A colony of hard corals" fig-align="center"}
 
 - [Coral symbiont (nitrogen & chlorophyll) & coral host nitrogen](./gbr4/bgc/baseline/cs-n_cs-chl_ch-n)
@@ -150,7 +148,7 @@ making recommendations.
 
 :::
 
-### Refereneces
+#### Refereneces
 
 Skerratt, J, Mongin, M, Baird, M, Wild-Allen, K, Robson, B, Schaffelke, B,
 Davies, C, Richardson, A, Margvelashvili, N, Soja-Wozniak, M, and Steven, A,

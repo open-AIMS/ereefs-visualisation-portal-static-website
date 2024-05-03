@@ -2,32 +2,32 @@ project:
   type: website
   resources:
     - "images/front-page-crop1.jpg"
-    - "images/banner.jpg"
+    - "images/banner_DJI_0568_colour-enhanced_cropped.jpg"
 
 website:
   title: "AIMS eReefs Visualisation Portal"
   favicon: images/ereefs_aims_favicon.png
   search: true
   navbar:
-    title: "AIMS eReefs Visualisation Portal"
-    logo: images/ereefs_logo.png
+    title: "eReefs Visualisations"
+    logo: https://www.ereefs.org.au/assets/images/logos/ereefs_logo.svg
     background: light
     pinned: false
-    left:
-      - text: eReefs Websites
+    right:
+      - href: https://www.ereefs.org.au/
+        text: Home
+      - text: About
         menu:
-          - href: https://www.ereefs.org.au/
-            text: Project Overview
-          - href: https://research.csiro.au/ereefs/
-            text: CSIRO Research Portal
-          - href: http://www.bom.gov.au/environment/activities/reeftemp/reeftemp.shtml
-            text: ReefTemp
-          - href: https://portal.ereefs.info/
-            text: Interactive Data Portal
-      - href: index.qmd
-        text: Visualisation Portal
-      - href: https://extraction.ereefs.aims.gov.au/?_gl=1*1ag9zj1*_ga*OTM5OTM3MTMzLjE2NjczNTcwNzg.*_ga_6SSTNBNHXG*MTY5MTk2OTEyOC4yNy4wLjE2OTE5NjkxMjguMC4wLjA.
-        text: Data Extraction
+          - href: https://www.ereefs.org.au/about/
+            text: About eReefs
+          - href: about.qmd
+            text: About AIMS eReefs
+      - href: https://www.ereefs.org.au/research/
+        text: Research
+      - href: https://www.ereefs.org.au/tools/
+        text: Tools
+      - href: https://www.ereefs.org.au/contact/
+        text: Contact
       - text: Help
         menu:
           - href: help/index.qmd
@@ -36,41 +36,109 @@ website:
             text: Tutorials
           - href: https://extraction.ereefs.aims.gov.au/faqs
             text: Data Extraction FAQs
-      - href: about.qmd
-        text: About
   page-footer:
     background: primary
-    left: |
-      Collaborators
-      <br>[![](/images/logos/AIMS-210x49.png){fig-alt="AIMS"}](https://aims.gov.au/)
-      [![](/images/logos/CSIRO-60x60.png){fig-alt="CSIRO"}](https://www.csiro.au/){style="height: 49px;"}
-      [![](/images/logos/BoM-210x51.png){fig-alt="Bureau of Meteorology"}](http://www.bom.gov.au/){style="height: 49px;"}
-    right: |
-      Funders
-      <br>[![](/images/logos/dcceew_logo.svg){fig-alt="Department of Climate Change, Energy, the Environment and Water" style="height: 49px;"}](https://www.dcceew.gov.au/)
-      [![](/images/logos/GBRF_1-210x66.png){fig-alt="Great Barrier Reef Foundation" style="height: 49px;"}](https://www.barrierreef.org/)
-      [![](/images/logos/QLD-Gov-64x80.png){fig-alt="Queensland Government" style="height: 49px;"}](https://www.qld.gov.au/)
-      [![](/images/logos/SIEF-110x66.png){fig-alt="Science and Industry Endowment Fund" style="height: 49px;"}](https://sief.org.au/)
-
+    center:
+      - text: Collaborators
+        href: https://www.ereefs.org.au/about/collaborators.html
+      - text: Funders
+        href: https://www.ereefs.org.au/about/funders.html
+      - text: Privacy Policy
+        href: https://www.csiro.au/en/About/Access-to-information/Privacy
+      - text: Legal & Disclaimer
+        href: https://www.csiro.au/en/about/Policies/Legal/Legal-notice
+  sidebar:
+    style: "floating"
+    search: true
+    pinned: true
+    collapse-level: 3
+    contents:
+      - section: "Products"
+        contents:
+          - section: "Hydrodynamic Model"
+            contents:
+              - section: "GBR1"
+                contents:
+                  - text: "Temperature, wind, salinity and current"
+                    href: gbr1/temp-wind-salt-current/
+                  - text: "Temperature at 2.35m, 18m and 49m depth"
+                    href: gbr1/temp-multi-depth/
+                  - text: "Current at 2.35m, 18m and 103m depth"
+                    href: gbr1/current-multi-depth/
+                  - text: "Salinity at 2.35m, 5.35m and 18m depth"
+                    href: gbr1/salt-multi-depth/
+                  - text: "Fresh water exposure at 2.35m"
+                    href: gbr1/fresh-water-exposure/
+                  - text: "Current magnitude average at 2.35m"
+                    href: gbr1/current-magnitude-average/
+                  - text: "Temperature range at 2.35m"
+                    href: /gbr1/temp-range/
+                  - text: "Flood plume extents for major rivers on GBR based on modelled river tracers"
+                    href: /gbr1/river-tracers/
+              - section: "GBR4"
+                contents:
+                  - text: "Temperature, wind, salinity and current"
+                    href: gbr4/temp-wind-salt-current/
+                  - text: "Temperature at 1.5m, 18m and 49m depth"
+                    href: /gbr4/temp-multi-depth/
+                  - text: "Current at 1.5m, 18m and 103m depth"
+                    href: /gbr4/current-multi-depth/
+                  - text: "Temperature range at 1.5m"
+                    href: /gbr4/temp-range/
+                  - text: "Comparing eReefs (GBR4 temperature, current) to IMOS satellite temperature and ocean current"
+                    href: /gbr4/imos-vs-ereefs/
+          - section: "BioGeoChemical Model (4 km)"
+            contents:
+              - section: "Water chemistry"
+                contents:
+                  - text: "Total alkalinity, PH & Aragonite saturation state"
+                    href: /gbr4/bgc/baseline/alk_ph_omega-ar/
+                  - text: "Dissolved inorganic nitrogen, nitrate & ammonia"
+                    href: /gbr4/bgc/baseline/din_no3_nh4/
+                  - text: "Dissolved oxygen & oxygen saturation percentage"
+                    href: /gbr4/bgc/baseline/oxygen_oxy-sat/
+                  - text: "Dissolved Inorganic (Carbon, Nitrogen & Phosphorus)"
+                    href: /gbr4/bgc/baseline/din_dip_dic/
+                  - text: "Dissolved Organic (Carbon, Nitrogen & Phosphorus)"
+                    href: /gbr4/bgc/baseline/dor-c_dor-n_dor-p/
+                  - text: "Particulate inorganic phosphorus & particulate inorganic"
+                    href: /gbr4/bgc/baseline/pip_pip-sed/
+              - section: "Water quality measures"
+                contents:
+                  - text: "Total chlorophyll, dissolved inorganic nitrogen & total suspended solids"
+                    href: /gbr4/bgc/baseline/chl-a-sum_din_efi/
+                  - text: "Total Suspended Solids, dust, mud carbonate & mud mineral"
+                    href: /gbr4/bgc/baseline/efi_dust_mud-carbonate_mud-mineral/
+                  - text: "Secchi depth, vertical attenuation at 490nm & light intensity above seagrass"
+                    href: /gbr4/bgc/baseline/secchi_kd-490_epipar-sg/
+                  - text: "Simulated true colour"
+                    href: /gbr4/bgc/baseline/true-colour/
+              - section: "Macroalgae, seagrass and coral"
+                contents:
+                  - text: "Coral symbiont (nitrogen & chlorophyll) & coral host nitrogen"
+                    href: /gbr4/bgc/baseline/cs-n_cs-chl_ch-n/
+                  - text: "Nitrogen (macroalgae, seagrass zostera, seagrass halophila & deep seagrass)"
+                    href: /gbr4/bgc/baseline/ma-n_sg-n_sgh-n_sgd-n/
 
 format:
   html:
     theme: 
-      - flatly
       - css/custom.scss
     css: 
       - css/ereefs_aims.css
-      - css/eatlas_ncanimate2.css
-      - css/eatlas_ncanimate2_responsive.css
+      - css/ncanimate2.css
+      - css/ncanimate2_responsive.css
       - css/styles.css
     toc: false
     include-in-header:
-      - text: <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
-      - text: <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Open+Sans&display=swap" rel="stylesheet">
+      - text: <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+      - text: <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+      - includes/_google_analytics.html
       - includes/_page_banner.html
     grid:
-      body-width: 1220px
+      body-width: 1000px
     mainfont: Open Sans
+    fontcolor: "#212529"
 
 execute:
   freeze: auto # ensures code blocks are only executed locally as opposed to being executes as part of GitHub actions

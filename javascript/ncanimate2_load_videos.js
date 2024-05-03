@@ -3451,7 +3451,7 @@ EAtlasNcAnimate2Widget.prototype.showVideoContainer = function (message) {
   this.imageContainer.hide();
   this.videoContainer.show();
 
-  eatlas_ncanimate2_resize_videos(this.videoContainerVideo);
+  // eatlas_ncanimate2_resize_videos(this.videoContainerVideo);
 };
 
 /**
@@ -3598,21 +3598,22 @@ EAtlasNcAnimate2Widget.prototype.loadMedia = function (
 
             var width = videos_metadata["MP4"]["width"];
             var height = videos_metadata["MP4"]["height"];
-            if (width && height) {
-              if (height > EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT) {
-                width = Math.round(
-                  (width * EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT) / height
-                );
-                height = EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT;
-              }
+            // // This forces a width instead of allowing the css to fit to the available space
+            // if (width && height) {
+            //   if (height > EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT) {
+            //     width = Math.round(
+            //       (width * EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT) / height
+            //     );
+            //     height = EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT;
+            //   }
 
-              // The video preview will be loaded in the image container (it's easier to catch events on an img tag)
-              this.imageContainerImg.width(width);
-              this.imageContainerImg.height(height);
+            //   // The video preview will be loaded in the image container (it's easier to catch events on an img tag)
+            //   this.imageContainerImg.width(width);
+            //   this.imageContainerImg.height(height);
 
-              this.videoContainerVideo.attr("width", width);
-              this.videoContainerVideo.attr("height", height);
-            }
+            //   this.videoContainerVideo.attr("width", width);
+            //   this.videoContainerVideo.attr("height", height);
+            // }
 
             if (videoPreview) {
               // Set video preview image (poster)
@@ -3671,17 +3672,18 @@ EAtlasNcAnimate2Widget.prototype.loadMedia = function (
 
           var width = images_metadata["PNG"]["width"];
           var height = images_metadata["PNG"]["height"];
-          if (width && height) {
-            if (height > EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT) {
-              width = Math.round(
-                (width * EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT) / height
-              );
-              height = EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT;
-            }
+          // // This forces a width instead of allowing the css to fit to the available space
+          // if (width && height) {
+          //   if (height > EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT) {
+          //     width = Math.round(
+          //       (width * EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT) / height
+          //     );
+          //     height = EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT;
+          //   }
 
-            this.imageContainerImg.width(width);
-            this.imageContainerImg.height(height);
-          }
+          //   this.imageContainerImg.width(width);
+          //   this.imageContainerImg.height(height);
+          // }
 
           this.imageContainerImg.attr("src", imageUrl);
           // Wait a 1/10 of a second before checking if the image is loaded.
@@ -4110,8 +4112,8 @@ EAtlasNcAnimate2Widget.prototype.load = function () {
 
   // var meta_url = "/" + blockName + ".json";
   var meta_url =
-    // "https://api.ereefs.aims.gov.au/metadata/NCANIMATE_PRODUCT/" +
-    "https://api.test.ereefs.aims.gov.au/metadata/NCANIMATE_PRODUCT/" +
+    "https://api.ereefs.aims.gov.au/metadata/NCANIMATE_PRODUCT/" +
+    // "https://api.test.ereefs.aims.gov.au/metadata/NCANIMATE_PRODUCT/" +
     productId;
 
   // console.log("meta_url = ", meta_url);
@@ -4739,12 +4741,12 @@ EAtlasNcAnimate2Widget.prototype.endsWith = function (str, suffix) {
   return str.indexOf(suffix, str.length - suffix.length) !== -1;
 };
 
-(function ($) {
-  // Adjust the video size when the page is resized
-  $(window).resize(function () {
-    eatlas_ncanimate2_resize_videos($(".video-container video"));
-  });
-})(jQuery);
+// (function ($) {
+//   // Adjust the video size when the page is resized
+//   $(window).resize(function () {
+//     eatlas_ncanimate2_resize_videos($(".video-container video"));
+//   });
+// })(jQuery);
 // Class
 function EAtlasNcAnimate2Map(htmlBlockElement, videoSelector) {
   this.blk = htmlBlockElement;
@@ -5332,7 +5334,7 @@ var EATLAS_NCANIMATE2_ANCHOR_VALUE_SEPARATOR = "=";
 (function ($) {
   // Initialise the EAtlasNcAnimate2Widgets when the page is ready
   $(document).ready(function () {
-    $(".eatlas_ncanimate2_block").each(function (index) {
+    $(".ncanimate2_block").each(function (index) {
       var videoSelector = new EAtlasNcAnimate2Widget($(this));
       videoSelector.init();
     });

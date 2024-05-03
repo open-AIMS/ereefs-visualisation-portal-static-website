@@ -1,3 +1,41 @@
+# on:
+#   workflow_dispatch:
+#   push:
+#     branches: main
+# 
+# name: Quarto Publish
+# 
+# jobs:
+#   build-deploy:
+#     runs-on: ubuntu-latest
+#     permissions:
+#       contents: write
+#     steps:
+#       - name: Check out repository
+#         uses: actions/checkout@v4
+# 
+#       - name: Set up Python
+#         uses: actions/setup-python@v4
+#         with:
+#           python-version: '3.9' 
+# 
+#       - name: Install Dependencies
+#         run: pip install jsmin
+# 
+#       - name: Set up Quarto
+#         uses: quarto-dev/quarto-actions/setup@v2
+# 
+#       - name: Render
+#         run: quarto render
+# 
+#       - name: Minify JavaScript
+#         run: python ./minify-js.py
+# 
+#       - name: Publish to GitHub Pages
+#         uses: peaceiris/actions-gh-pages@v3
+#         with:
+#           github_token: ${{ secrets.GITHUB_TOKEN }}
+#           publish_dir: ./_site
 on:
   workflow_dispatch:
   push:
@@ -12,10 +50,12 @@ jobs:
       contents: write
     steps:
       - name: Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.4.551
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
