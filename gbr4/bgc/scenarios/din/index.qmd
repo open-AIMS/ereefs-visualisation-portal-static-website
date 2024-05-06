@@ -1,7 +1,7 @@
 ---
 title: "gbr4-bgc-scenarios_din"
 format:
-  html: 
+  html:
     template: ../../../../custom_template.html
 params:
   product-name: GBR4 BGC Scenario Comparison - Dissolved inorganic nitrogen (DIN)
@@ -11,6 +11,31 @@ params:
 
 {{< include ../../../../includes/_visualisation.qmd >}}
 
+What do these visualisations show?
+----------------------------------
+
+These maps compare the estimated current state of the GBR (baseline) with pre-industrial and water quality target
+conditions (see [eReefs BGC Scenarios](#ereefs-bgc-scenarios) for more information). The "Baseline scenario" panel shows 
+the best estimate for Dissolved Inorganic Nitrogen (DIN) for the time period from December 2010 to April 2019.  
+
+The "Pre-industrial" panel shows the difference between the baseline scenario and pre-industrial conditions.
+Areas in blue correspond to locations where the pre-industrial values are estimated to be better than the current
+baseline (lower DIN in the pre-industrial past). Red areas correspond to areas where the pre-industrial conditions would
+have been worse (higher DIN) than the current baseline. As this plot compares the current conditions with estimated 
+pre-industrial conditions the difference represents the anthropogenic influence on DIN on the GBR. It shows that current
+DIN levels in the marine environment are higher than pre-industrial conditions along most of the coastline and is
+elevated most during flooding events. The raised DIN extends out to the mid-shelf reefs, particularly along the reefs
+north of Townsville where the width of the GBR is narrower.  
+
+The "WQIP-Targets" panel shows the effects of the planned targets if they were achieved. The blue area indicates the
+amount of reduction of DIN relative to the current baseline. Red areas correspond to an increase of DIN relative to the 
+current baseline. The comparison between the baseline and reduced loads (WQIP-Targets) scenario shows that implementing 
+the measures to lower DIN concentration would actually result in a reduced DIN concentration along most of the coast, 
+with the exception of the Broad Sound area where it shows mostly positive values. 
+
+The "% River water in sea water" panel shows the total percentage of river water in sea water. It can be used to 
+identify significant river discharges and flood plumes which can have a big impact on the DIN concentration.
+
 {{< include ../_scenarios_description.qmd >}}
 
 Model variables
@@ -18,7 +43,7 @@ Model variables
 
 ### Dissolved Inorganic Nitrogen (DIN)
 
-Concentration of dissolved inorganic nitrogen (DIN). DIN = \[NH~4~\] +
+Concentration of Dissolved Inorganic Nitrogen (DIN). DIN = \[NH~4~\] +
 \[NO~3~\].
 
 Within the GBR lagoon the main source of DIN is from land run off during
@@ -32,12 +57,10 @@ lowering their growth.
 
 #### Model specifics
 
-This visualisation shows the modelled concentration of dissolved
-inorganic nitrogen (DIN) in mg N m-3. DIN is the sum of nitrate and
-ammonium concentrations, \[NO3\]+\[NH4\].
+This visualisation shows the modelled concentration of DIN in mg N m-3. DIN is the sum of nitrate and ammonium 
+concentrations, \[NO3\]+\[NH4\].
 
-The model contains two forms of dissolved inorganic nitrogen (DIN) used
-by photosynthetic organisms, dissolved ammonium (NH4) and dissolved
+The model contains two forms of DIN used by photosynthetic organisms, dissolved ammonium (NH4) and dissolved
 nitrate (NO3). In the model, the ammonium component of the DIN pool is
 taken up first, followed by the nitrate, with the caveat that the uptake
 of ammonium is limited by diffusion.
@@ -58,10 +81,10 @@ along the Queensland coast.
 ### Dissolved Inorganic Nitrogen pre-industrial minus baseline (DIN_pre-base)
 
 This variable represents the difference in concentration of dissolved
-inorganic nitrogen in mg N m-3 between the pre-industrial scenario and the 
+inorganic nitrogen in mg N m-3 between the pre-industrial scenario and the
 baseline scenario. This highlights the anthropogenic contribution.
 
-DIN_pre-base = pre-industrial (q3p) DIN - baseline (q3b) DIN 
+DIN_pre-base = pre-industrial (q3p) DIN - baseline (q3b) DIN
 
 ### Dissolved Inorganic Nitrogen reduced loads (WQIP-Targets) minus baseline (DIN_reduced-base)
 
@@ -84,6 +107,5 @@ at: <https://www.mssanz.org.au/modsim2013/H3/robson.pdf> (last access:
 25 October 2023), 2013.
 
 {{< include ../_source_data_bgc_scenarios.qmd >}}
-
 
 {{< include ../../../../includes/_data_span.qmd >}}

@@ -11,6 +11,31 @@ params:
 
 {{< include ../../../../includes/_visualisation.qmd >}}
 
+What do these visualisations show?
+----------------------------------
+
+These maps compare the estimated current state of the GBR (baseline) with pre-industrial and water quality target
+conditions (see [eReefs BGC Scenarios](#ereefs-bgc-scenarios) for more information). The "Baseline scenario" panel shows 
+the best estimate for Total Chlorophyll for the time period from December 2010 to April 2019.
+
+The "Pre-industrial" panel shows the difference between the baseline scenario and pre-industrial conditions.
+Areas in blue correspond to locations where the pre-industrial values are estimated to be better than the current
+baseline (lower Total Chlorophyll in the pre-industrial past). Red areas correspond to areas where the pre-industrial 
+conditions would have been worse (higher Total Chlorophyll) than the current baseline. As this plot compares the current conditions 
+with estimated pre-industrial conditions the difference represents the anthropogenic influence on Total Chlorophyll 
+on the GBR. It shows that current Total Chlorophyll levels in the marine environment are higher than pre-industrial 
+conditions along most of the coastline and is elevated most during flooding events. The raised Total Chlorophyll extends 
+out to the mid-shelf reefs, particularly along the reefs north of Townsville where the width of the GBR is narrower.
+
+The "WQIP-Targets" panel shows the effects of the planned targets if they were achieved. The blue areas indicates the 
+amount of reduction of Total Chlorophyll concentration relative to the current baseline by reducing DIN, PN, PP and TSS 
+below the WQIP targets. The red areas correspond to an increase in Total Chlorophyll relative to the current baseline. 
+The comparison between the baseline and reduced loads (WQIP-Targets) scenario shows that for most places along the coast 
+implementing measures in accordance with the WQIP targets would lower Total Chlorophyll concentration. 
+
+The "% River water in sea water" panel shows the total percentage of river water in sea water. It can be used to
+identify significant river discharges and flood plumes which can have a big impact on the Total Chlorophyll concentration.
+
 {{< include ../_scenarios_description.qmd >}}
 
 Model variables

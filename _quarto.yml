@@ -119,6 +119,18 @@ website:
                     href: /gbr4/bgc/baseline/cs-n_cs-chl_ch-n/
                   - text: "Nitrogen (macroalgae, seagrass zostera, seagrass halophila & deep seagrass)"
                     href: /gbr4/bgc/baseline/ma-n_sg-n_sgh-n_sgd-n/
+              - section: "Catchment scenarios comparison"
+                contents:
+                  - text: "Disolved inorganic nitrogen"
+                    href: /gbr4/bgc/scenarios/din
+                  - text: "Total Chlorophyll"
+                    href: /gbr4/bgc/scenarios/chl-a-sum
+                  - text: "Secchi depth"
+                    href: /gbr4/bgc/scenarios/secchi
+                  - text: "Total suspended solids"
+                    href: /gbr4/bgc/scenarios/efi
+                  - text: "Light intensity above seagrass"
+                    href: /gbr4/bgc/scenarios/epipar-sg
 
 format:
   html:

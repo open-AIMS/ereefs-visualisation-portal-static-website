@@ -11,6 +11,30 @@ params:
 
 {{< include ../../../../includes/_visualisation.qmd >}}
 
+What do these visualisations show?
+----------------------------------
+
+These maps compare the estimated current state of the GBR (baseline) with pre-industrial and water quality target
+conditions (see [eReefs BGC Scenarios](#ereefs-bgc-scenarios) for more information). The "Baseline scenario" panel shows 
+the best estimate for Secchi depth for the time period from December 2010 to April 2019.
+
+The "Pre-industrial" panel shows the difference between the baseline scenario and pre-industrial conditions.
+Areas in blue correspond to locations where the pre-industrial values are estimated to be better than the current
+baseline (higher Secchi depth in the pre-industrial past). Red areas correspond to areas where the pre-industrial 
+conditions would have been worse (lower Secchi depth) than the current baseline. As this plot compares the current conditions with 
+estimated pre-industrial conditions the difference represents the anthropogenic influence on Secchi depth on the GBR. 
+It shows that current Secchi depth levels in the marine environment are lower than pre-industrial conditions along most 
+of the coastline but most significantly in the central section of the GBR. 
+
+The "WQIP-Targets" panel shows the effects of the planned targets if they were achieved. The blue area indicates the
+possible increase in Secchi depth relative to the current baseline. Red areas correspond to a possible decrease in 
+Secchi depth relative to the current baseline. The comparison between the baseline and reduced loads (WQIP-Targets)
+scenario shows that implementing the WQIP-Target measures would be beneficial as it would increase the Secchi depth
+in most parts of the GBR but specifically in the southern section.
+
+The "% River water in sea water" panel shows the total percentage of river water in sea water. It can be used to
+identify significant river discharges and flood plumes which can have a big impact on the Secchi depth concentration.
+
 {{< include ../_scenarios_description.qmd >}}
 
 Model variables
