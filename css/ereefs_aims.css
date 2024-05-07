@@ -228,6 +228,7 @@ nav#visualisation-portal-nav-bar #block-menu-menu-menu-ereefs-aims .eatlas-respo
 	flex-wrap: wrap;
 	/* justify-content: space-between; */
 	align-items: stretch;
+  max-width: 1550px;
 }
 .ncanimate-products .ncanimate-product-tile {
 	margin: 1em;
