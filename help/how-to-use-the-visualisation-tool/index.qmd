@@ -1,0 +1,18 @@
+---
+title: "How to use the visualisation tool"
+---
+
+# Navigation
+
+Product pages can show a combination of videos and images dependent on the underlying data. Make
+a selection via the tabs in the "Time step" panel at the top of the visualisation. The content 
+type (video or image) is identified by the icon in the corresponding tab.
+
+The interactive map below the visualisation (left) allows for zooming in on a particular 
+legion, or all of Queensland. Where applicable, the interactive map is accompanied with a 
+list of the regions for clarity.
+
+The calendar below the visualisation (right) selects the data range of the visualisation. 
+Individual months and/or entire years can be selected when supported by the underlying data. When
+clicking the arrows, the calendar view is changed but not the visualisation. To update the visualisation,
+a month or year must be clicked (depending on what data is available on the currently viewed topic).
