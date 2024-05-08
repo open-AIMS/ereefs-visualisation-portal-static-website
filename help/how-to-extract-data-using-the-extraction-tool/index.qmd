@@ -1,5 +1,7 @@
 ---
 title: "How to extract time series environmental variables from eReefs models using the Extraction Tool"
+aliases:
+  - /ereefs-aims/help/how-to-extract-data-using-the-extraction-tool
 ---
 
 If you are interested in environment conditions at a specific research site on the Great Barrier Reef you can use the [eReefs Extraction Tool](https://extraction.ereefs.aims.gov.au/?_gl=1*14cmc84*_ga*OTM5OTM3MTMzLjE2NjczNTcwNzg.*_ga_6SSTNBNHXG*MTY5MjE1MDkyOS4zNy4xLjE2OTIxNTQwNTQuMC4wLjA.) to extract time series data for environmental variables and locations of interest from the eReefs models.

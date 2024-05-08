@@ -1,5 +1,7 @@
 ---
 title: "gbr1_river-tracers"
+aliases:
+  - /ereefs-aims/gbr1/river-tracers
 format:
   html:
     template: ../../custom_template.html

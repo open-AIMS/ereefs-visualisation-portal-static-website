@@ -1,5 +1,7 @@
 ---
 title: "Help"
+aliases:
+  - /ereefs-aims/help
 ---
 
 ## [How to use the visualisation tool](./how-to-use-the-visualisation-tool/index.qmd)

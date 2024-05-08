@@ -1,5 +1,7 @@
 ---
 title: "gbr4-hydro_temp-wind-salt-current"
+aliases:
+  - /ereefs-aims/gbr4/temp-wind-salt-current
 format:
   html:
     template: ../../custom_template.html

@@ -1,5 +1,7 @@
 ---
 title: "gbr4-bgc-scenarios_din"
+aliases:
+  - /ereefs-aims/gbr4/bgc/scenarios/din
 format:
   html:
     template: ../../../../custom_template.html

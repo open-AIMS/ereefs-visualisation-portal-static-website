@@ -1,5 +1,7 @@
 ---
 title: "How to open a NetCDF file with ArcMap and QGIS"
+aliases:
+  - /ereefs-aims/help/how-to-open-a-NetCDF-file-with-ArcMap-and-QGIS
 ---
 
 For the visualisations on these pages the AIMS eReefs system aggregates

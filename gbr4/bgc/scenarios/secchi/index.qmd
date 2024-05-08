@@ -1,5 +1,7 @@
 ---
 title: "gbr4-bgc-scenarios_secchi"
+aliases:
+  - /ereefs-aims/gbr4/bgc/scenarios/secchi
 format:
   html: 
     template: ../../../../custom_template.html

@@ -1,5 +1,7 @@
 ---
 title: "How to plot AIMS eReefs data with R"
+aliases:
+  - /ereefs-aims/help/how-to-plot-aims-ereefs-data-with-r
 execute:
   echo: true
   warning: false

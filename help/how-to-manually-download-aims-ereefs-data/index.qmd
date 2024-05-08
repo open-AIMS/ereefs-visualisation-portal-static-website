@@ -1,5 +1,7 @@
 ---
 title: "How to manually download AIMS eReefs data"
+aliases:
+  - /ereefs-aims/help/how-to-manually-download-aims-ereefs-data
 ---
 
 The eReefs model data is produced by

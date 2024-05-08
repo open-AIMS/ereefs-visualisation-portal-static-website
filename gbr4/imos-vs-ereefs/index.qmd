@@ -1,5 +1,7 @@
 ---
 title: "imos-vs-ereefs"
+aliases:
+  - /ereefs-aims/gbr4/imos-vs-ereefs
 format:
   html: 
     template: ../../custom_template.html

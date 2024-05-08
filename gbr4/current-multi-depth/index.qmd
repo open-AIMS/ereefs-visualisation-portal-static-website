@@ -1,5 +1,7 @@
 ---
 title: "gbr4-hydro_current-multi-depth"
+aliases:
+  - /ereefs-aims/gbr4/current-multi-depth
 format:
   html: 
     template: ../../custom_template.html

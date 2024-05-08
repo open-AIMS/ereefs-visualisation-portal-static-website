@@ -1,5 +1,7 @@
 ---
 title: "How to access the AIMS eReefs data using OPeNDAP and ArcMap"
+aliases:
+  - /ereefs-aims/help/how-to-access-the-aims-ereefs-data-using-opendap-and-arcmap
 ---
 
 How to access the AIMS eReefs data using OPeNDAP and ArcMap

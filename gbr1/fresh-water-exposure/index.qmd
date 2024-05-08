@@ -1,5 +1,7 @@
 ---
 title: "gbr1-hydro_fresh-water-exposure"
+aliases:
+  - /ereefs-aims/gbr1/fresh-water-exposure
 format:
   html:
     template: ../../custom_template.html

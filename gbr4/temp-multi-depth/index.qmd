@@ -1,5 +1,7 @@
 ---
 title: "gbr4-hydro_temp-multi-depth"
+aliases:
+  - /ereefs-aims/gbr4/temp-multi-depth
 format:
   html: 
     template: ../../custom_template.html

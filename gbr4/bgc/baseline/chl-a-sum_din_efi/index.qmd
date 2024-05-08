@@ -1,5 +1,7 @@
 ---
 title: "gbr4-bgc-baseline_chl-a-sum_din_efi"
+aliases:
+  - /ereefs-aims/gbr4/bgc/baseline/chl-a-sum_din_efi
 format:
   html: 
     template: ../../../../custom_template.html

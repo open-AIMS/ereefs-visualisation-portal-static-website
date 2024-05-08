@@ -1,5 +1,7 @@
 ---
 title: "gbr4-bgc-scenarios_epipar-sg"
+aliases:
+  - /ereefs-aims/gbr4/bgc/scenarios/epipar-sg
 format:
   html: 
     template: ../../../../custom_template.html

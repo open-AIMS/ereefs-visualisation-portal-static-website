@@ -1,5 +1,9 @@
 ---
 title: "About AIMS eReefs platform"
+aliases:
+  - /ereefs-aims/about
+  - /ereefs-aims/about.html
+  - /about
 ---
 
 The eReefs research project is a collaboration between the [Great

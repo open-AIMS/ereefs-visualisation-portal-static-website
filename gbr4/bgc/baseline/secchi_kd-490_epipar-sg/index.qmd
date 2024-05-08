@@ -1,5 +1,7 @@
 ---
 title: "gbr4-bgc-baseline_secchi_kd-490_epipar-sg"
+aliases:
+  - /ereefs-aims/gbr4/bgc/baseline/secchi_kd-490_epipar-sg
 format:
   html: 
     template: ../../../../custom_template.html

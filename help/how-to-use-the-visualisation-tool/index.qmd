@@ -1,5 +1,7 @@
 ---
 title: "How to use the visualisation tool"
+aliases:
+  - /ereefs-aims/help/how-to-use-the-visualisation-tool
 ---
 
 ## Navigation

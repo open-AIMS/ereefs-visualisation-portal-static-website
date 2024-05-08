@@ -1,5 +1,7 @@
 ---
 title: "eReefs AIMS Visualisation Portal"
+aliases:
+  - /ereefs-aims
 format:
   html:
     include-in-header:

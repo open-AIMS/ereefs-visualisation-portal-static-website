@@ -1,5 +1,7 @@
 ---
 title: "How to plot AIMS eReefs data with Python"
+aliases:
+  - /ereefs-aims/help/how-to-plot-aims-ereefs-data-with-python
 execute:
   echo: true
   warning: false

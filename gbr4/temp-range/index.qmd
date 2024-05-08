@@ -1,5 +1,7 @@
 ---
 title: "gbr4-hydro_temp-range"
+aliases:
+  - /ereefs-aims/gbr4/temp-range
 format:
   html: 
     template: ../../custom_template.html

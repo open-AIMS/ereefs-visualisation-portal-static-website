@@ -1,5 +1,7 @@
 ---
 title: "How to download a visualisation video or frame"
+aliases:
+  - /ereefs-aims/help/how-to-download-video-or-image
 ---
 
 In the case you would like to download a visualisation video or a frame (an image in the video) follow these steps:
