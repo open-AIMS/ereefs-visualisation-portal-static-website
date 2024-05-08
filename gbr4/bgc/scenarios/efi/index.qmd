@@ -1,0 +1,73 @@
+---
+title: "gbr4-bgc-scenarios_efi"
+format:
+  html: 
+    template: ../../../../custom_template.html
+params:
+  product-name: GBR4 BGC Scenario Comparison - Total suspended solids
+  block-name: gbr4-bgc-scenarios_efi
+  product-id: products__ncanimate__ereefs__gbr4_bgc_comparison__efi_base_pre_hindcast_river
+---
+
+{{< include ../../../../includes/_visualisation.qmd >}}
+
+What do these visualisations show?
+----------------------------------
+
+These maps compare the estimated current state of the GBR (baseline) with pre-industrial and water quality target
+conditions (see [eReefs BGC Scenarios](#ereefs-bgc-scenarios) for more information). The "Baseline scenario" panel shows 
+the best estimate for Total Suspended Solids for the time period from December 2010 to April 2019.
+
+The "Pre-industrial" panel shows the difference between the baseline scenario and pre-industrial conditions.
+Areas in blue correspond to locations where the pre-industrial values are estimated to be better than the current
+baseline (lower Total Suspended Solids in the pre-industrial past). Red areas correspond to areas where the pre-industrial
+conditions would have been worse (higher Total Suspended Solids) than the current baseline. As this plot compares the current conditions
+with estimated pre-industrial conditions the difference represents the anthropogenic influence on Total Suspended Solids
+on the GBR. It shows that current Total Suspended Solids levels in the marine environment are generally higher than 
+pre-industrial conditions along most of the coastline and is elevated even more during flooding events. The biggest difference
+can be observed in the far north where higher levels of Total Suspended Solids relative to the current baseline reach
+across the full width of the GBR.
+
+The "WQIP-Targets" panel shows the effects of the planned targets if they were achieved. The blue area indicates the
+amount of reduction relative to the current baseline. Red areas correspond to an increase of Total Suspended Solids 
+relative to the current baseline. The comparison between the baseline and reduced loads (WQIP-Targets) scenario shows 
+that implementing the WQIP-Target measures to lower Total Suspended Solids concentration would result in lower 
+concentration for most places along the coast, with the highes impact archived in the far north. 
+
+The "% River water in sea water" panel shows the total percentage of river water in sea water. It can be used to
+identify significant river discharges and flood plumes which can have a big impact on the Total Suspended Solids 
+concentration.
+
+{{< include ../_scenarios_description.qmd >}}
+
+Model variables
+---------------
+
+### Total suspended solids (EFI)
+
+This is the sum of the suspended sediments in the water column. It is
+\[Fine sediment\] + \[Mud\] + \[Mud carbonate\] + \[Mud mineral\] +
+\[Dust\]. Total suspended solids is measured in mg/l and the variable representing it is EFI - Ecology Fine Inorganics.
+
+### Total suspended solids pre-industrial minus baseline (EFI_pre-base)
+
+This variable represents the difference of total suspended solids in mg/l between the pre-industrial 
+scenario and the baseline scenario. This highlights the anthropogenic impact.
+
+EFI_pre-base = pre-industrial (q3p) EFI - baseline (q3b) EFI 
+
+### Total suspended solids reduced loads (WQIP-Targets) minus baseline (EFI_reduced-base)
+
+This variable represents the difference total suspended solids in mg/l between the reduced loads 
+(WQIP-Targets) scenario and the baseline scenario. This highlights the alignment of the current state with the targets.
+
+EFI_reduced-base = reduced loads (q3R) EFI - baseline (q3b) EFI
+
+{{< include ../_all_rivers_description.qmd >}}
+
+{{< include ../_references.qmd >}}
+
+{{< include ../_source_data_bgc_scenarios.qmd >}}
+
+
+{{< include ../../../../includes/_data_span.qmd >}}

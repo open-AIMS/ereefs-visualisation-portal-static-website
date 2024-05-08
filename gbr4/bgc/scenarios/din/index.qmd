@@ -1,0 +1,111 @@
+---
+title: "gbr4-bgc-scenarios_din"
+format:
+  html:
+    template: ../../../../custom_template.html
+params:
+  product-name: GBR4 BGC Scenario Comparison - Dissolved inorganic nitrogen (DIN)
+  block-name: gbr4-bgc-scenarios_din
+  product-id: products__ncanimate__ereefs__gbr4_bgc_comparison__din_base_pre_hindcast_river
+---
+
+{{< include ../../../../includes/_visualisation.qmd >}}
+
+What do these visualisations show?
+----------------------------------
+
+These maps compare the estimated current state of the GBR (baseline) with pre-industrial and water quality target
+conditions (see [eReefs BGC Scenarios](#ereefs-bgc-scenarios) for more information). The "Baseline scenario" panel shows 
+the best estimate for Dissolved Inorganic Nitrogen (DIN) for the time period from December 2010 to April 2019.  
+
+The "Pre-industrial" panel shows the difference between the baseline scenario and pre-industrial conditions.
+Areas in blue correspond to locations where the pre-industrial values are estimated to be better than the current
+baseline (lower DIN in the pre-industrial past). Red areas correspond to areas where the pre-industrial conditions would
+have been worse (higher DIN) than the current baseline. As this plot compares the current conditions with estimated 
+pre-industrial conditions the difference represents the anthropogenic influence on DIN on the GBR. It shows that current
+DIN levels in the marine environment are higher than pre-industrial conditions along most of the coastline and is
+elevated most during flooding events. The raised DIN extends out to the mid-shelf reefs, particularly along the reefs
+north of Townsville where the width of the GBR is narrower.  
+
+The "WQIP-Targets" panel shows the effects of the planned targets if they were achieved. The blue area indicates the
+amount of reduction of DIN relative to the current baseline. Red areas correspond to an increase of DIN relative to the 
+current baseline. The comparison between the baseline and reduced loads (WQIP-Targets) scenario shows that implementing 
+the measures to lower DIN concentration would actually result in a reduced DIN concentration along most of the coast, 
+with the exception of the Broad Sound area where it shows mostly positive values. 
+
+The "% River water in sea water" panel shows the total percentage of river water in sea water. It can be used to 
+identify significant river discharges and flood plumes which can have a big impact on the DIN concentration.
+
+{{< include ../_scenarios_description.qmd >}}
+
+Model variables
+---------------
+
+### Dissolved Inorganic Nitrogen (DIN)
+
+Concentration of Dissolved Inorganic Nitrogen (DIN). DIN = \[NH~4~\] +
+\[NO~3~\].
+
+Within the GBR lagoon the main source of DIN is from land run off during
+flooding events. These flood plumes generally stay close to the
+coast, pushed northwards by the wind. The nitrogen in the plumes leads
+to rapid growth of phytoplankton. This algal rich water absorbs light
+leading to less light reaching the seagrass meadows and inshore coral
+reefs (see [Secchi depth, vertical attenuation at 490nm & light
+intensity above seagrass product](../../baseline/secchi_kd-490_epipar-sg))
+lowering their growth.
+
+#### Model specifics
+
+This visualisation shows the modelled concentration of DIN in mg N m-3. DIN is the sum of nitrate and ammonium 
+concentrations, \[NO3\]+\[NH4\].
+
+The model contains two forms of DIN used by photosynthetic organisms, dissolved ammonium (NH4) and dissolved
+nitrate (NO3). In the model, the ammonium component of the DIN pool is
+taken up first, followed by the nitrate, with the caveat that the uptake
+of ammonium is limited by diffusion.
+
+For nitrogen the main sources are river inputs, the atmosphere by
+nitrogen fixing Trichodesmium cyanobacteria and from upwelling of deeper
+nutrient rich waters. Nitrogen fixation (conversion of nitrogen gas to
+ammonium) occurs by trichodesmium algae when DIN is low (4 to 20 mg N
+m−3; Robson et al., 2013) and carbon and phosphorus are available to
+support nitrogen uptake.
+
+An assessment of the BGC model shows it has a skill of (bias ± Root Mean
+Square Error) of nitrate of −0.70±3.86 mg N m−3 and ammonium of
+−0.77±1.63 mg N m−3 (Baird e. al., 2020). This represents the difference
+between the model values and 36 long-term water quality monitoring sites
+along the Queensland coast.
+
+### Dissolved Inorganic Nitrogen pre-industrial minus baseline (DIN_pre-base)
+
+This variable represents the difference in concentration of dissolved
+inorganic nitrogen in mg N m-3 between the pre-industrial scenario and the
+baseline scenario. This highlights the anthropogenic contribution.
+
+DIN_pre-base = pre-industrial (q3p) DIN - baseline (q3b) DIN
+
+### Dissolved Inorganic Nitrogen reduced loads (WQIP-Targets) minus baseline (DIN_reduced-base)
+
+This variable represents the difference in concentration of dissolved
+inorganic nitrogen in mg N m-3 between the reduced loads (WQIP-Targets) scenario and the
+baseline scenario. This highlights the alignment of the current state with the targets.
+
+DIN_reduced-base = reduced loads (q3R) DIN - baseline (q3b) DIN
+
+{{< include ../_all_rivers_description.qmd >}}
+
+{{< include ../_references.qmd >}}
+
+Robson, B. J., Baird, M. E., and Wild-Allen, K. A.: A physiological
+model for the marine cyanobacteria,*Trichodesmium*, in: MODSIM2013,
+20th International Congress on Modelling and Simulation, edited by:
+Piantadosi, J. R. S. A. and Boland, J., Modelling and Simulation Society
+of Australia and New Zealand, 1652--1658, available
+at: <https://www.mssanz.org.au/modsim2013/H3/robson.pdf> (last access:
+25 October 2023), 2013.
+
+{{< include ../_source_data_bgc_scenarios.qmd >}}
+
+{{< include ../../../../includes/_data_span.qmd >}}

@@ -134,6 +134,18 @@ making recommendations.
 - [Coral symbiont (nitrogen & chlorophyll) & coral host nitrogen](./gbr4/bgc/baseline/cs-n_cs-chl_ch-n)
 - [Nitrogen (macroalgae, seagrass zostera, seagrass halophila & deep seagrass)](./gbr4/bgc/baseline/ma-n_sg-n_sgh-n_sgd-n)
 :::
+
+::: {.ncanimate-product-tile}
+## Catchment scenarios comparison
+![](/images/corals_and_fish-500x250.png){fig-alt="Corals and fish" fig-align="center"}
+
+- [Disolved inorganic nitrogen](./gbr4/bgc/scenarios/din)
+- [Total Chlorophyll](./gbr4/bgc/scenarios/chl-a-sum)
+- [Secchi depth](./gbr4/bgc/scenarios/secchi)
+- [Total suspended solids](./gbr4/bgc/scenarios/efi)
+- [Light intensity above seagrass](./gbr4/bgc/scenarios/epipar-sg)
+:::
+
 :::
 
 #### Refereneces

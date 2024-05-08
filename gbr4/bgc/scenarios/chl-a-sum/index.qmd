@@ -1,0 +1,70 @@
+---
+title: "gbr4-bgc-scenarios_chl-a-sum"
+format:
+  html: 
+    template: ../../../../custom_template.html
+params:
+  product-name: GBR4 BGC Scenario Comparison - Total Chlorophyll
+  block-name: gbr4-bgc-scenarios_chl-a-sum
+  product-id: products__ncanimate__ereefs__gbr4_bgc_comparison__chl-a-sum_base_pre_hindcast_river
+---
+
+{{< include ../../../../includes/_visualisation.qmd >}}
+
+What do these visualisations show?
+----------------------------------
+
+These maps compare the estimated current state of the GBR (baseline) with pre-industrial and water quality target
+conditions (see [eReefs BGC Scenarios](#ereefs-bgc-scenarios) for more information). The "Baseline scenario" panel shows 
+the best estimate for Total Chlorophyll for the time period from December 2010 to April 2019.
+
+The "Pre-industrial" panel shows the difference between the baseline scenario and pre-industrial conditions.
+Areas in blue correspond to locations where the pre-industrial values are estimated to be better than the current
+baseline (lower Total Chlorophyll in the pre-industrial past). Red areas correspond to areas where the pre-industrial 
+conditions would have been worse (higher Total Chlorophyll) than the current baseline. As this plot compares the current conditions 
+with estimated pre-industrial conditions the difference represents the anthropogenic influence on Total Chlorophyll 
+on the GBR. It shows that current Total Chlorophyll levels in the marine environment are higher than pre-industrial 
+conditions along most of the coastline and is elevated most during flooding events. The raised Total Chlorophyll extends 
+out to the mid-shelf reefs, particularly along the reefs north of Townsville where the width of the GBR is narrower.
+
+The "WQIP-Targets" panel shows the effects of the planned targets if they were achieved. The blue areas indicates the 
+amount of reduction of Total Chlorophyll concentration relative to the current baseline by reducing DIN, PN, PP and TSS 
+below the WQIP targets. The red areas correspond to an increase in Total Chlorophyll relative to the current baseline. 
+The comparison between the baseline and reduced loads (WQIP-Targets) scenario shows that for most places along the coast 
+implementing measures in accordance with the WQIP targets would lower Total Chlorophyll concentration. 
+
+The "% River water in sea water" panel shows the total percentage of river water in sea water. It can be used to
+identify significant river discharges and flood plumes which can have a big impact on the Total Chlorophyll concentration.
+
+{{< include ../_scenarios_description.qmd >}}
+
+Model variables
+---------------
+
+### Total Chlorophyll (Chl_a_sum)
+
+Sum of chlorophyll concentration in mg Chl m-3 of the four microalgae types (small,
+large, microphytobenthos, trichodesmium).
+
+### Total Chlorophyll pre-industrial minus baseline (Chl_a_sum_pre-base)
+
+This variable represents the difference in concentration of chlorophyll a in mg Chl m-3 between the pre-industrial 
+scenario and the baseline scenario. This highlights the anthropogenic impact.
+
+Chl_a_sum_pre-base = pre-industrial (q3p) Chl_a_sum - baseline (q3b) Chl_a_sum 
+
+### Total Chlorophyll reduced loads (WQIP-Targets) minus baseline (Chl_a_sum_reduced-base)
+
+This variable represents the difference in concentration of chlorophyll a in mg Chl m-3 between the reduced loads 
+(WQIP-Targets) scenario and the baseline scenario. This highlights the alignment of the current state with the targets.
+
+Chl_a_sum_reduced-base = reduced loads (q3R) Chl_a_sum - baseline (q3b) Chl_a_sum
+
+{{< include ../_all_rivers_description.qmd >}}
+
+{{< include ../_references.qmd >}}
+
+{{< include ../_source_data_bgc_scenarios.qmd >}}
+
+
+{{< include ../../../../includes/_data_span.qmd >}}

@@ -1,0 +1,73 @@
+---
+title: "gbr4-bgc-scenarios_epipar-sg"
+format:
+  html: 
+    template: ../../../../custom_template.html
+params:
+  product-name: GBR4 BGC Scenario Comparison - Light intensity above seagrass
+  block-name: gbr4-bgc-scenarios_epipar-sg
+  product-id: products__ncanimate__ereefs__gbr4_bgc_comparison__epipar-sg_base_pre_hindcast_river
+---
+
+{{< include ../../../../includes/_visualisation.qmd >}}
+
+What do these visualisations show?
+----------------------------------
+
+These maps compare the estimated current state of the GBR (baseline) with pre-industrial and water quality target
+conditions (see [eReefs BGC Scenarios](#ereefs-bgc-scenarios) for more information). The "Baseline scenario" panel shows 
+the best estimate for light intensity above seagrass at noon for the time period from December 2010 to April 2019.
+
+The "Pre-industrial" panel shows the difference between the baseline scenario and pre-industrial conditions.
+Areas in blue correspond to locations where the pre-industrial values are estimated to be better than the current
+baseline (more light intensity above seagrass in the pre-industrial past). Red areas correspond to areas where the 
+pre-industrial conditions would have been worse (lower light intensity above seagrass) than the current baseline. As this plot 
+compares the current conditions with estimated pre-industrial conditions the difference represents the anthropogenic 
+influence on the light intensity above seagrass on the GBR. It shows that current levels in the marine environment are 
+lower than pre-industrial conditions along most of the coastline but specifically in the central and southern sections
+of the GBR. 
+
+The "WQIP-Targets" panel shows the effects of the planned targets if they were achieved. The blue area indicates the
+possible increase of light intensity relative to the current baseline. Red areas correspond to a possible decrease of 
+light intensity relative to the current baseline. The comparison between the baseline and reduced loads (WQIP-Targets) 
+scenario shows that for most places along the coast implementing the WQIP-Target measures would be beneficial as it 
+would increase the light intensity above seagrass, especially in the central and southern sections.
+
+The "% River water in sea water" panel shows the total percentage of river water in sea water. It can be used to
+identify significant river discharges and flood plumes which can have a big impact on the light intensity above seagrass.
+
+{{< include ../_scenarios_description.qmd >}}
+
+Model variables
+---------------
+
+### Light intensity above seagrass (EpiPAR_sg)
+
+The variable EpiPAR_sg represents the light intensity above seagrass
+measured in daily light integral (mol photons per square meter per day).
+Please note that the eReefs BGC model is using a 4km resolution and is
+developed for large-scale predictions. 
+
+### Light intensity above seagrass pre-industrial minus baseline (EpiPAR_sg_pre-base)
+
+This variable represents the difference of daily light intensity above seagrass in mol photons per square meter between 
+the pre-industrial scenario and the baseline scenario. This highlights the anthropogenic impact.
+
+EpiPAR_sg_pre-base = pre-industrial (q3p) EpiPAR_sg - baseline (q3b) EpiPAR_sg 
+
+### Light intensity above seagrass reduced loads (WQIP-Targets) minus baseline (EpiPAR_sg_reduced-base)
+
+This variable represents the difference of daily light intensity above seagrass in mol photons per square meter between 
+the reduced loads (WQIP-Targets) scenario and the baseline scenario. This highlights the alignment of the current state 
+with the targets.
+
+EpiPAR_sg_reduced-base = reduced loads (q3R) EpiPAR_sg - baseline (q3b) EpiPAR_sg
+
+{{< include ../_all_rivers_description.qmd >}}
+
+{{< include ../_references.qmd >}}
+
+{{< include ../_source_data_bgc_scenarios.qmd >}}
+
+
+{{< include ../../../../includes/_data_span.qmd >}}

@@ -1,0 +1,75 @@
+---
+title: "gbr4-bgc-scenarios_secchi"
+format:
+  html: 
+    template: ../../../../custom_template.html
+params:
+  product-name: GBR4 BGC Scenario Comparison - Secchi depth
+  block-name: gbr4-bgc-scenarios_secchi
+  product-id: products__ncanimate__ereefs__gbr4_bgc_comparison__secchi_base_pre_hindcast_river
+---
+
+{{< include ../../../../includes/_visualisation.qmd >}}
+
+What do these visualisations show?
+----------------------------------
+
+These maps compare the estimated current state of the GBR (baseline) with pre-industrial and water quality target
+conditions (see [eReefs BGC Scenarios](#ereefs-bgc-scenarios) for more information). The "Baseline scenario" panel shows 
+the best estimate for Secchi depth for the time period from December 2010 to April 2019.
+
+The "Pre-industrial" panel shows the difference between the baseline scenario and pre-industrial conditions.
+Areas in blue correspond to locations where the pre-industrial values are estimated to be better than the current
+baseline (higher Secchi depth in the pre-industrial past). Red areas correspond to areas where the pre-industrial 
+conditions would have been worse (lower Secchi depth) than the current baseline. As this plot compares the current conditions with 
+estimated pre-industrial conditions the difference represents the anthropogenic influence on Secchi depth on the GBR. 
+It shows that current Secchi depth levels in the marine environment are lower than pre-industrial conditions along most 
+of the coastline but most significantly in the central section of the GBR. 
+
+The "WQIP-Targets" panel shows the effects of the planned targets if they were achieved. The blue area indicates the
+possible increase in Secchi depth relative to the current baseline. Red areas correspond to a possible decrease in 
+Secchi depth relative to the current baseline. The comparison between the baseline and reduced loads (WQIP-Targets)
+scenario shows that implementing the WQIP-Target measures would be beneficial as it would increase the Secchi depth
+in most parts of the GBR but specifically in the southern section.
+
+The "% River water in sea water" panel shows the total percentage of river water in sea water. It can be used to
+identify significant river discharges and flood plumes which can have a big impact on the Secchi depth concentration.
+
+{{< include ../_scenarios_description.qmd >}}
+
+Model variables
+---------------
+
+### Secchi depth (Secchi)
+
+Secchi depth is an estimate of water clarity, which is traditionally
+measured by lowering a [secchi disk](https://en.wikipedia.org/wiki/Secchi_disk) into the water until
+the disk can not be seen. The model estimates the optical properties of
+the water based on the sediment and nutrients in the water. These all
+affect the scattering and absorption of light as it passes through the
+water allowing the model to estimate the attenuation of the light
+through the water. The Secchi depth is calculated from the vertical
+integral of attenuation of light at 488nm.
+
+### Secchi depth pre-industrial minus baseline (Secchi_pre-base)
+
+This variable represents the difference of Secchi depths in meter between the pre-industrial 
+scenario and the baseline scenario. This highlights the anthropogenic impact.
+
+Secchi_pre-base = pre-industrial (q3p) Secchi - baseline (q3b) Secchi 
+
+### Secchi depth reduced loads (WQIP-Targets) minus baseline (Secchi_reduced-base)
+
+This variable represents the difference Secchi depths in meter between the reduced loads 
+(WQIP-Targets) scenario and the baseline scenario. This highlights the alignment of the current state with the targets.
+
+Secchi_reduced-base = reduced loads (q3R) Secchi - baseline (q3b) Secchi
+
+{{< include ../_all_rivers_description.qmd >}}
+
+{{< include ../_references.qmd >}}
+
+{{< include ../_source_data_bgc_scenarios.qmd >}}
+
+
+{{< include ../../../../includes/_data_span.qmd >}}

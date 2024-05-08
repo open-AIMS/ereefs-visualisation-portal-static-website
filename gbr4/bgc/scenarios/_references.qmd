@@ -1,0 +1,20 @@
+References
+----------
+
+Brodie, J., Baird, M., Mongin, M., Skerratt, J., Robillot, C., Waterhouse, J., 2017.
+Pollutant target setting for the Great Barrier Reef: using the eReefs framework. In:
+Syme, G., Hatton MacDonald, D., Fulton, B., Piantadosi, J. (Eds.), MODSIM2017,
+22nd International Congress on Modelling and Simulation. Modelling and
+Simulation Society of Australia and New Zealand, December 2017, pp. 1913–1919.
+
+Mark E. Baird, Mathieu Mongin, Jennifer Skerratt, Nugzar Margvelashvili, Sharon Tickell, Andrew D.L. Steven, Cedric
+Robillot, Robin Ellis, David Waters, Paulina Kaniewska, Jon Brodie, 2021.
+Impact of catchment-derived nutrients and sediments on marine water quality on the Great Barrier Reef: An application of
+the eReefs marine modelling system.
+https://doi.org/10.1016/j.marpolbul.2021.112297
+
+M.E. Baird, K.A. Wild-Allen, J. Parslow, M. Mongin, B. Robson, J. Skerratt, F. Rizwi, M. Soja-Woźnaik, E. Jones, M.
+Herzfeld, N. Margvelashvili, J. Andrewartha, C. Langlais, M.P. Adams, N. Cherukuru, M. Gustafsson, S. Hadley, P.J.
+Ralph, U. Rosebrock, T. Schroeder, L. Laiolo, D. Harrison, A.D.L. Steven
+CSIRO Environmental Modelling Suite (EMS): scientific description of the optical and biogeochemical models (vB3p0)
+Geosci. Model Dev., 13 (2020), pp. 4503-4553
