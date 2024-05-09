@@ -1,1 +1,1 @@
-Sitemap: https://open-AIMS.github.io/ereefs-visualisation-portal-static-website/sitemap.xml
+Sitemap: https://ereefs.aims.gov.au/sitemap.xml
