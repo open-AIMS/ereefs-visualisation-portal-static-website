@@ -9,9 +9,9 @@ about the model can be found in the paper:
 The raw model data is available from the [NCI THREDDS server](https://thredds.nci.org.au/thredds/catalog/catalogs/fx3/catalog.html) 
 (daily, in curvilinear NetCDF format):  
 
-- [GBR4 BGC Baseline scenario GBR4_H2p0_B3p1_Cq3b_Dhnd](https://dapds00.nci.org.au/thredds/catalog/fx3/gbr4_bgc_GBR4_H2p0_B3p1_Cq3b_Dhnd/catalog.html)
-- [GBR4 BGC Pre-Industrial scenario GBR4_H2p0_B3p1_Cq3p_Dhnd](https://dapds00.nci.org.au/thredds/catalog/fx3/gbr4_bgc_GBR4_H2p0_B3p1_Cq3P_Dhnd/catalog.html)
-- [GBR4 BGC Reduced loads (WQIP-Targets) scenario GBR4_H2p0_B3p1_Cq3R_Dhnd](https://dapds00.nci.org.au/thredds/catalog/fx3/gbr4_bgc_GBR4_H2p0_B3p1_Cq3R_Dhnd/catalog.html)
+- [GBR4 BGC Baseline scenario GBR4_H2p0_B3p1_Cq3b_Dhnd](https://thredds.nci.org.au/thredds/catalog/fx3/gbr4_bgc_GBR4_H2p0_B3p1_Cq3b_Dhnd/catalog.html)
+- [GBR4 BGC Pre-Industrial scenario GBR4_H2p0_B3p1_Cq3p_Dhnd](https://thredds.nci.org.au/thredds/catalog/fx3/gbr4_bgc_GBR4_H2p0_B3p1_Cq3P_Dhnd/catalog.html)
+- [GBR4 BGC Reduced loads (WQIP-Targets) scenario GBR4_H2p0_B3p1_Cq3R_Dhnd](https://thredds.nci.org.au/thredds/catalog/fx3/gbr4_bgc_GBR4_H2p0_B3p1_Cq3R_Dhnd/catalog.html)
 
 Aggregate data is available from the [AIMS eAtlas THREDDS server](https://thredds.ereefs.aims.gov.au/thredds/catalog/catalog.html)
 (daily, monthly, yearly, in regular rectangular grid NetCDF format):  
