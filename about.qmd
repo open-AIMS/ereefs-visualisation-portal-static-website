@@ -55,7 +55,7 @@ What does this website show?
 This site presents visualisations of key variables from both the eReefs
 Hydrodynamic and BGC models. The raw model outputs are available
 publicly via the [National Computing Infrastructure (NCI) THREDDS data
-service](https://dapds00.nci.org.au/thredds/catalogs/fx3/catalog.html)
+service](https://thredds.nci.org.au/thredds/catalog/catalogs/fx3/catalog.html)
 and are described in more detail on the [Access to raw model output](https://research.csiro.au/ereefs/models/model-outputs/access-to-raw-model-output/)
 page on the CSIRO eReefs site. The problem is that using the raw model
 data directly can be a huge challenge due to their huge data size (\~ 19

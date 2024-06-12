@@ -7,7 +7,7 @@ aliases:
 The eReefs model data is produced by
 [CSIRO](https://research.csiro.au/ereefs/) and published on the [NCI
 THREDDS
-server](https://dapds00.nci.org.au/thredds/catalogs/fx3/catalog.html)
+server](https://thredds.nci.org.au/thredds/catalog/catalogs/fx3/catalog.html)
 (see section [Download eReefs model data from NCI THREDDS
 server](#download-ereefs-model-data-from-nci-thredds-server)). For the
 visualisations on this portal, the AIMS eReefs system downloads,
@@ -79,7 +79,7 @@ we cannot guaranty the correctness of this article.
 To download the raw eReefs data follow these steps:
 
 1.  Open the [NCI THREDDS server
-    website](http://dapds00.nci.org.au/thredds/catalogs/fx3/catalog.html)
+    website](http://thredds.nci.org.au/thredds/catalog/catalogs/fx3/catalog.html)
 2.  Select the link to the required model
 3.  In the list of NetCDF files, select the one of interest
 4.  The single file pages contain a section \"Access\". For downloading

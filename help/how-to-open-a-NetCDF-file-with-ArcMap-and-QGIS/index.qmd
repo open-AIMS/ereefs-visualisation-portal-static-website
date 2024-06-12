@@ -22,7 +22,7 @@ GIS tools like [ArcMap](https://desktop.arcgis.com/en/arcmap/) and
 AIMS eReefs system ([AIMS eReefs derived
 data](https://thredds.ereefs.aims.gov.au/)) and not the raw eReefs data
 produced by CSIRO ([available on the NCI THREDDS
-server](https://dapds00.nci.org.au/thredds/catalogs/fx3/catalog.html)).
+server](https://thredds.nci.org.au/thredds/catalog/catalogs/fx3/catalog.html)).
 This is due to the usage of a curvilinear grid in the raw eReefs data
 which is better suited to the modelling and execution requirements than
 a rectilinear grid. However curvilinear grids are incompatible with many

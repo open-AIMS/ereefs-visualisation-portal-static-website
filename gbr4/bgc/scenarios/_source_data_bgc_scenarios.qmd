@@ -6,7 +6,7 @@ Catchments using Baseline, Pre-Industrial, and reduced loads (WQIP-Targets) catc
 about the model can be found in the paper:
 [CSIRO Environmental Modelling Suite (EMS): Scientific description of the optical and biogeochemical models (vB3p0)](https://doi.org/10.5194/gmd-2019-115).
 
-The raw model data is available from the [NCI THREDDS server](https://dapds00.nci.org.au/thredds/catalogs/fx3/catalog.html) 
+The raw model data is available from the [NCI THREDDS server](https://thredds.nci.org.au/thredds/catalog/catalogs/fx3/catalog.html) 
 (daily, in curvilinear NetCDF format):  
 
 - [GBR4 BGC Baseline scenario GBR4_H2p0_B3p1_Cq3b_Dhnd](https://dapds00.nci.org.au/thredds/catalog/fx3/gbr4_bgc_GBR4_H2p0_B3p1_Cq3b_Dhnd/catalog.html)
