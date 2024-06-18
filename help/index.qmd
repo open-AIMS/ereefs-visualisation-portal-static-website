@@ -8,9 +8,9 @@ aliases:
 
 A short description of how to use the visualisation tool found on each product page.
 
-## [How to download a visualisation video or frame](./how-to-download-video-or-image/index.qmd)
+## [How to download a visualisation video](./how-to-download-video/index.qmd)
 
-A short tutorial on how to download a visualisation video or frame for an AIMS eReefs product.
+A short tutorial on how to download a visualisation video for an AIMS eReefs product.
 
 ## [How to manually download AIMS eReefs data](./how-to-manually-download-aims-ereefs-data/index.qmd)
 
