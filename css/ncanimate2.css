@@ -184,6 +184,11 @@
     clear: left;
 }
 
+/* Make sure all the cells of the calendar are the same width */
+.ncanimate2_block .controls .calendar td {
+    width: 4em;
+}
+
 .ncanimate2_block .playerTools .elevation {
     text-align: center;
 }
@@ -225,7 +230,7 @@
 .ncanimate2_block .tabs ul li a span {
   margin-right: 0.5em;
 }
-  
+
 .ncanimate2_block .tabs ul li a {
     /* display: inline-block; */ /* for some reason text-align: left doesn't work with this disabled*/
     text-align: left;

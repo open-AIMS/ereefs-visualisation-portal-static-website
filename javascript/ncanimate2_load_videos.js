@@ -3103,7 +3103,7 @@
 var EATLAS_NCANIMATE2_MEDIA_MAX_HEIGHT = 800;
 
 /**
- * Developed to scroll to the visualisation when new media is loaded. If there is no 
+ * Developed to scroll to the visualisation when new media is loaded. If there is no
  * scrolling, then it is not obvious that anything has happened when a hash link has been clicked.
  */
 function scrollToVisualisation() {
