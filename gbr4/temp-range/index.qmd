@@ -3,10 +3,10 @@ title: "gbr4-hydro_temp-range"
 aliases:
   - /ereefs-aims/gbr4/temp-range
 format:
-  html: 
+  html:
     template: ../../custom_template.html
 params:
-  product-name: Temperature range at -1.5m (GBR4)
+  product-name: Temperature range at -1.5m (GBR4 v2.0)
   block-name: gbr4-hydro_temp-range
   product-id: products__ncanimate__ereefs__gbr4_v2__temp-range
 ---

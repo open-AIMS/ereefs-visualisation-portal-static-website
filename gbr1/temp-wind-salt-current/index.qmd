@@ -3,7 +3,7 @@ title: "gbr1-hydro_temp-wind-salt-current"
 aliases:
   - /ereefs-aims/gbr1/temp-wind-salt-current
 format:
-  html: 
+  html:
     template: ../../custom_template.html
 params:
   product-name: Temperature, wind, salinity and current (GBR1)
@@ -40,7 +40,7 @@ friction of the land slowing the winds on the southern side of the cyclone.
 
 ### Salinity
 
-Salinity is a measure of the salitiness of the water. Fresh water outflow from
+Salinity is a measure of the saltiness of the water. Fresh water outflow from
 the rivers caused by flooding and rain events lowers the salinity (appearing as
 red in the maps). The low salinity is a good approximation for where flood
 plume waters might be. During flood plumes if the wind is blowing offshore then

@@ -1,21 +1,22 @@
 ---
-title: "gbr4-hydro_temp-wind-salt-current"
+title: "gbr4_v4-hydro_temp-wind-salt-current"
 aliases:
-  - /ereefs-aims/gbr4/temp-wind-salt-current
+  - /ereefs-aims/gbr4_v4/temp-wind-salt-current
 format:
   html:
     template: ../../custom_template.html
 params:
-  product-name: Temperature, wind, salinity and current (GBR4 v2.0)
-  block-name: gbr4-hydro_temp-wind-salt-current
-  product-id: products__ncanimate__ereefs__gbr4_v2__temp-wind-salt-current
+  product-name: Temperature, wind, salinity and current (GBR4 v4.0)
+  block-name: gbr4_v4-hydro_temp-wind-salt-current
+  product-id: products__ncanimate__ereefs__gbr4_v4__temp-wind-salt-current
 ---
 
 {{< include ../../includes/_visualisation.qmd >}}
 {{< include ../../includes/_cyclone_jasper.qmd >}}
 
 This page shows the temperature, wind, salinity and ocean currents on the Great
-Barrier Reef based on the [4km eReefs Hydrodynamic model](https://research.csiro.au/ereefs/models/). This visualisation product is
+Barrier Reef based on the [4km eReefs Hydrodynamic model](https://research.csiro.au/ereefs/models/).
+This visualisation product is
 also available for the [1km eReefs Hydrodynamic model](/gbr1/temp-wind-salt-current).
 
 The combination of temperature, wind, salinity and current shows key
@@ -36,7 +37,7 @@ winds as they are a predictable seasonal pattern. In summer months the winds
 typically drop (except for cyclones) reducing the cooling and mixing of the
 water, resulting in significant surface temperatures rises during the day,
 creating a "heart-beat" pattern in the temperature in the video (see the
-Temperature panel in the [March 2017](/gbr4/temp-wind-salt-current#year=2017;month=3) video as an example). The
+Temperature panel in the [March 2017](/gbr4_v4/temp-wind-salt-current#year=2017;month=3) video as an example). The
 wind also drives the direction of the flood plumes. The north west blowing
 trade winds typically push any flood plumes back onto the coast and northwards.
 When the wind occasionally blows offshore then the plumes are pushed further
@@ -59,7 +60,7 @@ red in the maps). The low salinity is a good approximation for where flood
 plume waters might be. During flood plumes if the wind is blowing offshore then
 it will push the plume off the coast more toward the reefs. 2011 was a
 particularly wet year during the summer months causing extensive plumes to
-drift over reefal areas. (See [Feb 2011 Burdekin region](/gbr4/temp-wind-salt-current#year=2011;month=2;region=townsville-3)
+drift over reefal areas. (See [Feb 2011 Burdekin region](/gbr4_v4/temp-wind-salt-current#year=2011;month=2;region=townsville-3)
 salinity panel for runoff from major flooding).
 
 **Note**: In flood plumes nutrient and sediment runoff lead to the formation of
@@ -84,12 +85,12 @@ dispersed by ocean currents planktonic larvae that float from reef to reef.
 
 ## Interesting events
 
-- Cyclones: [**Yasi** (Feb 2011)](/gbr4/temp-wind-salt-current#year=2011;month=2), [**Ita** (April 2014)](/gbr4/temp-wind-salt-current#year=2014;month=4), [**Nathan** (March 2015)](/gbr4/temp-wind-salt-current#year=2015;month=3), [**Debbi** (March 2017)](/gbr4/temp-wind-salt-current#year=2017;month=3),
-- Coral bleaching from high temperature ([March 2016](/gbr4/temp-wind-salt-current#year=2016;month=3), [March 2017](/gbr4/temp-wind-salt-current#year=2017;month=3)),
-- Flood plumes with low salinity ([Burdekin Jan 2011](/gbr4/temp-wind-salt-current#year=2011;month=1;region=townsville-3), [Feb 2019](/gbr4/temp-wind-salt-current#region=townsville-3;year=2019;month=2)). [Salinity at 3 depths](/gbr1/salt-multi-depth#region=townsville-3) showing detail in the low salinity areas < 32 PSU.
-- Strong East Australian Current ([Nov 2015, monthly average current](/gbr4/temp-wind-salt-current#frame=Monthly;year=2015;month=11))
-- Clear bifurcation of the currents around Lizard island, north of Cairns ([Oct 2014](/gbr4/temp-wind-salt-current#frame=Monthly;year=2014;month=10))
+- Cyclones: [**Yasi** (Feb 2011)](/gbr4_v4/temp-wind-salt-current#year=2011;month=2), [**Ita** (April 2014)](/gbr4_v4/temp-wind-salt-current#year=2014;month=4), [**Nathan** (March 2015)](/gbr4_v4/temp-wind-salt-current#year=2015;month=3), [**Debbi** (March 2017)](/gbr4_v4/temp-wind-salt-current#year=2017;month=3),
+- Coral bleaching from high temperature ([March 2016](/gbr4_v4/temp-wind-salt-current#year=2016;month=3), [March 2017](/gbr4_v4/temp-wind-salt-current#year=2017;month=3)),
+- Flood plumes with low salinity ([Burdekin Jan 2011](/gbr4_v4/temp-wind-salt-current#year=2011;month=1;region=townsville-3), [Feb 2019](/gbr4_v4/temp-wind-salt-current#region=townsville-3;year=2019;month=2)). [Salinity at 3 depths](/gbr1/salt-multi-depth#region=townsville-3) showing detail in the low salinity areas < 32 PSU.
+- Strong East Australian Current ([Nov 2015, monthly average current](/gbr4_v4/temp-wind-salt-current#frame=Monthly;year=2015;month=11))
+- Clear bifurcation of the currents around Lizard island, north of Cairns ([Oct 2014](/gbr4_v4/temp-wind-salt-current#frame=Monthly;year=2014;month=10))
 
-{{< include ../../includes/_source_data_gbr4.qmd >}}
+{{< include ../../includes/_source_data_gbr4_v4.qmd >}}
 
 {{< include ../../includes/_recent_data.qmd >}}

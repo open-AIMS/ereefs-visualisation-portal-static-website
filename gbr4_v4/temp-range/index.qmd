@@ -1,0 +1,24 @@
+---
+title: "gbr4_v4-hydro_temp-range"
+aliases:
+  - /ereefs-aims/gbr4_v4/temp-range
+format:
+  html:
+    template: ../../custom_template.html
+params:
+  product-name: Temperature range at -1.5m (GBR4 v4.0)
+  block-name: gbr4_v4-hydro_temp-range
+  product-id: products__ncanimate__ereefs__gbr4_v4__temp-range
+---
+
+{{< include ../../includes/_visualisation.qmd >}}
+{{< include ../../includes/_cyclone_jasper.qmd >}}
+
+This page shows the daily minimum, maximum and temperature range on the Great Barrier Reef based on the
+[4km eReefs Hydrodynamic model](https://research.csiro.au/ereefs/models/). This is an experimental
+product that is intended to help investigate whether daily temperature range is a useful indicator
+of resistence to coral bleaching.
+
+{{< include ../../includes/_source_data_gbr4_v4.qmd >}}
+
+{{< include ../../includes/_recent_data.qmd >}}

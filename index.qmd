@@ -45,7 +45,19 @@ realtime results are expected to be back in operation by the end of 2020.
 
 ::: {.ncanimate-products .column-screen-right}
 ::: {.ncanimate-product-tile}
-### 4 km model (Sept 2010 - present)
+### 4 km model - v4.0 (Sep 2010 - Nov 2022)
+#### Water movement and physical characteristics
+![](/images/AIMS-JL009front007-500x250.jpg){fig-alt="Waves break on the front reef creating a tough environment for corals to grow. Note the large encrusting soft coral below the breaking wave." fig-align="center"}
+
+- [Temperature, wind, salinity and current](./gbr4_v4/temp-wind-salt-current/index.qmd)
+- [Temperature at 1.5m, 18m and 49m depth](./gbr4_v4/temp-multi-depth/index.qmd)
+- [Current at 1.5m, 18m and 103m depth](./gbr4_v4/current-multi-depth/index.qmd)
+- [Temperature range at 1.5m](./gbr4_v4/temp-range/index.qmd)
+- [Comparing eReefs (GBR4 v4.0 temperature, current) to IMOS satellite temperature and ocean current](./gbr4_v4/imos-vs-ereefs/index.qmd)
+:::
+
+::: {.ncanimate-product-tile}
+### 4 km model - v2.0 (Nov 2022 - Dec 2023)
 #### Water movement and physical characteristics
 ![](/images/AIMS-JL009front007-500x250.jpg){fig-alt="Waves break on the front reef creating a tough environment for corals to grow. Note the large encrusting soft coral below the breaking wave." fig-align="center"}
 
@@ -53,7 +65,7 @@ realtime results are expected to be back in operation by the end of 2020.
 - [Temperature at 1.5m, 18m and 49m depth](./gbr4/temp-multi-depth/index.qmd)
 - [Current at 1.5m, 18m and 103m depth](./gbr4/current-multi-depth/index.qmd)
 - [Temperature range at 1.5m](./gbr4/temp-range/index.qmd)
-- [Comparing eReefs (GBR4 temperature, current) to IMOS satellite temperature and ocean current](./gbr4/imos-vs-ereefs/index.qmd)
+- [Comparing eReefs (GBR4 v2.0 temperature, current) to IMOS satellite temperature and ocean current](./gbr4/imos-vs-ereefs/index.qmd)
 :::
 
 ::: {.ncanimate-product-tile}

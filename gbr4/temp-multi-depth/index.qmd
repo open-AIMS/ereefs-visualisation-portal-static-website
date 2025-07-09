@@ -3,10 +3,10 @@ title: "gbr4-hydro_temp-multi-depth"
 aliases:
   - /ereefs-aims/gbr4/temp-multi-depth
 format:
-  html: 
+  html:
     template: ../../custom_template.html
 params:
-  product-name: Temperature at 1.5m, 18m and 49m depth (GBR4)
+  product-name: Temperature at 1.5m, 18m and 49m depth (GBR4 v2.0)
   block-name: gbr4-hydro_temp-multi-depth
   product-id: products__ncanimate__ereefs__gbr4_v2__temp-multi-depth
 ---

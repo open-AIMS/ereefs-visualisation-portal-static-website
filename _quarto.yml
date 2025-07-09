@@ -6,7 +6,7 @@ project:
 
 website:
   title: "AIMS eReefs Visualisation Portal"
-  favicon: images/ereefs_aims_favicon.png
+  favicon: images/ereefs_logo_favicon.svg
   search: true
   navbar:
     title: "eReefs Visualisations"
@@ -60,25 +60,37 @@ website:
               - section: "GBR1"
                 contents:
                   - text: "Temperature, wind, salinity and current"
-                    href: gbr1/temp-wind-salt-current/
+                    href: /gbr1/temp-wind-salt-current/
                   - text: "Temperature at 2.35m, 18m and 49m depth"
-                    href: gbr1/temp-multi-depth/
+                    href: /gbr1/temp-multi-depth/
                   - text: "Current at 2.35m, 18m and 103m depth"
-                    href: gbr1/current-multi-depth/
+                    href: /gbr1/current-multi-depth/
                   - text: "Salinity at 2.35m, 5.35m and 18m depth"
-                    href: gbr1/salt-multi-depth/
+                    href: /gbr1/salt-multi-depth/
                   - text: "Fresh water exposure at 2.35m"
-                    href: gbr1/fresh-water-exposure/
+                    href: /gbr1/fresh-water-exposure/
                   - text: "Current magnitude average at 2.35m"
-                    href: gbr1/current-magnitude-average/
+                    href: /gbr1/current-magnitude-average/
                   - text: "Temperature range at 2.35m"
                     href: /gbr1/temp-range/
                   - text: "Flood plume extents for major rivers on GBR based on modelled river tracers"
                     href: /gbr1/river-tracers/
-              - section: "GBR4"
+              - section: "GBR4 v4.0 2010-10 - 2022-11"
                 contents:
                   - text: "Temperature, wind, salinity and current"
-                    href: gbr4/temp-wind-salt-current/
+                    href: /gbr4_v4/temp-wind-salt-current/
+                  - text: "Temperature at 1.5m, 18m and 49m depth"
+                    href: /gbr4_v4/temp-multi-depth/
+                  - text: "Current at 1.5m, 18m and 103m depth"
+                    href: /gbr4_v4/current-multi-depth/
+                  - text: "Temperature range at 1.5m"
+                    href: /gbr4_v4/temp-range/
+                  - text: "Comparing eReefs (GBR4 temperature, current) to IMOS satellite temperature and ocean current"
+                    href: /gbr4_v4/imos-vs-ereefs/
+              - section: "GBR4 v2.0 2022-11 - 2023-12"
+                contents:
+                  - text: "Temperature, wind, salinity and current"
+                    href: /gbr4/temp-wind-salt-current/
                   - text: "Temperature at 1.5m, 18m and 49m depth"
                     href: /gbr4/temp-multi-depth/
                   - text: "Current at 1.5m, 18m and 103m depth"
@@ -134,9 +146,9 @@ website:
 
 format:
   html:
-    theme: 
+    theme:
       - css/custom.scss
-    css: 
+    css:
       - css/ereefs_aims.css
       - css/ncanimate2.css
       - css/ncanimate2_responsive.css

@@ -1,14 +1,14 @@
 ---
-title: "gbr4-hydro_current-multi-depth"
+title: "gbr4_v4-hydro_current-multi-depth"
 aliases:
-  - /ereefs-aims/gbr4/current-multi-depth
+  - /ereefs-aims/gbr4_v4/current-multi-depth
 format:
   html:
     template: ../../custom_template.html
 params:
-  product-name: Current at 1.5m, 18m and 103m depth (GBR4 v2.0)
-  block-name: gbr4-hydro_current-multi-depth
-  product-id: products__ncanimate__ereefs__gbr4_v2__current-multi-depth
+  product-name: Current at 1.5m, 18m and 103m depth (GBR4 v4.0)
+  block-name: gbr4_v4-hydro_current-multi-depth
+  product-id: products__ncanimate__ereefs__gbr4_v4__current-multi-depth
 ---
 
 {{< include ../../includes/_visualisation.qmd >}}
@@ -26,6 +26,6 @@ direction. In the hourly data a lot of the daily fluctuations are due to tidal
 currents. These tend to make the current direction swing back and forth as the
 tides flow and and out of a region.
 
-{{< include ../../includes/_source_data_gbr4.qmd >}}
+{{< include ../../includes/_source_data_gbr4_v4.qmd >}}
 
 {{< include ../../includes/_recent_data.qmd >}}

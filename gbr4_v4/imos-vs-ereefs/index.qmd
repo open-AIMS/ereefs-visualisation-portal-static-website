@@ -1,14 +1,14 @@
 ---
-title: "imos-vs-ereefs"
+title: "imos-vs-ereefs_v4"
 aliases:
-  - /ereefs-aims/gbr4/imos-vs-ereefs
+  - /ereefs-aims/gbr4_v4/imos-vs-ereefs
 format:
   html:
     template: ../../custom_template.html
 params:
-  product-name: Comparing eReefs (GBR4 v2.0 temperature, current) to IMOS satellite temperature and ocean current
-  block-name: imos-vs-ereefs
-  product-id: products__ncanimate__mixed__imos-vs-ereefs-temperature
+  product-name: Comparing eReefs (GBR4 v4.0 temperature, current) to IMOS satellite temperature and ocean current
+  block-name: imos-vs-ereefs_v4
+  product-id: products__ncanimate__mixed__imos-vs-ereefs_v4-temperature
 ---
 
 {{< include ../../includes/_visualisation.qmd >}}
@@ -18,9 +18,10 @@ This video compares the temperature and ocean current data of the eReefs
 Hydrodynamic model (4km resolution) with remotely sensed temperature and ocean
 current provided by [Integrated Marine Observing System (IMOS)](https://imos.org.au/). For the ocean
 current data we use the [IMOS - OceanCurrent - Gridded sea level anomaly - Near
-real time](https://catalogue-imos.aodn.org.au/geonetwork/srv/api/records/0c9eb39c-9cbe-4c6a-8a10-5867087e703a) dataset and for the temperature the [IMOS - SRS - SST - L3S - Single
-Sensor - 6 day - night time - Australia](https://catalogue-imos.aodn.org.au/geonetwork/srv/api/records/f9d6616a-f359-4418-979a-e7b89b5b9086) dataset. The 6 day period was chosen to
-reduce the chances of data gaps because of cloud coverage.
+real time](https://catalogue-imos.aodn.org.au/geonetwork/srv/api/records/0c9eb39c-9cbe-4c6a-8a10-5867087e703a)
+dataset and for the temperature the [IMOS - SRS - SST - L3S - Single
+Sensor - 6 day - night time - Australia](https://catalogue-imos.aodn.org.au/geonetwork/srv/api/records/f9d6616a-f359-4418-979a-e7b89b5b9086)
+dataset. The 6 day period was chosen to reduce the chances of data gaps because of cloud coverage.
 
 The comparison has some limitations that need to be considered. The IMOS
 satellite temperature data is created by layering the most recent readings over
@@ -32,4 +33,5 @@ temperature from nighttime readings while the eReefs temperature data is a
 24-hour average (derived from hourly data). The eReefs ocean current data is
 also a 24-hour average. This reduces the tidal effects on the current vector,
 but doesn't eliminate it, whereas the geostrophic velocities in the IMOS
-dataset are detided (see the [metadata record](https://catalogue-imos.aodn.org.au/geonetwork/srv/api/records/0c9eb39c-9cbe-4c6a-8a10-5867087e703a) for more information).
+dataset are detided (see the [metadata record](https://catalogue-imos.aodn.org.au/geonetwork/srv/api/records/0c9eb39c-9cbe-4c6a-8a10-5867087e703a)
+for more information).
