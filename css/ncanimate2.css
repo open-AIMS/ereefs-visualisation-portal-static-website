@@ -217,11 +217,12 @@
     display: inline-block;
     list-style-type: none;
     margin: 0;
-    padding: 3px 3px 0 3px;
+    padding: 1px 0 0 0;
 }
 
 .ncanimate2_block .tabs ul li {
     display: inline-block;
+    padding: 3px 3px 0 3px;
 }
 .ncanimate2_block .tabs ul li:hover {
     background-color: #DDDDDD;
@@ -248,6 +249,7 @@
     background-position: center center;
     background-size: 23px 20px;
     opacity: 0.2;
+    margin: 0.1em;
 }
 
 .ncanimate2_block .tabs ul li.images .icon {

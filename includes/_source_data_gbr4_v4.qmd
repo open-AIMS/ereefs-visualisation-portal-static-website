@@ -1,7 +1,7 @@
 ## Source data
 
 The videos/images on this page are based on the [4km eReefs Hydrodynamic model
-(v2.0)](https://research.csiro.au/ereefs/models/) of the Great Barrier Reef.
+(v4.0)](https://research.csiro.au/ereefs/models/) of the Great Barrier Reef.
 The raw data is available from the [NCI THREDDS
 server](https://thredds.nci.org.au/thredds/catalog/fx3/gbr4_H4p0_ABARRAr2_OBRAN2020_FG2Gv3_Dhnd/catalog.html)
 (hourly) and the aggregate data from the [AIMS eReefs THREDDS server](https://thredds.ereefs.aims.gov.au/thredds/catalog/catalog.html)
