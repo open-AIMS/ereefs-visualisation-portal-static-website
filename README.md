@@ -15,6 +15,15 @@
 To see a preview of the site, run `quarto preview`, or alternatively render the markdown to html with
 `quarto render` then run `python3 -m http.server`
 
+**IMPORTANT**: The website sends requests to the eReefs API, which is on a different domain name than your localhost.
+This will cause the web browser to automatically reject the requests (**CORS**).
+To work around this issue, you can start your browser with the CORS security feature disabled.
+
+Example:
+```
+chromium --disable-web-security --user-data-dir=/tmp/chromium-cors-test
+```
+
 ## Publishing
 
 ### Publishing with GitHub Actions

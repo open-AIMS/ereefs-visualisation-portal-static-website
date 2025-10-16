@@ -5,5 +5,5 @@ The videos/images on this page are based on the [4km eReefs Hydrodynamic model
 The raw data is available from the [NCI THREDDS
 server](https://thredds.nci.org.au/thredds/catalog/fx3/gbr4_v2/catalog.html) (hourly) and the aggregate data from the [AIMS eReefs THREDDS
 server](https://thredds.ereefs.aims.gov.au/thredds/catalog/catalog.html)
-(daily, monthly, yearly, all). These map layers are also available for
+(daily, monthly, yearly and overall). These map layers are also available for
 inspection in the [eReefs Data Explorer](https://portal.ereefs.info/).
