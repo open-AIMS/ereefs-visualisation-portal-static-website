@@ -12,7 +12,11 @@ params:
 ---
 
 {{< include ../../includes/_visualisation.qmd >}}
-{{< include ../../includes/_cyclone_jasper.qmd >}}
+<hr/>
+{{< include ../../includes/_citation.qmd >}}
+<hr/>
+{{< include ../../includes/_note.qmd >}}
+<hr/>
 
 This page shows the strength and direction of ocean currents at different
 depths on the Great Barrier Reef based on the [1km eReefs Hydrodynamic model](https://research.csiro.au/ereefs/models/).

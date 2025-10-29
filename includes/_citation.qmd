@@ -1,0 +1,5 @@
+<div class="citation">
+  <p>
+    <strong>When using this visualisation, please cite:</strong> Lawrey, E., Lafond, G., Johnston, J., & Hammerton, M. (2025). eReefs visualisation suite - pre rendered animations and maps (AIMS, Source: CSIRO) (Version 1). eAtlas. <a href="https://doi.org/10.26274/NHYW-4C74">https://doi.org/10.26274/NHYW-4C74</a>
+  </p>
+</div>

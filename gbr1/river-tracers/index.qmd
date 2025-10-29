@@ -12,7 +12,11 @@ params:
 ---
 
 {{< include ../../includes/_visualisation.qmd >}}
-{{< include ../../includes/_cyclone_jasper.qmd >}}
+<hr/>
+{{< include ../../includes/_citation.qmd >}}
+<hr/>
+{{< include ../../includes/_note.qmd >}}
+<hr/>
 
 This product shows flood plumes associated with the major rivers along the
 Queensland coastline flowing into the Great Barrier Reef Marine Park. These
@@ -42,7 +46,7 @@ The lowest threshold of river water concentration (1%) shown in the
 visualisation was chosen to align with the visible extent of flood plumes as
 seen in satellite imagery. At this concentration we can expect organisms on the
 sea floor to see raised nutrient levels, some fine sediment and a significant
-reduction in light. 
+reduction in light.
 
 ## Limitations and spatial accuracy
 

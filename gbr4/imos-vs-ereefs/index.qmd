@@ -12,7 +12,11 @@ params:
 ---
 
 {{< include ../../includes/_visualisation.qmd >}}
-{{< include ../../includes/_cyclone_jasper.qmd >}}
+<hr/>
+{{< include ../../includes/_citation.qmd >}}
+<hr/>
+{{< include ../../includes/_note.qmd >}}
+<hr/>
 
 This video compares the temperature and ocean current data of the eReefs
 Hydrodynamic model (4km resolution) with remotely sensed temperature and ocean

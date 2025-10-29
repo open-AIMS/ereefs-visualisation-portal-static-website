@@ -11,7 +11,11 @@ params:
   product-id: products__ncanimate__ereefs__gbr1_2-0__fresh-water-exposure
 ---
 {{< include ../../includes/_visualisation.qmd >}}
-{{< include ../../includes/_cyclone_jasper.qmd >}}
+<hr/>
+{{< include ../../includes/_citation.qmd >}}
+<hr/>
+{{< include ../../includes/_note.qmd >}}
+<hr/>
 
 This page shows as estimate of exposure to fresh water on the Great
 Barrier Reef based on the [1km eReefs Hydrodynamic
