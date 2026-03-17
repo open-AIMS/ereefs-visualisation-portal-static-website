@@ -1,17 +1,15 @@
 ---
-title: "gbr4-bgc-baseline_din_dip_dic"
-aliases:
-  - /ereefs-aims/gbr4/bgc/baseline/din_dip_dic
+title: "gbr4-bgc4p2-baseline_din_dip_dic"
 format:
   html:
-    template: ../../../../custom_template.html
+    template: ../../../../../custom_template.html
 params:
-  product-name: Dissolved Inorganic (Carbon, Nitrogen & Phosphorus) (GBR4 BGC v3.1 baseline)
-  block-name: gbr4-bgc-baseline_din_dip_dic
-  product-id: products__ncanimate__ereefs__gbr4_bgc_baseline__din_dip_dic
+  product-name: Dissolved Inorganic (Carbon, Nitrogen & Phosphorus) (GBR4 BGC v4.2 baseline)
+  block-name: gbr4-bgc4p2-baseline_din_dip_dic
+  product-id: products__ncanimate__ereefs__gbr4_bgc4p2_baseline__din_dip_dic
 ---
 
-{{< include ../../../../includes/_visualisation.qmd >}}
+{{< include ../../../../../includes/_visualisation.qmd >}}
 
 This set of visualisations represents estimates of Dissolved Inorganic
 Nitrogen (DIN), Dissolved Inorganic Carbon (DIC) and Dissolved Inorganic
@@ -172,6 +170,6 @@ of Australia and New Zealand, 1652--1658, available
 at: <https://www.mssanz.org.au/modsim2013/H3/robson.pdf> (last access:
 25 October 2023), 2013. 
 
-{{< include ../../../../includes/_source_data_bgc.qmd >}}
+{{< include ../../../../../includes/_source_data_bgc.qmd >}}
 
-{{< include ../../../../includes/_data_span.qmd >}}
+{{< include ../../../../../includes/_data_span.qmd >}}

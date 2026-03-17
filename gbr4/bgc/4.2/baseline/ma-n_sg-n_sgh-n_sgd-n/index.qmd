@@ -1,17 +1,15 @@
 ---
-title: "gbr4-bgc-baseline_ma-n_sg-n_sgh-n_sgd-n"
-aliases:
-  - /ereefs-aims/gbr4/bgc/baseline/ma-n_sg-n_sgh-n_sgd-n
+title: "gbr4-bgc4p2-baseline_ma-n_sg-n_sgh-n_sgd-n"
 format:
   html:
-    template: ../../../../custom_template.html
+    template: ../../../../../custom_template.html
 params:
-  product-name: Nitrogen (macroalgae, seagrass zostera, seagrass halophila & deep seagrass) (GBR4 BGC v3.1 baseline)
-  block-name: gbr4-bgc-baseline_ma-n_sg-n_sgh-n_sgd-n
-  product-id: products__ncanimate__ereefs__gbr4_bgc_baseline__ma-n_sg-n_sgh-n_sgd-n
+  product-name: Nitrogen (macroalgae, seagrass zostera, seagrass halophila & deep seagrass) (GBR4 BGC v4.2 baseline)
+  block-name: gbr4-bgc4p2-baseline_ma-n_sg-n_sgh-n_sgd-n
+  product-id: products__ncanimate__ereefs__gbr4_bgc4p2_baseline__ma-n_sg-n_sgh-n_sgd-n
 ---
 
-{{< include ../../../../includes/_visualisation.qmd >}}
+{{< include ../../../../../includes/_visualisation.qmd >}}
 
 These visualisations show the amount of modelled seagrass and macroalgae
 represented as the amount of nitrogen contained in their biomass in each
@@ -105,6 +103,6 @@ Environmental Modelling Suite (EMS): Scientific description of the
 optical and biogeochemical models (vB3p0). Geosci. Model Dev. Discuss.
 <https://doi.org/10.5194/gmd-2019-115>
 
-{{< include ../../../../includes/_source_data_bgc.qmd >}}
+{{< include ../../../../../includes/_source_data_bgc.qmd >}}
 
-{{< include ../../../../includes/_data_span.qmd >}}
+{{< include ../../../../../includes/_data_span.qmd >}}

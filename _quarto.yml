@@ -57,7 +57,7 @@ website:
         contents:
           - section: "Hydrodynamic Model"
             contents:
-              - section: "GBR1"
+              - section: "1km resolution v2.0 (GBR1)"
                 contents:
                   - text: "Temperature, wind, salinity and current"
                     href: /gbr1/temp-wind-salt-current/
@@ -75,7 +75,7 @@ website:
                     href: /gbr1/temp-range/
                   - text: "Flood plume extents for major rivers on GBR based on modelled river tracers"
                     href: /gbr1/river-tracers/
-              - section: "GBR4 v4.0 2010-10 - 2022-11"
+              - section: "4km resolution v4.0 (GBR4) 2010-10 - 2022-11"
                 contents:
                   - text: "Temperature, wind, salinity and current"
                     href: /gbr4_v4/temp-wind-salt-current/
@@ -87,7 +87,7 @@ website:
                     href: /gbr4_v4/temp-range/
                   - text: "Comparing eReefs (GBR4 temperature, current) to IMOS satellite temperature and ocean current"
                     href: /gbr4_v4/imos-vs-ereefs/
-              - section: "GBR4 v2.0 2022-11 - 2023-12"
+              - section: "4km resolution v2.0 (GBR4) 2022-11 - 2023-12"
                 contents:
                   - text: "Temperature, wind, salinity and current"
                     href: /gbr4/temp-wind-salt-current/
@@ -99,50 +99,82 @@ website:
                     href: /gbr4/temp-range/
                   - text: "Comparing eReefs (GBR4 temperature, current) to IMOS satellite temperature and ocean current"
                     href: /gbr4/imos-vs-ereefs/
-          - section: "BioGeoChemical Model (4 km)"
+          - section: "BioGeoChemical Model"
             contents:
-              - section: "Water chemistry"
+              - section: "4km resolution v4.2 (GBR4)"
                 contents:
-                  - text: "Total alkalinity, PH & Aragonite saturation state"
-                    href: /gbr4/bgc/baseline/alk_ph_omega-ar/
-                  - text: "Dissolved inorganic nitrogen, nitrate & ammonia"
-                    href: /gbr4/bgc/baseline/din_no3_nh4/
-                  - text: "Dissolved oxygen & oxygen saturation percentage"
-                    href: /gbr4/bgc/baseline/oxygen_oxy-sat/
-                  - text: "Dissolved Inorganic (Carbon, Nitrogen & Phosphorus)"
-                    href: /gbr4/bgc/baseline/din_dip_dic/
-                  - text: "Dissolved Organic (Carbon, Nitrogen & Phosphorus)"
-                    href: /gbr4/bgc/baseline/dor-c_dor-n_dor-p/
-                  - text: "Particulate inorganic phosphorus & particulate inorganic"
-                    href: /gbr4/bgc/baseline/pip_pip-sed/
-              - section: "Water quality measures"
+                  - section: "Water chemistry"
+                    contents:
+                      - text: "Total alkalinity, PH & Aragonite saturation state"
+                        href: /gbr4/bgc/4.2/baseline/alk_ph_omega-ar/
+                      - text: "Dissolved inorganic nitrogen, nitrate & ammonia"
+                        href: /gbr4/bgc/4.2/baseline/din_no3_nh4/
+                      - text: "Dissolved oxygen & oxygen saturation percentage"
+                        href: /gbr4/bgc/4.2/baseline/oxygen_oxy-sat/
+                      - text: "Dissolved Inorganic (Carbon, Nitrogen & Phosphorus)"
+                        href: /gbr4/bgc/4.2/baseline/din_dip_dic/
+                      - text: "Dissolved Organic (Carbon, Nitrogen & Phosphorus)"
+                        href: /gbr4/bgc/4.2/baseline/dor-c_dor-n_dor-p/
+                  - section: "Water quality measures"
+                    contents:
+                      - text: "Total chlorophyll, dissolved inorganic nitrogen & total suspended solids"
+                        href: /gbr4/bgc/4.2/baseline/chl-a-sum_din_tss/
+                      - text: "Total Suspended Solids, dust, mud carbonate & mud mineral"
+                        href: /gbr4/bgc/4.2/baseline/tss_dust_mud-carbonate_mud-mineral/
+                      - text: "Secchi depth, vertical attenuation at 490nm & light intensity above seagrass"
+                        href: /gbr4/bgc/4.2/baseline/secchi_kd-490_epipar-sg/
+                      - text: "Simulated true colour"
+                        href: /gbr4/bgc/4.2/baseline/true-colour/
+                  - section: "Macroalgae, seagrass and coral"
+                    contents:
+                      - text: "Coral symbiont (nitrogen & chlorophyll) & coral host nitrogen"
+                        href: /gbr4/bgc/4.2/baseline/cs-n_cs-chl_ch-n/
+                      - text: "Nitrogen (macroalgae, seagrass zostera, seagrass halophila & deep seagrass)"
+                        href: /gbr4/bgc/4.2/baseline/ma-n_sg-n_sgh-n_sgd-n/
+              - section: "4km resolution v3.1 (GBR4) SUPERSEDED"
                 contents:
-                  - text: "Total chlorophyll, dissolved inorganic nitrogen & total suspended solids"
-                    href: /gbr4/bgc/baseline/chl-a-sum_din_efi/
-                  - text: "Total Suspended Solids, dust, mud carbonate & mud mineral"
-                    href: /gbr4/bgc/baseline/efi_dust_mud-carbonate_mud-mineral/
-                  - text: "Secchi depth, vertical attenuation at 490nm & light intensity above seagrass"
-                    href: /gbr4/bgc/baseline/secchi_kd-490_epipar-sg/
-                  - text: "Simulated true colour"
-                    href: /gbr4/bgc/baseline/true-colour/
-              - section: "Macroalgae, seagrass and coral"
-                contents:
-                  - text: "Coral symbiont (nitrogen & chlorophyll) & coral host nitrogen"
-                    href: /gbr4/bgc/baseline/cs-n_cs-chl_ch-n/
-                  - text: "Nitrogen (macroalgae, seagrass zostera, seagrass halophila & deep seagrass)"
-                    href: /gbr4/bgc/baseline/ma-n_sg-n_sgh-n_sgd-n/
-              - section: "Catchment scenarios comparison"
-                contents:
-                  - text: "Disolved inorganic nitrogen"
-                    href: /gbr4/bgc/scenarios/din
-                  - text: "Total Chlorophyll"
-                    href: /gbr4/bgc/scenarios/chl-a-sum
-                  - text: "Secchi depth"
-                    href: /gbr4/bgc/scenarios/secchi
-                  - text: "Total suspended solids"
-                    href: /gbr4/bgc/scenarios/efi
-                  - text: "Light intensity above seagrass"
-                    href: /gbr4/bgc/scenarios/epipar-sg
+                  - section: "Water chemistry"
+                    contents:
+                      - text: "Total alkalinity, PH & Aragonite saturation state"
+                        href: /gbr4/bgc/baseline/alk_ph_omega-ar/
+                      - text: "Dissolved inorganic nitrogen, nitrate & ammonia"
+                        href: /gbr4/bgc/baseline/din_no3_nh4/
+                      - text: "Dissolved oxygen & oxygen saturation percentage"
+                        href: /gbr4/bgc/baseline/oxygen_oxy-sat/
+                      - text: "Dissolved Inorganic (Carbon, Nitrogen & Phosphorus)"
+                        href: /gbr4/bgc/baseline/din_dip_dic/
+                      - text: "Dissolved Organic (Carbon, Nitrogen & Phosphorus)"
+                        href: /gbr4/bgc/baseline/dor-c_dor-n_dor-p/
+                      - text: "Particulate inorganic phosphorus & particulate inorganic"
+                        href: /gbr4/bgc/baseline/pip_pip-sed/
+                  - section: "Water quality measures"
+                    contents:
+                      - text: "Total chlorophyll, dissolved inorganic nitrogen & total suspended solids"
+                        href: /gbr4/bgc/baseline/chl-a-sum_din_efi/
+                      - text: "Total Suspended Solids, dust, mud carbonate & mud mineral"
+                        href: /gbr4/bgc/baseline/efi_dust_mud-carbonate_mud-mineral/
+                      - text: "Secchi depth, vertical attenuation at 490nm & light intensity above seagrass"
+                        href: /gbr4/bgc/baseline/secchi_kd-490_epipar-sg/
+                      - text: "Simulated true colour"
+                        href: /gbr4/bgc/baseline/true-colour/
+                  - section: "Macroalgae, seagrass and coral"
+                    contents:
+                      - text: "Coral symbiont (nitrogen & chlorophyll) & coral host nitrogen"
+                        href: /gbr4/bgc/baseline/cs-n_cs-chl_ch-n/
+                      - text: "Nitrogen (macroalgae, seagrass zostera, seagrass halophila & deep seagrass)"
+                        href: /gbr4/bgc/baseline/ma-n_sg-n_sgh-n_sgd-n/
+                  - section: "Catchment scenarios comparison"
+                    contents:
+                      - text: "Disolved inorganic nitrogen"
+                        href: /gbr4/bgc/scenarios/din
+                      - text: "Total Chlorophyll"
+                        href: /gbr4/bgc/scenarios/chl-a-sum
+                      - text: "Secchi depth"
+                        href: /gbr4/bgc/scenarios/secchi
+                      - text: "Total suspended solids"
+                        href: /gbr4/bgc/scenarios/efi
+                      - text: "Light intensity above seagrass"
+                        href: /gbr4/bgc/scenarios/epipar-sg
 
 format:
   html:

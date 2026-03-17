@@ -1,0 +1,28 @@
+---
+title: "gbr4-bgc4p2-baseline_dor-c_dor-n_dor-p"
+format:
+  html:
+    template: ../../../../../custom_template.html
+params:
+  product-name: Dissolved Organic (Carbon, Nitrogen & Phosphorus) (GBR4 BGC v4.2 baseline)
+  block-name: gbr4-bgc4p2-baseline_dor-c_dor-n_dor-p
+  product-id: products__ncanimate__ereefs__gbr4_bgc4p2_baseline__dor-c_dor-n_dor-p
+---
+
+{{< include ../../../../../includes/_visualisation.qmd >}}
+
+### Dissolved Organic Carbon
+
+The concentration of carbon in dissolved organic compounds.
+
+### Dissolved Organic Nitrogen
+
+The concentration of nitrogen in dissolved organic compounds.
+
+### Dissolved Organic Phosphorus
+
+The concentration of phosphorus in dissolved organic compounds.
+
+{{< include ../../../../../includes/_source_data_bgc.qmd >}}
+
+{{< include ../../../../../includes/_data_span.qmd >}}
