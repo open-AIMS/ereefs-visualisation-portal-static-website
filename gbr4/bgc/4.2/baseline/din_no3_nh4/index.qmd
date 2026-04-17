@@ -11,6 +11,8 @@ params:
 
 {{< include ../../../../../includes/_visualisation.qmd >}}
 
+{{< include ../../../../../includes/_bgc4c4_missing_data_notice.qmd >}}
+
 This visualisation shows modelled nitrogen levels from the CSIRO eReefs
 Biogeochemical model. Nitrogen is a key limiting nutrient in the growth of
 plants and algae. Coral reefs are generally nutrient poor environments with
@@ -19,17 +21,17 @@ the growth of phytoplankton, turf algae and macroalgae, inhibiting the rate of
 recovery of coral reefs.
 
 The BGC model tracks the transformation of nitrogen through the nitrogen cycle,
-from fixing of nitrogen gas into ammonia by tricodesmium, to its uptake by
-plants, propagation through the food chain to zooplantkon, to release due to
+from fixing of nitrogen gas into ammonia by trichodesmium, to its uptake by
+plants, propagation through the food chain to zooplankton, to release due to
 mortality and finally denitrification back into nitrogen gas.
 
 The BGC model contains two forms of dissolved inorganic nitrogen (DIN),
 dissolved ammonia (NH4) and dissolved nitrate (NO3): DIN = [NH4] + [NO3]. In
 the model, the ammonia component of the DIN pool is assumed to be taken up
-first by all primary producers (phytoplankton, tricodesmium, macroalgae and
+first by all primary producers (phytoplankton, trichodesmium, macroalgae and
 seagrass), followed by the nitrate, with the caveat that the uptake of ammonia
 cannot exceed the diffusion limit for ammonia. The underlying principle of this
-assumption is that photosynthetic organisms can entirely preference ammonia,
+assumption is that photosynthetic organisms can entirely prefer ammonia,
 but that the uptake of ammonia is still limited by diffusion to the organism’s
 surface.
 
@@ -40,11 +42,11 @@ oxygen levels.
 
 Photosynthetic growth is determined by concentrations of dissolved nutrients
 (nitrogen and phosphate) and photosynthetically active radiation. Autotrophs
-(seagrass, phytoplankton, macroalgae and tricodesmium) take up dissolved
+(seagrass, phytoplankton, macroalgae and trichodesmium) take up dissolved
 ammonium, nitrate, phosphate and inorganic carbon. Ammonia is preferentially
 taken up as a source of nitrogen over nitrate as it can be directly used by
 plants. Nitrogen is transported through the phytoplankton to zooplankton food
-chain. Nitrogen is released as ammonia when an organism decays. Tricodesmium
+chain. Nitrogen is released as ammonia when an organism decays. Trichodesmium
 fixes nitrogen, converting nitrogen gas N2 into ammonia NH3 when the DIN
 concentration falls below a critical concentration.
 
@@ -61,6 +63,6 @@ nitrate represents [NO3-] + [NO2-].
 
 Concentration of ammonia ions [NH4+].
 
-{{< include ../../../../../includes/_source_data_bgc.qmd >}}
+{{< include ../../../../../includes/_source_data_bgc_v4p2.qmd >}}
 
 {{< include ../../../../../includes/_data_span.qmd >}}

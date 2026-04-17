@@ -38,43 +38,43 @@ plants) and a reserve within each organism. Growth is restricted by the
 limiting nutrient and light.
 
 More details about how DIN, DIC, and DIP are calculated in the model can
-be found in Baird et al. (2020)
+be found in Baird et al. (2020).
 
 ## Dissolved Inorganic Nitrogen (DIN)
 
-Nitrogen is critical for the plant and animal growth. It is needed for
+Nitrogen is critical for plant and animal growth. It is needed for
 protein synthesis, DNA and RNA, and a major component in the development
 of chlorophyll needed for photosynthesis. Nitrogen is cycled through
 organisms but is eventually converted back into nitrogen gas. In the
 sediment nitrogen in the porewaters is denitrified and lost as nitrogen
 gas.
 
-Within the GBR lagoon the main source of DIN is from land run off during
-flooding events. These flood plumes are generally stay close to the
+Within the GBR lagoon the main source of DIN is from land runoff during
+flooding events. These flood plumes generally stay close to the
 coast, pushed northwards by the wind. The nitrogen in the plumes leads
-to rapid growth of phytoplankton. This algal rich water absorbs light
+to rapid growth of phytoplankton. This algal-rich water absorbs light
 leading to less light reaching the seagrass meadows and inshore coral
-reefs (See [Secchi depth, vertical attenuation at 490nm & light
+reefs (see [Secchi depth, vertical attenuation at 490nm & light
 intensity above seagrass
 product](../secchi_kd-490_epipar-sg))
 lowering their growth.
 
 In the Coral Sea the nitrogen levels in the surface waters of the ocean
 are generally very low as it is quickly taken up by the growth of
-phytoplankton. As these plankton die their detritus slowly sink and the
+phytoplankton. As these plankton die their detritus slowly sinks and the
 nitrogen is released back into deeper waters. Westward ocean currents
 coming from the Coral Sea divide north of Cairns, leading to northern
 (Gulf of Papua Current) and southern currents (East Australian Current).
 These flow along the outer edge of the Great Barrier Reef and the
 continental shelf. On the outer edge of the ribbon reefs on the eastern
 side of Torres Strait and on the outer edge of the southern GBR these
-currents result in significant upwelling, drawing up nitrogen rich
+currents result in significant upwelling, drawing up nitrogen-rich
 deeper water closer to the surface. This results in increased
 concentrations of DIN in these regions.
 
 ### Model specifics
 
-This visualisation shows the modelled Concentration of dissolved
+This visualisation shows the modelled concentration of dissolved
 inorganic nitrogen (DIN) in mg N m-3. DIN is the sum of nitrate and
 ammonium concentrations, \[NO3\]+\[NH4\].
 
@@ -85,15 +85,15 @@ taken up first, followed by the nitrate, with the caveat that the uptake
 of ammonium is limited by diffusion.
 
 For nitrogen the main sources are river inputs, the atmosphere by
-nitrogen fixing Trichodesmium cyanobacteria and from upwelling of deeper
-nutrient rich waters. Nitrogen fixation (conversion of nitrogen gas to
+nitrogen fixing trichodesmium cyanobacteria and from upwelling of deeper
+nutrient-rich waters. Nitrogen fixation (conversion of nitrogen gas to
 ammonium) occurs by trichodesmium algae when DIN is low (4 to 20 mg N
 m−3; Robson et al., 2013) and carbon and phosphorus are available to
 support nitrogen uptake.
 
 An assessment of the BGC model shows it has a skill of (bias ± Root Mean
-Square Error) of nitrate of −0.70±3.86 mg N m−3 and ammonium of
-−0.77±1.63 mg N m−3 (Baird e. al., 2020). This represents the difference
+Square Error) of nitrate of −0.70±3.86 mg N m−3 and ammonium of
+−0.77±1.63 mg N m−3 (Baird et al., 2020). This represents the difference
 between the model values and 36 long-term water quality monitoring sites
 along the Queensland coast.
 
@@ -105,7 +105,7 @@ growth of marine phytoplankton, benthic microalgae, trichodesmium,
 seagrass, coral and macroalgae. Zooplankton receive their phosphorus
 from consuming phytoplankton. As organisms die, they become detritus and
 the phosphorus is liberated as DIP. DIP converts to and from Particulate
-Inorganic Phosphorus (PIP) at a rate dependant on the level of oxygen. A
+Inorganic Phosphorus (PIP) at a rate dependent on the level of oxygen. A
 proportion of the phosphorus is adsorbed into the sediment and is
 permanently immobilised.
 
@@ -123,8 +123,8 @@ soluble reactive phosphorus, SRP, composed chiefly of HPO42- ions, with
 a small percentage present as PO43-.
 
 Assessment of the predicted DIP indicates that the model has a skill of
-(bias ± RMSE) of -0.88 ± 2.17 mg P m−3 (Baird e. al., 2020). This is an
-assessment of the model against the AIMS long term water quality
+(bias ± RMSE) of -0.88 ± 2.17 mg P m−3 (Baird et al., 2020). This is an
+assessment of the model against the AIMS long-term water quality
 monitoring sites.
 
 ## Dissolved Inorganic Carbon (DIC)
@@ -139,7 +139,7 @@ dioxide concentration, which is in turn determined from the DIC and the
 total alkalinity. At pH values around 8, dissolved CO2 makes up only
 approximately 1∕200 of DIC in seawater.
 
-In the water column DIC is up taken by phytoplankton as part of
+In the water column, DIC is taken up by phytoplankton as part of
 photosynthesis and released as part of respiration.
 
 ### Model specifics
@@ -150,7 +150,7 @@ combined with temperature and salinity allow the pH and aragonite
 saturation state to be calculated.
 
 Assessment of carbon chemistry properties along the entire length of the
-GBR shows a bias ± RMSE of DIC of -7.7 ± 34.2 mmol m−3 (Baird e. al.,
+GBR shows a bias ± RMSE of DIC of -7.7 ± 34.2 mmol m−3 (Baird et al.,
 2020).
 
 ## Reference
@@ -164,13 +164,13 @@ scientific description of the optical and biogeochemical models (vB3p0).
 Geoscientific Model Development, 13(9), 4503--4553.
 <https://doi.org/10.5194/gmd-13-4503-2020>
 
-Robson, B. J., Baird, M. E., and Wild-Allen, K. A.: A physiological
-model for the marine cyanobacteria, *Trichodesmium*, in: MODSIM2013,
+Robson, B. J., Baird, M. E., and Wild-Allen, K. A.: A physiological
+model for the marine cyanobacteria, *Trichodesmium*, in: MODSIM2013,
 20th International Congress on Modelling and Simulation, edited by:
-Piantadosi, J. R. S. A. and Boland, J., Modelling and Simulation Society
+Piantadosi, J. R. S. A. and Boland, J., Modelling and Simulation Society
 of Australia and New Zealand, 1652--1658, available
-at: <https://www.mssanz.org.au/modsim2013/H3/robson.pdf> (last access:
-25 October 2023), 2013. 
+at: <https://www.mssanz.org.au/modsim2013/H3/robson.pdf> (last access:
+25 October 2023), 2013.
 
 {{< include ../../../../includes/_source_data_bgc.qmd >}}
 

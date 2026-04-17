@@ -40,7 +40,7 @@ EAtlasNcAnimate2Map.prototype.load = function(regionCatalogue) {
         this.mapImg = new Image();
         this.mapImg.onload = (function(that) {
             return function() {
-                // Save the real image dimenssion as returned by the server.
+                // Save the real image dimension as returned by the server.
                 // NOTE: "this" refer to the loaded image.
                 if (this.width && this.height) {
                     that.width = this.width;
@@ -175,8 +175,8 @@ EAtlasNcAnimate2Map.prototype.getMapURL = function() {
     var mapUrl = this.canvas.attr('mapurl');
 
     // Map URL used for debugging
-    //mapUrl = "http://maps.eatlas.org.au/maps/wms?LAYERS=ea-be%3AWorld_Bright-Earth-e-Atlas-basemap_No-Labels-hillshading&TRANSPARENT=FALSE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fjpeg&SRS=EPSG%3A4326&BBOX=${WEST},${SOUTH},${EAST},${NORTH}&WIDTH=${WIDTH}&HEIGHT=${HEIGHT}";
-    //mapUrl = "http://maps.eatlas.org.au/maps/ea/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=ea%3AGBR_GBRMPA_GBR-features,ea%3AGBR_e-Atlas-GBRMPA_GBRMP-bounds_Ocean-bounds,ea%3AGBR_NERP-TE-13-1_eAtlas_NRM-Regions-GBRMP-2012&STYLES=GBR-features_Outlook,Polygon_Outline-Red,GBR_NRM-Regions-GBRMP_Mainland-border&SRS=EPSG%3A4326&WIDTH=${WIDTH}&HEIGHT=${HEIGHT}&BBOX=${WEST},${SOUTH},${EAST},${NORTH}";
+    //mapUrl = "https://maps.eatlas.org.au/maps/wms?LAYERS=ea-be%3AWorld_Bright-Earth-e-Atlas-basemap_No-Labels-hillshading&TRANSPARENT=FALSE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fjpeg&SRS=EPSG%3A4326&BBOX=${WEST},${SOUTH},${EAST},${NORTH}&WIDTH=${WIDTH}&HEIGHT=${HEIGHT}";
+    //mapUrl = "https://maps.eatlas.org.au/maps/ea/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=ea%3AGBR_GBRMPA_GBR-features,ea%3AGBR_e-Atlas-GBRMPA_GBRMP-bounds_Ocean-bounds,ea%3AGBR_NERP-TE-13-1_eAtlas_NRM-Regions-GBRMP-2012&STYLES=GBR-features_Outlook,Polygon_Outline-Red,GBR_NRM-Regions-GBRMP_Mainland-border&SRS=EPSG%3A4326&WIDTH=${WIDTH}&HEIGHT=${HEIGHT}&BBOX=${WEST},${SOUTH},${EAST},${NORTH}";
 
     if (!mapUrl || !mapBBox || !width || !height) {
         return null;
@@ -371,13 +371,13 @@ EAtlasNcAnimate2Map.prototype.getOrderedRegions = function() {
                             return areaCmp;
                         }
 
-                        // Same area - latitude comparison (northest on top)
+                        // Same area - latitude comparison (northernmost on top)
                         var latCmp = bbox2.north - bbox1.north;
                         if (latCmp > epsilon || latCmp < -epsilon) {
                             return latCmp;
                         }
 
-                        // Same latitude - longitude comparison (eastest on top)
+                        // Same latitude - longitude comparison (easternmost on top)
                         return bbox2.west - bbox1.west;
                     };
                 })(this)

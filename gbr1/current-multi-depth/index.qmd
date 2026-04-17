@@ -23,11 +23,11 @@ depths on the Great Barrier Reef based on the [1km eReefs Hydrodynamic model](ht
 The strength of the current is represented by colour. The arrows represent the
 direction. In the hourly data a lot of the daily fluctuations are due to tidal
 currents. These tend to make the current direction swing back and forth as the
-tides flow and and out of a region.
+tides flow in and out of a region.
 
 {{< include ../../includes/_source_data_gbr1.qmd >}}
 
-{{< include ../../includes/_recent_data.qmd >}}
+{{< include ../../includes/_data_coverage.qmd >}}
 
 {{< include ../../includes/_erratum.qmd >}}
 

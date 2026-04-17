@@ -17,7 +17,7 @@ params:
 {{< include ../../includes/_note.qmd >}}
 <hr/>
 
-This page shows as estimate of exposure to fresh water on the Great
+This page shows an estimate of exposure to fresh water on the Great
 Barrier Reef based on the [1km eReefs Hydrodynamic
 model](https://research.csiro.au/ereefs/models/).
 
@@ -60,14 +60,14 @@ freshwater is mixed with the sea water the salinity drops, with pure
 water having a PSU of zero. Coral reefs are sensitive to freshwater as
 exposure can lead to bleaching and death. The relationship between
 freshwater exposure and coral bleaching and mortality is poorly
-understood. However flooding from Fitzroy river in 2011 cause
+understood. However flooding from Fitzroy river in 2011 caused
 significant shallow water coral mortality on the nearby Keppel Islands
 (Berkelmans et al. 2012).
 
 ## Average salinity
 
 The third panel in the map shows the average salinity for the month.
-This is quite similar to the freshwater exposure except that is includes
+This is quite similar to the freshwater exposure except that it includes
 contributions from areas where there was very little freshwater.
 
 ## Freshwater exposure calculations
@@ -123,14 +123,14 @@ the error and confidence in the results. @fig-fresh-water-comparison shows a com
 between the freshwater exposure calculated from the 1 km and 4 km eReefs
 hydrodynamic models (v2.0). This shows there is a significant difference
 between these models. For a threshold of 28 PSU at Magnetic Island the 1
-km model shows freshwater exposure of 35 PSU days, where as the 4 km
+km model shows freshwater exposure of 35 PSU days, whereas the 4 km
 model shows 0 PSU days.
 
-![Freshwater exposure eReefs model comparison<br>[![CC BY SA](../../images/cc.png){.cc width="15" height="15"}](http://creativecommons.org/licenses/by-sa/3.0/au/) by [AIMS](//eatlas.org.au/node/2)](../../images/GBR1-GBR4-freshwater-exposure-comparison_map_2019-02-800x643.png){#fig-fresh-water-comparison}
+![Freshwater exposure eReefs model comparison<br>[![CC BY SA](../../images/cc.png){.cc width="15" height="15"}](https://creativecommons.org/licenses/by-sa/3.0/au/) by [AIMS](//eatlas.org.au/node/2)](../../images/GBR1-GBR4-freshwater-exposure-comparison_map_2019-02-800x643.png){#fig-fresh-water-comparison}
 
 @fig-fresh-water-comparison shows a comparison between the freshwater exposure <!-- This reference only works in the prerelease 28/09/2023 -->
 calculated for February 2019 from the 4 km and 1 km eReefs hydrodynamic
-model (v2.0) with a threshold of 28 PSU. The 4 km model predicts a
+model (v2.0) with a threshold of 28 PSU. The 4 km model predicts a
 smaller freshwater plume.
 
 <br>
@@ -151,9 +151,9 @@ the 1 km or 4 km results are more accurate.
 		</tr>
 		<tr>
 			<th>Freshwater exposure (PSU days)</th>
-			<th>Predicted morality (Berkelmans, 2012)</th>
+			<th>Predicted mortality (Berkelmans, 2012)</th>
 			<th>4 km model freshwater exposure (28 PSU threshold)</th>
-			<th>Predicted morality (Berkelmans, 2012)</th>
+			<th>Predicted mortality (Berkelmans, 2012)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -178,12 +178,12 @@ the 1 km or 4 km results are more accurate.
 
 Applying the previously estimated freshwater exposure 50 PSU days the 1
 km model predicts there would be coral mortality at Cape Ferguson, which
-was the case, where as the 4 km model predicts none. At Magnetic Island
+was the case, whereas the 4 km model predicts none. At Magnetic Island
 both models predict no freshwater mortality and none was observed.
 
 There is currently little evidence to assess the accuracy of freshwater
 exposure maps, however the available evidence indicates that the 1 km
-model are a better match to observations.
+model is a better match to observations.
 
 ### References
 
@@ -193,6 +193,6 @@ of *Acropora* spp. on the Great Barrier Reef. 31: 1103. Coral Reefs.
 
 {{< include ../../includes/_source_data_gbr1.qmd >}}
 
-{{< include ../../includes/_recent_data.qmd >}}
+{{< include ../../includes/_data_coverage.qmd >}}
 
 {{< include ../../includes/_erratum.qmd >}}

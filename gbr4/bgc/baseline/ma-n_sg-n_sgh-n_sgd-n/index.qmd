@@ -32,10 +32,10 @@ but with different parameter values.
 
 The model parameters for each of the three types of seagrass are shown
 in Table 24 (pg 48) of [Baird et al.
-(2019)](http://doi.org/10.5194/gmd-2019-115).
+(2019)](https://doi.org/10.5194/gmd-2019-115).
 
-Details about about the macroalgae model are detailed in section 4.2 of
-[Baird et al. (2019)](http://doi.org/10.5194/gmd-2019-115).
+Details about the macroalgae model are detailed in section 4.2 of
+[Baird et al. (2019)](https://doi.org/10.5194/gmd-2019-115).
 
 ### Limitations
 
@@ -46,8 +46,8 @@ synthesis: A resource for coastal management in the Great Barrier Reef
 (NESP TWQ Project 3.2.1 and 5.4, TropWATER, James Cook
 University)](https://eatlas.org.au/data/uuid/5011393e-0db7-46ce-a8ee-f331fcf83a88).
 
-The BGC model assumes that morality of macroalgae has a constant rate (see
-section 4.2.4 of [Baird et al. (2019)](http://doi.org/10.5194/gmd-2019-115)) and so macroalgae dynamics are not
+The BGC model assumes that mortality of macroalgae has a constant rate (see
+section 4.2.4 of [Baird et al. (2019)](https://doi.org/10.5194/gmd-2019-115)) and so macroalgae dynamics are not
 affected by environmental factors such as cyclones.
 
 Macroalgae N
@@ -97,7 +97,7 @@ References:
 -----------
 
 Baird, M. E., Wild-Allen, K. A., Parslow, J., Mongin, M., Robson, B.,
-Skerratt, J., Rizwi, F., Soja-Woznaik, M., Jones, E., Herzfeld, M.,
+Skerratt, J., Rizwi, F., Soja-Woźniak, M., Jones, E., Herzfeld, M.,
 Margvelashvili, N., Andrewartha, J., Langlais, C., Adams, M. P.,
 Cherukuru, N., Gustafsson, M., Hadley, S., Ralph, P. J., Rosebrock, U.,
 Schroeder, T., Laiolo, L., Harrison, D., Steven, A. D. L. (2019) CSIRO

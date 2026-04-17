@@ -44,7 +44,7 @@ download the data follow these steps:
     4.  [gbr1_2.0](https://thredds.ereefs.aims.gov.au/thredds/catalog/ereefs/gbr1_2-0.html)
         := eReefs Hydrodynamic model version 2.0 (1 km resolution)
     5.  [gbr4_v2](https://thredds.ereefs.aims.gov.au/thredds/catalog/ereefs/gbr4_v2.html)
-        := Reefs Hydrodynamic model version 2.0 (4 km resolution)
+        := eReefs Hydrodynamic model version 2.0 (4 km resolution)
 3.  Each model has its derived output grouped into folders with the
     names indicating the time steps and aggregation in a file. For
     example a folder with the name \"daily-monthly\" contains
@@ -67,19 +67,19 @@ download the data follow these steps:
     the NetCDF file select the link for the \"HTTPServer\"
 
 ![Example page
-([EREEFS_AIMS-CSIRO_gbr4_v2_hydro_daily-monthly-2010-09.nc](http://thredds.ereefs.aims.gov.au/thredds/s3catalogue/aims-ereefs-public-prod/derived/ncaggregate/ereefs/gbr4_v2/daily-monthly/catalog.html?dataset=EREEFS_AIMS-CSIRO_gbr4_v2_hydro_daily-monthly-2010-09.nc))
+([EREEFS_AIMS-CSIRO_gbr4_v2_hydro_daily-monthly-2010-09.nc](https://thredds.ereefs.aims.gov.au/thredds/catalog/ereefs/gbr4_v2/monthly-monthly/catalog.html?dataset=aims-ereefs-gbr4/monthly-monthly/EREEFS_AIMS-CSIRO_gbr4_v2_hydro_monthly-monthly-2010-09.nc))
 indicating in yellow the "access" section and in red the link to
 download the file.](./how-to-download-derived-data.png){fig-alt="A screenshot highlighting some links" .border}
 
 # Download eReefs model data from NCI THREDDS server
 
 Please be advised that AIMS does not manage this service and therefore
-we cannot guaranty the correctness of this article.
+we cannot guarantee the correctness of this article.
 
 To download the raw eReefs data follow these steps:
 
 1.  Open the [NCI THREDDS server
-    website](http://thredds.nci.org.au/thredds/catalog/catalogs/fx3/catalog.html)
+    website](https://thredds.nci.org.au/thredds/catalog/catalogs/fx3/catalog.html)
 2.  Select the link to the required model
 3.  In the list of NetCDF files, select the one of interest
 4.  The single file pages contain a section \"Access\". For downloading

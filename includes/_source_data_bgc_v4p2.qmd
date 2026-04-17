@@ -1,0 +1,10 @@
+## Source data
+
+The videos/images on this page are based on the [4km eReefs BioGeoChemical model (v4.2) (gbr4_H4p0_ABARRAr2_OBRAN2020_FG2Gv3_B4p2_Cq5b_Dhnd)](https://research.csiro.au/ereefs/models/)
+run with SOURCE Catchments using Baseline catchment conditions. Detailed information about the model can be found
+in the paper: [CSIRO Environmental Modelling Suite (EMS): Scientific description of the optical and biogeochemical
+models (vB3p0)](https://doi.org/10.5194/gmd-2019-115). The raw model data is available from the [NCI THREDDS server](https://thredds.nci.org.au/thredds/catalog/fx3/gbr4_H4p0_ABARRAr2_OBRAN2020_FG2Gv3_B4p2_Cq5b_Dhnd/catalog.html) (daily, in curvilinear NetCDF format)
+and the aggregate data from the [AIMS eReefs THREDDS server](https://thredds.ereefs.aims.gov.au/thredds/catalog/ereefs/gbr4_H4p0_ABARRAr2_OBRAN2020_FG2Gv3_B4p2_Cq5b_Dhnd.html) (daily, monthly, yearly, in regular rectangular
+grid NetCDF format).
+
+**TODO: Check the text, find paper for current model, check the link to AIMS eReefs THREDDS for BGC4v4 after redeploying eReefs THREDDS**

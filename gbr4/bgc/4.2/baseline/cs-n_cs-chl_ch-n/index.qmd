@@ -11,6 +11,8 @@ params:
 
 {{< include ../../../../../includes/_visualisation.qmd >}}
 
+{{< include ../../../../../includes/_bgc4c4_missing_data_notice.qmd >}}
+
 ### What do these visualisations show?
 
 These visualisations show model results of the uptake of nitrogen by
@@ -19,7 +21,7 @@ nitrogen) and how much is contained in the symbiotic zooxanthellae algae
 that grow inside the coral (coral symbiont).
 
 These maps show that the coral nutrient and chlorophyll levels change
-very slowly over time. The main effect that can been seen in these
+very slowly over time. The main effect that can be seen in these
 visualisations is that the corals increase their chlorophyll density
 (and its corresponding nitrogen levels) during the winter months when
 the light levels are lower.
@@ -31,7 +33,7 @@ modelling performed in the BGC. This model uses a \'single polyp\' model
 that estimates the nutrient dynamics created by the coral in each grid
 cell of the model. This coral model helps the BGC to capture the
 nutrient dynamics caused by the uptake and release of nitrogen of corals
-as they grow and the effect they have on the PH of the water as they
+as they grow and the effect they have on the pH of the water as they
 calcify their skeletons.
 
 The BGC coral model and these matching visualisations should only be
@@ -69,7 +71,7 @@ Coral symbiont Chl
 ------------------
 
 Concentration of chlorophyll biomass per m^2^ of coral symbiont cells.
-As chlorophyll is the only pigment resolved in the coral symbiont, ci
+As chlorophyll is the only pigment resolved in the coral symbiont, it
 represents the sum of the concentration of all photosynthetic pigments
 within the cell and has an absorption spectrum of divinyl chlorophyll a.
 Light is accessed in the following order: Macroalgae, Seagrass, Coral.
@@ -78,18 +80,18 @@ Coral host N
 ------------
 
 Concentration of nitrogen biomass per m^2^ of coral host tissue in the
-entire grid cell. Unlike other epibenthic variables, corals area is
+entire grid cell. Unlike other epibenthic variables, coral area is
 assumed to exist in communities that are potentially smaller than the
 grid size. The fraction of the grid cell covered by corals is given by
 A~CH~. Thus the biomass in the occupied region is given by CH/A~CH~. The
 percent coverage of the coral of the bottom for the whole cell is given
 by A~CH~ (1 - exp(-Ω~CH~ CH/A~CH~)). With only one type of coral
 resolved, CH represents the biomass of all symbiotic corals. Since the
-model contains no other benthic filter-feeders, CH best represent the
+model contains no other benthic filter-feeders, CH best represents the
 sum of the biomass of all symbiotic filter-feeding organisms such as
 corals, sponges, clams etc. C:N:P is 106:16:1. Light is accessed in the
 following order: Macroalgae, Seagrass, Coral.
 
-{{< include ../../../../../includes/_source_data_bgc.qmd >}}
+{{< include ../../../../../includes/_source_data_bgc_v4p2.qmd >}}
 
 {{< include ../../../../../includes/_data_span.qmd >}}

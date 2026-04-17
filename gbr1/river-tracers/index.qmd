@@ -27,7 +27,7 @@ Flood plumes deliver sediments and nutrients into the ocean, both of which can
 result in detrimental effects on seagrass and reef habitats.
 
 The left most panel shows the near-surface salinity and the wind vectors. The
-salinity indicates how salty the water is and it is lowered by river run off
+salinity indicates how salty the water is and it is lowered by river runoff
 and rainfall. Thus reduced salinity is a measure of the combined impact of all
 rivers combined. The wind is shown as arrows overlaid on the salinity. The wind
 pushes the flood plumes around and has a strong influence on where the plumes
@@ -83,7 +83,7 @@ being slight errors in the model due to wind. The strength and direction of the
 wind is the predominant factor in determining the spread of the flood plumes.
 As a result any small errors in the modelling of the wind will lead to errors
 in the flood plume boundaries. The eReefs hydrodynamic model is driven by wind
-data from the Bureau of Meteorology's Access-R weather model, which is a
+data from the Bureau of Meteorology's ACCESS-R weather model, which is a
 forecast. It has a resolution of 12 km and so it is surprising that the eReefs
 model is as spatially accurate as it is. Part of the reason for this is that
 while the wind occasionally pushes the plumes offshore, the main determinant of
@@ -91,7 +91,7 @@ the distribution is the dynamics of buoyant plumes. The rotation of the Earth
 acts to deflect to the left (in the Southern Hemisphere) any relative increase
 in motion between fluid layers. One such relative motion is a buoyant plume
 flowing over the top of denser ocean water. Deflected left on a river
-discharging along an east coast means it being push towards the coast. Thus,
+discharging along an east coast means it being pushed towards the coast. Thus,
 the plumes are trapped near the coast. The distance to which they spread from
 the coast is also set by this balance between density driven flow and the
 Earth’s rotation, something ocean models are very good at.

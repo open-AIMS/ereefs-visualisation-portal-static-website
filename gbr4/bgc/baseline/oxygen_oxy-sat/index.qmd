@@ -3,7 +3,7 @@ title: "gbr4-bgc-baseline_oxygen_oxy-sat"
 aliases:
   - /ereefs-aims/gbr4/bgc/baseline/oxygen_oxy-sat
 format:
-  html: 
+  html:
     template: ../../../../custom_template.html
 params:
   product-name: Dissolved oxygen & oxygen saturation percentage (GBR4 BGC v3.1 baseline)
@@ -17,15 +17,15 @@ params:
 
 Concentration of oxygen.
 
-Dissolved oxygen plays a pivotal role, driving multiple biogeochemical processes and influencing the balance of other elements like carbon, nitrogen, and phosphorus. The BGC model cycles carbon, nitrogen, phosphorous and oxygen through multiple phytoplankton, zooplankton, detritus and dissolved organic and inorganic forms in the water column and sediment layers. 
+Dissolved oxygen plays a pivotal role, driving multiple biogeochemical processes and influencing the balance of other elements like carbon, nitrogen, and phosphorus. The BGC model cycles carbon, nitrogen, phosphorus and oxygen through multiple phytoplankton, zooplankton, detritus and dissolved organic and inorganic forms in the water column and sediment layers.
 
-The production (by photosynthesis) and consumption (by respiration and remineralisation) of dissolved oxygen is included in the model and, depending on prevailing concentrations, facilitates or inhibits the oxidation of ammonium to nitrate and its subsequent denitrification to dinitrogen gas which is then lost from the system. 
+The production (by photosynthesis) and consumption (by respiration and remineralisation) of dissolved oxygen is included in the model and, depending on prevailing concentrations, facilitates or inhibits the oxidation of ammonium to nitrate and its subsequent denitrification to dinitrogen gas which is then lost from the system.
 
 More detail on how oxygen levels were modelled can be found in Baird et al. (2020).
 
 ### Oxygen saturation percentage
 
-The saturation state of oxygen \[O2\]~sat~ is determined as a function of temperature and salinity following Weiss (1970). It represents the maximum amount of the dissolved oxygen that the water can hold. It is used to calculate the amount of oxygen exchange in the sea-air boundary. If the oxygen saturation percentage is below 100% then oxygen will be absorbed from the atmosphere. If it is above 100% then oxygen will be out gased from the sea into the atmosphere.
+The saturation state of oxygen \[O2\]~sat~ is determined as a function of temperature and salinity following Weiss (1970). It represents the maximum amount of the dissolved oxygen that the water can hold. It is used to calculate the amount of oxygen exchange in the sea-air boundary. If the oxygen saturation percentage is below 100% then oxygen will be absorbed from the atmosphere. If it is above 100% then oxygen will be out-gassed from the sea into the atmosphere.
 
 ### Reference
 

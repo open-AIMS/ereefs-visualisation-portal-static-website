@@ -3,7 +3,7 @@
 ## Setup
 
 - Install [Quarto v1.4.551](https://github.com/quarto-dev/quarto-cli/releases)
-  - For some reason latest version of quarto doesn't display the css as expected.
+  - For some reason, the latest version of quarto doesn't display the css as expected.
   - `wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.4.551/quarto-1.4.551-linux-amd64.deb`
   - `sudo dpkg -i quarto-1.4.551-linux-amd64.deb`
 - run `quarto preview` and confirm the website displays as expected.
@@ -62,7 +62,7 @@ This was done because quarto supports only a pinned header, or a dynamically hid
 In order to create this custom header: 
 
 - create the header with the _quarto.yml file
-- rendered the page
+- render the page
 - copy the code for the header
 - put this code into the custom include (`includes/_navbar_custom.qmd`)
 - change the header id="quarto-header" to id="custom-header"
@@ -80,4 +80,4 @@ there is a lot of redundant code relating to eAtlas.
 
 The custom domain name is set up in GitHub. See the Pages section of the repository settings.
 The DNS for the custom domain is managed by AWS Route53. The domain is verified as owned by the GitHub
-organisation open-AIMS. The is done by a TXT record on Route53.
+organisation open-AIMS. This is done by a TXT record on Route53.

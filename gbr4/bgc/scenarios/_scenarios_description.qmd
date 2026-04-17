@@ -6,7 +6,7 @@ GBR Dynamic SedNet
 catchment model scenarios to analyse the water quality in the Great Barrier Reef (GBR) (Brodie et al., 2017). The
 complex
 eReefs biogeochemical model allowed for the resolution of biogeochemical processes affecting water quality changes. The
-main objective was to identify specific load reduction targets for different basins within the GBR, aiming to minimize
+main objective was to identify specific load reduction targets for different basins within the GBR, aiming to minimise
 ecological impacts related to chlorophyll and suspended sediment concentrations, as well as bottom light thresholds.
 
 In 2020 Baird et al. built upon the previous study and expanded it by extending the time period from 2011–2014 to
@@ -18,14 +18,14 @@ model configurations (q3x = q3b, q3p, q3O, q3R, q3A, q3B, q3C; see Baird et al.,
 report card version of the GBR Dynamic SedNet used to deliver nutrient and sediment river loads. Dhnd describes the
 deployment of the model, in this case being a non-assimilating hindcast (Baird et al., 2021).
 
-For this scenario comparison we focused on the model configurations q3b baseline, q3p pre-industrial, and q3R reduced 
+For this scenario comparison we focused on the model configurations q3b baseline, q3p pre-industrial, and q3R reduced
 loads (WQIP-Targets):
 
 #### q3b Baseline
 
-This scenario is used as the baseline representing the best estimate of the current state. It uses the Paddock to Reef 
-Integrated Monitoring, Modelling and Reporting Program (P2R) GBR Dynamic SedNet with 2019 catchment condition from 1st 
-of December 2010 to 30th of June 2018 (used for GBR Report Card published in 2019) and Empirical SedNet with 2019 
+This scenario is used as the baseline representing the best estimate of the current state. It uses the Paddock to Reef
+Integrated Monitoring, Modelling and Reporting Program (P2R) GBR Dynamic SedNet with 2019 catchment condition from 1st
+of December 2010 to 30th of June 2018 (used for GBR Report Card published in 2019) and Empirical SedNet with 2019
 catchment condition from 1st of July 2018 to 30th of April 2019.
 
 #### q3p Pre-Industrial

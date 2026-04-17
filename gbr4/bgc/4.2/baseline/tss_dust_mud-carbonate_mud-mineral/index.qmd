@@ -11,12 +11,14 @@ params:
 
 {{< include ../../../../../includes/_visualisation.qmd >}}
 
+{{< include ../../../../../includes/_bgc4c4_missing_data_notice.qmd >}}
+
 The sediment is modelled in multiple layers with a thin layer of easily
 resuspendable material overlying thicker layers of more consolidated
 sediment. The sediment model contains inorganic particles of different
 size (Dust, Mud, Sand and Gravel) and different mineralogies (carbonate
 and non-carbonate). The critical shear stress for resuspension, and the
-sinking rates, are generally larger for large particles, while and
+sinking rates, are generally larger for large particles, while the
 mineralogy only affects the optical properties. The size-class Dust
 comes only in a non-carbonate mineralogy, and the Mud-carbonate class
 contains a category of FineSed-mineral that has the same physical and
@@ -52,6 +54,6 @@ Mud mineral
 Small sized (nominal size 30 µm), re-suspending particles with a sinking
 velocity of 17 m d^-1^. This sediment is brown in colour.
 
-{{< include ../../../../../includes/_source_data_bgc.qmd >}}
+{{< include ../../../../../includes/_source_data_bgc_v4p2.qmd >}}
 
 {{< include ../../../../../includes/_data_span.qmd >}}

@@ -11,6 +11,8 @@ params:
 
 {{< include ../../../../../includes/_visualisation.qmd >}}
 
+{{< include ../../../../../includes/_bgc4c4_missing_data_notice.qmd >}}
+
 ### Dissolved Organic Carbon
 
 The concentration of carbon in dissolved organic compounds.
@@ -23,6 +25,6 @@ The concentration of nitrogen in dissolved organic compounds.
 
 The concentration of phosphorus in dissolved organic compounds.
 
-{{< include ../../../../../includes/_source_data_bgc.qmd >}}
+{{< include ../../../../../includes/_source_data_bgc_v4p2.qmd >}}
 
 {{< include ../../../../../includes/_data_span.qmd >}}

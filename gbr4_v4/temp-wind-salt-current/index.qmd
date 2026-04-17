@@ -30,7 +30,7 @@ hydrodynamic parameters of the Great Barrier Reef.
 
 The temperature is primarily driven by the seasons and mixing of the water by
 wind and ocean currents. If the temperature rises too high during summer months
-then it can cause corals to bleach. This can be see during the summer months of
+then it can cause corals to bleach. This can be seen during the summer months of
 2016 and 2017.
 
 ## Wind
@@ -39,7 +39,7 @@ Wind is a key driver of surface water currents, mixing and waves. In winter
 months the wind typically blows north west. These winds are known as the trade
 winds as they are a predictable seasonal pattern. In summer months the winds
 typically drop (except for cyclones) reducing the cooling and mixing of the
-water, resulting in significant surface temperatures rises during the day,
+water, resulting in significant surface temperature rise during the day,
 creating a "heart-beat" pattern in the temperature in the video (see the
 Temperature panel in the [March 2017](/gbr4_v4/temp-wind-salt-current#year=2017;month=3) video as an example). The
 wind also drives the direction of the flood plumes. The north west blowing
@@ -64,12 +64,12 @@ red in the maps). The low salinity is a good approximation for where flood
 plume waters might be. During flood plumes if the wind is blowing offshore then
 it will push the plume off the coast more toward the reefs. 2011 was a
 particularly wet year during the summer months causing extensive plumes to
-drift over reefal areas. (See [Feb 2011 Burdekin region](/gbr4_v4/temp-wind-salt-current#year=2011;month=2;region=townsville-3)
+drift over reefal areas (see [Feb 2011 Burdekin region](/gbr4_v4/temp-wind-salt-current#year=2011;month=2;region=townsville-3)
 salinity panel for runoff from major flooding).
 
 **Note**: In flood plumes nutrient and sediment runoff lead to the formation of
 green plume water which has small suspended particles coated in algae that
-travel much further then is predicted by looking at just the lowering of the
+travel much further than is predicted by looking at just the lowering of the
 salinity.
 
 ## Current
@@ -81,15 +81,15 @@ the videos) it is possible to see the tidal currents causing the direction of
 the current to flip back and forth. This tidal current increases the mixing of
 the water causing sediment in inshore areas to be stirred up. In the daily and
 monthly visualisations most of the fluctuations of the tidal currents are
-averaged out, allowing some of the large scale current flow patterns to be
+averaged out, allowing some of the large-scale current flow patterns to be
 seen.
 
 Many marine organisms (such as Crown-of-Thorns Starfish and corals) are
-dispersed by ocean currents planktonic larvae that float from reef to reef.
+dispersed as planktonic larvae by ocean currents that float from reef to reef.
 
 ## Interesting events
 
-- Cyclones: [**Yasi** (Feb 2011)](/gbr4_v4/temp-wind-salt-current#year=2011;month=2), [**Ita** (April 2014)](/gbr4_v4/temp-wind-salt-current#year=2014;month=4), [**Nathan** (March 2015)](/gbr4_v4/temp-wind-salt-current#year=2015;month=3), [**Debbi** (March 2017)](/gbr4_v4/temp-wind-salt-current#year=2017;month=3),
+- Cyclones: [**Yasi** (Feb 2011)](/gbr4_v4/temp-wind-salt-current#year=2011;month=2), [**Ita** (April 2014)](/gbr4_v4/temp-wind-salt-current#year=2014;month=4), [**Nathan** (March 2015)](/gbr4_v4/temp-wind-salt-current#year=2015;month=3), [**Debbie** (March 2017)](/gbr4_v4/temp-wind-salt-current#year=2017;month=3),
 - Coral bleaching from high temperature ([March 2016](/gbr4_v4/temp-wind-salt-current#year=2016;month=3), [March 2017](/gbr4_v4/temp-wind-salt-current#year=2017;month=3)),
 - Flood plumes with low salinity ([Burdekin Jan 2011](/gbr4_v4/temp-wind-salt-current#year=2011;month=1;region=townsville-3), [Feb 2019](/gbr4_v4/temp-wind-salt-current#region=townsville-3;year=2019;month=2)). [Salinity at 3 depths](/gbr1/salt-multi-depth#region=townsville-3) showing detail in the low salinity areas < 32 PSU.
 - Strong East Australian Current ([Nov 2015, monthly average current](/gbr4_v4/temp-wind-salt-current#frame=Monthly;year=2015;month=11))
@@ -97,4 +97,4 @@ dispersed by ocean currents planktonic larvae that float from reef to reef.
 
 {{< include ../../includes/_source_data_gbr4_v4.qmd >}}
 
-{{< include ../../includes/_recent_data.qmd >}}
+{{< include ../../includes/_data_coverage.qmd >}}

@@ -105,7 +105,7 @@ website:
                 contents:
                   - section: "Water chemistry"
                     contents:
-                      - text: "Total alkalinity, PH & Aragonite saturation state"
+                      - text: "Total alkalinity, pH & Aragonite saturation state"
                         href: /gbr4/bgc/4.2/baseline/alk_ph_omega-ar/
                       - text: "Dissolved inorganic nitrogen, nitrate & ammonia"
                         href: /gbr4/bgc/4.2/baseline/din_no3_nh4/
@@ -135,7 +135,7 @@ website:
                 contents:
                   - section: "Water chemistry"
                     contents:
-                      - text: "Total alkalinity, PH & Aragonite saturation state"
+                      - text: "Total alkalinity, pH & Aragonite saturation state"
                         href: /gbr4/bgc/baseline/alk_ph_omega-ar/
                       - text: "Dissolved inorganic nitrogen, nitrate & ammonia"
                         href: /gbr4/bgc/baseline/din_no3_nh4/
@@ -145,7 +145,7 @@ website:
                         href: /gbr4/bgc/baseline/din_dip_dic/
                       - text: "Dissolved Organic (Carbon, Nitrogen & Phosphorus)"
                         href: /gbr4/bgc/baseline/dor-c_dor-n_dor-p/
-                      - text: "Particulate inorganic phosphorus & particulate inorganic"
+                      - text: "Particulate inorganic phosphorus & particulate inorganic phosphorus sediments"
                         href: /gbr4/bgc/baseline/pip_pip-sed/
                   - section: "Water quality measures"
                     contents:
@@ -165,7 +165,7 @@ website:
                         href: /gbr4/bgc/baseline/ma-n_sg-n_sgh-n_sgd-n/
                   - section: "Catchment scenarios comparison"
                     contents:
-                      - text: "Disolved inorganic nitrogen"
+                      - text: "Dissolved inorganic nitrogen"
                         href: /gbr4/bgc/scenarios/din
                       - text: "Total Chlorophyll"
                         href: /gbr4/bgc/scenarios/chl-a-sum
@@ -197,4 +197,4 @@ format:
     fontcolor: "#212529"
 
 execute:
-  freeze: auto # ensures code blocks are only executed locally as opposed to being executes as part of GitHub actions
+  freeze: auto # ensures code blocks are only executed locally as opposed to being executed as part of GitHub actions

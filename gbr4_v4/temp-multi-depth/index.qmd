@@ -41,4 +41,4 @@ cyclones build up circular ocean currents that can mix the water down to 300 m. 
 
 {{< include ../../includes/_source_data_gbr4_v4.qmd >}}
 
-{{< include ../../includes/_recent_data.qmd >}}
+{{< include ../../includes/_data_coverage.qmd >}}

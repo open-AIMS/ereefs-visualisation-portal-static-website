@@ -11,6 +11,8 @@ params:
 
 {{< include ../../../../../includes/_visualisation.qmd >}}
 
+{{< include ../../../../../includes/_bgc4c4_missing_data_notice.qmd >}}
+
 ### Total Chlorophyll
 
 Sum of chlorophyll concentration of the four microalgae types (small,
@@ -27,6 +29,6 @@ This is the sum of the suspended sediments in the water column. It is
 \[Fine sediment\] + \[Mud\] + \[Mud carbonate\] + \[Mud mineral\] +
 \[Dust\]
 
-{{< include ../../../../../includes/_source_data_bgc.qmd >}}
+{{< include ../../../../../includes/_source_data_bgc_v4p2.qmd >}}
 
 {{< include ../../../../../includes/_data_span.qmd >}}

@@ -7,7 +7,7 @@ aliases:
 In the case you would like to download a visualisation video follow these steps:
 
 1.  Navigate to the data of interest by selecting the
-    1.  model ([Hydrodynamic](/index.qmd#ereefs-csiro-hydrodynamic-model) or [BioGeoChemical](/index.qmd#ereefs-csiro-biogeochemical-model-4-km))
+    1.  model ([Hydrodynamic](/index.qmd#ereefs-csiro-hydrodynamic-model) or [BioGeoChemical](/index.qmd#ereefs-csiro-biogeochemical-model-4-km))
     2.  resolution (1 km or 4km, if applicable)
     3.  variables
 2.  Select the settings (see yellow rectangles in screenshot below)
@@ -15,9 +15,9 @@ In the case you would like to download a visualisation video follow these steps:
     2.  elevation
     3.  scale and region
     4.  date
-3.  Download the video (see red rectangle in screenshot below)
+3.  Download the video (see red rectangle in screenshot below)
     1.  click on the button "MP4" to open the video in a new page
-    2.  righ-click on the video and select "Save video as"
+    2.  right-click on the video and select "Save video as"
 
 ![How to download a video](./how-to-download-video.png)
 

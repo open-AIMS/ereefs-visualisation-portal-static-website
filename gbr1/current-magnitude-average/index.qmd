@@ -24,7 +24,7 @@ Barrier Reef based on the [1km eReefs Hydrodynamic model](https://research.csiro
 The magnitude shown in these videos and images tells you the speed of the
 water, but with no indication of the direction. In shallow areas this
 information can be useful in understanding the amount of sediment mixing caused
-by tides and the amount of shear stress (side ways rubbing) that these areas
+by tides and the amount of shear stress (sideways rubbing) that these areas
 might experience. Shallow areas that have a high current magnitude are likely
 to be different habitats.
 
@@ -34,6 +34,6 @@ Hydrodynamic model (Temperature, Salinity, Wind, Current) Summaries
 
 {{< include ../../includes/_source_data_gbr1.qmd >}}
 
-{{< include ../../includes/_recent_data.qmd >}}
+{{< include ../../includes/_data_coverage.qmd >}}
 
 {{< include ../../includes/_erratum.qmd >}}

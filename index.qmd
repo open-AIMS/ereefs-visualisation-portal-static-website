@@ -15,7 +15,7 @@ are like weather models, but for the marine environment, providing a picture of
 the current and historical environmental conditions on the Great Barrier Reef.
 Here you can see past extreme weather events such as:
 
-- Cyclones: [**Yasi** (Feb 2011)](./gbr4/temp-wind-salt-current/index.qmd#year=2011;month=2), [**Ita** (April 2014)](./gbr4/temp-wind-salt-current/index.qmd#year=2014;month=4), [**Nathan** (March 2015)](./gbr4/temp-wind-salt-current/index.qmd#year=2015;month=3), [**Debbi** (March 2017)](./gbr4/temp-wind-salt-current/index.qmd#year=2017;month=3),
+- Cyclones: [**Yasi** (Feb 2011)](./gbr4/temp-wind-salt-current/index.qmd#year=2011;month=2), [**Ita** (April 2014)](./gbr4/temp-wind-salt-current/index.qmd#year=2014;month=4), [**Nathan** (March 2015)](./gbr4/temp-wind-salt-current/index.qmd#year=2015;month=3), [**Debbie** (March 2017)](./gbr4/temp-wind-salt-current/index.qmd#year=2017;month=3),
 - Coral bleaching from high temperature ([March 2016](./gbr4/temp-wind-salt-current/index.qmd#year=2016;month=3), [March 2017](./gbr4/temp-wind-salt-current/index.qmd#year=2017;month=3)),
 - Flood plumes with low salinity ([North Queensland Flooding 2019](./gbr1/salt-multi-depth/index.qmd#region=townsville-3;year=2019;month=2), [Burdekin Jan 2011](./gbr1/salt-multi-depth/index.qmd#year=2011;month=1;region=townsville-3))
 
@@ -35,13 +35,7 @@ that can damage inshore reefs.
 This model is run with a 4 km and 1 km grid size. The 4 km grid has a longer
 hindcast going back to September 2010, while the 1 km model starts in December
 2014. The 1 km model also only extends out to the edge of the Great Barrier
-Reef, whereas the 4 km model covers much of the Coral Sea. The hydrodynamic
-model and visualisations are normally updated in near-real time, within 1 week
-of the current date.
-
-Note: The eReefs models are currently not being run in near-real time by CSIRO
-as a result this site only shows the back catalogue up to mid 2020. Near
-realtime results are expected to be back in operation by the end of 2020.
+Reef, whereas the 4 km model covers much of the Coral Sea.
 
 ::: {.ncanimate-products .column-screen-right}
 ::: {.ncanimate-product-tile}
@@ -69,7 +63,7 @@ realtime results are expected to be back in operation by the end of 2020.
 :::
 
 ::: {.ncanimate-product-tile}
-### 1 km model (Dec 2014 - present)
+### 1 km model (Dec 2014 - Jan 2024)
 #### Water movement and physical characteristics
 ![](/images/AIMS-JL009front007-500x250.jpg){fig-alt="Waves break on the front reef creating a tough environment for corals to grow. Note the large encrusting soft coral below the breaking wave." fig-align="center"}
 
@@ -86,7 +80,7 @@ realtime results are expected to be back in operation by the end of 2020.
 
 ## eReefs CSIRO BioGeoChemical model (4&nbsp;km)
 
-The [GBR4 BioGeoChemical (GBR) model](https://research.csiro.au/ereefs/models/models-about/models-biogeochemistry/) builds on the GBR4 hydrodynamic model by
+The [GBR4 BioGeoChemical (BGC) model](https://research.csiro.au/ereefs/models/models-about/models-biogeochemistry/) builds on the GBR4 hydrodynamic model by
 modelling the water quality (nutrients and [suspended sediment](https://research.csiro.au/ereefs/models/models-about/models-sediment-transport/)) and key
 ecological processes (coral, seagrass, plankton) that drive the water
 chemistry. This model allows us to better understand how water quality is
@@ -105,29 +99,29 @@ according to the percentage reductions of DIN, PN, PP and TSS specified in the
 [Reef 2050 Water Quality Improvement Plan 2017-2022](https://www.reefplan.qld.gov.au/__data/assets/pdf_file/0017/46115/reef-2050-water-quality-improvement-plan-2017-22.pdf)). This site currently only
 visualises the baseline scenario run of the model, however data is available
 for the other scenarios via the [NCI THREDDS service](https://thredds.nci.org.au/thredds/catalog/catalogs/fx3/catalog.html) (raw model data in
-curvilinear NetCDF format), the [AIMS Data Extraction tool](https://extraction.ereefs.aims.gov.au/?_gl=1*1h5mq5j*_ga*OTM5OTM3MTMzLjE2NjczNTcwNzg.*_ga_6SSTNBNHXG*MTY5NDQ4MTU0NS42Ni4xLjE2OTQ0ODc3NzkuMC4wLjA.) (time series
+curvilinear NetCDF format), the [AIMS Data Extraction tool](https://extraction.ereefs.aims.gov.au/) (time series
 extraction in CSV format) and regridded and aggregated format via the [AIMS
 eReefs THREDDS service](https://thredds.ereefs.aims.gov.au/thredds/catalog/catalog.html).
 
 A [technical assessment of the skill level of the BGC version 3.1 model](https://research.csiro.au/ereefs/wp-content/uploads/sites/34/2020/08/Reanalysis_v1_August2020.pdf) shows
 that the absolute accuracy of the BGC model varies significantly with variable
-and location. A older analysis on the BGC version 2.0 ([Skerratt et al., 2018](https://doi.org/10.1016/j.jmarsys.2018.12.006))
+and location. An older analysis on the BGC version 2.0 ([Skerratt et al., 2018](https://doi.org/10.1016/j.jmarsys.2018.12.006))
 provides additional background on the skill of the BGC model. As a result care
 should be taken to ensure the model is fit-for-purpose and in general BGC
-results should used in combination with second sources of information for
+results should be used in combination with secondary sources of information for
 making recommendations.
 
 ::: {.ncanimate-products .column-screen-right}
 ::: {.ncanimate-product-tile}
 ### Water chemistry
-![](/images/Blue_Soda_bubbles_macro-500x250.jpg){fig-alt="Bubles suspended in water" fig-align="center"}
+![](/images/Blue_Soda_bubbles_macro-500x250.jpg){fig-alt="Bubbles suspended in water" fig-align="center"}
 
-- [Total alkalinity, PH & Aragonite saturation state](./gbr4/bgc/baseline/alk_ph_omega-ar)
+- [Total alkalinity, pH & Aragonite saturation state](./gbr4/bgc/baseline/alk_ph_omega-ar)
 - [Dissolved inorganic nitrogen, nitrate & ammonia](./gbr4/bgc/baseline/din_no3_nh4)
 - [Dissolved oxygen & oxygen saturation percentage](./gbr4/bgc/baseline/oxygen_oxy-sat)
 - [Dissolved Inorganic (Carbon, Nitrogen & Phosphorus)](./gbr4/bgc/baseline/din_dip_dic)
 - [Dissolved Organic (Carbon, Nitrogen & Phosphorus)](./gbr4/bgc/baseline/dor-c_dor-n_dor-p)
-- [Particulate inorganic phosphorus & particulate inorganic](./gbr4/bgc/baseline/pip_pip-sed)
+- [Particulate inorganic phosphorus & particulate inorganic phosphorus sediments](./gbr4/bgc/baseline/pip_pip-sed)
 
 :::
 
@@ -153,7 +147,7 @@ making recommendations.
 ## Catchment scenarios comparison
 ![](/images/corals_and_fish-500x250.png){fig-alt="Corals and fish" fig-align="center"}
 
-- [Disolved inorganic nitrogen](./gbr4/bgc/scenarios/din)
+- [Dissolved inorganic nitrogen](./gbr4/bgc/scenarios/din)
 - [Total Chlorophyll](./gbr4/bgc/scenarios/chl-a-sum)
 - [Secchi depth](./gbr4/bgc/scenarios/secchi)
 - [Total suspended solids](./gbr4/bgc/scenarios/efi)
@@ -162,10 +156,10 @@ making recommendations.
 
 :::
 
-#### Refereneces
+#### References
 
 Skerratt, J, Mongin, M, Baird, M, Wild-Allen, K, Robson, B, Schaffelke, B,
 Davies, C, Richardson, A, Margvelashvili, N, Soja-Wozniak, M, and Steven, A,
 2019a, Simulated nutrient and plankton dynamics in the Great Barrier Reef
 (2011-2016), Journal of Marine Systems, vol. 192, pp. 51-74,
-<http://dx.doi.org/10.1016/j.jmarsys.2018.12.006>
+<https://dx.doi.org/10.1016/j.jmarsys.2018.12.006>

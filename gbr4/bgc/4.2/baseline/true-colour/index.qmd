@@ -11,6 +11,8 @@ params:
 
 {{< include ../../../../../includes/_visualisation.qmd >}}
 
+{{< include ../../../../../includes/_bgc4c4_missing_data_notice.qmd >}}
+
 A key challenge with validating the BGC model is that the number of in-situ
 observations is very limited compared with the geographic scope and detail of
 the model. To help overcome this limitation the CSIRO eReefs BGC model
@@ -25,6 +27,6 @@ MODIS satellite, except with no clouds. While we don't create a direct
 comparison with the MODIS imagery here on this site, you can view the MODIS
 imagery via the [NASA WorldView browser](https://worldview.earthdata.nasa.gov/?v=128.54593584758447,-31.75702092134829,171.2501420451839,-8.125135981270493&l=Reference_Labels(hidden),Reference_Features(hidden),Coastlines,MODIS_Aqua_CorrectedReflectance_TrueColor(hidden),MODIS_Terra_CorrectedReflectance_TrueColor).
 
-{{< include ../../../../../includes/_source_data_bgc.qmd >}}
+{{< include ../../../../../includes/_source_data_bgc_v4p2.qmd >}}
 
 {{< include ../../../../../includes/_data_span.qmd >}}

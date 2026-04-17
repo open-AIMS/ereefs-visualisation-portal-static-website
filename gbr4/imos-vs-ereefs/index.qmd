@@ -21,8 +21,8 @@ params:
 This video compares the temperature and ocean current data of the eReefs
 Hydrodynamic model (4km resolution) with remotely sensed temperature and ocean
 current provided by [Integrated Marine Observing System (IMOS)](https://imos.org.au/). For the ocean
-current data we use the [IMOS - OceanCurrent - Gridded sea level anomaly - Near
-real time](https://catalogue-imos.aodn.org.au/geonetwork/srv/api/records/0c9eb39c-9cbe-4c6a-8a10-5867087e703a) dataset and for the temperature the [IMOS - SRS - SST - L3S - Single
+current data we use the [IMOS - OceanCurrent - Gridded sea level anomaly -
+Near real time](https://catalogue-imos.aodn.org.au/geonetwork/srv/api/records/0c9eb39c-9cbe-4c6a-8a10-5867087e703a) dataset and for the temperature the [IMOS - SRS - SST - L3S - Single
 Sensor - 6 day - night time - Australia](https://catalogue-imos.aodn.org.au/geonetwork/srv/api/records/f9d6616a-f359-4418-979a-e7b89b5b9086) dataset. The 6 day period was chosen to
 reduce the chances of data gaps because of cloud coverage.
 

@@ -11,13 +11,15 @@ params:
 
 {{< include ../../../../../includes/_visualisation.qmd >}}
 
+{{< include ../../../../../includes/_bgc4c4_missing_data_notice.qmd >}}
+
 Secchi depth
 ------------
 
 Secchi depth is an estimate of water clarity, which is traditionally
 measured by lowering a [secchi
 disk](https://en.wikipedia.org/wiki/Secchi_disk) into the water until
-the disk can not be seen. The model estimates the optical properties of
+the disk cannot be seen. The model estimates the optical properties of
 the water based on the sediment and nutrients in the water. These all
 affect the scattering and absorption of light as it passes through the
 water allowing the model to estimate the attenuation of the light
@@ -27,9 +29,9 @@ integral of attenuation of light at 488nm.
 Vertical attenuation at 490nm
 -----------------------------
 
-As light passes through the water column its intensity descreases due to
+As light passes through the water column its intensity decreases due to
 a combination of absorption and scattering. The amount of light
-descreases exponentially as a function of the depth. The amount of light
+decreases exponentially as a function of the depth. The amount of light
 at a given depth can be estimated by scaling the surface irradiance by
 *e*^*(-Kd\*depth*)^, where Kd is the vertical attenuation coefficient,
 and *e* is the base of the natural logarithm.
@@ -39,17 +41,17 @@ as colours are absorbed at different rates due to the inherent
 properties of sea water (blue penetrates more than red light) and the
 amount of sediment and organic material in the water. The vertical
 attenuation also varies with depth if the water column is not fully
-mixed. Stratification of colour dissolved organic matter (CDOM) or
+mixed. Stratification of coloured dissolved organic matter (CDOM) or
 suspended sediment can result in variation in the clarity of the water,
 and thus the vertical attenuation, with depth.
 
-In the BGC model the vertical attenuation is a depth dependent variable
-that corresponds to the light attenutation in the model depth layer at a
+In the BGC model, the vertical attenuation is a depth dependent variable
+that corresponds to the light attenuation in the model depth layer at a
 wavelength of 490 nm (blue/cyan). It is calculated based on the optical
 model of the water, which considers the wavelength dependent absorption
 and scattering of the light through the water column depending on the
-amount of modelled colour dissolved organic matter (CDOM) and sediment
-in the water column. Further details of the vertical attenuation is
+amount of modelled coloured dissolved organic matter (CDOM) and sediment
+in the water column. Further details of the vertical attenuation are
 outlined in section 3.2.2 of the [BGC Appendix B: Scientific description
 of the optical, carbon chemistry and biogeochemical
 models](https://research.csiro.au/ereefs/?ddownload=651).
@@ -69,6 +71,6 @@ condition for the Great Barrier Reef: a case study for seagrass meadows
 in the Burdekin region*) is currently investigating the possibility of
 using this model to derive and test ecologically relevant targets.
 
-{{< include ../../../../../includes/_source_data_bgc.qmd >}}
+{{< include ../../../../../includes/_source_data_bgc_v4p2.qmd >}}
 
 {{< include ../../../../../includes/_data_span.qmd >}}

@@ -7,7 +7,7 @@ format:
     template: ../../custom_template.html
 params:
   product-name: Salinity at 2.35m, 5.35m and 18m depth (GBR1)
-  block-name: gbr1-hydro_salt-multi-dept
+  block-name: gbr1-hydro_salt-multi-depth
   product-id: products__ncanimate__ereefs__gbr1_2-0__salt-multi-depth
 ---
 
@@ -26,7 +26,7 @@ based on the [1km eReefs Hydrodynamic model](https://research.csiro.au/ereefs/mo
 The salinity of normal ocean water is approximately 35 PSU. As
 freshwater is mixed with the ocean water the salinity drops, with pure
 water having a PSU of zero. This product highlights that, absent forced
-mixing from current upwelling (such as by cyclones), lower salinity
+mixing from ocean current upwelling (such as by cyclones), lower salinity
 water floats to the surface (represented on this page by the 2.35m
 depth).
 
@@ -38,7 +38,7 @@ depth).
 
 {{< include ../../includes/_source_data_gbr1.qmd >}}
 
-{{< include ../../includes/_recent_data.qmd >}}
+{{< include ../../includes/_data_coverage.qmd >}}
 
 {{< include ../../includes/_erratum.qmd >}}
 

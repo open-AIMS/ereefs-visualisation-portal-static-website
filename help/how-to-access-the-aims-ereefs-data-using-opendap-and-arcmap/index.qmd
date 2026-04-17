@@ -18,7 +18,7 @@ plot AIMS eReefs data with
 R](../how-to-plot-aims-ereefs-data-with-r/index.qmd) and [How to
 plot AIMS eReefs data with
 Python](../how-to-plot-aims-ereefs-data-with-python/index.qmd) for
-a more programatically approach. More clients can be found on the
+a more programmatic approach. More clients can be found on the
 [OPeNDAP clients](https://www.opendap.org/support/OPeNDAP-clients)
 website.
 
@@ -26,7 +26,7 @@ website.
 data?**
 
 The answer to this question depends mainly on the use-case. In general,
-the use of OPeNDAP is slower and more un-responsive but it is a good way
+the use of OPeNDAP is slower and less responsive but it is a good way
 to explore the data before downloading it (NetCDF files can be very
 large, sometimes multiple GB). When you exactly know which file(s) you
 need, it is recommended to download the file(s) (see [How to open a
@@ -61,7 +61,7 @@ Finding the OPeNDAP URL
         := eReefs Hydrodynamic model version 2.0 (4 km resolution)
 3.  Each model has its derived output grouped into folders with the
     names indicating the time steps and aggregation in a file. For
-    example a folder with the name\"daily-monthly\" contains \"monthly\"
+    example a folder with the name \"daily-monthly\" contains \"monthly\"
     files with \"daily\" data while a folder with the name
     \"annual-annual\" contains \"annual\" files with \"annual\" data.
     Select the link to the folder of interest.
@@ -115,7 +115,7 @@ For this step-by-step tutorial ArcMap version 10.6.1 was used.
         clicking on the field in the list.\
         Here is an overview of the values for this dimension depending
         on the selected model:
-          
+
           | **Index (k)**   | **Hydrodynamic 1km model** | **Hydrodynamic and BioGeoChemical 4km model** |
           | --------------- | -----------------          | ------------------------------------          |
           | 1               | -140.00 m                  | -145.00 m                                     |
@@ -136,7 +136,7 @@ For this step-by-step tutorial ArcMap version 10.6.1 was used.
           | 16              | -0.50 m                    | -1.50 m                                       |
           | 17              | n/a                        | -0.50 m                                       |
 
-          : *Mapping of dimension k to depth value in meters*{.hover}
+          : *Mapping of dimension k to depth value in metres*{.hover}
 
     11. Click \"OK\" to close the window.
 

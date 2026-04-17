@@ -1,0 +1,29 @@
+Data gap notice
+---------------
+
+Some dates in the 4km eReefs BioGeoChemical model v4.2 dataset have
+been removed because the model output for those dates was found to be
+inaccurate. Videos will show **Data not available**, and
+monthly or annual aggregates that include these periods should be interpreted
+with caution.
+
+The following date ranges have been removed:
+
+| Start date   | End date     |
+|:-------------|:-------------|
+| 2 Jan 2011   | 31 Jan 2011  |
+| 2 Feb 2012   | 2 Mar 2012   |
+| 9 Mar 2013   | 7 Apr 2013   |
+| 1 Mar 2014   | 30 Mar 2014  |
+| 6 Apr 2015   | 5 May 2015   |
+| 10 May 2016  | 8 Jun 2016   |
+| 14 Jun 2017  | 13 Jul 2017  |
+| 19 Jul 2018  | 17 Aug 2018  |
+| 23 Aug 2019  | 21 Sep 2019  |
+| 26 Sep 2020  | 25 Oct 2020  |
+| 31 Oct 2021  | 29 Nov 2021  |
+| 19 May 2022  | 17 Jun 2022  |
+
+We will update this portal when corrected model output becomes available.
+
+---

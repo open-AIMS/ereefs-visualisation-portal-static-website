@@ -1,0 +1,7 @@
+## Data coverage
+
+The data on this page may not reflect the most current conditions, as the
+GBR1 and GBR4 model runs are no longer updated on a regular basis.
+
+To browse the latest available model data, refer to the [NCI THREDDS
+server](https://thredds.nci.org.au/thredds/catalog/catalogs/fx3/catalog.html).

@@ -66,9 +66,9 @@ file](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/netcdf/exercise-1-di
     6.  Leave the optional input \"Dimension values\" blank, this will
         be adjusted in the next step.
     7.  Click \"OK\" to start the processing.
-        
+
     <br>![Open NetCDF file with ArcMap - screenshot 2](./open-netcdf-file-with-arcmap-screenshot2.png)
-        
+
 5.  Once the layer is processed and shown in the \"Layers\" tab,
     double-click on the layer to open the \"Properties\" window
     1.  Select the \"NetCDF\" tab at the top of the window.
@@ -77,7 +77,7 @@ file](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/netcdf/exercise-1-di
         2.  And select a value for the depth (dimension \"k\").\
             Here is an overview of the values for this dimension
             depending on the selected model:
-              
+
               | **Index (k)**   | **Hydrodynamic 1km model** | **Hydrodynamic and BioGeoChemical 4km model** |
               | --------------- | -------------------------- | --------------------------------------------- |
               | 1               | -140.00 m                  | -145.00 m                                     |
@@ -98,11 +98,11 @@ file](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/netcdf/exercise-1-di
               | 16              | -0.50 m                    | -1.50 m                                       |
               | 17              | n/a                        | -0.50 m                                       |
 
-              : *Mapping of dimension k to depth value in meters*{.hover}
-              
+              : *Mapping of dimension k to depth value in metres*{.hover}
+
     3.  Click \"OK\" to close the property window and apply the
         changes.
-        
+
     <br>![Open NetCDF file with ArcMap - screenshot 3](./open-netcdf-file-with-arcmap-screenshot3.png)
 
 Open a derived NetCDF file with QGIS
@@ -117,9 +117,9 @@ For this step-by-step tutorial QGIS version 3.14.1-Pi was used.
 2.  Start QGIS.
 3.  In the top menu select \"Layer\" -\> \"Add Layer\" -\> \"Add Raster
     Layer\".
-    
+
 <br>![Open NetCDF file with QGIS - screenshot 1](./open-netcdf-file-with-qgis-screenshot1.png)
-    
+
 4.  In the popup window (\"Data Source Manager\")
     1.  As \"Source type\" select \"File\".
     2.  In the \"Source\" input field select the NetCDF file downloaded
@@ -153,6 +153,6 @@ For this step-by-step tutorial QGIS version 3.14.1-Pi was used.
         you can click the \"Classify\" button to re-classify the label
         values.
     5.  Click \"OK\" to close the property window.
-        
+
     <br>![Open NetCDF file with QGIS - screenshot 4](./open-netcdf-file-with-qgis-screenshot4.png)
 

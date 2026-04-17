@@ -390,7 +390,7 @@
   function Z(a, b) {
     return h(Wd, a) ? Wd[a](b._strict, b._locale) : new RegExp($(a));
   }
-  // Code from http://stackoverflow.com/questions/3561493/is-there-a-regexp-escape-function-in-javascript
+  // Code from https://stackoverflow.com/questions/3561493/is-there-a-regexp-escape-function-in-javascript
   function $(a) {
     return _(
       a
@@ -611,7 +611,7 @@
   }
   function ra(a, b, c, d, e, f, g) {
     //can't just apply() to create a date:
-    //http://stackoverflow.com/questions/181348/instantiating-a-javascript-object-by-calling-prototype-constructor-apply
+    //https://stackoverflow.com/questions/181348/instantiating-a-javascript-object-by-calling-prototype-constructor-apply
     var h = new Date(a, b, c, d, e, f, g);
     //the date constructor remaps years 0-99 to 1900-1999
     return (
@@ -634,7 +634,7 @@
       e = (7 + sa(a, 0, d).getUTCDay() - b) % 7;
     return -e + d - 1;
   }
-  //http://en.wikipedia.org/wiki/ISO_week_date#Calculating_a_date_given_the_year.2C_week_number_and_weekday
+  //https://en.wikipedia.org/wiki/ISO_week_date#Calculating_a_date_given_the_year.2C_week_number_and_weekday
   function ua(a, b, c, d, e) {
     var f,
       g,
@@ -1003,7 +1003,7 @@
         null != we[a]
           ? (x(
               "defineLocaleOverride",
-              "use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info."
+              "use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See https://momentjs.com/guides/#/warnings/define-locale/ for more info."
             ),
             (c = we[a]._config))
           : null != b.parentLocale &&
@@ -1011,7 +1011,7 @@
               ? (c = we[b.parentLocale]._config)
               : x(
                   "parentLocaleUndefined",
-                  "specified parentLocale is not defined yet. See http://momentjs.com/guides/#/warnings/parent-locale/"
+                  "specified parentLocale is not defined yet. See https://momentjs.com/guides/#/warnings/parent-locale/"
                 )),
         (we[a] = new B(A(c, b))),
         Za(a),
@@ -1651,7 +1651,7 @@
               b +
               "(period, number) is deprecated. Please use moment()." +
               b +
-              "(number, period). See http://momentjs.com/guides/#/warnings/add-inverted-param/ for more info."
+              "(number, period). See https://momentjs.com/guides/#/warnings/add-inverted-param/ for more info."
           ),
           (f = c),
           (c = d),
@@ -1842,7 +1842,7 @@
   }
   function lc(a) {
     // the following switch intentionally omits break keywords
-    // to utilize falling through the cases.
+    // to utilise falling through the cases.
     switch ((a = J(a))) {
       case "year":
         this.month(0); /* falls through */
@@ -2650,7 +2650,7 @@
     ],
     Ce = /^\/?Date\((\-?\d+)/i;
   (a.createFromInputFallback = w(
-    "value provided is not in a recognized ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.",
+    "value provided is not in a recognised ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to https://momentjs.com/guides/#/warnings/js-date/ for more info.",
     function (a) {
       a._d = new Date(a._i + (a._useUTC ? " UTC" : ""));
     }
@@ -2658,14 +2658,14 @@
     // constant that refers to the ISO standard
     (a.ISO_8601 = function () {});
   var De = w(
-      "moment().min is deprecated, use moment.max instead. http://momentjs.com/guides/#/warnings/min-max/",
+      "moment().min is deprecated, use moment.max instead. https://momentjs.com/guides/#/warnings/min-max/",
       function () {
         var a = rb.apply(null, arguments);
         return this.isValid() && a.isValid() ? (a < this ? this : a) : n();
       }
     ),
     Ee = w(
-      "moment().max is deprecated, use moment.min instead. http://momentjs.com/guides/#/warnings/min-max/",
+      "moment().max is deprecated, use moment.min instead. https://momentjs.com/guides/#/warnings/min-max/",
       function () {
         var a = rb.apply(null, arguments);
         return this.isValid() && a.isValid() ? (a > this ? this : a) : n();
@@ -2931,11 +2931,11 @@
     (Re.months = w("months accessor is deprecated. Use month instead", ja)),
     (Re.years = w("years accessor is deprecated. Use year instead", ke)),
     (Re.zone = w(
-      "moment().zone is deprecated, use moment().utcOffset instead. http://momentjs.com/guides/#/warnings/zone/",
+      "moment().zone is deprecated, use moment().utcOffset instead. https://momentjs.com/guides/#/warnings/zone/",
       Db
     )),
     (Re.isDSTShifted = w(
-      "isDSTShifted is deprecated. See http://momentjs.com/guides/#/warnings/dst-shifted/ for more information",
+      "isDSTShifted is deprecated. See https://momentjs.com/guides/#/warnings/dst-shifted/ for more information",
       Jb
     ));
   var Se = Re,
@@ -4643,7 +4643,7 @@ EAtlasNcAnimate2Widget.prototype.downloadFrame = function (
   if (filename === null) {
     // This should only happen if the frameTimeUnit is not one listed above (very unlikely)
     alert(
-      "ERROR: Frame can not be downloaded.\nReason: Unsupported frame time unit: " +
+      "ERROR: Frame cannot be downloaded.\nReason: Unsupported frame time unit: " +
         frameTimeUnit +
         "."
     );
@@ -4789,7 +4789,7 @@ EAtlasNcAnimate2Map.prototype.load = function (regionCatalogue) {
     this.mapImg = new Image();
     this.mapImg.onload = (function (that) {
       return function () {
-        // Save the real image dimenssion as returned by the server.
+        // Save the real image dimension as returned by the server.
         // NOTE: "this" refer to the loaded image.
         if (this.width && this.height) {
           that.width = this.width;
@@ -4931,8 +4931,8 @@ EAtlasNcAnimate2Map.prototype.getMapURL = function () {
   var mapUrl = this.canvas.attr("mapurl");
 
   // Map URL used for debugging
-  //mapUrl = "http://maps.eatlas.org.au/maps/wms?LAYERS=ea-be%3AWorld_Bright-Earth-e-Atlas-basemap_No-Labels-hillshading&TRANSPARENT=FALSE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fjpeg&SRS=EPSG%3A4326&BBOX=${WEST},${SOUTH},${EAST},${NORTH}&WIDTH=${WIDTH}&HEIGHT=${HEIGHT}";
-  //mapUrl = "http://maps.eatlas.org.au/maps/ea/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=ea%3AGBR_GBRMPA_GBR-features,ea%3AGBR_e-Atlas-GBRMPA_GBRMP-bounds_Ocean-bounds,ea%3AGBR_NERP-TE-13-1_eAtlas_NRM-Regions-GBRMP-2012&STYLES=GBR-features_Outlook,Polygon_Outline-Red,GBR_NRM-Regions-GBRMP_Mainland-border&SRS=EPSG%3A4326&WIDTH=${WIDTH}&HEIGHT=${HEIGHT}&BBOX=${WEST},${SOUTH},${EAST},${NORTH}";
+  //mapUrl = "https://maps.eatlas.org.au/maps/wms?LAYERS=ea-be%3AWorld_Bright-Earth-e-Atlas-basemap_No-Labels-hillshading&TRANSPARENT=FALSE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fjpeg&SRS=EPSG%3A4326&BBOX=${WEST},${SOUTH},${EAST},${NORTH}&WIDTH=${WIDTH}&HEIGHT=${HEIGHT}";
+  //mapUrl = "https://maps.eatlas.org.au/maps/ea/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=ea%3AGBR_GBRMPA_GBR-features,ea%3AGBR_e-Atlas-GBRMPA_GBRMP-bounds_Ocean-bounds,ea%3AGBR_NERP-TE-13-1_eAtlas_NRM-Regions-GBRMP-2012&STYLES=GBR-features_Outlook,Polygon_Outline-Red,GBR_NRM-Regions-GBRMP_Mainland-border&SRS=EPSG%3A4326&WIDTH=${WIDTH}&HEIGHT=${HEIGHT}&BBOX=${WEST},${SOUTH},${EAST},${NORTH}";
 
   if (!mapUrl || !mapBBox || !width || !height) {
     return null;
@@ -5341,8 +5341,8 @@ var EATLAS_NCANIMATE2_ANCHOR_VALUE_SEPARATOR = "=";
   });
 })(jQuery);
 
-// Allowed characters in anchors:
-//   http://tools.ietf.org/html/rfc3986#section-3.5
+// Allowed characters in URL fragments (aka anchors):
+//   https://datatracker.ietf.org/doc/html/rfc3986#section-3.5
 // Basically, anchors cannot contain #, %, ^, [, ], {, }, \, ", < and >
 function eatlas_ncanimate2_craft_anchor(values) {
   var actualValues = eatlas_ncanimate2_get_anchor_values();
