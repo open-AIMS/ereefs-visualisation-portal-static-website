@@ -29,12 +29,6 @@ access the actual videos.</em></p>
 
 <hr/>
 
-**Note:** Temporal coverage in this published dataset is 2007-01-01 to 2023-12-31. Modelled years 2012, 2014, 2016, 
-2020, 2022, and 2023 are excluded from publication outputs due to a known export issue, where flow areas greater than 
-10 cumecs were set to null values, making those files unsuitable for reuse. The original model configuration was tuned 
-for river mouth flow rates, so uncertainty is higher in inland and ungauged areas.
-
-<hr/>
 
 This visualisation combines catchment surface flow from the Grid-to-Grid (G2G) model with marine salinity from eReefs 
 GBR4 Hydro to show how land runoff events influence coastal ocean conditions across the Great Barrier Reef. During high 
