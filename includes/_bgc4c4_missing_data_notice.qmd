@@ -3,9 +3,10 @@ Data gap notice
 
 Some dates in the 4km eReefs BioGeoChemical model v4.2 dataset have
 been removed because the model output for those dates was found to be
-inaccurate. Videos will show **Data not available**, and
-monthly or annual aggregates that include these periods should be interpreted
-with caution.
+inaccurate, as shown in
+[this sample video](https://aims-ereefs-public-prod.s3.ap-southeast-2.amazonaws.com/ncanimate/samples/gbr4_bgc4p2_baseline__data-anomaly_2011-01.mp4){target="_blank"}.
+
+Please interpret these videos with caution.
 
 The following date ranges have been removed:
 
