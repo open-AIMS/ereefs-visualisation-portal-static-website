@@ -10,18 +10,18 @@ params:
 # GBR catchment area Grid-to-Grid (G2G) surface flows with eReefs GBR4 Hydro salinity (AIMS, Source: CSIRO, BOM)
 
 [<img src="../../images/g2g/preview-image-2019-02-06.png" alt="Preview map of GBR catchment surface flow and ocean 
-salinity (2019-02-06)" style="display: block; margin: 0 auto; width: 60%; height: auto; max-width: 100%;">](https://nextcloud.eatlas.org.au/apps/sharealias/a/QLD_BOM_eReefs-g2gflow_2011-2023?path=%2Fdaily%2Fvisualisations)
+salinity (2019-02-06)" style="display: block; margin: 0 auto; width: 60%; height: auto; max-width: 100%;">](https://nextcloud.eatlas.org.au/apps/sharealias/a/QLD_BOM_eReefs-g2gflow_2011-2023?dir=%2Fdaily%2Fvisualisations)
 
 <p style="text-align: center;"><em>Preview image of the full visualisation videos. Please open the downloads below to 
 access the actual videos.</em></p>
 
-[Open full visualisation downloads (MP4)](https://nextcloud.eatlas.org.au/apps/sharealias/a/QLD_BOM_eReefs-g2gflow_2011-2023?path=%2Fdaily%2Fvisualisations)
+[Open full visualisation downloads (MP4)](https://nextcloud.eatlas.org.au/apps/sharealias/a/QLD_BOM_eReefs-g2gflow_2011-2023?dir=%2Fdaily%2Fvisualisations)
 
 <hr/>
 
 <div class="citation">
   <p>
-    <strong>When using this visualisation, please cite:</strong> Hammerton, M., Lawrey, E. (2026). GBR catchment area 
+    <strong>When using this visualisation, please cite:</strong> Hammerton, M., Lawrey, E., Lafond, G. (2026). GBR catchment area 
     Grid-to-Grid (G2G) surface flows with eReefs GBR4 Hydro salinity (AIMS, Source: CSIRO, BOM). eReefs AIMS 
     Visualisation Portal. <a href="https://ereefs.aims.gov.au/gbr4_v4/surface-flow-and-ocean-salinity/">https://ereefs.aims.gov.au/gbr4_v4/surface-flow-and-ocean-salinity/</a>
   </p>
