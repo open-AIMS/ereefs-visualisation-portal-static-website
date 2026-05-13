@@ -3,3 +3,6 @@
 /scratch/
 .idea
 /conda-env/
+.history
+
+AGENTS.md

@@ -1,0 +1,69 @@
+---
+title: "GBR catchment area Grid-to-Grid (G2G) surface flows with eReefs GBR4 Hydro salinity (AIMS, Source: CSIRO, BOM)"
+format:
+  html:
+    template: ../../custom_template.html
+params:
+  product-name: GBR catchment area Grid-to-Grid (G2G) surface flows with eReefs GBR4 Hydro salinity
+---
+
+# GBR catchment area Grid-to-Grid (G2G) surface flows with eReefs GBR4 Hydro salinity (AIMS, Source: CSIRO, BOM)
+
+[<img src="../../images/g2g/preview-image-2019-02-06.png" alt="Preview map of GBR catchment surface flow and ocean 
+salinity (2019-02-06)" style="display: block; margin: 0 auto; width: 60%; height: auto; max-width: 100%;">](https://nextcloud.eatlas.org.au/apps/sharealias/a/QLD_BOM_eReefs-g2gflow_2011-2023?dir=%2Fdaily%2Fvisualisations)
+
+<p style="text-align: center;"><em>Preview image of the full visualisation videos. Please open the downloads below to 
+access the actual videos.</em></p>
+
+[Open full visualisation downloads (MP4)](https://nextcloud.eatlas.org.au/apps/sharealias/a/QLD_BOM_eReefs-g2gflow_2011-2023?dir=%2Fdaily%2Fvisualisations)
+
+<hr/>
+
+<div class="citation">
+  <p>
+    <strong>When using this visualisation, please cite:</strong> Hammerton, M., Lawrey, E., Lafond, G. (2026). GBR catchment area 
+    Grid-to-Grid (G2G) surface flows with eReefs GBR4 Hydro salinity (AIMS, Source: CSIRO, BOM). eReefs AIMS 
+    Visualisation Portal. <a href="https://ereefs.aims.gov.au/gbr4_v4/surface-flow-and-ocean-salinity/">https://ereefs.aims.gov.au/gbr4_v4/surface-flow-and-ocean-salinity/</a>
+  </p>
+</div>
+
+<hr/>
+
+
+This visualisation combines catchment surface flow from the Grid-to-Grid (G2G) model with marine salinity from eReefs 
+GBR4 Hydro to show how land runoff events influence coastal ocean conditions across the Great Barrier Reef. During high 
+rainfall and flood events, increases in land and river surface flow are associated with lowered salinity in adjacent 
+marine waters, making plume pathways and regional influence patterns easier to interpret.
+
+It is designed as an integrated land-to-sea view. The G2G layer highlights where freshwater is generated and routed 
+through catchments, while the salinity layer shows the corresponding marine response.
+
+## G2G surface flow
+
+The `g2gflow` variable represents modelled surface freshwater flow across GBR catchments, including river flow and 
+ungauged overland runoff routed toward the coast. In the published dataset this variable is provided as daily NetCDF 
+grids (daily averages from hourly source data) with units of cumecs ($m^3/s$).
+
+In this visualisation, higher `g2gflow` values identify where rainfall-driven runoff and river discharge are most 
+intense, helping to show which catchment areas are contributing freshwater to marine waters during flood events. It 
+should be noted that the model was tuned for generating correct river mouth flow rates, not flow rates far from the 
+coast.
+
+## Salinity
+
+Salinity is a measure of the saltiness of seawater. Freshwater outflow from rivers and runoff lowers coastal salinity, 
+so low-salinity areas are a practical indicator of flood plume influence. In this combined view, the marine `salt` 
+field from eReefs GBR4 Hydro is shown alongside `g2gflow` so you can directly compare runoff intensity on land with 
+decreasing salinity in adjacent coastal waters.
+
+During high-flow periods, salinity reductions become more extensive along the coast and may spread further offshore 
+depending on prevailing wind and circulation conditions. This makes the `salt` layer useful for understanding the ocean 
+response to catchment runoff events and for tracking the relative footprint of plume conditions in reef-adjacent waters.
+
+
+## Source data
+
+The visualisation combines:
+
+- Daily 1 km G2G surface flow dataset for GBR catchments (DOI: [10.26274/0K5S-5E13](https://doi.org/10.26274/0K5S-5E13)).
+- eReefs GBR4 v4 daily hydrodynamic salinity from the [AIMS THREDDS server](https://thredds.ereefs.aims.gov.au/thredds/catalog/ereefs/gbr4_v4.html?dataset=gbr4_v4-daily).

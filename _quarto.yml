@@ -87,6 +87,8 @@ website:
                     href: /gbr4_v4/temp-range/
                   - text: "Comparing eReefs (GBR4 temperature, current) to IMOS satellite temperature and ocean current"
                     href: /gbr4_v4/imos-vs-ereefs/
+                  - text: "GBR catchment surface flow and ocean salinity"
+                    href: /gbr4_v4/surface-flow-and-ocean-salinity/
               - section: "4km resolution v2.0 (GBR4) 2022-11 - 2023-12"
                 contents:
                   - text: "Temperature, wind, salinity and current"
