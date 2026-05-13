@@ -81,7 +81,7 @@ function EAtlasNcAnimate2Widget(htmlBlockElement) {
         this.showMessage(
             "Error occurred while loading the video.<br/>" +
             "<span class=\"details\">" +
-            "Details: Your browser do not support video.load" +
+            "Details: Your browser does not support video.load" +
             "</span>"
         );
     }
@@ -211,7 +211,7 @@ EAtlasNcAnimate2Widget.prototype.initTabs = function(framePeriodOrder, framePeri
 
         // The "href" is added by "setTabsHref".
         // NOTE: The link needs to be implemented using a "href" instead
-        //    of"click" event to work with keyboard navigation
+        //    of "click" event to work with keyboard navigation
         //   and with "Right click > Open link in new tab".
         var link = jQuery('<a/>')
             .attr('framePeriod', framePeriod)
@@ -1316,7 +1316,7 @@ EAtlasNcAnimate2Widget.prototype.downloadFrame = function(frameDate, frameTimeUn
 
     if (filename === null) {
         // This should only happen if the frameTimeUnit is not one listed above (very unlikely)
-        alert("ERROR: Frame can not be downloaded.\nReason: Unsupported frame time unit: " + frameTimeUnit + ".");
+        alert("ERROR: Frame cannot be downloaded.\nReason: Unsupported frame time unit: " + frameTimeUnit + ".");
     } else {
         frameUrl += filename
 
