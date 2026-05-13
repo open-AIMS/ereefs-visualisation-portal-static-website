@@ -6,9 +6,9 @@ been removed because the model output for those dates was found to be
 inaccurate, as shown in
 [this sample video](https://aims-ereefs-public-prod.s3.ap-southeast-2.amazonaws.com/ncanimate/samples/gbr4_bgc4p2_baseline__data-anomaly_2011-01.mp4){target="_blank"}.
 
-Please interpret these videos with caution.
-
 The following date ranges have been removed:
+
+:::{style="max-width: 350px;"}
 
 | Start date   | End date     |
 |:-------------|:-------------|
@@ -24,6 +24,17 @@ The following date ranges have been removed:
 | 26 Sep 2020  | 25 Oct 2020  |
 | 31 Oct 2021  | 29 Nov 2021  |
 | 19 May 2022  | 17 Jun 2022  |
+
+:::
+
+Please use caution when interpreting the videos in the player above.
+
+Although the obviously inaccurate dates have been removed, the model
+may take some time to recover after each disruption. As a result,
+data in the days and weeks following the removed periods may also
+be affected. The 30-day buffer used here is a visual estimate and
+not scientifically validated, so some remaining inaccuracies may
+still be present in the dataset.
 
 We will update this portal when corrected model output becomes available.
 
